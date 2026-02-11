@@ -1,14 +1,18 @@
 use std::fs::{create_dir_all, write};
 use std::path::PathBuf;
 
-use bq_viewer::{db::parse_default_quests_dir, ParseError, QuestId};
+use better_questing_tools::{ParseError, QuestId, db::parse_default_quests_dir};
 
 fn mk_tmp_dir(suffix: &str) -> PathBuf {
     let mut base = std::env::temp_dir();
     let now = std::time::SystemTime::now()
         .duration_since(std::time::UNIX_EPOCH)
         .expect("time");
-    base.push(format!("bq_viewer_test_{}_{}", suffix, now.as_millis()));
+    base.push(format!(
+        "better_questing_tools_test_{}_{}",
+        suffix,
+        now.as_millis()
+    ));
     base
 }
 

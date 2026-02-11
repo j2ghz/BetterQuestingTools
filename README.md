@@ -1,10 +1,10 @@
-bq-viewer
-=========
+# BetterQuestingTools
 
 Small Rust library to parse BetterQuesting's `DefaultQuests` folder (the mod's
 quest database export) into a convenient Rust domain model.
 
 Features
+
 - Normalizes NBT-like key suffixes (e.g. `name:8`) and converts numeric-keyed
   maps into arrays.
 - Parses Quests, QuestLines and QuestSettings.
@@ -13,7 +13,7 @@ Features
 Quick example
 
 ```rust,no_run
-use bq_viewer::db::parse_default_quests_dir;
+use better_questing_tools::db::parse_default_quests_dir;
 use std::path::Path;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {

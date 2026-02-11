@@ -1,3 +1,3 @@
 fn main() {
-    println!("bq-viewer: quest parser library - run `cargo test` to run parser tests");
+    println!("BetterQuestingTools: quest parser library - run `cargo test` to run parser tests");
 }

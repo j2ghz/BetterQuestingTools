@@ -1,7 +1,7 @@
 use glob::glob;
 use serde_json::Value;
 
-use bq_viewer::parser::parse_quest_from_file;
+use better_questing_tools::parser::parse_quest_from_file;
 
 #[test]
 fn parse_all_sample_quests_snapshot() {

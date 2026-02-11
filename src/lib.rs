@@ -1,4 +1,4 @@
-//! bq-viewer — a small parser for BetterQuesting DefaultQuests
+//! BetterQuestingTools — a small parser for BetterQuesting DefaultQuests
 //!
 //! This crate provides utilities to parse BetterQuesting's JSON export (the
 //! `DefaultQuests` folder produced by the mod) into a Rust-friendly domain
@@ -9,12 +9,12 @@
 //! Basic example (no-run):
 //!
 //! ```rust,no_run
-//! use bq_viewer::db::parse_default_quests_dir;
+//! use better_questing_tools::db::parse_default_quests_dir;
 //! use std::path::Path;
 //!
 //! fn main() -> Result<(), Box<dyn std::error::Error>> {
 //!     let db = parse_default_quests_dir(Path::new("path/to/DefaultQuests"))?;
-//!     println!("parsed {} quests", db.quests.len());
+//!     println!("BetterQuestingTools: parsed {} quests", db.quests.len());
 //!     Ok(())
 //! }
 //! ```
