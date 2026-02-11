@@ -20,7 +20,7 @@ pub fn parse_quest_from_file(path: &Path) -> Result<Quest> {
     parse_quest_from_reader(f)
 }
 
-fn parse_quest_from_value(v: &Value) -> Result<Quest> {
+pub fn parse_quest_from_value(v: &Value) -> Result<Quest> {
     let obj = v
         .as_object()
         .ok_or_else(|| ParseError::Unexpected("root not an object".into()))?;
@@ -99,7 +99,7 @@ fn get_i32(m: &Map<String, Value>, k: &str) -> Option<i32> {
     })
 }
 
-fn parse_properties(v: &Value) -> Result<Option<QuestProperties>> {
+pub fn parse_properties(v: &Value) -> Result<Option<QuestProperties>> {
     let map = match v.as_object() {
         Some(m) => m,
         None => return Ok(None),
