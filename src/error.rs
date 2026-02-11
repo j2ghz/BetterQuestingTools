@@ -4,6 +4,8 @@ use thiserror::Error;
 pub enum ParseError {
     #[error("json error: {0}")]
     Json(#[from] serde_json::Error),
+    #[error("io error: {0}")]
+    Io(#[from] std::io::Error),
 
     #[error("unexpected format: {0}")]
     Unexpected(String),

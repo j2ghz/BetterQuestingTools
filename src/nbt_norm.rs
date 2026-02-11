@@ -5,7 +5,15 @@ use std::collections::BTreeMap;
 /// such as {"0:10": {...}, "1:10": {...}} into arrays.
 pub fn normalize_value(v: Value) -> Value {
     match v {
-        Value::Object(m) => Value::Object(normalize_map(m)),
+        Value::Object(m) => {
+            let stripped = normalize_map(m);
+            // if all keys are numeric, convert to array
+            if let Some(arr) = map_to_array_if_numeric(&stripped) {
+                Value::Array(arr.into_iter().map(normalize_value).collect())
+            } else {
+                Value::Object(stripped)
+            }
+        }
         Value::Array(a) => Value::Array(a.into_iter().map(normalize_value).collect()),
         other => other,
     }
@@ -20,26 +28,6 @@ fn normalize_map(m: Map<String, Value>) -> Map<String, Value> {
             None => k,
         };
         stripped.insert(key, normalize_value(v));
-    }
-
-    // determine if all keys are numeric (array-like)
-    let mut numeric_keys: BTreeMap<usize, Value> = BTreeMap::new();
-    let mut all_numeric = true;
-    for (k, v) in &stripped {
-        if let Ok(idx) = k.parse::<usize>() {
-            numeric_keys.insert(idx, v.clone());
-        } else {
-            all_numeric = false;
-        }
-    }
-
-    if all_numeric && !numeric_keys.is_empty() {
-        // convert to array under a special key "__array__" to signal caller
-        // but to keep using serde_json::Value::Array we return as {"": [...]} not allowed here.
-        // Instead, we'll place a single key "" which caller of normalize_value can detect.
-        // For simplicity, return a map with numeric string keys but keep order by BTreeMap when later converting.
-        // However, consumer should call `map_to_array_if_numeric` helper when needed.
-        // We'll keep the stripped map as-is.
     }
 
     stripped
@@ -70,20 +58,17 @@ mod tests {
     fn strip_suffix_and_array_conversion() {
         let v = json!({ "0:10": { "id:8": "foo" }, "1:10": { "id:8": "bar" } });
         let norm = normalize_value(v);
-        let map = norm.as_object().expect("object");
-        // keys should be stripped
-        assert!(map.contains_key("0"));
-        assert!(map.contains_key("1"));
-
-        // map_to_array_if_numeric should convert
-        let arr = map_to_array_if_numeric(map).expect("array");
-        assert_eq!(arr.len(), 2);
-        let a0 = &arr[0];
-        let a1 = &arr[1];
-        // inner keys also normalized (id still present but with suffix stripped?)
-        let obj0 = a0.as_object().expect("obj0");
-        assert!(obj0.contains_key("id"));
-        let obj1 = a1.as_object().expect("obj1");
-        assert!(obj1.contains_key("id"));
+        // normalization should convert top-level numeric-keyed map into an array
+        if let Some(arr) = norm.as_array() {
+            assert_eq!(arr.len(), 2);
+            let a0 = &arr[0];
+            let a1 = &arr[1];
+            let obj0 = a0.as_object().expect("obj0");
+            let obj1 = a1.as_object().expect("obj1");
+            assert!(obj0.contains_key("id"));
+            assert!(obj1.contains_key("id"));
+        } else {
+            panic!("expected array after normalization");
+        }
     }
 }

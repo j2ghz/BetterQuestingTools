@@ -9,8 +9,7 @@ use std::path::Path;
 
 pub fn parse_quest_from_reader<R: Read>(mut r: R) -> Result<Quest> {
     let mut s = String::new();
-    r.read_to_string(&mut s)
-        .map_err(|e| ParseError::Unexpected(e.to_string()))?;
+    r.read_to_string(&mut s)?;
     let v: Value = serde_json::from_str(&s)?;
     let norm = normalize_value(v);
     parse_quest_from_value(&norm)
@@ -49,25 +48,35 @@ fn parse_quest_from_value(v: &Value) -> Result<Quest> {
         None
     };
 
-    let tasks = parse_indexed_array_of(obj.get("tasks"));
-    let rewards = parse_indexed_array_of(obj.get("rewards"));
+    let tasks = parse_tasks(obj.get("tasks"));
+    let rewards = parse_rewards(obj.get("rewards"));
 
     let prerequisites = if let Some(pre) = obj.get("preRequisites") {
-        if let Some(map) = pre.as_object() {
-            if let Some(vec) = map_to_array_if_numeric(map) {
-                vec.into_iter()
-                    .filter_map(|v| {
-                        v.as_object().map(|m| QuestId {
-                            high: get_i32(m, "questIDHigh").unwrap_or(0),
-                            low: get_i32(m, "questIDLow").unwrap_or(0),
+        match pre {
+            Value::Object(map) => {
+                if let Some(vec) = map_to_array_if_numeric(map) {
+                    vec.into_iter()
+                        .filter_map(|v| {
+                            v.as_object().map(|m| QuestId {
+                                high: get_i32(m, "questIDHigh").unwrap_or(0),
+                                low: get_i32(m, "questIDLow").unwrap_or(0),
+                            })
                         })
-                    })
-                    .collect()
-            } else {
-                vec![]
+                        .collect()
+                } else {
+                    vec![]
+                }
             }
-        } else {
-            vec![]
+            Value::Array(arr) => arr
+                .iter()
+                .filter_map(|v| {
+                    v.as_object().map(|m| QuestId {
+                        high: get_i32(m, "questIDHigh").unwrap_or(0),
+                        low: get_i32(m, "questIDLow").unwrap_or(0),
+                    })
+                })
+                .collect(),
+            _ => vec![],
         }
     } else {
         vec![]
@@ -224,6 +233,165 @@ where
         }
     }
     Vec::new()
+}
+
+fn get_string_field(m: &Map<String, Value>, keys: &[&str]) -> Option<String> {
+    for &k in keys {
+        if let Some(v) = m.get(k) {
+            if let Some(s) = v.as_str() {
+                return Some(s.to_string());
+            }
+        }
+    }
+    None
+}
+
+fn parse_items_vec(opt: Option<&Value>) -> Vec<ItemStack> {
+    if let Some(v) = opt {
+        match v {
+            Value::Array(arr) => arr.iter().filter_map(|e| parse_item(e)).collect(),
+            Value::Object(map) => {
+                // try numeric-keyed map
+                if let Some(vec) = map_to_array_if_numeric(map) {
+                    return vec.into_iter().filter_map(|e| parse_item(&e)).collect();
+                }
+                Vec::new()
+            }
+            _ => Vec::new(),
+        }
+    } else {
+        Vec::new()
+    }
+}
+
+fn parse_task_entry(idx: Option<usize>, v: &Value) -> Option<Task> {
+    let map = v.as_object()?;
+    // common possible field names for task id
+    let task_id = get_string_field(map, &["taskID", "taskId", "task_id", "task"])?;
+    let required_items = parse_items_vec(
+        map.get("requiredItems")
+            .or_else(|| map.get("requiredItems")),
+    );
+
+    // collect options: everything except known keys
+    let mut options = HashMap::new();
+    for (k, val) in map.iter() {
+        if ["taskID", "taskId", "task_id", "task", "requiredItems"].contains(&k.as_str()) {
+            continue;
+        }
+        options.insert(k.clone(), val.clone());
+    }
+
+    Some(Task {
+        index: idx,
+        task_id,
+        required_items,
+        options,
+    })
+}
+
+fn parse_tasks(opt: Option<&Value>) -> Vec<Task> {
+    if let Some(v) = opt {
+        match v {
+            Value::Array(arr) => arr
+                .iter()
+                .enumerate()
+                .filter_map(|(i, e)| parse_task_entry(Some(i), e))
+                .collect(),
+            Value::Object(map) => {
+                // try numeric keyed map -> preserve index
+                let mut numeric_keys: std::collections::BTreeMap<usize, Value> =
+                    std::collections::BTreeMap::new();
+                for (k, val) in map.iter() {
+                    if let Ok(idx) = k.parse::<usize>() {
+                        numeric_keys.insert(idx, val.clone());
+                    } else {
+                        // not numeric keyed: try to parse as single task object
+                        if let Some(t) = parse_task_entry(None, &Value::Object(map.clone())) {
+                            return vec![t];
+                        } else {
+                            return vec![];
+                        }
+                    }
+                }
+                numeric_keys
+                    .into_iter()
+                    .filter_map(|(idx, val)| parse_task_entry(Some(idx), &val))
+                    .collect()
+            }
+            _ => Vec::new(),
+        }
+    } else {
+        Vec::new()
+    }
+}
+
+fn parse_reward_entry(idx: Option<usize>, v: &Value) -> Option<Reward> {
+    let map = v.as_object()?;
+    let reward_id = get_string_field(map, &["rewardID", "rewardId", "reward_id", "reward"])?;
+    let items = parse_items_vec(
+        map.get("items")
+            .or_else(|| map.get("rewards"))
+            .or_else(|| map.get("rewards")),
+    );
+
+    let mut extra = HashMap::new();
+    for (k, val) in map.iter() {
+        if [
+            "rewardID",
+            "rewardId",
+            "reward_id",
+            "reward",
+            "items",
+            "rewards",
+        ]
+        .contains(&k.as_str())
+        {
+            continue;
+        }
+        extra.insert(k.clone(), val.clone());
+    }
+
+    Some(Reward {
+        index: idx,
+        reward_id,
+        items,
+        extra,
+    })
+}
+
+fn parse_rewards(opt: Option<&Value>) -> Vec<Reward> {
+    if let Some(v) = opt {
+        match v {
+            Value::Array(arr) => arr
+                .iter()
+                .enumerate()
+                .filter_map(|(i, e)| parse_reward_entry(Some(i), e))
+                .collect(),
+            Value::Object(map) => {
+                let mut numeric_keys: std::collections::BTreeMap<usize, Value> =
+                    std::collections::BTreeMap::new();
+                for (k, val) in map.iter() {
+                    if let Ok(idx) = k.parse::<usize>() {
+                        numeric_keys.insert(idx, val.clone());
+                    } else {
+                        if let Some(r) = parse_reward_entry(None, &Value::Object(map.clone())) {
+                            return vec![r];
+                        } else {
+                            return vec![];
+                        }
+                    }
+                }
+                numeric_keys
+                    .into_iter()
+                    .filter_map(|(idx, val)| parse_reward_entry(Some(idx), &val))
+                    .collect()
+            }
+            _ => Vec::new(),
+        }
+    } else {
+        Vec::new()
+    }
 }
 
 // File-system dependent tests belong in the integration test directory `tests/`.
