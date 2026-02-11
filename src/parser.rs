@@ -217,23 +217,7 @@ fn parse_item(v: &Value) -> Option<ItemStack> {
     })
 }
 
-fn parse_indexed_array_of<T>(opt: Option<&Value>) -> Vec<T>
-where
-    T: for<'de> serde::de::Deserialize<'de>,
-{
-    if let Some(v) = opt {
-        if let Some(map) = v.as_object() {
-            if let Some(arr) = map_to_array_if_numeric(map) {
-                // try to deserialize each element into T
-                return arr
-                    .into_iter()
-                    .filter_map(|elem| serde_json::from_value(elem).ok())
-                    .collect();
-            }
-        }
-    }
-    Vec::new()
-}
+// parse_indexed_array_of was removed — parsing is handled by dedicated helpers
 
 fn get_string_field(m: &Map<String, Value>, keys: &[&str]) -> Option<String> {
     for &k in keys {

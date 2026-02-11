@@ -13,7 +13,7 @@ pub struct Quest {
     pub prerequisites: Vec<QuestId>,
 }
 
-#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
+#[derive(Debug, Clone, PartialEq, Eq, Hash, Serialize, Deserialize)]
 pub struct QuestId {
     pub high: i32,
     pub low: i32,
@@ -68,4 +68,44 @@ pub struct Reward {
     pub items: Vec<ItemStack>,
     #[serde(flatten)]
     pub extra: HashMap<String, serde_json::Value>,
+}
+
+/// A quest line groups quest entries (layout + ordering) and has its own properties.
+#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
+pub struct QuestLine {
+    pub id: QuestId,
+    pub properties: Option<QuestProperties>,
+    #[serde(default)]
+    pub entries: Vec<QuestLineEntry>,
+    #[serde(flatten)]
+    pub extra: HashMap<String, serde_json::Value>,
+}
+
+#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
+pub struct QuestLineEntry {
+    pub index: Option<usize>,
+    pub quest_id: QuestId,
+    pub x: Option<i32>,
+    pub y: Option<i32>,
+    pub size_x: Option<i32>,
+    pub size_y: Option<i32>,
+    #[serde(flatten)]
+    pub extra: HashMap<String, serde_json::Value>,
+}
+
+/// Global settings present in the DefaultQuests folder (contains version and other flags).
+#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
+pub struct QuestSettings {
+    pub version: Option<String>,
+    #[serde(flatten)]
+    pub extra: HashMap<String, serde_json::Value>,
+}
+
+/// Aggregated view of the parsed DefaultQuests database.
+#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
+pub struct QuestDatabase {
+    pub settings: Option<QuestSettings>,
+    pub quests: HashMap<QuestId, Quest>,
+    pub questlines: HashMap<QuestId, QuestLine>,
+    pub questline_order: Vec<QuestId>,
 }
