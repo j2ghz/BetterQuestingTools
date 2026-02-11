@@ -21,6 +21,16 @@ pub struct Quest {
     /// Other quests that must be completed before this one.
     #[serde(default)]
     pub prerequisites: Vec<QuestId>,
+    /// Required prerequisites (explicitly marked required by the source data).
+    /// This is populated by the parser when the input distinguishes required vs
+    /// optional prereqs. If empty, callers should fall back to `prerequisites`.
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub required_prerequisites: Vec<QuestId>,
+    /// Optional prerequisites (alternatives / one-of groups). We flatten groups
+    /// to a single vector; weight distribution is handled by the importance
+    /// algorithm.
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub optional_prerequisites: Vec<QuestId>,
 }
 
 /// Compact representation of a BetterQuesting quest identifier.

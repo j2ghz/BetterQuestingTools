@@ -51,43 +51,100 @@ pub fn parse_quest_from_value(v: &Value) -> Result<Quest> {
     let tasks = parse_tasks(obj.get("tasks"));
     let rewards = parse_rewards(obj.get("rewards"));
 
-    let prerequisites = if let Some(pre) = obj.get("preRequisites") {
+    // Parse all prerequisites into a flat list first.
+    let mut all_prereqs: Vec<QuestId> = Vec::new();
+    if let Some(pre) = obj.get("preRequisites") {
         match pre {
             Value::Object(map) => {
                 if let Some(vec) = map_to_array_if_numeric(map) {
-                    vec.into_iter()
-                        .filter_map(|v| {
-                            v.as_object().map(|m| QuestId {
+                    for v in vec.into_iter() {
+                        if let Some(m) = v.as_object() {
+                            all_prereqs.push(QuestId {
                                 high: get_i32(m, "questIDHigh").unwrap_or(0),
                                 low: get_i32(m, "questIDLow").unwrap_or(0),
-                            })
-                        })
-                        .collect()
-                } else {
-                    vec![]
+                            });
+                        }
+                    }
                 }
             }
-            Value::Array(arr) => arr
-                .iter()
-                .filter_map(|v| {
-                    v.as_object().map(|m| QuestId {
-                        high: get_i32(m, "questIDHigh").unwrap_or(0),
-                        low: get_i32(m, "questIDLow").unwrap_or(0),
-                    })
-                })
-                .collect(),
-            _ => vec![],
+            Value::Array(arr) => {
+                for v in arr.iter() {
+                    if let Some(m) = v.as_object() {
+                        all_prereqs.push(QuestId {
+                            high: get_i32(m, "questIDHigh").unwrap_or(0),
+                            low: get_i32(m, "questIDLow").unwrap_or(0),
+                        });
+                    }
+                }
+            }
+            _ => {}
+        }
+    }
+
+    // explicit optional prereqs (some datasets provide a separate key)
+    let mut optional_prereqs: Vec<QuestId> = Vec::new();
+    if let Some(optv) = obj.get("preRequisitesOptional") {
+        match optv {
+            Value::Array(arr) => {
+                for v in arr.iter() {
+                    if let Some(m) = v.as_object() {
+                        optional_prereqs.push(QuestId {
+                            high: get_i32(m, "questIDHigh").unwrap_or(0),
+                            low: get_i32(m, "questIDLow").unwrap_or(0),
+                        });
+                    }
+                }
+            }
+            Value::Object(map) => {
+                if let Some(vec) = map_to_array_if_numeric(map) {
+                    for v in vec.into_iter() {
+                        if let Some(m) = v.as_object() {
+                            optional_prereqs.push(QuestId {
+                                high: get_i32(m, "questIDHigh").unwrap_or(0),
+                                low: get_i32(m, "questIDLow").unwrap_or(0),
+                            });
+                        }
+                    }
+                }
+            }
+            _ => {}
+        }
+    }
+
+    // Decide which prereqs are required vs optional. If an explicit optional
+    // list is present, remove those from the required set. Otherwise, consult
+    // the quest logic (OR/XOR means the list should be treated as optional).
+    let mut required_prereqs: Vec<QuestId> = Vec::new();
+    if !optional_prereqs.is_empty() {
+        let optset: std::collections::HashSet<u64> =
+            optional_prereqs.iter().map(|q| q.as_u64()).collect();
+        for q in all_prereqs.into_iter() {
+            if !optset.contains(&q.as_u64()) {
+                required_prereqs.push(q);
+            }
         }
     } else {
-        vec![]
-    };
+        let is_or = properties
+            .as_ref()
+            .and_then(|p| p.quest_logic.as_ref())
+            .map(|s| s.to_uppercase())
+            .map(|s| s == "OR" || s == "ONE_OF" || s == "ANY" || s == "XOR")
+            .unwrap_or(false);
+        if is_or {
+            optional_prereqs = all_prereqs;
+        } else {
+            required_prereqs = all_prereqs;
+        }
+    }
 
     Ok(Quest {
         id,
         properties,
         tasks,
         rewards,
-        prerequisites,
+        prerequisites: required_prereqs.clone(),
+        required_prerequisites: required_prereqs,
+        optional_prerequisites: optional_prereqs,
     })
 }
 

@@ -21,11 +21,13 @@
 
 pub mod db;
 pub mod error;
+pub mod importance;
 pub mod model;
 pub mod nbt_norm;
 pub mod parser;
 
 pub use crate::db::*;
 pub use crate::error::*;
+pub use crate::importance::*;
 pub use crate::model::*;
 pub use crate::parser::*;
