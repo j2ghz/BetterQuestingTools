@@ -86,7 +86,10 @@ fn parse_default_quests_dir_missing_reference() -> Result<(), Box<dyn std::error
     let res = parse_default_quests_dir(&dq);
     assert!(res.is_err());
     match res.err().unwrap() {
-        ParseError::Unexpected(msg) => assert!(msg.contains("references missing quest id")),
+        ParseError::MissingQuestReference {
+            questline: _ql,
+            quest_id: _qid,
+        } => { /* expected */ }
         other => panic!("unexpected error: {:?}", other),
     }
 

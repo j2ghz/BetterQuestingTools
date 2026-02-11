@@ -14,9 +14,7 @@ pub fn compute_importance_scores(
     normalize: bool,
 ) -> Result<HashMap<QuestId, f64>> {
     if !(0.0..=1.0).contains(&alpha) {
-        return Err(ParseError::Unexpected(
-            "alpha must be between 0 and 1".to_string(),
-        ));
+        return Err(ParseError::AlphaOutOfRange(alpha));
     }
 
     // Build adjacency (quest -> its prerequisites) for cycle detection and
@@ -138,12 +136,7 @@ pub fn compute_importance_scores(
     for node in db.quests.keys() {
         if let Some(Color::White) = color.get(node) {
             if let Some(cycle) = dfs_visit(node, &adj, &mut color, &mut stack, &mut pos_in_stack) {
-                // format cycle for error message
-                let ids: Vec<String> = cycle.iter().map(|q| q.as_u64().to_string()).collect();
-                return Err(ParseError::Unexpected(format!(
-                    "cycle detected in prerequisites: {}",
-                    ids.join(" -> ")
-                )));
+                return Err(ParseError::CycleDetected(cycle));
             }
         }
     }

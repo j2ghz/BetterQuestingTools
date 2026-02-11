@@ -16,14 +16,14 @@ pub fn parse_quest_from_reader<R: Read>(mut r: R) -> Result<Quest> {
 }
 
 pub fn parse_quest_from_file(path: &Path) -> Result<Quest> {
-    let f = File::open(path).map_err(|e| ParseError::Unexpected(e.to_string()))?;
+    let f = File::open(path)?;
     parse_quest_from_reader(f)
 }
 
 pub fn parse_quest_from_value(v: &Value) -> Result<Quest> {
     let obj = v
         .as_object()
-        .ok_or_else(|| ParseError::Unexpected("root not an object".into()))?;
+        .ok_or_else(|| ParseError::InvalidFormat("root not an object".into()))?;
 
     let high = get_i32(obj, "questIDHigh").unwrap_or(0);
     let low = get_i32(obj, "questIDLow").unwrap_or(0);
@@ -172,6 +172,17 @@ pub fn parse_properties(v: &Value) -> Result<Option<QuestProperties>> {
     let is_main = map.get("isMain").and_then(parse_bool_like);
     let is_silent = map.get("isSilent").and_then(parse_bool_like);
     let auto_claim = map.get("autoClaim").and_then(parse_bool_like);
+    let global_share = map.get("globalShare").and_then(parse_bool_like);
+    let is_global = map.get("isGlobal").and_then(parse_bool_like);
+    let locked_progress = map
+        .get("lockedProgress")
+        .and_then(|x| x.as_i64().map(|n| n as i32));
+    let repeat_time = map
+        .get("repeatTime")
+        .and_then(|x| x.as_i64().map(|n| n as i32));
+    let repeat_relative = map.get("repeat_relative").and_then(parse_bool_like);
+    let simultaneous = map.get("simultaneous").and_then(parse_bool_like);
+    let party_single_reward = map.get("partySingleReward").and_then(parse_bool_like);
     let quest_logic = map
         .get("questLogic")
         .and_then(|x| x.as_str().map(|s| s.to_string()));
@@ -180,6 +191,12 @@ pub fn parse_properties(v: &Value) -> Result<Option<QuestProperties>> {
         .and_then(|x| x.as_str().map(|s| s.to_string()));
     let visibility = map
         .get("visibility")
+        .and_then(|x| x.as_str().map(|s| s.to_string()));
+    let snd_complete = map
+        .get("snd_complete")
+        .and_then(|x| x.as_str().map(|s| s.to_string()));
+    let snd_update = map
+        .get("snd_update")
         .and_then(|x| x.as_str().map(|s| s.to_string()));
 
     // collect extras
@@ -192,9 +209,18 @@ pub fn parse_properties(v: &Value) -> Result<Option<QuestProperties>> {
             "isMain",
             "isSilent",
             "autoClaim",
+            "globalShare",
+            "isGlobal",
+            "lockedProgress",
+            "repeatTime",
+            "repeat_relative",
+            "simultaneous",
+            "partySingleReward",
             "questLogic",
             "taskLogic",
             "visibility",
+            "snd_complete",
+            "snd_update",
         ]
         .contains(&k.as_str())
         {
@@ -210,9 +236,18 @@ pub fn parse_properties(v: &Value) -> Result<Option<QuestProperties>> {
         is_main,
         is_silent,
         auto_claim,
+        global_share,
+        is_global,
+        locked_progress,
+        repeat_time,
+        repeat_relative,
+        simultaneous,
+        party_single_reward,
         quest_logic,
         task_logic,
         visibility,
+        snd_complete,
+        snd_update,
         extra,
     }))
 }
@@ -314,10 +349,49 @@ fn parse_task_entry(idx: Option<usize>, v: &Value) -> Option<Task> {
             .or_else(|| map.get("requiredItems")),
     );
 
+    // extract common flags into typed fields when present
+    let ignore_nbt = map
+        .get("ignoreNBT")
+        .or_else(|| map.get("ignore_nbt"))
+        .and_then(parse_bool_like);
+    let partial_match = map
+        .get("partialMatch")
+        .or_else(|| map.get("partial_match"))
+        .and_then(parse_bool_like);
+    let auto_consume = map
+        .get("autoConsume")
+        .or_else(|| map.get("auto_consume"))
+        .and_then(parse_bool_like);
+    let consume = map
+        .get("consume")
+        .or_else(|| map.get("consume"))
+        .and_then(parse_bool_like);
+    let group_detect = map
+        .get("groupDetect")
+        .or_else(|| map.get("group_detect"))
+        .and_then(parse_bool_like);
+
     // collect options: everything except known keys
     let mut options = HashMap::new();
     for (k, val) in map.iter() {
-        if ["taskID", "taskId", "task_id", "task", "requiredItems"].contains(&k.as_str()) {
+        if [
+            "taskID",
+            "taskId",
+            "task_id",
+            "task",
+            "requiredItems",
+            "ignoreNBT",
+            "ignore_nbt",
+            "partialMatch",
+            "partial_match",
+            "autoConsume",
+            "auto_consume",
+            "consume",
+            "groupDetect",
+            "group_detect",
+        ]
+        .contains(&k.as_str())
+        {
             continue;
         }
         options.insert(k.clone(), val.clone());
@@ -327,6 +401,11 @@ fn parse_task_entry(idx: Option<usize>, v: &Value) -> Option<Task> {
         index: idx,
         task_id,
         required_items,
+        ignore_nbt,
+        partial_match,
+        auto_consume,
+        consume,
+        group_detect,
         options,
     })
 }
@@ -375,6 +454,11 @@ fn parse_reward_entry(idx: Option<usize>, v: &Value) -> Option<Reward> {
             .or_else(|| map.get("rewards"))
             .or_else(|| map.get("rewards")),
     );
+    let choices = parse_items_vec(map.get("choices"));
+    let ignore_disabled = map
+        .get("ignoreDisabled")
+        .or_else(|| map.get("ignore_disabled"))
+        .and_then(parse_bool_like);
 
     let mut extra = HashMap::new();
     for (k, val) in map.iter() {
@@ -385,6 +469,9 @@ fn parse_reward_entry(idx: Option<usize>, v: &Value) -> Option<Reward> {
             "reward",
             "items",
             "rewards",
+            "choices",
+            "ignoreDisabled",
+            "ignore_disabled",
         ]
         .contains(&k.as_str())
         {
@@ -397,6 +484,8 @@ fn parse_reward_entry(idx: Option<usize>, v: &Value) -> Option<Reward> {
         index: idx,
         reward_id,
         items,
+        choices,
+        ignore_disabled,
         extra,
     })
 }
@@ -462,7 +551,9 @@ mod tests {
         assert_eq!(t.task_id, "bq_standard:retrieval");
         assert_eq!(t.required_items.len(), 1);
         assert_eq!(t.required_items[0].id, "minecraft:iron_ingot");
-        assert!(t.options.contains_key("ignoreNBT"));
+        // flags were pulled into typed fields
+        assert_eq!(t.ignore_nbt, Some(false));
+        assert_eq!(t.partial_match, Some(true));
 
         // numeric-keyed map form
         let tasks_obj = json!({

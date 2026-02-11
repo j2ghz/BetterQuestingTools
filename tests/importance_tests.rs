@@ -84,8 +84,11 @@ fn detect_cycle() {
     ]);
     let res = compute_importance_scores(&db, 0.25, false, true);
     match res {
-        Err(ParseError::Unexpected(s)) => {
-            assert!(s.contains("cycle detected"));
+        Err(ParseError::CycleDetected(cycle)) => {
+            // cycle should include at least one of the test ids
+            assert!(cycle.iter().any(|q| q.as_u64() == a.as_u64()
+                || q.as_u64() == b.as_u64()
+                || q.as_u64() == c.as_u64()));
         }
         _ => panic!("expected cycle error"),
     }

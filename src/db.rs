@@ -10,7 +10,7 @@ use std::path::Path;
 /// will return Err(ParseError::Unexpected(...)).
 pub fn parse_default_quests_dir(dir: &Path) -> Result<QuestDatabase> {
     if !dir.is_dir() {
-        return Err(ParseError::Unexpected(format!(
+        return Err(ParseError::InvalidFormat(format!(
             "not a dir: {}",
             dir.display()
         )));
@@ -40,10 +40,7 @@ pub fn parse_default_quests_dir(dir: &Path) -> Result<QuestDatabase> {
                 let norm = normalize_value(v);
                 let quest = crate::parser::parse_quest_from_value(&norm)?;
                 if quests.insert(quest.id.clone(), quest).is_some() {
-                    return Err(ParseError::Unexpected(format!(
-                        "duplicate quest id from file: {}",
-                        path.display()
-                    )));
+                    return Err(ParseError::DuplicateQuestId(path.display().to_string()));
                 }
             }
         }
@@ -135,10 +132,7 @@ pub fn parse_default_quests_dir(dir: &Path) -> Result<QuestDatabase> {
                         qline.entries.push(entry);
                     }
                     if questlines.insert(qline.id.clone(), qline).is_some() {
-                        return Err(ParseError::Unexpected(format!(
-                            "duplicate questline id: {}",
-                            path.display()
-                        )));
+                        return Err(ParseError::DuplicateQuestId(path.display().to_string()));
                     }
                 }
             }
@@ -154,11 +148,10 @@ pub fn parse_default_quests_dir(dir: &Path) -> Result<QuestDatabase> {
     for (qlid, qline) in &questlines {
         for entry in &qline.entries {
             if !quests.contains_key(&entry.quest_id) {
-                return Err(ParseError::Unexpected(format!(
-                    "questline {} references missing quest id {:?}",
-                    qlid.as_u64(),
-                    entry.quest_id
-                )));
+                return Err(ParseError::MissingQuestReference {
+                    questline: qlid.as_u64(),
+                    quest_id: entry.quest_id.clone(),
+                });
             }
         }
     }

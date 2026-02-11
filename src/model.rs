@@ -70,12 +70,29 @@ pub struct QuestProperties {
     pub is_silent: Option<bool>,
     /// Should rewards be auto-claimed?
     pub auto_claim: Option<bool>,
+    /// Is the quest shared globally across players/world (often 0/1 in source)
+    pub global_share: Option<bool>,
+    /// Is this quest marked global (mirror of globalShare in some datasets)
+    pub is_global: Option<bool>,
+    /// Lock progress flag (numeric in source)
+    pub locked_progress: Option<i32>,
+    /// Repeat time in ticks/seconds (numeric)
+    pub repeat_time: Option<i32>,
+    /// Repeat relative flag (0/1)
+    pub repeat_relative: Option<bool>,
+    /// Allow simultaneous completion (0/1)
+    pub simultaneous: Option<bool>,
+    /// Whether party distributes single reward (0/1)
+    pub party_single_reward: Option<bool>,
     /// Raw quest logic identifier (e.g. "AND"/"OR").
     pub quest_logic: Option<String>,
     /// Raw per-task logic identifier.
     pub task_logic: Option<String>,
     /// Visibility hint for UIs (string preserved as-is).
     pub visibility: Option<String>,
+    /// Optional completion / update sound identifiers
+    pub snd_complete: Option<String>,
+    pub snd_update: Option<String>,
     /// Extra unknown fields.
     #[serde(flatten)]
     pub extra: HashMap<String, serde_json::Value>,
@@ -115,6 +132,12 @@ pub struct Task {
     /// Items required by this task (if applicable).
     #[serde(default)]
     pub required_items: Vec<ItemStack>,
+    /// Common boolean-like flags found on many task types.
+    pub ignore_nbt: Option<bool>,
+    pub partial_match: Option<bool>,
+    pub auto_consume: Option<bool>,
+    pub consume: Option<bool>,
+    pub group_detect: Option<bool>,
     /// Task-specific or unknown fields.
     #[serde(flatten)]
     pub options: HashMap<String, serde_json::Value>,
@@ -130,6 +153,11 @@ pub struct Reward {
     /// Items granted by this reward (if any).
     #[serde(default)]
     pub items: Vec<ItemStack>,
+    /// Alternative choices for choice-type rewards.
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub choices: Vec<ItemStack>,
+    /// Common boolean-like flag indicating whether disabled rewards are ignored.
+    pub ignore_disabled: Option<bool>,
     /// Any unknown or additional fields.
     #[serde(flatten)]
     pub extra: HashMap<String, serde_json::Value>,
