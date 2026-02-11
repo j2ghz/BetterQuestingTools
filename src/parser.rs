@@ -379,3 +379,94 @@ fn parse_rewards(opt: Option<&Value>) -> Vec<Reward> {
 }
 
 // File-system dependent tests belong in the integration test directory `tests/`.
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use serde_json::json;
+
+    #[test]
+    fn parse_tasks_array_and_numeric() {
+        // array form
+        let tasks_val = json!([
+            {
+                "taskID": "bq_standard:retrieval",
+                "requiredItems": [
+                    {"id": "minecraft:iron_ingot", "Damage": 0, "Count": 1}
+                ],
+                "ignoreNBT": 0,
+                "partialMatch": 1
+            }
+        ]);
+
+        let tasks = parse_tasks(Some(&tasks_val));
+        assert_eq!(tasks.len(), 1);
+        let t = &tasks[0];
+        assert_eq!(t.task_id, "bq_standard:retrieval");
+        assert_eq!(t.required_items.len(), 1);
+        assert_eq!(t.required_items[0].id, "minecraft:iron_ingot");
+        assert!(t.options.contains_key("ignoreNBT"));
+
+        // numeric-keyed map form
+        let tasks_obj = json!({
+            "0": {
+                "taskID": "bq_standard:retrieval",
+                "requiredItems": {"0": {"id": "mod:item", "Count": 2}}
+            }
+        });
+        let tasks2 = parse_tasks(Some(&tasks_obj));
+        assert_eq!(tasks2.len(), 1);
+        assert_eq!(tasks2[0].required_items.len(), 1);
+        assert_eq!(tasks2[0].required_items[0].id, "mod:item");
+    }
+
+    #[test]
+    fn parse_rewards_array_and_numeric() {
+        let rewards_val = json!([
+            {
+                "rewardID": "bq_standard:item",
+                "items": [
+                    {"id": "minecraft:nether_star", "Count": 4}
+                ],
+                "ignoreDisabled": 0
+            }
+        ]);
+
+        let rewards = parse_rewards(Some(&rewards_val));
+        assert_eq!(rewards.len(), 1);
+        assert_eq!(rewards[0].reward_id, "bq_standard:item");
+        assert_eq!(rewards[0].items.len(), 1);
+        assert_eq!(rewards[0].items[0].id, "minecraft:nether_star");
+
+        let rewards_obj = json!({
+            "0": {
+                "rewardID": "bq_standard:item",
+                "items": {"0": {"id": "mod:star", "Count": 1}}
+            }
+        });
+        let rewards2 = parse_rewards(Some(&rewards_obj));
+        assert_eq!(rewards2.len(), 1);
+        assert_eq!(rewards2[0].items.len(), 1);
+        assert_eq!(rewards2[0].items[0].id, "mod:star");
+    }
+
+    #[test]
+    fn parse_item_with_tag_and_extras() {
+        let item = json!({
+            "id": "Thaumcraft:WandCasting",
+            "Count": 1,
+            "Damage": 128,
+            "tag": {
+                "aer": 15000,
+                "cap": "thaumium",
+                "AttributeModifiers": {"0": {"Amount": 6.0, "AttributeName": "generic.attackDamage"}}
+            }
+        });
+
+        let parsed = parse_item(&item).expect("parsed item");
+        assert_eq!(parsed.id, "Thaumcraft:WandCasting");
+        assert_eq!(parsed.count, Some(1));
+        assert_eq!(parsed.damage, Some(128));
+        assert!(parsed.extra.contains_key("tag"));
+    }
+}
