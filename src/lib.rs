@@ -1,4 +1,3 @@
-pub mod db;
 //! bq-viewer — a small parser for BetterQuesting DefaultQuests
 //!
 //! This crate provides utilities to parse BetterQuesting's JSON export (the
@@ -20,13 +19,13 @@ pub mod db;
 //! }
 //! ```
 
+pub mod db;
 pub mod error;
 pub mod model;
 pub mod nbt_norm;
 pub mod parser;
-pub mod db;
 
+pub use crate::db::*;
 pub use crate::error::*;
 pub use crate::model::*;
 pub use crate::parser::*;
-pub use crate::db::*;
