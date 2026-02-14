@@ -23,6 +23,16 @@ pub fn compute_importance_scores(
     let mut dependents: HashMap<QuestId, Vec<(QuestId, f64)>> = HashMap::new();
 
     for (qid, quest) in &db.quests {
+        // Exclude all outgoing prerequisite edges for quests with quest_logic == "XOR"
+        let is_xor = quest
+            .properties
+            .as_ref()
+            .and_then(|props| props.quest_logic.as_deref())
+            .map_or(false, |logic| logic.eq_ignore_ascii_case("XOR"));
+        if is_xor {
+            // Skip adding this quest's prerequisite edges to avoid cycles/weight propagation
+            continue;
+        }
         // dedupe prerequisites per quest to avoid double counting
         let mut seen: HashSet<u64> = HashSet::new();
 
