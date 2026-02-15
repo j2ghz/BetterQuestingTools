@@ -1,0 +1,19 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+  - repo: "https://github.com/pre-commit/pre-commit-hooks"
+    rev: v6.0.0
+    hooks:
+      - id: check-added-large-files
+  - repo: local
+    hooks:
+      - id: cargo-fmt
+        name: check formatting with cargo fmt
+        entry: cargo fmt --all --check
+        language: system
+        pass_filenames: false
+      - id: cargo-check
+        name: check code with cargo clippy
+        entry: cargo clippy -- -D warnings
+        language: system
+        pass_filenames: false

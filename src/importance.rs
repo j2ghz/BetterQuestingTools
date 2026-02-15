@@ -181,7 +181,7 @@ pub fn compute_importance_scores(
 
     // Normalize into [0,1) if requested. Ensure max maps strictly less than 1.
     if normalize {
-        let max = score.values().cloned().fold(0. / 0., f64::max);
+        let max = score.values().cloned().fold(f64::NAN, f64::max);
         if max.is_nan() || max == 0.0 {
             // nothing to do
             return Ok(score);

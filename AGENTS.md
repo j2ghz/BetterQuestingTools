@@ -122,6 +122,16 @@ Before publishing or reviewing Rust code, ensure:
 - [ ] **Documentation**: All public items have rustdoc comments with examples
 - [ ] **Testing**: Comprehensive test coverage including edge cases
 
+## Pre-commit Checks
+
+Before committing, run the following command to check all staged files:
+
+```sh
+prek run
+```
+
+This will run the pre-commit hooks and ensure formatting, linting, and other checks pass on the staged files. Fix any issues before committing.
+
 ### Safety and Quality
 - [ ] **Safety**: No unnecessary `unsafe` code, proper error handling
 - [ ] **Performance**: Efficient use of iterators, minimal allocations
