@@ -1,7 +1,8 @@
 use std::fs::{create_dir_all, write};
 use std::path::PathBuf;
 
-use better_questing_tools::{ParseError, QuestId, db::parse_default_quests_dir};
+use better_questing_tools::quest_id::QuestId;
+use better_questing_tools::{ParseError, db::parse_default_quests_dir};
 
 fn mk_tmp_dir(suffix: &str) -> PathBuf {
     let mut base = std::env::temp_dir();
@@ -52,7 +53,7 @@ fn parse_default_quests_dir_success() -> Result<(), Box<dyn std::error::Error>> 
     )?;
 
     let db = parse_default_quests_dir(&dq).expect("parse db");
-    assert!(db.quests.contains_key(&QuestId { high: 0, low: 1 }));
+    assert!(db.quests.contains_key(&QuestId::from_parts(0, 1)));
     assert!(db.questlines.values().any(|ql| ql.entries.len() == 1));
     Ok(())
 }

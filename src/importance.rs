@@ -1,5 +1,6 @@
 use crate::error::{ParseError, Result};
 use crate::model::*;
+use crate::quest_id::QuestId;
 use std::collections::{HashMap, HashSet};
 
 /// Compute one-step importance scores for quests in `db`.

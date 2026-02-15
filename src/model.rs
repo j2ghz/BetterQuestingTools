@@ -1,3 +1,4 @@
+use crate::quest_id::QuestId;
 use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
 
@@ -31,25 +32,6 @@ pub struct Quest {
     /// algorithm.
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub optional_prerequisites: Vec<QuestId>,
-}
-
-/// Compact representation of a BetterQuesting quest identifier.
-///
-/// Historically BetterQuesting uses two 32-bit integers (high/low) to form a
-/// 64-bit id. We keep the pair here for fidelity but provide helpers to
-/// convert to a single `u64` when convenient.
-#[derive(Debug, Clone, PartialEq, Eq, Hash, Serialize, Deserialize)]
-pub struct QuestId {
-    /// High 32-bit component.
-    pub high: i32,
-    /// Low 32-bit component.
-    pub low: i32,
-}
-
-impl QuestId {
-    pub fn as_u64(&self) -> u64 {
-        ((self.high as i64 as u64) << 32) | (self.low as u64)
-    }
 }
 
 /// Human-visible properties for a quest.

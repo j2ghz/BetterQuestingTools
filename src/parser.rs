@@ -1,6 +1,7 @@
 use crate::error::{ParseError, Result};
 use crate::model::*;
 use crate::nbt_norm::{map_to_array_if_numeric, normalize_value};
+use crate::quest_id::QuestId;
 use serde_json::{Map, Value};
 use std::collections::HashMap;
 use std::fs::File;
@@ -27,7 +28,7 @@ pub fn parse_quest_from_value(v: &Value) -> Result<Quest> {
 
     let high = get_i32(obj, "questIDHigh").unwrap_or(0);
     let low = get_i32(obj, "questIDLow").unwrap_or(0);
-    let id = QuestId { high, low };
+    let id = QuestId::from_parts(high, low);
 
     // properties: may contain nested betterquesting key
     let properties = if let Some(pv) = obj.get("properties") {
@@ -59,10 +60,10 @@ pub fn parse_quest_from_value(v: &Value) -> Result<Quest> {
                 if let Some(vec) = map_to_array_if_numeric(map) {
                     for v in vec.into_iter() {
                         if let Some(m) = v.as_object() {
-                            all_prereqs.push(QuestId {
-                                high: get_i32(m, "questIDHigh").unwrap_or(0),
-                                low: get_i32(m, "questIDLow").unwrap_or(0),
-                            });
+                            all_prereqs.push(QuestId::from_parts(
+                                get_i32(m, "questIDHigh").unwrap_or(0),
+                                get_i32(m, "questIDLow").unwrap_or(0),
+                            ));
                         }
                     }
                 }
@@ -70,40 +71,38 @@ pub fn parse_quest_from_value(v: &Value) -> Result<Quest> {
             Value::Array(arr) => {
                 for v in arr.iter() {
                     if let Some(m) = v.as_object() {
-                        all_prereqs.push(QuestId {
-                            high: get_i32(m, "questIDHigh").unwrap_or(0),
-                            low: get_i32(m, "questIDLow").unwrap_or(0),
-                        });
+                        all_prereqs.push(QuestId::from_parts(
+                            get_i32(m, "questIDHigh").unwrap_or(0),
+                            get_i32(m, "questIDLow").unwrap_or(0),
+                        ));
                     }
                 }
             }
             _ => {}
         }
     }
-
-    // explicit optional prereqs (some datasets provide a separate key)
     let mut optional_prereqs: Vec<QuestId> = Vec::new();
-    if let Some(optv) = obj.get("preRequisitesOptional") {
-        match optv {
-            Value::Array(arr) => {
-                for v in arr.iter() {
-                    if let Some(m) = v.as_object() {
-                        optional_prereqs.push(QuestId {
-                            high: get_i32(m, "questIDHigh").unwrap_or(0),
-                            low: get_i32(m, "questIDLow").unwrap_or(0),
-                        });
-                    }
-                }
-            }
+    if let Some(pre) = obj.get("optionalPreRequisites") {
+        match pre {
             Value::Object(map) => {
                 if let Some(vec) = map_to_array_if_numeric(map) {
                     for v in vec.into_iter() {
                         if let Some(m) = v.as_object() {
-                            optional_prereqs.push(QuestId {
-                                high: get_i32(m, "questIDHigh").unwrap_or(0),
-                                low: get_i32(m, "questIDLow").unwrap_or(0),
-                            });
+                            optional_prereqs.push(QuestId::from_parts(
+                                get_i32(m, "questIDHigh").unwrap_or(0),
+                                get_i32(m, "questIDLow").unwrap_or(0),
+                            ));
                         }
+                    }
+                }
+            }
+            Value::Array(arr) => {
+                for v in arr.iter() {
+                    if let Some(m) = v.as_object() {
+                        optional_prereqs.push(QuestId::from_parts(
+                            get_i32(m, "questIDHigh").unwrap_or(0),
+                            get_i32(m, "questIDLow").unwrap_or(0),
+                        ));
                     }
                 }
             }

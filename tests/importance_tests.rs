@@ -1,10 +1,11 @@
 use better_questing_tools::error::ParseError;
 use better_questing_tools::importance::*;
 use better_questing_tools::model::*;
+use better_questing_tools::quest_id::QuestId;
 use std::collections::HashMap;
 
 fn qid(h: i32, l: i32) -> QuestId {
-    QuestId { high: h, low: l }
+    QuestId::from_parts(h, l)
 }
 
 fn make_db(quests: Vec<(QuestId, Vec<QuestId>)>) -> QuestDatabase {

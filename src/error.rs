@@ -1,4 +1,4 @@
-use crate::model::QuestId;
+use crate::quest_id::QuestId;
 use thiserror::Error;
 
 #[derive(Debug, Error)]

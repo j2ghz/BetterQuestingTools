@@ -1,6 +1,7 @@
 use crate::error::{ParseError, Result};
 use crate::model::*;
 use crate::nbt_norm::normalize_value;
+use crate::quest_id::QuestId;
 use serde_json::Value;
 use std::collections::HashMap;
 use std::fs;
@@ -74,7 +75,7 @@ pub fn parse_default_quests_dir(dir: &Path) -> Result<QuestDatabase> {
                             .and_then(|x| x.as_i64())
                             .map(|n| n as i32)
                             .unwrap_or(0);
-                        let id = QuestId { high, low };
+                        let id = QuestId::from_parts(high, low);
                         let props = map
                             .get("properties")
                             .and_then(|p| crate::parser::parse_properties(p).ok().flatten());
@@ -110,7 +111,7 @@ pub fn parse_default_quests_dir(dir: &Path) -> Result<QuestDatabase> {
                                 .and_then(|x| x.as_i64())
                                 .map(|n| n as i32)
                                 .unwrap_or(0);
-                            let qid = QuestId { high, low };
+                            let qid = QuestId::from_parts(high, low);
                             let entry = QuestLineEntry {
                                 index: None,
                                 quest_id: qid.clone(),

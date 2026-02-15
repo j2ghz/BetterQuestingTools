@@ -25,6 +25,7 @@ pub mod importance;
 pub mod model;
 pub mod nbt_norm;
 pub mod parser;
+pub mod quest_id;
 
 pub use crate::db::*;
 pub use crate::error::*;

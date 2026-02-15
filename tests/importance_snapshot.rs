@@ -4,8 +4,9 @@ use std::path::PathBuf;
 use std::{collections::HashMap, fs, io::Cursor};
 
 use better_questing_tools::importance::compute_importance_scores;
-use better_questing_tools::model::{Quest, QuestDatabase, QuestId};
+use better_questing_tools::model::{Quest, QuestDatabase};
 use better_questing_tools::parser::parse_quest_from_reader;
+use better_questing_tools::quest_id::QuestId;
 use zip::ZipArchive;
 
 #[test]
@@ -63,11 +64,7 @@ fn importance_on_db_snapshot() {
             (qid.as_u64(), {
                 // round to 12 decimal places for snapshot stability
                 let r = (s * 1e12).round() / 1e12;
-                if r == -0.0 {
-                    0.0
-                } else {
-                    r
-                }
+                if r == -0.0 { 0.0 } else { r }
             })
         })
         .collect();

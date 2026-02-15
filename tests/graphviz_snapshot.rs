@@ -2,8 +2,9 @@ use std::io::Read;
 use std::path::PathBuf;
 use std::{collections::HashMap, fs, io::Cursor};
 
-use better_questing_tools::model::{Quest, QuestDatabase, QuestId};
+use better_questing_tools::model::{Quest, QuestDatabase};
 use better_questing_tools::parser::parse_quest_from_reader;
+use better_questing_tools::quest_id::QuestId;
 use zip::ZipArchive;
 
 /// Test to generate a Graphviz (DOT) diagram of the quests and their prerequisite edges.
