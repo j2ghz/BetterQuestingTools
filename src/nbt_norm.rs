@@ -46,7 +46,7 @@ pub fn map_to_array_if_numeric(m: &Map<String, Value>) -> Option<Vec<Value>> {
     if numeric_keys.is_empty() {
         return None;
     }
-    Some(numeric_keys.into_iter().map(|(_, v)| v).collect())
+    Some(numeric_keys.into_values().collect())
 }
 
 #[cfg(test)]

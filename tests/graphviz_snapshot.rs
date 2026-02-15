@@ -2,7 +2,7 @@ use std::io::Read;
 use std::path::PathBuf;
 use std::{collections::HashMap, fs, io::Cursor};
 
-use better_questing_tools::model::{Quest, QuestDatabase};
+use better_questing_tools::model::Quest;
 use better_questing_tools::parser::parse_quest_from_reader;
 use better_questing_tools::quest_id::QuestId;
 use zip::ZipArchive;
@@ -38,7 +38,7 @@ fn quest_graph_dot_snapshot() {
                 .expect("failed to read zip entry");
             let cursor = Cursor::new(buf);
             let quest = parse_quest_from_reader(cursor).expect("parse failed");
-            quests.entry(quest.id.clone()).or_insert(quest);
+            quests.entry(quest.id).or_insert(quest);
         }
     }
 
@@ -92,7 +92,7 @@ fn quest_graph_dot_snapshot() {
             .properties
             .as_ref()
             .and_then(|props| props.quest_logic.as_deref())
-            .map_or(false, |logic| logic.eq_ignore_ascii_case("XOR"));
+            .is_some_and(|logic| logic.eq_ignore_ascii_case("XOR"));
         if is_xor {
             continue;
         }

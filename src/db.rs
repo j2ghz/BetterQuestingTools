@@ -40,7 +40,7 @@ pub fn parse_default_quests_dir(dir: &Path) -> Result<QuestDatabase> {
                 let v: Value = serde_json::from_str(&s)?;
                 let norm = normalize_value(v);
                 let quest = crate::parser::parse_quest_from_value(&norm)?;
-                if quests.insert(quest.id.clone(), quest).is_some() {
+                if quests.insert(quest.id, quest).is_some() {
                     return Err(ParseError::DuplicateQuestId(path.display().to_string()));
                 }
             }
@@ -80,7 +80,7 @@ pub fn parse_default_quests_dir(dir: &Path) -> Result<QuestDatabase> {
                             .get("properties")
                             .and_then(|p| crate::parser::parse_properties(p).ok().flatten());
                         qline_opt = Some(QuestLine {
-                            id: id.clone(),
+                            id,
                             properties: props,
                             entries: Vec::new(),
                             extra: HashMap::new(),
@@ -114,7 +114,7 @@ pub fn parse_default_quests_dir(dir: &Path) -> Result<QuestDatabase> {
                             let qid = QuestId::from_parts(high, low);
                             let entry = QuestLineEntry {
                                 index: None,
-                                quest_id: qid.clone(),
+                                quest_id: qid,
                                 x: map.get("x").and_then(|x| x.as_i64().map(|n| n as i32)),
                                 y: map.get("y").and_then(|x| x.as_i64().map(|n| n as i32)),
                                 size_x: map.get("sizeX").and_then(|x| x.as_i64().map(|n| n as i32)),
@@ -132,7 +132,7 @@ pub fn parse_default_quests_dir(dir: &Path) -> Result<QuestDatabase> {
                     for (_qid, entry) in entries {
                         qline.entries.push(entry);
                     }
-                    if questlines.insert(qline.id.clone(), qline).is_some() {
+                    if questlines.insert(qline.id, qline).is_some() {
                         return Err(ParseError::DuplicateQuestId(path.display().to_string()));
                     }
                 }
@@ -151,7 +151,7 @@ pub fn parse_default_quests_dir(dir: &Path) -> Result<QuestDatabase> {
             if !quests.contains_key(&entry.quest_id) {
                 return Err(ParseError::MissingQuestReference {
                     questline: qlid.as_u64(),
-                    quest_id: entry.quest_id.clone(),
+                    quest_id: entry.quest_id,
                 });
             }
         }
@@ -178,39 +178,22 @@ fn parse_settings_value(v: &Value) -> QuestSettings {
 
     if let Some(map) = v.as_object() {
         // prefer properties -> betterquesting -> inner
-        if let Some(props_val) = map.get("properties") {
-            if let Some(props_map) = props_val.as_object() {
-                let inner_val = if let Some(bq) = props_map.get("betterquesting") {
-                    bq
-                } else if let Some((_k, v)) = props_map.iter().next() {
-                    v
-                } else {
-                    &Value::Null
-                };
-                if let Some(inner_map) = inner_val.as_object() {
-                    version = inner_map
-                        .get("version")
-                        .and_then(|x| x.as_str())
-                        .map(|s| s.to_string());
-                    for (k, val) in inner_map.iter() {
-                        if k == "version" {
-                            continue;
-                        }
-                        extra.insert(k.clone(), val.clone());
-                    }
-                    return QuestSettings { version, extra };
-                }
-            }
-        }
-
-        // check direct betterquesting key
-        if let Some(bq_val) = map.get("betterquesting") {
-            if let Some(bq_map) = bq_val.as_object() {
-                version = bq_map
+        if let Some(props_val) = map.get("properties")
+            && let Some(props_map) = props_val.as_object()
+        {
+            let inner_val = if let Some(bq) = props_map.get("betterquesting") {
+                bq
+            } else if let Some((_k, v)) = props_map.iter().next() {
+                v
+            } else {
+                &Value::Null
+            };
+            if let Some(inner_map) = inner_val.as_object() {
+                version = inner_map
                     .get("version")
                     .and_then(|x| x.as_str())
                     .map(|s| s.to_string());
-                for (k, val) in bq_map.iter() {
+                for (k, val) in inner_map.iter() {
                     if k == "version" {
                         continue;
                     }
@@ -218,6 +201,23 @@ fn parse_settings_value(v: &Value) -> QuestSettings {
                 }
                 return QuestSettings { version, extra };
             }
+        }
+
+        // check direct betterquesting key
+        if let Some(bq_val) = map.get("betterquesting")
+            && let Some(bq_map) = bq_val.as_object()
+        {
+            version = bq_map
+                .get("version")
+                .and_then(|x| x.as_str())
+                .map(|s| s.to_string());
+            for (k, val) in bq_map.iter() {
+                if k == "version" {
+                    continue;
+                }
+                extra.insert(k.clone(), val.clone());
+            }
+            return QuestSettings { version, extra };
         }
 
         // fallback: top-level version + extras

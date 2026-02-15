@@ -166,7 +166,7 @@ pub fn parse_properties(v: &Value) -> Result<Option<QuestProperties>> {
     let desc = map
         .get("desc")
         .and_then(|x| x.as_str().map(|s| s.to_string()));
-    let icon = map.get("icon").and_then(|x| parse_item(x));
+    let icon = map.get("icon").and_then(parse_item);
 
     let is_main = map.get("isMain").and_then(parse_bool_like);
     let is_silent = map.get("isSilent").and_then(parse_bool_like);
@@ -312,10 +312,10 @@ fn parse_item(v: &Value) -> Option<ItemStack> {
 
 fn get_string_field(m: &Map<String, Value>, keys: &[&str]) -> Option<String> {
     for &k in keys {
-        if let Some(v) = m.get(k) {
-            if let Some(s) = v.as_str() {
-                return Some(s.to_string());
-            }
+        if let Some(v) = m.get(k)
+            && let Some(s) = v.as_str()
+        {
+            return Some(s.to_string());
         }
     }
     None
@@ -324,7 +324,7 @@ fn get_string_field(m: &Map<String, Value>, keys: &[&str]) -> Option<String> {
 fn parse_items_vec(opt: Option<&Value>) -> Vec<ItemStack> {
     if let Some(v) = opt {
         match v {
-            Value::Array(arr) => arr.iter().filter_map(|e| parse_item(e)).collect(),
+            Value::Array(arr) => arr.iter().filter_map(parse_item).collect(),
             Value::Object(map) => {
                 // try numeric-keyed map
                 if let Some(vec) = map_to_array_if_numeric(map) {
@@ -503,12 +503,10 @@ fn parse_rewards(opt: Option<&Value>) -> Vec<Reward> {
                 for (k, val) in map.iter() {
                     if let Ok(idx) = k.parse::<usize>() {
                         numeric_keys.insert(idx, val.clone());
+                    } else if let Some(r) = parse_reward_entry(None, &Value::Object(map.clone())) {
+                        return vec![r];
                     } else {
-                        if let Some(r) = parse_reward_entry(None, &Value::Object(map.clone())) {
-                            return vec![r];
-                        } else {
-                            return vec![];
-                        }
+                        return vec![];
                     }
                 }
                 numeric_keys

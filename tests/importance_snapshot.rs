@@ -1,4 +1,3 @@
-use serde_json::Value;
 use std::io::Read;
 use std::path::PathBuf;
 use std::{collections::HashMap, fs, io::Cursor};
@@ -44,7 +43,7 @@ fn importance_on_db_snapshot() {
             let cursor = Cursor::new(buf);
             let quest = parse_quest_from_reader(cursor).expect("parse failed");
             // prefer first-seen on duplicates
-            quests.entry(quest.id.clone()).or_insert(quest);
+            quests.entry(quest.id).or_insert(quest);
         }
     }
 

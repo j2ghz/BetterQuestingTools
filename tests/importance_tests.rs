@@ -12,7 +12,7 @@ fn make_db(quests: Vec<(QuestId, Vec<QuestId>)>) -> QuestDatabase {
     let mut map = HashMap::new();
     for (id, prereqs) in quests {
         let q = Quest {
-            id: id.clone(),
+            id,
             properties: None,
             tasks: vec![],
             rewards: vec![],
@@ -37,12 +37,7 @@ fn star_topology() {
     let a = qid(0, 1);
     let b = qid(0, 2);
     let d = qid(0, 3);
-    let db = make_db(vec![
-        (c.clone(), vec![]),
-        (a.clone(), vec![c.clone()]),
-        (b.clone(), vec![c.clone()]),
-        (d.clone(), vec![c.clone()]),
-    ]);
+    let db = make_db(vec![(c, vec![]), (a, vec![c]), (b, vec![c]), (d, vec![c])]);
     let scores = compute_importance_scores(&db, 0.25, false, true).unwrap();
     // center should have highest score
     let max = scores
@@ -58,11 +53,7 @@ fn chain_propagation() {
     let a = qid(0, 1);
     let b = qid(0, 2);
     let c = qid(0, 3);
-    let db = make_db(vec![
-        (a.clone(), vec![]),
-        (b.clone(), vec![a.clone()]),
-        (c.clone(), vec![b.clone()]),
-    ]);
+    let db = make_db(vec![(a, vec![]), (b, vec![a]), (c, vec![b])]);
     let scores = compute_importance_scores(&db, 0.5, false, false).unwrap();
     // base counts: A has 1 dependent (B), B has 1 (C), C has 0
     // with alpha=0.5 and no log: score(A)=1 + 0.5*base(B)=1+0.5*1=1.5
@@ -78,11 +69,7 @@ fn detect_cycle() {
     let a = qid(0, 1);
     let b = qid(0, 2);
     let c = qid(0, 3);
-    let db = make_db(vec![
-        (a.clone(), vec![c.clone()]),
-        (b.clone(), vec![a.clone()]),
-        (c.clone(), vec![b.clone()]),
-    ]);
+    let db = make_db(vec![(a, vec![c]), (b, vec![a]), (c, vec![b])]);
     let res = compute_importance_scores(&db, 0.25, false, true);
     match res {
         Err(ParseError::CycleDetected(cycle)) => {

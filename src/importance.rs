@@ -29,7 +29,7 @@ pub fn compute_importance_scores(
             .properties
             .as_ref()
             .and_then(|props| props.quest_logic.as_deref())
-            .map_or(false, |logic| logic.eq_ignore_ascii_case("XOR"));
+            .is_some_and(|logic| logic.eq_ignore_ascii_case("XOR"));
         if is_xor {
             // Skip adding this quest's prerequisite edges to avoid cycles/weight propagation
             continue;
@@ -64,24 +64,18 @@ pub fn compute_importance_scores(
         // adjacency should include both required and optional edges for cycle detection
         let mut adj_list = required.clone();
         adj_list.extend(optionals.iter().cloned());
-        adj.insert(qid.clone(), adj_list);
+        adj.insert(*qid, adj_list);
 
         // build dependents: required edges weight 1.0
         for p in required.iter().cloned() {
-            dependents
-                .entry(p.clone())
-                .or_insert_with(Vec::new)
-                .push((qid.clone(), 1.0));
+            dependents.entry(p).or_default().push((*qid, 1.0));
         }
 
         // optional edges split weight equally among the group's members
         if !optionals.is_empty() {
             let w = 1.0 / (optionals.len() as f64);
             for p in optionals.into_iter() {
-                dependents
-                    .entry(p.clone())
-                    .or_insert_with(Vec::new)
-                    .push((qid.clone(), w));
+                dependents.entry(p).or_default().push((*qid, w));
             }
         }
     }
@@ -97,7 +91,7 @@ pub fn compute_importance_scores(
 
     let mut color: HashMap<QuestId, Color> = HashMap::new();
     for k in db.quests.keys() {
-        color.insert(k.clone(), Color::White);
+        color.insert(*k, Color::White);
     }
 
     let mut stack: Vec<QuestId> = Vec::new();
@@ -111,9 +105,9 @@ pub fn compute_importance_scores(
         pos_in_stack: &mut HashMap<u64, usize>,
     ) -> Option<Vec<QuestId>> {
         // mark gray
-        color.insert(node.clone(), Color::Gray);
+        color.insert(*node, Color::Gray);
         pos_in_stack.insert(node.as_u64(), stack.len());
-        stack.push(node.clone());
+        stack.push(*node);
 
         if let Some(neis) = adj.get(node) {
             for nei in neis {
@@ -129,7 +123,7 @@ pub fn compute_importance_scores(
                             let cycle = stack[start..].to_vec();
                             return Some(cycle);
                         } else {
-                            return Some(vec![nei.clone(), node.clone()]);
+                            return Some(vec![*nei, *node]);
                         }
                     }
                     _ => {}
@@ -140,15 +134,15 @@ pub fn compute_importance_scores(
         // mark black
         stack.pop();
         pos_in_stack.remove(&node.as_u64());
-        color.insert(node.clone(), Color::Black);
+        color.insert(*node, Color::Black);
         None
     }
 
     for node in db.quests.keys() {
-        if let Some(Color::White) = color.get(node) {
-            if let Some(cycle) = dfs_visit(node, &adj, &mut color, &mut stack, &mut pos_in_stack) {
-                return Err(ParseError::CycleDetected(cycle));
-            }
+        if let Some(Color::White) = color.get(node)
+            && let Some(cycle) = dfs_visit(node, &adj, &mut color, &mut stack, &mut pos_in_stack)
+        {
+            return Err(ParseError::CycleDetected(cycle));
         }
     }
 
@@ -161,7 +155,7 @@ pub fn compute_importance_scores(
             .map(|v| v.iter().fold(0.0f64, |acc, (_dep, w)| acc + *w))
             .unwrap_or(0.0);
         let val = if use_log { (1.0 + raw).ln() } else { raw };
-        base.insert(q.clone(), val);
+        base.insert(*q, val);
     }
 
     // Compute propagated one-step score: score = base + alpha * sum_{d in dependents} weight(d->q) * base(d)
@@ -176,7 +170,7 @@ pub fn compute_importance_scores(
                 })
             })
             .unwrap_or(0.0);
-        score.insert(q.clone(), b + alpha * prop);
+        score.insert(*q, b + alpha * prop);
     }
 
     // Normalize into [0,1) if requested. Ensure max maps strictly less than 1.
@@ -188,7 +182,7 @@ pub fn compute_importance_scores(
         }
         let divisor = max * 1.000000001_f64; // tiny inflation guarantees < 1.0
         for v in score.values_mut() {
-            *v = *v / divisor;
+            *v /= divisor;
         }
     }
 
@@ -204,7 +198,7 @@ pub fn order_prereqs_for_quest(
     let mut out: Vec<(QuestId, f64)> = quest
         .prerequisites
         .iter()
-        .map(|q| (q.clone(), *scores.get(q).unwrap_or(&0.0)))
+        .map(|q| (*q, *scores.get(q).unwrap_or(&0.0)))
         .collect();
 
     // deterministic sort: score desc, tie-break by QuestId.as_u64() asc
