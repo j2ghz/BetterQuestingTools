@@ -7,6 +7,9 @@ use std::collections::HashMap;
 use std::fs;
 use std::path::Path;
 
+/// Type alias for the result of parsing a questline directory.
+type QuestlineDirParseResult = (Option<QuestLine>, Vec<(QuestId, QuestLineEntry)>);
+
 /// Parse the DefaultQuests folder into a QuestDatabase. This is strict: missing references
 /// will return Err(ParseError::Unexpected(...)).
 pub fn parse_default_quests_dir(dir: &Path) -> Result<QuestDatabase> {
@@ -48,102 +51,7 @@ pub fn parse_default_quests_dir(dir: &Path) -> Result<QuestDatabase> {
     }
 
     // parse questlines
-    let mut questlines: HashMap<QuestId, QuestLine> = HashMap::new();
-    let mut questline_order: Vec<QuestId> = Vec::new();
-    let qlines_dir = dir.join("QuestLines");
-    if qlines_dir.is_dir() {
-        for entry in fs::read_dir(&qlines_dir)? {
-            let entry = entry?;
-            let path = entry.path();
-            if path.is_dir() {
-                // directory per questline; inside there may be QuestLine.json and many entry files
-                let qline_json = path.join("QuestLine.json");
-                let mut qline_opt: Option<QuestLine> = None;
-                if qline_json.is_file() {
-                    let s = fs::read_to_string(&qline_json)?;
-                    let v: Value = serde_json::from_str(&s)?;
-                    let norm = normalize_value(v);
-                    // parse basic questline id & props
-                    if let Value::Object(map) = norm {
-                        let high = map
-                            .get("questLineIDHigh")
-                            .and_then(|x| x.as_i64())
-                            .map(|n| n as i32)
-                            .unwrap_or(0);
-                        let low = map
-                            .get("questLineIDLow")
-                            .and_then(|x| x.as_i64())
-                            .map(|n| n as i32)
-                            .unwrap_or(0);
-                        let id = QuestId::from_parts(high, low);
-                        let props = map
-                            .get("properties")
-                            .and_then(|p| crate::parser::parse_properties(p).ok().flatten());
-                        qline_opt = Some(QuestLine {
-                            id,
-                            properties: props,
-                            entries: Vec::new(),
-                            extra: HashMap::new(),
-                        });
-                    }
-                }
-
-                // collect entry files
-                let mut entries: Vec<(QuestId, QuestLineEntry)> = Vec::new();
-                for e in fs::read_dir(&path)? {
-                    let e = e?;
-                    let p = e.path();
-                    if p.is_file() && p.extension().map(|s| s == "json").unwrap_or(false) {
-                        if p.file_name().and_then(|n| n.to_str()) == Some("QuestLine.json") {
-                            continue;
-                        }
-                        let s = fs::read_to_string(&p)?;
-                        let v: Value = serde_json::from_str(&s)?;
-                        let norm = normalize_value(v);
-                        if let Value::Object(map) = norm {
-                            let high = map
-                                .get("questIDHigh")
-                                .and_then(|x| x.as_i64())
-                                .map(|n| n as i32)
-                                .unwrap_or(0);
-                            let low = map
-                                .get("questIDLow")
-                                .and_then(|x| x.as_i64())
-                                .map(|n| n as i32)
-                                .unwrap_or(0);
-                            let qid = QuestId::from_parts(high, low);
-                            let entry = QuestLineEntry {
-                                index: None,
-                                quest_id: qid,
-                                x: map.get("x").and_then(|x| x.as_i64().map(|n| n as i32)),
-                                y: map.get("y").and_then(|x| x.as_i64().map(|n| n as i32)),
-                                size_x: map.get("sizeX").and_then(|x| x.as_i64().map(|n| n as i32)),
-                                size_y: map.get("sizeY").and_then(|x| x.as_i64().map(|n| n as i32)),
-                                extra: HashMap::new(),
-                            };
-                            entries.push((qid, entry));
-                        }
-                    }
-                }
-
-                if let Some(mut qline) = qline_opt {
-                    // sort entries by filename order? they may be numeric in names; use filesystem order for now
-                    entries.sort_by_key(|(qid, _entry)| qid.as_u64());
-                    for (_qid, entry) in entries {
-                        qline.entries.push(entry);
-                    }
-                    if questlines.insert(qline.id, qline).is_some() {
-                        return Err(ParseError::DuplicateQuestId(path.display().to_string()));
-                    }
-                }
-            }
-        }
-    }
-
-    // derive questline order from keys if not present
-    if questline_order.is_empty() {
-        questline_order = questlines.keys().cloned().collect();
-    }
+    let (questlines, questline_order) = parse_questlines_dir(&dir.join("QuestLines"))?;
 
     // resolve references (strict: fail on missing quest)
     for (qlid, qline) in &questlines {
@@ -163,6 +71,114 @@ pub fn parse_default_quests_dir(dir: &Path) -> Result<QuestDatabase> {
         questlines,
         questline_order,
     })
+}
+
+/// Parse the QuestLines directory into a map of QuestLine and their order.
+fn parse_questlines_dir(qlines_dir: &Path) -> Result<(HashMap<QuestId, QuestLine>, Vec<QuestId>)> {
+    let mut questlines: HashMap<QuestId, QuestLine> = HashMap::new();
+    let mut questline_order: Vec<QuestId> = Vec::new();
+    if qlines_dir.is_dir() {
+        for entry in fs::read_dir(qlines_dir)? {
+            let entry = entry?;
+            let path = entry.path();
+            if path.is_dir() {
+                let (qline_opt, entries) = parse_questline_dir(&path)?;
+                if let Some(mut qline) = qline_opt {
+                    let mut sorted_entries: Vec<(QuestId, QuestLineEntry)> = entries;
+                    sorted_entries.sort_by_key(|(qid, _entry)| qid.as_u64());
+                    for (_qid, entry) in sorted_entries {
+                        qline.entries.push(entry);
+                    }
+                    if questlines.insert(qline.id, qline).is_some() {
+                        return Err(ParseError::DuplicateQuestId(path.display().to_string()));
+                    }
+                }
+            }
+        }
+    }
+    if questline_order.is_empty() {
+        questline_order = questlines.keys().cloned().collect();
+    }
+    Ok((questlines, questline_order))
+}
+
+/// Parse a single questline directory, returning the QuestLine (if present) and its entries.
+fn parse_questline_dir(path: &Path) -> Result<QuestlineDirParseResult> {
+    let qline_json = path.join("QuestLine.json");
+    let mut qline_opt: Option<QuestLine> = None;
+    if qline_json.is_file() {
+        let s = fs::read_to_string(&qline_json)?;
+        let v: Value = serde_json::from_str(&s)?;
+        let norm = normalize_value(v);
+        if let Value::Object(map) = norm {
+            let high = map
+                .get("questLineIDHigh")
+                .and_then(|x| x.as_i64())
+                .map(|n| n as i32)
+                .unwrap_or(0);
+            let low = map
+                .get("questLineIDLow")
+                .and_then(|x| x.as_i64())
+                .map(|n| n as i32)
+                .unwrap_or(0);
+            let id = QuestId::from_parts(high, low);
+            let props = map
+                .get("properties")
+                .and_then(|p| crate::parser::parse_properties(p).ok().flatten());
+            qline_opt = Some(QuestLine {
+                id,
+                properties: props,
+                entries: Vec::new(),
+                extra: HashMap::new(),
+            });
+        }
+    }
+    let mut entries: Vec<(QuestId, QuestLineEntry)> = Vec::new();
+    for e in fs::read_dir(path)? {
+        let e = e?;
+        let p = e.path();
+        if p.is_file() && p.extension().map(|s| s == "json").unwrap_or(false) {
+            if p.file_name().and_then(|n| n.to_str()) == Some("QuestLine.json") {
+                continue;
+            }
+            if let Some((qid, entry)) = parse_questline_entry_file(&p)? {
+                entries.push((qid, entry));
+            }
+        }
+    }
+    Ok((qline_opt, entries))
+}
+
+/// Parse a questline entry file, returning the QuestId and QuestLineEntry if valid.
+fn parse_questline_entry_file(p: &Path) -> Result<Option<(QuestId, QuestLineEntry)>> {
+    let s = fs::read_to_string(p)?;
+    let v: Value = serde_json::from_str(&s)?;
+    let norm = normalize_value(v);
+    if let Value::Object(map) = norm {
+        let high = map
+            .get("questIDHigh")
+            .and_then(|x| x.as_i64())
+            .map(|n| n as i32)
+            .unwrap_or(0);
+        let low = map
+            .get("questIDLow")
+            .and_then(|x| x.as_i64())
+            .map(|n| n as i32)
+            .unwrap_or(0);
+        let qid = QuestId::from_parts(high, low);
+        let entry = QuestLineEntry {
+            index: None,
+            quest_id: qid,
+            x: map.get("x").and_then(|x| x.as_i64().map(|n| n as i32)),
+            y: map.get("y").and_then(|x| x.as_i64().map(|n| n as i32)),
+            size_x: map.get("sizeX").and_then(|x| x.as_i64().map(|n| n as i32)),
+            size_y: map.get("sizeY").and_then(|x| x.as_i64().map(|n| n as i32)),
+            extra: HashMap::new(),
+        };
+        Ok(Some((qid, entry)))
+    } else {
+        Ok(None)
+    }
 }
 
 fn parse_settings_file(path: &Path) -> Result<QuestSettings> {
