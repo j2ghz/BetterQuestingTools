@@ -30,4 +30,5 @@ cargo test
 Snapshots are under `tests/snapshots` and are used by the integration test
 `tests/parse_samples.rs`.
 
-License: MIT/Apache-2.0
+This project is licensed under the GNU Affero General Public License v3.0 only.
+See https://spdx.org/licenses/AGPL-3.0-only.html for the full license text.
