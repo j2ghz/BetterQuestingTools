@@ -4,6 +4,10 @@
         "/^prek run$/": {
             "approve": true,
             "matchCommandLine": true
+        },
+        "/^cargo clippy --all-targets --all-features -- -D warnings$/": {
+            "approve": true,
+            "matchCommandLine": true
         }
     }
 }
