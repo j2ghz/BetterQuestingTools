@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2738,
+  "prerequisites": [
+    88
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Need some Sky Stone, but it's all picked over? Buy some!\n\n[note]PS: The presses are craftable at EV.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Ironically, It's Not Used in AE2 Anymore",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": 24000,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    88
+  ],
+  "rewards": [],
+  "tasks": []
+}

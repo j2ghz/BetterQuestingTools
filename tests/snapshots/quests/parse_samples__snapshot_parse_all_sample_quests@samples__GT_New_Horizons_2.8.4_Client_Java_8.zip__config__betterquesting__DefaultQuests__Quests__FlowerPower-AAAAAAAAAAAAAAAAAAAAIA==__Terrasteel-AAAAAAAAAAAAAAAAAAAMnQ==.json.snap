@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3229,
+  "prerequisites": [
+    3228
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "To get some advanced tools and equipment you will need some terrasteel. This is done using a dedicated machine.\n\nYou'll need to layout the blocks underneath the plate as described in the Lexica Botania. Then place a spark on top of the plate nearby a mana pool with a large stockpile of mana. Lastly you'll place a mana diamond, mana pearl, and mana steel onto the plate to begin the transformation.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Terrasteel",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3228
+  ],
+  "rewards": [],
+  "tasks": []
+}

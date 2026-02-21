@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2217259385809791656,
+  "prerequisites": [
+    2456
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Mark of the Falling Tower is among the most powerful magic you can achieve in GTNH. It allows you to summon a huge meteor full of various GT ores right were you want it. All you need is a particular catalyst item and a good amount of LP. Even better, you sometimes get access to ores before you could get them normally! Check out NEI for all the possible meteors. For example you can start by looking at the uses of a Pufferfish.\n\nThe meteor requires at least a singular block to see the sky above the master ritual stone. You can use the alchemical component Terrae to increase the radius of the meteor by 1. Using Orbis Terrae increases the radius by 2.\n\nThe meteor deals some damage but it does not deal environmental/block damage. Just be weary if you have villagers or important mobs nearby. The size of the meteor also increases the damage & radius by an enormous amount.\n\nA multiblock miners can mine out the various ores spawned from the meteor, but there are other options too!",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Summon the Meteor!",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2456
+  ],
+  "rewards": [],
+  "tasks": []
+}

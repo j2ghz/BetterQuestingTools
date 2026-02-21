@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 942,
+  "prerequisites": [
+    536
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Plunger is used to clear liquids from pipes. It can also be used on a machine to remove up to 1000mb of fluid from its internal buffer. So you don't have to wrench your machine and re-place it. It can be crafted from a rod of the desired material and rubber sheets.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§3§lIt's a Dirty Job, and You're Going to Do It",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    536
+  ],
+  "rewards": [],
+  "tasks": []
+}

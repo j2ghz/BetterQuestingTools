@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2460,
+  "prerequisites": [
+    701
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "But why is it transparent?\n\n[note]Does not actually hold more, doesn't render the blood in it properly, and can't be used in the altar. It does list the amount of blood you have in realtime though, and is used to make the next one.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "It Holds More, Ok?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    701
+  ],
+  "rewards": [],
+  "tasks": []
+}

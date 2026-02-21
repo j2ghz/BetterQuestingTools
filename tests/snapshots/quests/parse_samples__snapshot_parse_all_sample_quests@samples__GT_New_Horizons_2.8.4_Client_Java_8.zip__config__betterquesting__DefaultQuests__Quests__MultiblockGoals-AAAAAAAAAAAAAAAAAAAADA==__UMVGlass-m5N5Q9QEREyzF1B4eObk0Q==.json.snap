@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 15277410931184166097,
+  "prerequisites": [
+    7807911136506623372
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The next tier of Borosilicate glass is Transcendent (12).",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lUMV Glass",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    7807911136506623372
+  ],
+  "rewards": [],
+  "tasks": []
+}

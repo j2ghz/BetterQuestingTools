@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3295,
+  "prerequisites": [
+    3235,
+    3236,
+    2700
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "An even more expensive capacitor but it has the same storage? You are reading that right. But it has much faster transfer rates to your wireless power network!",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Extremely Ultimate and Ultimately Extreme",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3235,
+    3236,
+    2700
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2317,
+  "prerequisites": [
+    2315
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Since you have concentrated your solution, it's now time to gather the solid Osmium from it. Go ahead and mix it with Hydrochloric Acid.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lOsmium",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "CHAIN"
+  },
+  "required_prerequisites": [
+    2315
+  ],
+  "rewards": [],
+  "tasks": []
+}

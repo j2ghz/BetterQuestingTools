@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2143,
+  "prerequisites": [
+    88
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Need a map on fuel choices? Well, we don't have that, but we have suggestions. You can use Steam up to IV, but beyond MV it gets pretty painful.\n\nIn LV you can start refining oil for either Light Fuel for a Combustion Generator or Refinery Gas for a Gas Turbine. Or you can use Creosote in a Semi-Fluid Generator.\n\nOnce you hit MV, you can switch from Steam to renewable Benzene (Gas) from your logs. Other renewable alternatives are Fish Oil or Seed Oil based bio diesel (combustion). Seed Oil can be sourced from Pam's peanuts, IC2 Rape crop or Forestry tree nuts.\n\nAt MV you can also upgrade your Light Fuel with Heavy Fuel to get Diesel. When you reach HV turn diesel or bio diesel into Cetane Boosted Diesel. In EV, you can make High Octane Gasoline (HOG), but it's complex, and you'll need to rejigger your whole oil distillation setup, since it uses different fluids than Cetane does.\n\nEV introduces the Large Gas Turbine, Large Steam Turbine, Large HP Steam Turbine, and Large Combustion Engine, which are more efficient versions of the earlier ones. The first 3 require turbines.\n\nYou can also make Nukes, or Wind and Water Kinetics.\n\nFor low-power operations, or dedicated players willing to set up autocrafting, you can begin using Solar Panels at MV.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lChoices, Choices",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    88
+  ],
+  "rewards": [],
+  "tasks": []
+}

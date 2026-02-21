@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3390158084305814544,
+  "prerequisites": [
+    8148220388809046234
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You probably haven't thought about the extractor in a while. Is your steam extractor still collecting dust somewhere? Well, if you do find yourself needing to extract things quick, (processing industrial quantities of flowers, maybe?) pick up the Dissection Apparatus.\n\n[note]This multi gets additional parallels based on tier of item pipe casing, so use the best one you can get![/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Taking Things Apart",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    8148220388809046234
+  ],
+  "rewards": [],
+  "tasks": []
+}

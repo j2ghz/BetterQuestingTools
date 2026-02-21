@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 243,
+  "prerequisites": [
+    227
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You, as a Thaumaturge, like shiny things. And what could be more shiny than a cluster made of those shards? You totally should get one of each.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Crystal Clusters",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    227
+  ],
+  "rewards": [],
+  "tasks": []
+}

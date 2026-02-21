@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 868,
+  "prerequisites": [
+    50
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "To make bricks for the blast furnace you need concrete and gypsum. Gypsum can be found in a vein together with basaltic and granitic mineral sand, and fullers earth. Y 50-60 and only in the overworld.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§3§lGypsum",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    50
+  ],
+  "rewards": [],
+  "tasks": []
+}

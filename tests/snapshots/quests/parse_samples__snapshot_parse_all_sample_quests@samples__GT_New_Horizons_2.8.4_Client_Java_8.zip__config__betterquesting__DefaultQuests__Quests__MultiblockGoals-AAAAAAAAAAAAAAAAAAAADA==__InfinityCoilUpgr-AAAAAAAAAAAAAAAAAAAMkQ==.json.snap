@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3217,
+  "prerequisites": [
+    2582,
+    1833
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Smelting with the ferocity of the universe itself.\n\nThis unbelievable material seemed impossible to manipulate into a coil block form, even though its properties made this desirable. It is incredibly stable even at extreme temperatures, but this also made it unable to pack together for coils.\n\nHowever, the situation changed when you thought about using something more intelligent. By integrating a Wetware or better UHV circuit, the Infinity Coil became a reality, controlled by the ever-watching eyes of the circuitry you've spent months to create. From now on, these eyes will watch over your multiblocks.\n\nProvides 11701K heat. You could upgrade your EBF, though at this point it's more likely to be for your MBFs or your DTPF.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lInfinity Coil Upgrade",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2582,
+    1833
+  ],
+  "rewards": [],
+  "tasks": []
+}

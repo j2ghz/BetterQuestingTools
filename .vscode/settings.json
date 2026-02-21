@@ -12,6 +12,10 @@
         "/^cargo fmt$/": {
             "approve": true,
             "matchCommandLine": true
+        },
+        "/^cargo test$/": {
+            "approve": true,
+            "matchCommandLine": true
         }
     }
 }

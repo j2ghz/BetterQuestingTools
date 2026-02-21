@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 10633642008695513684,
+  "prerequisites": [
+    3850093324380967289
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "A cell of antimatter! Contained in a cell made of matter! Surely this is safe.\n\nAntimatter is exactly what you may imagine, the opposite of matter, for every atom in the universe, an \"anti atom\" exists, and when both meet...\n\nThey annihilate themselves, releasing a lot of energy!\n\nBut how could you capture this energy?",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "\"Semi-Stable\" doing a lot of work in here",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3850093324380967289
+  ],
+  "rewards": [],
+  "tasks": []
+}

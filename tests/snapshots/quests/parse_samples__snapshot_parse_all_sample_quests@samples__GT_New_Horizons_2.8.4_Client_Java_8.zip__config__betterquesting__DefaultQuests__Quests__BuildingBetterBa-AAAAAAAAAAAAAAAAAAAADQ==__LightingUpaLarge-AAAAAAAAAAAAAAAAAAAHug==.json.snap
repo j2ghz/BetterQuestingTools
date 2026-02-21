@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1978,
+  "prerequisites": [
+    68,
+    1598
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "If you have a relatively large area you need to light up without using electricity, you can use these floodlights. They can take normal furnace fuels, including blocks and compressed blocks. They do require some electronic components to make, but can send out a beam a long ways, or various cone shapes a shorter distance. Use the wrench to change modes, and shift-right-click to invert.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Lighting Up a Large Area, Without Electricity",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    68,
+    1598
+  ],
+  "rewards": [],
+  "tasks": []
+}

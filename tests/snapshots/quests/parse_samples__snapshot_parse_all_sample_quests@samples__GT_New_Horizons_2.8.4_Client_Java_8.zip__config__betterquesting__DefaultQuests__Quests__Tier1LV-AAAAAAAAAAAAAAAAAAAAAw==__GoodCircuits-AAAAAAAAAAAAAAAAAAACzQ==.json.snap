@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 717,
+  "prerequisites": [
+    747,
+    748
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Good circuits are an improvement on basic circuits. They're an MV-tier circuit, which is a component of all MV gregtech machines.\n\nTo open MV, you still need to make an EBF and do the Aluminium quest if you haven't already, since §oeverything§r needs aluminium.\n\nThis quest also opens the Project Red quests - one of the early automation options.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lGood Circuits",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    747,
+    748
+  ],
+  "rewards": [],
+  "tasks": []
+}

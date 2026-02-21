@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 724,
+  "prerequisites": [
+    719
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Weeds will show up from time to time on empty or double crop sticks. They will spread from there and take over all your precious crops, so harvest the weed with your weed trowel before you start desiring to reload the last backup. Later you can make some Weed-EX to prevent them from appearing (until it runs out).",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Weeds",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    719
+  ],
+  "rewards": [],
+  "tasks": []
+}

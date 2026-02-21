@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3079,
+  "prerequisites": [
+    3067
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Punny, right?\n\nYou now can electrolyze the cerium oxide to get pure elemental cerium dust.\n\nOh, and oxygen, but who cares about that anymore?\n\nThis handy material is useful in many different multiblock machines that will be unlocked in later tiers such as the Precise Assembler, the Elemental Duplicator and better casings to the Chemical Plant for a new tier of rocket fuel.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lYou Can't Be Cerious!",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3067
+  ],
+  "rewards": [],
+  "tasks": []
+}

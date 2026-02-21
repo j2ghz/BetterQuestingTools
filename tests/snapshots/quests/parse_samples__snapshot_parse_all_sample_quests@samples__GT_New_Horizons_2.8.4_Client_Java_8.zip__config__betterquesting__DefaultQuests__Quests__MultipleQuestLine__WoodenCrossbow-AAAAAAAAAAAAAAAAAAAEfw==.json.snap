@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1151,
+  "prerequisites": [
+    741
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Now you are able to make a better long range weapon - a crossbow. Use wood for the crossbow limb and the body and use obsidian (Reinforced III) for the tough binding. Normal strings for the bowstrings would be enough for now.\n\nAssemble the bow yourself on your tool forge.\n\n[warn]For upgrades:[/warn]\n[note]Redstone - Speed on the draw\nLapis - Fortune on kills\nMoss - Self-repair[/note]\n\n§6NOTE: Some mobs require damage from specific tools. IF YOU ARE SHOOTING AT SOMETHING AND IT IS NOT GETTING HURT, *RUN*. And then figure out what weapon might be best to kill it.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§3§lWooden Crossbow",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    741
+  ],
+  "rewards": [],
+  "tasks": []
+}

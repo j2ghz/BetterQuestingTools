@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 750,
+  "optional_prerequisites": [
+    759,
+    951
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Molten polyethylene can be made in a chemical reactor using ethylene, compressed air cells or oxygen - using oxygen gives a 50% boost. Use a mold for making plates in a fluid solidifier to make plastic sheets.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lMolten Plastic",
+    "party_single_reward": false,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

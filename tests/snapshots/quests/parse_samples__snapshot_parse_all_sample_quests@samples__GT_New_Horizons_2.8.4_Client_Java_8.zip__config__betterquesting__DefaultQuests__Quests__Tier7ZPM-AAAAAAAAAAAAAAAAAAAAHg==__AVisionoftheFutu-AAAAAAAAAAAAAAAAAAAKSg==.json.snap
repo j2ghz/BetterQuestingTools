@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2634,
+  "prerequisites": [
+    2627
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "To get to the Toxic Everglades, you'll need 10 Containment Frames and an Alkalus Disk (Activated). You use them like when making a nether portal. The disk can also be used to set special fires. It doesn't spread across the ground that well, but it'll take out a tree real fast. If you want to get rid of a giant tree, this is your tool.\n\nThe dim itself is filled with GT++ ores.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "A Vision of the Future (FPS Drop Not Included)",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2627
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2833412587994281978,
+  "prerequisites": [
+    2674940806562106452
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "After you've managed to grab some §2Prismarine§r, you must process it with §2Industrial Strength Hydrofluoric Acid§r and §2Hydrogen Peroxide§r in the §5§lDissolution Tank§r. Using these ingredients you can make your very first batch of §3Prismarine Solution§r.\n\n[warn]After you've created your first batch of Industrial Strength HF, it's highly recommended to check the Chemical Plant recipes for further creation of it![/warn]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Prismarine Solution",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2674940806562106452
+  ],
+  "rewards": [],
+  "tasks": []
+}

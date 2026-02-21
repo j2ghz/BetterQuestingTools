@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1979981515953147306,
+  "prerequisites": [
+    13256433337557620598
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Netherite Scrap is an integral part of the Netherite refinement process and fortunately you don't need very much of it. Technically you §nonly need two§r pieces of scrap, as they will constantly cycle from hot to cool while never actually being used up in the process §3(though, having more scrap handy could improve your setup efficiency).§r\n\nYou can obtain Netherite Scrap by either §5smelting§r Ancient Debris or using a §5§lForge Hammer§r on it. Though considering the forge hammer offers a §2§l25%§r chance at gaining an additional scrap, you would be a little crazy to choose the former.\n\nIf you're wondering where you can find Ancient Debris, try scouring the Nether. It's more likely to spawn lower near the lava, and is found sporadically like small ores are rather than being in large veins like usual GT ores. §3Miners can also collect it!§r\n\n[warn]If you don't feel like leaving home, or are lacking blocks within your nether dimension, there is also a §lmeteor§r that can alleviate your Ancient Debris woes.[/warn]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§c§lNetherite Scrap",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    13256433337557620598
+  ],
+  "rewards": [],
+  "tasks": []
+}

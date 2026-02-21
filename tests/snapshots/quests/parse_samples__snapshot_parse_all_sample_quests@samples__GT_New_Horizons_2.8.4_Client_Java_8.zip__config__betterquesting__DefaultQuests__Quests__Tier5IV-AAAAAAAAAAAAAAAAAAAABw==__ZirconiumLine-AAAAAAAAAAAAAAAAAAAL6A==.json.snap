@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3048,
+  "prerequisites": [
+    3045
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "To get started, react your zirconia with some hydrochloric acid.\n\nThe dust on its own is kinda useless, though... Make it into a solution instead.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lZirconium Line",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3045
+  ],
+  "rewards": [],
+  "tasks": []
+}

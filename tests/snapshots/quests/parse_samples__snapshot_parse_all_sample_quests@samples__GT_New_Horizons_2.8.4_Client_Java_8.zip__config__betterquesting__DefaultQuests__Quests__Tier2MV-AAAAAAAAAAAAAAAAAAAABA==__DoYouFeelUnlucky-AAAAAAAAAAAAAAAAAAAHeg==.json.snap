@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1914,
+  "prerequisites": [
+    1913
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Well not anymore! With some emeralds and a blank book, I'll give you a Fortune I book you can use in your printing press. Once you've duplicated it, you can combine the 2 Fortune I books in an anvil to get a Fortune II. Duplicate the Fortune II books to get a Fortune III!\n\nWith a Fortune III book and a tier-specific item you can remove the trash item rewards from your loot bags. More good stuff!\n\nSoulbound is another good enchantment, it will keep an enchanted item in your inventory in case of death.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lDo You Feel Unlucky?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1913
+  ],
+  "rewards": [],
+  "tasks": []
+}

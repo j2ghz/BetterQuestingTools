@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 9434560154737015427,
+  "prerequisites": [
+    8295996942782210409
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "This is the last capacitor so we can't get much higher unfortunately.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lAt last, the final capacitor!",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    8295996942782210409
+  ],
+  "rewards": [],
+  "tasks": []
+}

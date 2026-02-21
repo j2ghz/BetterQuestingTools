@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2948,
+  "prerequisites": [
+    2622
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The multi block version of the naquadah reactor, but it is completely different from the single block ones.\n\nIt uses liquid naquadah or excited nuclear liquid as fuel, and outputs the depleted fuel. You can see the liquid fuel information in NEI.\n\nIt consumes 2400 L/s liquid air when running, otherwise it will keep consuming your fuel without outputting power.\n\n[warn]It will explode with more than one types of fuel in its hatches.[/warn]\n\nYou can input in coolant to increase efficiency.\nIC2 Coolant: 1.05x\nSuper Coolant: 1.5x\nCryotheum: 2.75x\nTachyon Rich Temporal Fluid: 5.00x\n\nYou can also input boosters to increase power.\nMolten Caesium: 2x\nMolten Uranium-235: 3x\nMolten Naquadah: 4x\nMolten Atomic Separation Catalyst: 16x\nSpatially Enlarged Fluid: 64x\nNote: It will consume more fuel to match the output power, unlike coolant which directly increases the power. The boosters work like 'parallels' for your reactor.\n\nIt also supports §9Tec§1Tech§r's Multi-Amp Dynamo hatches and laser hatches.\n\n[note]PS: This generator can produce up to 664 billion EU/t with the best coolant, boosters and fuel available.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Large Naquadah Reactor",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2622
+  ],
+  "rewards": [],
+  "tasks": []
+}

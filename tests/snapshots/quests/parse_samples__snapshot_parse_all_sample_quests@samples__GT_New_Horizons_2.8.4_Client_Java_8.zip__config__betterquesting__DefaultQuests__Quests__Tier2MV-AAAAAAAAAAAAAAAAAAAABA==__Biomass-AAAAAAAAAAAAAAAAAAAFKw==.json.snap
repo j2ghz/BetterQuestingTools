@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1323,
+  "optional_prerequisites": [
+    734,
+    3070,
+    735
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Chose the IC2 or the gregtech way to make biomass. Water and Bio Chaff is needed.\n\nYou can also use the pyrolyze oven to make biomass in a more efficient way if you make it.\n\nNote that forestry has its own biomass as well. It can also be made into fermented biomass like this kind. Choose which kind you want to make later on yourself.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lBiomass",
+    "party_single_reward": false,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

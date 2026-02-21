@@ -1,0 +1,49 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1747,
+  "prerequisites": [
+    1760,
+    1762,
+    1750,
+    1751,
+    1753,
+    1754,
+    1755,
+    1756
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Place the power converter you got earlier near a cable (you could also power it with RF if you wanted) and connect it with your wire cutters. Now place your computer case by the converter and by the magic of technology it shall fuel the computer case! Now take your hard drive, memory and graphics cards and place them inside, place the disk drive next to the computer and insert the operating system disk. Insert the BIOS we made into the case and turn it on.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Your First Computer",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1760,
+    1762,
+    1750,
+    1751,
+    1753,
+    1754,
+    1755,
+    1756
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1132,
+  "prerequisites": [
+    479
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Your sword is too dull? Get some nether quartz to sharpen it.\n\nIf you have lots of Certus quartz, 1 piece of Certus is equal to 24 Nether quartz.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§3§lNether Quartz? Sharpness!",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    479
+  ],
+  "rewards": [],
+  "tasks": []
+}

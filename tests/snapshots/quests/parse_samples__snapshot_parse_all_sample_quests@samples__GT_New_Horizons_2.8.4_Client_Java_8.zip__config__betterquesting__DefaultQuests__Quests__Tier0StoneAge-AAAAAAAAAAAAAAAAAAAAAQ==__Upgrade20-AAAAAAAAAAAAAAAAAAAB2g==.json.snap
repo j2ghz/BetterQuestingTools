@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 474,
+  "prerequisites": [
+    472,
+    28
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Find iron, copper and tin ore. Very funny... How can you mine these with just a flint pickaxe?\n\nI have an idea; bring me some of the stone you mined with your flint pickaxe and I will give you a better tool head in exchange.\n\nRemember to level it up again either with monster heads or by mining.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§2§lUpgrade 2.0",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    472,
+    28
+  ],
+  "rewards": [],
+  "tasks": []
+}

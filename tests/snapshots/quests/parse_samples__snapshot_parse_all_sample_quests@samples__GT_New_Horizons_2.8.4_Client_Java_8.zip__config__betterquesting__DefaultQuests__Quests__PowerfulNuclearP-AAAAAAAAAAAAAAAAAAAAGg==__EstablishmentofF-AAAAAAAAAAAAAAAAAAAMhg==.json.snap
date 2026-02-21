@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3206,
+  "optional_prerequisites": [
+    3164,
+    3165
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Fusion is the lategame. It is not the entire lategame, but several tiers are effectively relying on it, even if new ways of generating power are being discovered (developed) over time. Whether you got here through focusing on power or products, you have surely felt the importance of that donut on your base, have you not? Let's just hope your power storage doesn't run out when you start relying on Mega Blast Furnace processing.\n\nIf you've looked at NEI enough, you might have discovered Force Plasma, or some of its crafting steps. This plasma is the end of the first of three fusion chains dedicated to power generation, although some of these special plasmas transform into useful materials in Plasma Turbines or Extreme Heat Exchangers, like Celestial Tungsten later on. There are three of these chains, and the build on top of one another: one for MK1 Reactors, another for MK2 and the last for MK3.\n\nYou can build these chains any time you like, and they offer more EU/t per Fusion Reactor than the Helium Plasma alternative, but it's unlikely you'll need them this early. They only become really useful later on, at the MK3 stage with bigger reactors and turbines. Despite the fact the three plasmas can be used for power, only the final one, Celestial Tungsten, is powerful enough to be worthwhile for your central power generation.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Establishment of Fusion",
+    "party_single_reward": null,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

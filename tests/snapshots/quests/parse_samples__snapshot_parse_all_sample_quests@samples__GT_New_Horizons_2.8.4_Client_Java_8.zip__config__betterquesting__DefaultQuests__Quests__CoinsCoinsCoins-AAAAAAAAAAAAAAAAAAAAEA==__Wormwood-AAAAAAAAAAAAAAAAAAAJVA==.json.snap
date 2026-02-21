@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2388,
+  "prerequisites": [
+    2387
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Due to a mod conflict, you can't make Wormwood the normal way. So you can buy some with coins.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Wormwood",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": 24000,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2387
+  ],
+  "rewards": [],
+  "tasks": []
+}

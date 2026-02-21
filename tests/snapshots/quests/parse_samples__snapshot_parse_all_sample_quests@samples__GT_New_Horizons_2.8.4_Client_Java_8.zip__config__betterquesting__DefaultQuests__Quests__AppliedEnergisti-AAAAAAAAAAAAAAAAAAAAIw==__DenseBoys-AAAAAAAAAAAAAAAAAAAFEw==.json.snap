@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1299,
+  "prerequisites": [
+    1291
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Giving your network even more stability. Dense energy cells store AE energy up to 16 million units. They do not accept power directly but are used to buffer power in an already existing ME Network.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Dense Boys",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1291
+  ],
+  "rewards": [],
+  "tasks": []
+}

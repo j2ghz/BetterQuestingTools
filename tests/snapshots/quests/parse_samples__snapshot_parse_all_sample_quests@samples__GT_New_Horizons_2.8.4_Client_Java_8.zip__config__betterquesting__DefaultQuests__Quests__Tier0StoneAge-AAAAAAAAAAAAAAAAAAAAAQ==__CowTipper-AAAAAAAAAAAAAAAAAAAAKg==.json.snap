@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 42,
+  "prerequisites": [
+    33
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Before you had to kill some pigs and sheep to complete quests. Now it's time to kill some cows and hopefully get some leather. If you are lucky and get a cow trophy you may never need to kill another cow in the future.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§2§lCow Tipper",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    33
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1758,
+  "prerequisites": [
+    1745
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The ROM disks are necessary to get your computer to start, they're also what you use to run a drone off from.\n\nYour BIOS go onto these little disks, get a blank one and write the basic BIOS onto it.\n\nYou can do this later when you make more computers by flashing your existing BIOS onto new cards or combining a blank with the manual.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "BIOS",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1745
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 13039129001980477985,
+  "prerequisites": [
+    2625
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Now that you've reached ZPM, you're going to have to resort to means other than mere laser engraving for your photolithography needs.\n\nOf course, we're going overkill right away, requiring a full-on particle accelerator setup to produce the ultra-coherent ultra-high-energy light used to etch more advanced ICs.\n\nTo begin with, you'll need a Source Chamber to produce electrons (at pitifully low energies, of course). Check out NEI for the available recipes, you'll want the one with the hand-drawn icon.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "No More (IC) Engraving",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2625
+  ],
+  "rewards": [],
+  "tasks": []
+}

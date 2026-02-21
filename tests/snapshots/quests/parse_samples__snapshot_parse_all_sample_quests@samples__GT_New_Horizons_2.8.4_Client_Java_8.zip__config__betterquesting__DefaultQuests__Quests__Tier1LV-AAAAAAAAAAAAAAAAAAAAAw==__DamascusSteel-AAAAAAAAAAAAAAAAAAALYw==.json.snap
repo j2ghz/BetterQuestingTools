@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2915,
+  "prerequisites": [
+    539,
+    77
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Damascus Steel is one of the hardest materials you can get, at your current tier. It's time to craft a stack of Damascus Steel.\n\nYou can't get it through the Mixer yet, but there is a crafting recipe.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lDamascus Steel",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    539,
+    77
+  ],
+  "rewards": [],
+  "tasks": []
+}

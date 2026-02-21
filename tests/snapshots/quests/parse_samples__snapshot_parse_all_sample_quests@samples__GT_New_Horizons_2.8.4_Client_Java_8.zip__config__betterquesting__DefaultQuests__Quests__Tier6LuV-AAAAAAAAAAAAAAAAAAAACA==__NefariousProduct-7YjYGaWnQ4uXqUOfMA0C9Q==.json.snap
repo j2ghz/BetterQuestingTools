@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 11936583602454463221,
+  "prerequisites": [
+    17153723027118781889
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Now that you're producing Nether Semifluid§r, you can run it through a §5§lDistillation Tower§r to start extracting the nefarious products. You will need the §4Heavy Hellish Mud§r later in the line, and you'll need the §4Nefarious Gas§r for the next step.\n\n[note]Don't neglect the byproducts! There are a lot of useful bonus resources to be collected.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§c§lNefarious Production",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    17153723027118781889
+  ],
+  "rewards": [],
+  "tasks": []
+}

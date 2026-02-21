@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 4,
+  "prerequisites": [
+    1204
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Now that you've made it this far, you might notice how the two new quests look different.\n\nThe quest with the jagged edges is a main quest - it is linked to other main quests by a thick line. You must complete main quests to unlock the next tier and to progress in general. If you can't progress, go back to previous tiers and look for uncompleted main quests.\n\nThe other quest is an optional quest, and is not needed to unlock new tiers. However, optional quests often introduce you to useful items or processes.\n\nWhat are the coins for? You can use them to purchase things in the \"Coins, Coins, Coins\" questbook tab - you have to scroll to the bottom once it unlocks!\n\nIn case you started in a bad biome, here's enough coins to purchase some saplings.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lMain Quests and Secondary Quests",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1204
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3185,
+  "prerequisites": [
+    3182
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Thorium, Uranium and Plutonium. There you go, quest done, onwards. I do find it kind of funny how it always goes back to these. Why is it that when there are problems, it's always you three?\n\nMaking the pebbles for any of these elements is a multi-step process. To get them, you need to throw in huge amount of the main radioactive fuel alongside some materials used to make the outer shell, namely Carbon, Silicon, and Graphite Dust.\n\nFor a full reactor, you will need thousands of stacks of each of these, much more than quest tasks could ask for. Anyways, the depleted pebbles can be centrifuged to recover most of the materials used to reach the final pebbles (Silicon, Graphite, Carbon), alongside a smaller chance at getting the main nuclear material for each kind of pebble. On top of that, you will get the breeding outputs: Lutetium from Thorium, Krypton from Uranium, Xenon from Plutonium.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Pebble Reactor Fuels and Outputs",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3182
+  ],
+  "rewards": [],
+  "tasks": []
+}

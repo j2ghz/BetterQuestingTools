@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1270,
+  "prerequisites": [
+    724,
+    1081
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "This item is a combined Weeding Trowel, Hoe and Shovel. If you're the type that accidentally does things, only use this when necessary, as it's easy to mess up and use it to harvest/destroy your crops when you wanted to get rid of a weed.\n\nYou can use it to get seeds from crops when they're §9immature§r using §6right-click§r at very low rates. Using [warn]left-click[/warn] when §9immature§r will result in nothing.\n\nIf it's §amature§r, use §6left-click§r to have a higher chance of a seed dropping. Using [warn]right-click[/warn] when §amature§r will result in lower seed drops than punching it normally.\n\nKeep in mind that the higher the tier/stats of the crop, the lower the chances. By a lot.\n\n[note]The formula is 1+tanh((-1)(X+5((-Re/2)+Gr+Ga)/21)/12); X=0 to 16, where Re, Gr, Ga are respectively Resistance, Growth and Gain stat of the crop, and X is tier. Don't ask me whether this is for L/R-click, ask bart or look at the code.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Time for a Spade",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    724,
+    1081
+  ],
+  "rewards": [],
+  "tasks": []
+}

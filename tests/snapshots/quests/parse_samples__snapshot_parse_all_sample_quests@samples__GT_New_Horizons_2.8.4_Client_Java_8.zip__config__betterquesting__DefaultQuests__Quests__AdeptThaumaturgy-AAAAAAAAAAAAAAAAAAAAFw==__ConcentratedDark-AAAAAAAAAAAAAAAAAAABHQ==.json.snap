@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 285,
+  "prerequisites": [
+    252
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "For some reason, you decided to infuse darkness into a seed. It appeared to be promising. For what? You don't know...\n\n§3For the Eldritch research you need to be > 30 for the first, and > 50 for the second. Temporary warp won't work, however.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Concentrated Darkness",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    252
+  ],
+  "rewards": [],
+  "tasks": []
+}

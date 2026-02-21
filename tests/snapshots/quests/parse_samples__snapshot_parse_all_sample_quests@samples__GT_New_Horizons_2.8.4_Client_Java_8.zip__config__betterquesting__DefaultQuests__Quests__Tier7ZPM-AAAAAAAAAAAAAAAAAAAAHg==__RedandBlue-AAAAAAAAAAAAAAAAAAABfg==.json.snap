@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 382,
+  "prerequisites": [
+    454
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Really? A red and blue crystal? How awesome is that! I think I will need 8 of each color, just to be sure.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Red and Blue",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "SECRET"
+  },
+  "required_prerequisites": [
+    454
+  ],
+  "rewards": [],
+  "tasks": []
+}

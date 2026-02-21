@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1396,
+  "prerequisites": [
+    1378,
+    284
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Wand Focus: Dark Matter allows its wielder to shoot the same projectiles as Eldritch Guardians. There is a chance for the caster to gain sticky warp for each projectile cast.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Potency§r: Increases damage dealt every level\n§5Corrosive§r (level 3): The orbs now inflict the Wither effect upon their targets\n§5Sanity§r (level 5): The caster will not gain warp from using this focus",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "A Taste of Their Own Medicine",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1378,
+    284
+  ],
+  "rewards": [],
+  "tasks": []
+}

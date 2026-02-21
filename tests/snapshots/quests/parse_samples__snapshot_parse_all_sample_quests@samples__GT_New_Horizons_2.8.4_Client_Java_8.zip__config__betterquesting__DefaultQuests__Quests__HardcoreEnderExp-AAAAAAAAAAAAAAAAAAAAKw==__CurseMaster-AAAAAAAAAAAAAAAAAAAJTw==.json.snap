@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2383,
+  "prerequisites": [
+    2376
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Curse of Teleportation\nTeleport Entities around randomly.\n\nCurse of Confusion\nConfuses mobs. Creepers just explode and have no fuse time or mobs fight each other.\n\nCurse of Tranquillity\nPrevent mobs from attacking you. Doesn't work on Boss mobs.\n\nCurse of Slowness\nInflicts slow on mobs.\n\nCurse of Weakness\nInflicts weakness on mobs.\n\nCurse of Blindness\nInflicts blindness on mobs.\n\nCurse of Death\nDoes 1.5 magical damage to mobs. Mobs bleed for a while and lose health.\n\nCurse of Decay\nItems and armor get damaged over time.\n\nCurse of Vampire\nMobs become sensitive to sunlight and take more damage.\n\nCurse of Rebound\nAdds reflection damage to a mob.\n\nCurse of Loss\nItems will be removed out of your inventory and get destroyed or fall on the ground.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Curse Master",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2376
+  ],
+  "rewards": [],
+  "tasks": []
+}

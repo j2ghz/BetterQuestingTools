@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3094,
+  "prerequisites": [
+    3093
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "If you've automated Carbon Monoxide, you can now burn it directly for EU in a Gas Turbine. It does not use the Steam Turbines that the boilers required, which is a good thing for two reasons: Steam Turbines are less fuel efficient than their Gas or Combustion alternatives, and steam in itself needs large pipes to move it, being much less power dense than gases or diesels. Additionally, you don't even need boilers at all! You can skip them altogether if you invest in this CO route.\n\nYou also get Ashes from this chemical reaction. They can be used in several ways, take a look!",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Burning the Carbon",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3093
+  ],
+  "rewards": [],
+  "tasks": []
+}

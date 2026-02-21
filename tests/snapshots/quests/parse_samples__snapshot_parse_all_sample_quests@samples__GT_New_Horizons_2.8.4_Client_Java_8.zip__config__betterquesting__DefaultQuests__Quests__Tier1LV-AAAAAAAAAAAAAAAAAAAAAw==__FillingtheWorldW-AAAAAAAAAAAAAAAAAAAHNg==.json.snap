@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1846,
+  "prerequisites": [
+    93
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Need to make a lake? Look no further than the Flood Gate. It will fill the world with any fluid you provide it, up to the level below the gate. This can get kinda laggy in a large area, so keep that in mind.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lFilling the World With Fluids...",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    93
+  ],
+  "rewards": [],
+  "tasks": []
+}

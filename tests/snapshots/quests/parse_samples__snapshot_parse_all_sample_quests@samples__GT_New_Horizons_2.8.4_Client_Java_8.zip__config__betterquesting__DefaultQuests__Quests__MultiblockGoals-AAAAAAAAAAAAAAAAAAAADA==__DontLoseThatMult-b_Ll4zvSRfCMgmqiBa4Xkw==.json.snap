@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 4310584690536748947,
+  "prerequisites": [
+    1545
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "It's easy to lose Ore Drilling Plants. You're a busy engineer, you know? You can't be bothered to remember trifling things like \"where, in what galactic backwater did I last place my miner.\" You could do something boring like \"write down the location of the miner\" or \"put up a sign with the miner's location in my ore processing area,\" but there's a better way.\n\nEnter the Metrics Transmitter Cover. This cover, when attached to a multiblock miner (or any GregTech machine), spawns in a GregTech Advanced Sensor Card paired to the host machine. This card, when inserted into a NuclearCraft Industrial Information Panel, will receive runtime information transmitted by the host machine, including its current location. Additionally, it returns the same information that its lower-tech sibling, the GregTech Sensor Kit, provides. Unlike the GregTech Sensor Kit, the Metrics Transmitter Cover §nworks interdimensionally and at any range without the need of range upgrades.§r In addition, since covers remain on machines when they are dismantled, the paired sensor card §nwill continue to work even if the host machine is relocated, and never needs to be recalibrated.§r This makes it perfect for the Ore Drilling Plant and Oil/Gas/Fluid Drilling Rig, which are deployed in the field and often have to be relocated.\n\nHowever, like always, there's a catch. If the Metrics Transmitter Cover is detached from its host machine, §nthe paired sensor card will be destroyed.§r Maybe you shouldn't be using a crowbar around sensitive electronics...",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Don't Lose That Multiblock Miner!",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1545
+  ],
+  "rewards": [],
+  "tasks": []
+}

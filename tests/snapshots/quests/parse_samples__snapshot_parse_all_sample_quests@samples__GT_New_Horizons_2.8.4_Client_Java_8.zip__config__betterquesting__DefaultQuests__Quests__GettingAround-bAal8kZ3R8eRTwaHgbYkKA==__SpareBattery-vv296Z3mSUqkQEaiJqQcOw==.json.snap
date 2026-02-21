@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 11377862091422833723,
+  "prerequisites": [
+    651
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Electric Jetpack may be useful for flight, but it doesn't seem to last very long. \n\nIf only there was an integrated upgradable battery pack you could keep on your player to extend it's range...\n\nOh wait, there is!\n\nThe §5§lCharge Pack§r can be used as a battery pack for charging items both in your hotbar and armor equip to your person. Simply place it in the belt bauble slot and it should be fully functional! The HV one should serve you nicely for now.\n\n[note]You can upgrade the Charge Pack as you unlock items that require higher voltages for charging. The Charge Pack will charge anything of-tier or lower- but not higher.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Spare Battery",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    651
+  ],
+  "rewards": [],
+  "tasks": []
+}

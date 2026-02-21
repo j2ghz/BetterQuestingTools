@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3225,
+  "prerequisites": [
+    3221
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Some flowers are everywhere, and some are limited to specific biomes. If you don't want to walk long distances from home, you can call in some help.\n\nBees with the flower trait will slowly generate new flowers in its working area, including plenty that have been brought in from distant pastures.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Pollination Buddies",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3221
+  ],
+  "rewards": [],
+  "tasks": []
+}

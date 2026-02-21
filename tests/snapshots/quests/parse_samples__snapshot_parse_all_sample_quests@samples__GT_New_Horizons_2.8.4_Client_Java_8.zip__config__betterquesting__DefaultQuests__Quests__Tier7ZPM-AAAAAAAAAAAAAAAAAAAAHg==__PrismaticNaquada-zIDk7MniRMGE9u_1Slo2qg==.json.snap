@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 14547265343326926506,
+  "prerequisites": [
+    14121120312954959666,
+    2919
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Woah, a new metal?\n\nBy combining the forces of your newly created §2Enriched Naquqdah§r and §2Prismatic Acid§r in the §5§lAlloy Blast Smelter§r, you find that a new metal forms; §3Prismatic Naquadah§r. \n\n[warn]This extremely strong, yet shockingly pliant material will be used in quite a few different structures and materials going forth.[/warn]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Prismatic Naquadah",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    14121120312954959666,
+    2919
+  ],
+  "rewards": [],
+  "tasks": []
+}

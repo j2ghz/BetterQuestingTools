@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 694,
+  "prerequisites": [
+    54
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "With your brand-new Compressor you are able to make some metal blocks for your new anvil. You're required to craft at least one for the Forge Hammer.\n\n§3With the anvil you can repair, rename and enchant armor and tools.§r",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§3§lOne Anvil...",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    54
+  ],
+  "rewards": [],
+  "tasks": []
+}

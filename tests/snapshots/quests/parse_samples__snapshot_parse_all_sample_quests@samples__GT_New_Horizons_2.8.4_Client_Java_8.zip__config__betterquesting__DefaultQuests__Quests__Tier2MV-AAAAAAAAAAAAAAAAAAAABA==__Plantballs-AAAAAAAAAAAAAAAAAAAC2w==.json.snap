@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 731,
+  "prerequisites": [
+    730
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Next you should compress plantballs out of your wheat.\n\nThe MV compressor is twice as fast as the LV. You might think this means using it is a good idea. Well, it depends. Remember it also uses 4x the power. This means you spend 2x the EU in total to get the same amount of EU out. If you overclock too much in your fuel production setup, you end up with an EU deficit! Overclocking once is usually well worth it though.\n\nEventually you want to use multiblocks for better speeds and efficiency!",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lPlantballs",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    730
+  ],
+  "rewards": [],
+  "tasks": []
+}

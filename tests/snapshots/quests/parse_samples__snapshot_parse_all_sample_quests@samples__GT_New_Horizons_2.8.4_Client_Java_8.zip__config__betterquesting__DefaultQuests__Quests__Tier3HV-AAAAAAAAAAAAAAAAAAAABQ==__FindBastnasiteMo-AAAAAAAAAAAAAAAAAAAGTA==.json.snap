@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1612,
+  "prerequisites": [
+    162
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "EV motors need Neodymium. Rare Earth is an §oOK§r source, but on the Moon you can find a vein with pure Neodymium ore. Bastnasite is a great source of fluorine. And Monazite can be taken apart for more Rare Earth.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lFind Bastnasite, Monazite and Neodymium",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    162
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 538,
+  "prerequisites": [
+    93
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Macerating ores usually doubles the output. If you want MOOOOOOORE, craft an ore washer and wash out some rare materials.\n\nNote that these both use water, and are painfully slow.\n\nPut crushed ore in them.\n\n[note]You can also consider using the steam multiblock instead if you want.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lBasic Ore Washer",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    93
+  ],
+  "rewards": [],
+  "tasks": []
+}

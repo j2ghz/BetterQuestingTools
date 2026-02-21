@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 670,
+  "prerequisites": [
+    672,
+    673
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Unlike all other boats, this amazing carbon fiber canoe is COMPLETELY INDESTRUCTIBLE!* This means that you can smash it into as many beaches, lily pads and alligators as you like, the carbon fiber canoe won't take a scratch!\n\nWarning: We are not held responsible for any damage caused by riding the carbon fiber canoe into a lava lake or the Void.\n\n*Therefore, warranty is NOT included.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Carbon Fiber Boat",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    672,
+    673
+  ],
+  "rewards": [],
+  "tasks": []
+}

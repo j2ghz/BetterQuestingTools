@@ -1,15 +1,11 @@
-use serde_json::Value;
-use std::io::Read;
+use better_questing_tools::parser::parse_quest_from_reader;
+use insta::assert_json_snapshot;
 use std::path::PathBuf;
 use std::{fs, io::Cursor};
-
-use better_questing_tools::parser::parse_quest_from_reader;
 use zip::ZipArchive;
 
 #[test]
-fn parse_all_sample_quests_snapshot() {
-    let mut snapshots: Vec<Value> = Vec::new();
-
+fn snapshot_parse_all_sample_quests() {
     // Use every .zip file found in the samples/ directory (read and process entirely in-memory).
     let samples_dir = PathBuf::from("samples");
     let entries = fs::read_dir(&samples_dir).expect("failed to read samples directory");
@@ -27,7 +23,7 @@ fn parse_all_sample_quests_snapshot() {
 
         // Iterate entries in the zip and pick JSON files under the expected path inside the archive.
         for i in 0..archive.len() {
-            let mut file = archive.by_index(i).expect("failed to access zip entry");
+            let file = archive.by_index(i).expect("failed to access zip entry");
             let name = file.name().to_string();
 
             // Only consider JSON quest files in the DefaultQuests/Quests path.
@@ -38,20 +34,15 @@ fn parse_all_sample_quests_snapshot() {
                 continue;
             }
 
-            // Read the file contents into memory and parse using the existing reader-based API.
-            let mut buf: Vec<u8> = Vec::new();
-            file.read_to_end(&mut buf)
-                .expect("failed to read zip entry");
-            let cursor = Cursor::new(buf);
-            let quest = parse_quest_from_reader(cursor).expect("parse failed");
+            let quest = parse_quest_from_reader(file).expect("parse failed");
             // serialize the quest to json value for snapshotting
-            let v = serde_json::to_value(&quest).expect("serialize failed");
-            snapshots.push(v);
+            let quest = serde_json::to_value(&quest).expect("serialize failed");
+            insta::with_settings!({
+                snapshot_path => "snapshots/quests",
+                snapshot_suffix => format!("{}/{}",zip_path.display(), name)},
+            {
+                assert_json_snapshot!(quest);
+            });
         }
     }
-
-    // Use insta snapshot assertion for the collected quests
-    insta::with_settings!({omit_expression => true}, {
-        insta::assert_debug_snapshot!(snapshots);
-    });
 }

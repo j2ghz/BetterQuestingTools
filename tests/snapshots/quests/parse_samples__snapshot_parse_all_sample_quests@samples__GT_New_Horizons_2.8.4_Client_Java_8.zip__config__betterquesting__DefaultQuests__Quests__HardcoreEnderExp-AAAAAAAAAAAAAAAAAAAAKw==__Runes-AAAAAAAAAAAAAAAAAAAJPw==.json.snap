@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2367,
+  "prerequisites": [
+    2359
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "There are 6 types of Runes found in the Ravaged Dungeons on the Infested Islands.\n\nPower\nVigor\nMagic\nDefense\nAgility\nVoid\n\nThe Void rune is less common than other types.\n\nRunes are used to create Charms, and are crafted in a Charm Pouch.\n\nBasic Runes increase attributes, such as strength, speed or health. Void Rune (gray) gives the Louse one of special and extremely dangerous abilities.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Runes",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2359
+  ],
+  "rewards": [],
+  "tasks": []
+}

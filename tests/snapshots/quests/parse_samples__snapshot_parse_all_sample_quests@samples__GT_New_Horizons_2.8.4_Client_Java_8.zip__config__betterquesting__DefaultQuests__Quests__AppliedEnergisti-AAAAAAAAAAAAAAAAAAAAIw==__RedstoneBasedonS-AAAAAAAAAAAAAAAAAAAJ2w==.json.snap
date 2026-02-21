@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2523,
+  "prerequisites": [
+    184
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "This device will turn on (or off) a redstone signal based on how much of an item you specify (or energy in the network if you select the mode) you have in your network. Left-click an item into the space between the 1000 numbers to add, click again while holding nothing to remove.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Redstone Based on Storage Level",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    184
+  ],
+  "rewards": [],
+  "tasks": []
+}

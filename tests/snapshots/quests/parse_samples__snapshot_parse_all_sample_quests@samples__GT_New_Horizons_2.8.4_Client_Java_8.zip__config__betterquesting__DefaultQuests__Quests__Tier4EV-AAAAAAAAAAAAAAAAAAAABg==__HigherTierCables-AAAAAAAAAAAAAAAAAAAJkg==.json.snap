@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2450,
+  "prerequisites": [
+    2449
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Now you can use Polyphenylene Sulfide Foils and Silicone or Styrene-Butadiene Rubber to coat higher tier cables.\nYou'll need both Tungsten and Platinum in IV-tier.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§a§lHigher Tier Cables",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2449
+  ],
+  "rewards": [],
+  "tasks": []
+}

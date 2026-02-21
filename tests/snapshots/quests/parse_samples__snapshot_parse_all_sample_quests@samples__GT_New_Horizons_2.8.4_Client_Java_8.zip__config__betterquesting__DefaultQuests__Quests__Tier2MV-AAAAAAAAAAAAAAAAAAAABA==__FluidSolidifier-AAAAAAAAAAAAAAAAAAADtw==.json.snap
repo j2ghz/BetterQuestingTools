@@ -1,0 +1,33 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 951,
+  "optional_prerequisites": [
+    893
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Use molds to make plates, sticks, bolts and many more item parts in the fluid solidifier.\n\nMolds are != to Extruder shapes. You're gonna need 2 sets. If they're too expensive, just make the most important ones for now.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lFluid Solidifier",
+    "party_single_reward": false,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

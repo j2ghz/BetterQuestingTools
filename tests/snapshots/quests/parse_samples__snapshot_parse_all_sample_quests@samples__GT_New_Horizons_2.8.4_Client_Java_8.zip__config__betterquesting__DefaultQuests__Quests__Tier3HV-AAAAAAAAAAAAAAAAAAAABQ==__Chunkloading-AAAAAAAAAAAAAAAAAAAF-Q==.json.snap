@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1529,
+  "prerequisites": [
+    770
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "With your HV assembler you can craft a world anchor. So let's make one. It will again load a 3x3 chunk area.\n\nYou need coins to power the world anchor, it will run a varying amount depending on the coin used.\n\n§aPersonal Anchors§r are loaded once the owner visits, and stay loaded while the player is logged in.\n\n§9Passive Anchors§r are loaded once the owner visits, and stay loaded until the server resets.\n\n[warn]World Anchors[/warn] are always loaded, even after a server reset.\n\n[note]Check with server operators in case world anchors are disabled. On the official servers, world anchors are currently disabled to keep TPS high.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lChunkloading",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    770
+  ],
+  "rewards": [],
+  "tasks": []
+}

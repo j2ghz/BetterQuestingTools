@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3084,
+  "prerequisites": [
+    3081
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Getting tired of all the names yet? Hope so.\n\nNow to chlorinate and heat, in order to separate the whole dust further.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lThe Other Part",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3081
+  ],
+  "rewards": [],
+  "tasks": []
+}

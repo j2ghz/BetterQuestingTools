@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1578,
+  "prerequisites": [
+    1577
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Fanciful Thread is spun from Wispy Cotton using a Spinning Wheel. It is an ingredient used to make Dream Catchers.\n\nIt is made in a Spinning Wheel using Wispy Cotton, String and Odour of Purity.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Fanciful Thread",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1577
+  ],
+  "rewards": [],
+  "tasks": []
+}

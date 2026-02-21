@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2547,
+  "prerequisites": [
+    2512
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Arcane Assembler works like a combination of the Molecular Assembler and the Arcane Workbench, allowing you to autocraft anything crafted in the latter. You need to link a vis relay through the network to supply essentia to it, and a Knowledge Core with recipes on it for to work. Additionally, you can add vis discount gear into the interface to take advantage of the discount. The base discount starts at 20%. For each Acceleration card, the time taken will reduce by 20%, and increase power used by 50%. For every point of warp on the discount gear, the power costs increase by 15%.\n\nThe knowledge core holds up to 21 patterns for use in the Arcane Assembler, but you need a new assembler for every knowledge core if you want to autocraft more than that.\n\nTo encode the patterns, you need a Knowledge Inscriber. It works exactly as you would expect. It doesn't connect to the network, so it doesn't need a channel. If you want to erase a pattern select it and the save icon should become erase instead.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Autocrafting Magic Stuff",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2512
+  ],
+  "rewards": [],
+  "tasks": []
+}

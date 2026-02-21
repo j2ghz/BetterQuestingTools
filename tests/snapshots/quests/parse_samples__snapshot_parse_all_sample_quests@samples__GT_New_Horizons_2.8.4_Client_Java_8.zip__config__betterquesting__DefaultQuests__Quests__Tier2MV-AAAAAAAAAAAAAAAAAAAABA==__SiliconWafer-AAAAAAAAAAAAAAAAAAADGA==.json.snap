@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 792,
+  "prerequisites": [
+    782
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "To create some silicon wafers, put the monocrystalline silicon boule in a cutting machine. It would be best to make the MV version because you'll need it soon for ILCs, RAM, and other chips.\n\nYou can also use wafers to make diodes more efficiently if you have polyethylene as well.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lSilicon Wafer",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    782
+  ],
+  "rewards": [],
+  "tasks": []
+}

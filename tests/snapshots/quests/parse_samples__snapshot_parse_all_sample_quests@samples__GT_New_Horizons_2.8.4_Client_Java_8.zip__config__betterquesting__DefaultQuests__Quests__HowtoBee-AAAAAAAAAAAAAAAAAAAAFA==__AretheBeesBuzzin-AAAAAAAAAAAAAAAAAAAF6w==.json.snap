@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1515,
+  "prerequisites": [
+    1113
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "These frames cause mutations at an increased rate. They're super useful.\n\nAbout the stats on frames you see when holding shift, you'll note that some have a different number in brackets next to them, this means that this is the maximum they can be stacked. This only applies to the Extra Bees ones.\n\nThe stats on the frames are also multiplicative instead of additive, so after 4 frames in an alveary, soul frames will max out. On the other hand, accelerated frames will take 9 to get there, but you can just keep on going.\n\nIf you pile up the multipliers, 5x from stimulator, 3x from mutator, and 4x1.8x frames, it'll get you to 157x, getting you those 1% bees in a single generation!",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Are the Bees Buzzing, or Screaming?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1113
+  ],
+  "rewards": [],
+  "tasks": []
+}

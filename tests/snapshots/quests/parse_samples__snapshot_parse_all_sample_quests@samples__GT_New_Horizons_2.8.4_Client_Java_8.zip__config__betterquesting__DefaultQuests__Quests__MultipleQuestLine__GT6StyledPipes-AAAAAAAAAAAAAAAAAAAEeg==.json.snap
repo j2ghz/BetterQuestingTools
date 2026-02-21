@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1146,
+  "prerequisites": [
+    35
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Wondering why new pipes don't always auto-connect? This was changed to make the pipes smarter. You can now use a wrench to connect only the pipes you want. You don't need a plate or a foil to prevent pipes from connecting anymore. The pipes will still autoconnect if you build one onto the other.\n\nPipes transferring anything hotter than a certain amount, like steam, will cause damage to a player touching them. You might want to cover hot pipes to prevent getting hurt. Also, if the heat level is higher than the pipe's heat capacity, it will melt.\n\nPressing RMB on a pipe in the center of the 'grid' will enable or disable a connection. It will have an X through it if the connection is enabled. You can do the same to any of the 4 corners to adjust the opposite side. You can similarly connect each of the 4 sides by clicking on the closest box in the grid.\n\nPipes have a free built-in shutter to reduce sloshing. Shift-RMB with a wrench on the side you want to prevent input.\n\nPipes attempt to transfer half of their capacity twice per second, so the full capacity per second in total.\n\nLarge or Huge fluid pipes can be a poor man's storage tank, holding large amounts on their own.\n\nFor machine outputs, including the boilers and Railcraft water tanks - the one made of Water Tank Siding - you will not need pumps. Other tanks will need pumps or Tinker's Construct faucets to move fluids.\n\nYou can put covers such as GT oak planks or plates on a pipe as well. Normally this prevents connections in that direction, but you can use a screwdriver to enable connections. This lets you make pipes that look nice going through walls. Use a crowbar to remove covers.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§2§lGT6-Styled Pipes",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    35
+  ],
+  "rewards": [],
+  "tasks": []
+}

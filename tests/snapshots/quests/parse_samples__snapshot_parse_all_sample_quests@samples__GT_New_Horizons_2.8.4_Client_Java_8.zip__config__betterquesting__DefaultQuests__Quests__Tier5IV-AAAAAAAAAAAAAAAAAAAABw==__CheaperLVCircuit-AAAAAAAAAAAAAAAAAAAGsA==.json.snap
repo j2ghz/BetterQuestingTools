@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1712,
+  "prerequisites": [
+    1673,
+    1407
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "With the EV circuit assembler and SoCs you can now make microprocessors for a reduced price.\n\nRemember that these can't be made into MV circuits.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lCheaper LV Circuits",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1673,
+    1407
+  ],
+  "rewards": [],
+  "tasks": []
+}

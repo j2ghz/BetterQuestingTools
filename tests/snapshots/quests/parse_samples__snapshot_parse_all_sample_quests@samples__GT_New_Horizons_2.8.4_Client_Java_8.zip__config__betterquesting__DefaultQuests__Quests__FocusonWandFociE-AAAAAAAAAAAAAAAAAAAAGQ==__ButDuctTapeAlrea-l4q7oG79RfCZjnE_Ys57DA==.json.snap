@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 7997625412032035596,
+  "prerequisites": [
+    238
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Wand Focus: Maintenance will fix all problems of a multiblock machine when used on its Maintenance Hatch. It won't prevent future issues, but it sure beats recharging your Soldering Iron for the 6th time.\n\n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "But Duct Tape Already is Magical!",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    238
+  ],
+  "rewards": [],
+  "tasks": []
+}

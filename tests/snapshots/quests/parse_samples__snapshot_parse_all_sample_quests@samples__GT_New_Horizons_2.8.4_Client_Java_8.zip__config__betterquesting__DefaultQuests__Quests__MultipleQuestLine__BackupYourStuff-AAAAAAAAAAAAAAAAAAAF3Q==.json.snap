@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1501,
+  "prerequisites": [
+    0
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The mod ServerUtilities (SU) is included in the pack to backup your world. You can adjust save path, frequency, and the number of backups to keep in its settings at '.minecraft\\serverutilities\\serverutilities.cfg'.\n\nIf you need to restore from a backup, you can find them in the backups folder in the instance directory.\n\nRemember that the mods JourneyMap and Thaumcraft Node Tracker store information outside of what most solutions backup, so please backup your journeymap and tcnodetracker folders yourself.\n\nThe Thaumcraft data is a little buggy, losing scanned aspect data and Thaumonomicon data, so consider backing it up as well. The file is at 'saves\\<worldname>\\playerdata\\<nameofplayer>.thaum'.\n\nIf you move to another drive or computer, don't forget to migrate all the backed up files, not just the world folder.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lBackup Your Stuff...",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "UNLOCKED"
+  },
+  "required_prerequisites": [
+    0
+  ],
+  "rewards": [],
+  "tasks": []
+}

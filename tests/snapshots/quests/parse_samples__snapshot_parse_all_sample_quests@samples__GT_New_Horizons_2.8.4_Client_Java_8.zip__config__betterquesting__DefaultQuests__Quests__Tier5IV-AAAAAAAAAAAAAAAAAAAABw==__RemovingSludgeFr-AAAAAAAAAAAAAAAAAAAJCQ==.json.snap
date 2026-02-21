@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2313,
+  "prerequisites": [
+    2312
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Separating Iridium from the Sludge is quite easy. Just heat it in the Blast Furnace and you're done with this step. The Sludge can be centrifuged into Gold and SiO2.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lRemoving Sludge From the Iridium",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "CHAIN"
+  },
+  "required_prerequisites": [
+    2312
+  ],
+  "rewards": [],
+  "tasks": []
+}

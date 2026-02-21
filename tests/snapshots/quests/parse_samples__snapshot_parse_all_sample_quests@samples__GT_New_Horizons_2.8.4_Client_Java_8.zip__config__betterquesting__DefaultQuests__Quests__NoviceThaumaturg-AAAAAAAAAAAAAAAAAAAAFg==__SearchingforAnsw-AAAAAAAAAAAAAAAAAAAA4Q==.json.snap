@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 225,
+  "prerequisites": [
+    88,
+    14
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Last night you had a dream. A dimension, so strange and different, almost... magical? Like the saplings you found. You decided to go there and look for answers.\n\nFirst, place water in a 2x2 grid, with 12 flowers surrounding it. Then toss in a portal crystal to open it up. And no, a diamond is not enough.\n\n§3You should be able to use any vanilla flower.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Searching for Answers",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    88,
+    14
+  ],
+  "rewards": [],
+  "tasks": []
+}

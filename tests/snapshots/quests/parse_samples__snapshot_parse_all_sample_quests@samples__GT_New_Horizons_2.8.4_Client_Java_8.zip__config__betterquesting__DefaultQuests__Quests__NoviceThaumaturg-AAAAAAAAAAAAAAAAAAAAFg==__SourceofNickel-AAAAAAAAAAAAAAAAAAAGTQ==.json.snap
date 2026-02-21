@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1613,
+  "prerequisites": [
+    225
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Your Electric Blast Furnace needs Nickel. Now that you've reached the Twilight Forest, it's time to get some. The Nickel Vein that contains it is located at Y 10-40. In MV, you'll need tons of Nickel for Cupronickel, so stock up.\n\nYou can get some Cobalt out of Cobaltite through the side processes such as washing or thermal centrifuging. To electrolyze it, you'll need an MV electrolyzer though. Or you can EBF it after your EBF is done. Remember that the Sulfur Dioxide you get is based on your muffler tier. This is probably easier than searching in the Nether for Cobalt.\n\n§3You can also find small quantities of Pentlandite ore in the Overworld if you care.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lSource of Nickel",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    225
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1863,
+  "prerequisites": [
+    97
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Already have barrels full of cobblestone? The voiding drop filter can be set up to automatically void any item on pickup. Cobble, dirt, arrows, saplings, etc. It's handy for when you don't have much room for junk.\n\nTo use, right-click the item filter you get as a reward. Put the things you want voided in the item filter list by clicking in there with them. Esc, then right-click the voiding drop filter, and put the item filter inside.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lThrowing Out the Trash",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    97
+  ],
+  "rewards": [],
+  "tasks": []
+}

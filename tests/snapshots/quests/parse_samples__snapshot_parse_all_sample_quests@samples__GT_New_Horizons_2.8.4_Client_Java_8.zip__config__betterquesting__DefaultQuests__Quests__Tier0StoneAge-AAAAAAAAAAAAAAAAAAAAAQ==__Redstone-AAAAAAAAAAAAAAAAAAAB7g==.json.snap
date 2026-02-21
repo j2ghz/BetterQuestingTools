@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 494,
+  "prerequisites": [
+    474
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "If you didn't find any Redstone veins yet, it is quite important to look for one now. Try your luck at Y 5-40.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§2§lRedstone",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    474
+  ],
+  "rewards": [],
+  "tasks": []
+}

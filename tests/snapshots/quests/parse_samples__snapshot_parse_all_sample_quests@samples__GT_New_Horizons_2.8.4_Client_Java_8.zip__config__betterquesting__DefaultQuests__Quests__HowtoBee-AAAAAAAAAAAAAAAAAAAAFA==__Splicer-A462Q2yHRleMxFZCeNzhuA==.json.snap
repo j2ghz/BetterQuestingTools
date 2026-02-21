@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 7820296619455996344,
+  "prerequisites": [
+    2097
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Splicer is much like the Inoculator in function, however it has the benefit of not requiring any liquid. \n\nThe Splicer will take a Genome Template from the Sequencer and will 'Splice' in the DNA, allowing you to change a bee's genetics.\n\nThe primary drawback of using this compared to the Inoculator is the increased expense of the block, and the significant power cost in comparison.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Splicer",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2097
+  ],
+  "rewards": [],
+  "tasks": []
+}

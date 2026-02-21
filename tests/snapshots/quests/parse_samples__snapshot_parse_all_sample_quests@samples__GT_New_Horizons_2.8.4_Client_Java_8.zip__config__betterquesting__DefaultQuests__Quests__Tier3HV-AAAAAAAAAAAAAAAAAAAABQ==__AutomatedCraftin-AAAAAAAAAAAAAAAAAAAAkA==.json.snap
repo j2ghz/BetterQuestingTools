@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 144,
+  "prerequisites": [
+    146
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You know, yet another automated crafting solution...\n\nThe left grid sets the recipe. The center box on the left will show the output. The right item grid is where you place resources. The output products will show up on the right center box.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lAutomated Crafting",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    146
+  ],
+  "rewards": [],
+  "tasks": []
+}

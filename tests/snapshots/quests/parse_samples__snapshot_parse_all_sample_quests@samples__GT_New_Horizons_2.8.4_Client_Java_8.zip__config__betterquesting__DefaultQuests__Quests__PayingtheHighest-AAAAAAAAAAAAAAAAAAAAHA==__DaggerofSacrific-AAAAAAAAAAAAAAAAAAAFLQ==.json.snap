@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1325,
+  "prerequisites": [
+    409
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Time to get more blood. Mobs are a good source for more blood. Transform your knife of sacrifice in your tier 2 altar into a dagger of sacrifice.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Dagger of Sacrifice",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    409
+  ],
+  "rewards": [],
+  "tasks": []
+}

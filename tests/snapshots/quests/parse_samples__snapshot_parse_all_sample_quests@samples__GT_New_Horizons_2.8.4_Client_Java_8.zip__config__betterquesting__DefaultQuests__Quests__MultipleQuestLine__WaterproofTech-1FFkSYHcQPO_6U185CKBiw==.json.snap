@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 9357425542017745291,
+  "prerequisites": [
+    14154610705959639253,
+    3278419603209996424,
+    17577632996684520452
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "With the ability to bend spacetime at your will, you can prevent fluids and electronics from interacting.\n\nFluid containing patterns can be processed.\n\n[note]Otherwise it works like crafting input bus.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Waterproof Tech",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    14154610705959639253,
+    3278419603209996424,
+    17577632996684520452
+  ],
+  "rewards": [],
+  "tasks": []
+}

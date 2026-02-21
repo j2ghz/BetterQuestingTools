@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 825,
+  "prerequisites": [
+    474
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Can be found between Y 5-60 either as \"Copper Ore\" or \"Chalcopyrite\". Most of the time you'll find it together with \"Iron\" and \"Pyrite\".\n\nTo see where an ore can be found, click the raw ore in NEI, and it will show you more details. Works with small ores too.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§2§lCopper Ore",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    474
+  ],
+  "rewards": [],
+  "tasks": []
+}

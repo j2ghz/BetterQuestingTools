@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2829,
+  "prerequisites": [
+    1905,
+    190
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Fluid Nukes, Vac Nukes and Wrench Reactors (lol), are more advanced versions of the normal one.\n\nFluid means you build it differently (with the parts on the right, it's a 5x5 cube surrounding the normal one), with the goal of producing as much hot coolant (cycle in non-hot) as possible, to use that to produce power. It doesn't produce power on its own, but more overall. Send it to the LHE to get SH steam out of it, then go through an HP steam turbine, then a normal steam turbine.\n\nVac nukes remove heat by sending it to coolant cells instead of coolant. Any cell in a cardinal direction will receive the heat instead of the reactor. Use a vacuum freezer to restore the Helium/NaK cells' durability.\n\nWrench reactors are when you fill the reactor with fuel rods, turn it on, and wrench it to reset its heat state before it explodes. If you can automate it, you deserve a medal!\n\nIf you still don't know what a MOX one is, it produces more power the higher the temperature, so you try to keep it heat neutral, and as hot as possible. Of course, this can cause things nearby to, well, §omelt.§r You use MOX or Naquadria fuel cells work for this. You can also get more Plutonium out of MOX than Uranium.\n\nA breeder reactor is when you set up a reactor to get an item out of it rather than power, like Lutetium from Thorium, Plutonium from MOX, etc. Look at the depleted x fuel rod list in NEI or on the wiki to see more.\n\n[note]Since Fluid Nukes are liable to explode if you run out of coolant, make sure you set up a cutoff tied to the temperature or amount of coolant with redstone.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "More Advanced Reactors",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1905,
+    190
+  ],
+  "rewards": [],
+  "tasks": []
+}

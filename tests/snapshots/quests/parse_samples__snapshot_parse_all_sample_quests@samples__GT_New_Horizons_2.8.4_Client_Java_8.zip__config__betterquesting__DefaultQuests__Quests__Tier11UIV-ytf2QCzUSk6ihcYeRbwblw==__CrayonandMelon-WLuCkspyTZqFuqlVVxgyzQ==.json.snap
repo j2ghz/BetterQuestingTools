@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 14587807468287963853,
+  "prerequisites": [
+    14287180524229220430,
+    4331981564756107717
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Godforge will require new materials with the correct properties to stabilize a neutron star. With your new Transcendent Plasma Mixer and MK5 Fusion Reactor, you learn of a new material which may be suitable, which you name [note]Creon[/note].\n\nThis material is made as a plasma, and must be cooled alongside an extremely sturdy material. You try a curious mixture of dusts, which you decide to name [note]Mellion[/note].\n\n[note]These materials may also be suitable for components you need many of, you may realize UIV components seem to handle these two materials quite well...[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lCrayon and Melon",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    14287180524229220430,
+    4331981564756107717
+  ],
+  "rewards": [],
+  "tasks": []
+}

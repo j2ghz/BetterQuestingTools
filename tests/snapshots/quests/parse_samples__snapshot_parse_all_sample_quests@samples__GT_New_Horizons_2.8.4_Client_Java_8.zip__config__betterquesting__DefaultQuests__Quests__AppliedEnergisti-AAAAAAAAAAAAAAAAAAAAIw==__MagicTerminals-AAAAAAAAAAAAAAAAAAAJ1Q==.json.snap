@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2517,
+  "prerequisites": [
+    185
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Arcane Crafting Terminal is the terminal version on the Arcane Workbench. It can hold a set of vis discount gear in its inventory in addition to a wand. You can also link a vis relay through the network to it to recharge the wand.\n\nThe Essentia Terminal Works like the Fluid Terminal, but for essentia.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Magic Terminals",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    185
+  ],
+  "rewards": [],
+  "tasks": []
+}

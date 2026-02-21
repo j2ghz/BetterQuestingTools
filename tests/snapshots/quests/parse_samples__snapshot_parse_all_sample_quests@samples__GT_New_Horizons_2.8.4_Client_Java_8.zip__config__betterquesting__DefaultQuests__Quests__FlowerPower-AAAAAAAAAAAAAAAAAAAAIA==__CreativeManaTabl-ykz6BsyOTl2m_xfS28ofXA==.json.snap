@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 14739804795456593756,
+  "prerequisites": [
+    14163329716812610545
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "This tablet holds the power of gaia in your hands, it gives infinite mana to any tool you have...",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Creative Mana Tablet",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    14163329716812610545
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3146,
+  "optional_prerequisites": [
+    3153,
+    3150
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "This side of the advanced fission branch will focus on the items you can get from nuclear fission. In terms of physics, this fission refers to atoms being broken into two parts, each of which generates a different atom. This has potential to produce some interesting stuff and, perhaps, replace some chemical lines.\n\nAs you advance, your rewards will scale just as the complexity does. However, this part is one where development has lagged behind, and some fission setups are poorly rewarding when it comes to byproducts. However, as those setups are updated, so will these quests, so check back on new updates to see what has changed!",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Focus on Breeding",
+    "party_single_reward": null,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

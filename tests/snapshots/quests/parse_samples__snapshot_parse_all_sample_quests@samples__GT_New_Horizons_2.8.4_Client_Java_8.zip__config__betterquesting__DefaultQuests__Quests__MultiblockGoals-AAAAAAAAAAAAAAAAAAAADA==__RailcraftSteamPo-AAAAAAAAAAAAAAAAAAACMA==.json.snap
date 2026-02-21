@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 560,
+  "prerequisites": [
+    59
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "As an alternative way to make steam you can use the railcraft boilers. They require at least one firebox.\n\nMore than one size is possible: (1x1 which the quest gets you to make) 2x2 and 3x3.\n\nProvide water and coal to the firebox. Make sure you don't run out of water or...BOOM.\n\nEach boiler needs 1, 2 or 3 layers of tanks on top, equal to the size (1x1x1, 2x2x2, or 3x3x3) - see the quests linked below.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lRailcraft Steam Power",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    59
+  ],
+  "rewards": [],
+  "tasks": []
+}

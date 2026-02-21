@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 349,
+  "prerequisites": [
+    342
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Sometimes it can be troublesome to get fancy clothing. However, if you prove yourself worthy, you get a set for free.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Be a Vampire; Dress Like a Fancy Person",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    342
+  ],
+  "rewards": [],
+  "tasks": []
+}

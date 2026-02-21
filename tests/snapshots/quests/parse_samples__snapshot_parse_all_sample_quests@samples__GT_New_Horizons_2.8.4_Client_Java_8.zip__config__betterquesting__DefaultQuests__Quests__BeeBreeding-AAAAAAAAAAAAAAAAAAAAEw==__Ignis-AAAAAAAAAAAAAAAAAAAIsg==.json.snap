@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2226,
+  "prerequisites": [
+    2221
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Ignis bees require Fire Crystal Clusters beneath the bee housing. They will produce Fire infused dust. Watch out! They will set nearby entities on fire! Breed them from two Firey.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Ignis",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2221
+  ],
+  "rewards": [],
+  "tasks": []
+}

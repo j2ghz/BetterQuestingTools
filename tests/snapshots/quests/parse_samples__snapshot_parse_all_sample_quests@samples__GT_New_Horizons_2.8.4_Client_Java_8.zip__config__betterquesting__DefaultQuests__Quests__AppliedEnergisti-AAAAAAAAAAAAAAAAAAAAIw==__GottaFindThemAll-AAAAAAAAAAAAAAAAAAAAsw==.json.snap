@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 179,
+  "optional_prerequisites": [
+    176,
+    1166
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "There are a lot of meteors on the surface, but there are more underground. In order to find those, you'll want a compass. The compass will only tell you the chunk has an asteroid in it, with your ore finder wand you can get a better idea where in the chunk the meteor is hiding.\n\nFor more details on AE2, check out [url]https://wiki.gtnewhorizons.com/wiki/Applied_Energistics_2[/url].",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Gotta Find Them All",
+    "party_single_reward": false,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

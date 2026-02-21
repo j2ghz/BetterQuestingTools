@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1376,
+  "prerequisites": [
+    227
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Wand Focus: Frost will launch a ball of ice that can bounce off of blocks and mobs.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Potency§r: Increases damage dealt every level\n§5Alchemist's Frost§r (odd levels): Applies Slowness to hit mobs. Higher levels increase the potency of the effect\n§5Scattershot§r (level 3): The focus now shoots a volley of shards that break on impact. The normal damage immunity timer is ignored, so multiple shards can hit the same mob at once and all will deal damage. §5Potency§r increases the number of shards instead of the damage\n§5Ice Boulder§r (level 3): The focus now shoots a larger, bouncier, and deadlier ball of ice",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Snowball Fight!",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    227
+  ],
+  "rewards": [],
+  "tasks": []
+}

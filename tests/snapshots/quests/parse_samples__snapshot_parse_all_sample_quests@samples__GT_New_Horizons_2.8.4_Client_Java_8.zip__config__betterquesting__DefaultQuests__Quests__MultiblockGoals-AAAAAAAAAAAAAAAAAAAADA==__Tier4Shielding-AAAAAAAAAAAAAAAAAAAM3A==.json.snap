@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3292,
+  "prerequisites": [
+    3291
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Consider pushing your QFT's focusing capability to its final form by replacing your §3Infinity Infused Shielding Core§r casings with §3SpaceTime Bending Core§r casings. Like the tier 4 manipulators, these also require §3Black Body Naquadria Supersolid§r.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Tier 4 Shielding",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3291
+  ],
+  "rewards": [],
+  "tasks": []
+}

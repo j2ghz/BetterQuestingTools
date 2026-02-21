@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1675,
+  "prerequisites": [
+    1224
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Glass Fiber is used in Fiber Reinforced Boards for circuits. [note]For next tier. Go left for this tier's circuits.[/note]\n\nBorax can be extracted out of Salt ores. Electrolyze it to get Boron and mix it with Glass dust to get Borosilicate Glass Dust.\n\nThe ingots can be turned into glass fiber in the wiremill or extruder.\n\nYou can also use borosilicate to make higher tier glass for higher tier SB recipes, or for the blocks for the multis that need it.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§a§lGlass Fiber",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1224
+  ],
+  "rewards": [],
+  "tasks": []
+}

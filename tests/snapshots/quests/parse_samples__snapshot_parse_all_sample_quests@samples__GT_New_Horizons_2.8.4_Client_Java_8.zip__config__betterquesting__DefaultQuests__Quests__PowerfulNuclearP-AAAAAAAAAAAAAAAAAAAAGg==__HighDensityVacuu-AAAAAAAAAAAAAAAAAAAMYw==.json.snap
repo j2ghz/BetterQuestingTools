@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3171,
+  "prerequisites": [
+    3170
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Throw more U238 at it!\n\nIf you ever thought that a vacuum nuke doesn't burn through Uranium fast enough, this one is for you. High Density Uranium, or HDU, outputs twice the EU of the regular Uranium rods, and lasts for 70000 seconds instead of 20000. The heat output, like mentioned before, is the same, so the actual effect of using these rods in a vacuum nuke setup is that your final EU/t per nuke is multiplied by 2, and rods will need to be replaced less often, but the U238 consumption per cycle is a lot higher.\n\nThis also helps if you aren't automating the fuel rod input, since each one lasts longer. It's better if it's automated, but there's no danger of explosions if this part is done manually, so it's technically safe, as long as your EU buffer doesn't start complaining from lack of input.\n\nAs the last step before using The Core, you have High Density Plutonium. This HDP has MOX-like behavior, so it can output even more EU/t than HDU, up to several LuV amps per nuke, but you need to keep it running at high temperatures, which means even more risk! There is no such thing as too much safety, if you try to put one of these together.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "High Density Vacuum Nukes",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3170
+  ],
+  "rewards": [],
+  "tasks": []
+}

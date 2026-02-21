@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1763,
+  "prerequisites": [
+    1761
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Alright, you have your computer, it says \"Hello World!\" When you start it, and you feel awesome and capable of world domination.\n\nNow let's set up your HDD. Open .shrc again in the editor, and press ENTER to go down a line after the print, and type in 'cd ../' this will move your viewed directory that's being viewed to the absolute base directory.\n\nNow go down another line and type in 'mount HDD C:' because why not, it's Classic; this mounts the file drive into the folder you're in. Go down another line and type cd 'C:/' save and reboot the computer.\n\nYou'll now start in C:/ nifty! Try typing 'mkdir programs' and now you have a dedicated directory to put your programs in for the sake of organization.\n'cd programs' will then take you to programs, and 'cd ../' will take you back a directory; you can also do things like, let's say you have a folder called apples in C as well but you're in apples, type 'cd ../apples' and it'll take you to apples. '..' essentially just means previous directory and this can be stacked; works with copying files and moving them as well, very useful to know.\n\nBut right now we're going to do something functional, come over to the next quest and bring your adapter and cables.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Mounting Your HDD",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1761
+  ],
+  "rewards": [],
+  "tasks": []
+}

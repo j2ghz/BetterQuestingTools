@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 6186892258632128275,
+  "prerequisites": [
+    1680,
+    1493
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The MKII is the penultimate upgrade in the Matter Manipulator line. This one being much more powerful, storing §210x§r the power, with a range of §2128 Blocks§r, and the ability to place §2256 Blocks/Second§r.\n\nIn addition to all of the MKI features you now unlock §5two powerful new modes§r:\n\n§l- Copy / Paste§r: Copy a selection of blocks and paste it as many times as you'd like. Works best with GT & AE2.\n\n§l- Move§r: Similar to Copy / Paste, but will physically relocate something already built.\n\nHere is a short list of things that are copied / moved with the MM, the more complete list is on the Readme, but this should give you a general idea of how versatile it is.\n§3§lGregTech:§r\n\n- Pipe/Cable connections\n- Machine color\n- Machine front & output directions\n- Basic machine settings (auto outputs, etc)\n- Hatch settings (sorting, stack limiting, etc)\n- Multi machine settings (void protection, batch mode, etc)\n- Multi rotation\n- Covers\n- Strong redstone output\n- Custom names\n- Ghost circuits\n- Bus/hatch item/fluid lock\n- Modes (for machines that use the new mode system)\n- Data stick data\n- TecTech machine input parameters\n- ME output bus/hatch capacity\n§3§lAE2:§r\n\n- Any coloring\n- The orientation\n- The configuration\n- The upgrades\n- Custom names\n- Any stored cells (will also automatically configure cells & install their upgrades)\n- Any patterns (will encode but not decode patterns)\n- Priority Settings\n- P2P Settings\n- OreDict / Regular Filter",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§c§lMatter Manipulator MKII",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1680,
+    1493
+  ],
+  "rewards": [],
+  "tasks": []
+}

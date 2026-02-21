@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2456,
+  "prerequisites": [
+    708,
+    927
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "To get Demon Blood Shards, you'll need to summon and kill a demon. To summon one you'll need to arrange the pedestals around the plinth as such:\n\nxpxpx\nxxxxx\npxPxp\nxxxxx\nxpxpx\n\nx=space, p=pedestal, P=plinth\n\nPlace a bound master orb on the plinth and the appropriate sacrifices on the pedestals. They must all be the same element. Specifically, Aether, Incendium, Aquasalus, Terrae, Tenebrae, or Sanctus.\n\nAfter the lightning, the demon will appear. It won't always drop the shard, so prepare multiple sets.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Demon Blood Shards",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    708,
+    927
+  ],
+  "rewards": [],
+  "tasks": []
+}

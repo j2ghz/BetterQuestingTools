@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3052,
+  "prerequisites": [
+    3051
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Now that wasn't so hard, was it?\n\nHafnium is used as a component in making the Sparge tower which is useful if you ventured into the Liquid Fluorine Thorium Fluid Nuclear reactor.\n\nYou also get half of your Iodine back with this. Also, keep the runoff. It might become useful later, especially if stuff's suggested §owink wink nudge nudge§r",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lFinally, Actual Hafnium",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3051
+  ],
+  "rewards": [],
+  "tasks": []
+}

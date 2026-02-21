@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1543,
+  "prerequisites": [
+    1542,
+    1273
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Weed-EX is used to prevent the growth of Weeds on empty Crop blocks at the cost of some weed-EX. Damage to the crop's quality is illusory, and not true. We have people that have looked at the code, we assure you. §oUnless§r it counts as a weed (venomilia Gr 8+, any other crop Gr 24+), then it loses maybe 1 stat. Maybe. And you can just increase it again too. And it might not take effect even then if you don't apply too much, like a crop matron won't.\n\nUsage:\nWhile holding Weed-Ex, right-click on a Crop to apply it. It can also be placed in a Crop Manager to automatically apply it to your crops.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Weed Ex",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1542,
+    1273
+  ],
+  "rewards": [],
+  "tasks": []
+}

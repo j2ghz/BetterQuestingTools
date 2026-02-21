@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 16538711021535675772,
+  "prerequisites": [
+    1414,
+    14848732441928659924
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The MKI is where you really start unlocking the potential of the Matter Manipulator. This new one has a §264 Block§r range and a §264 Block/Second§r speed limit.\n\nUnlike it's prototype predecessor, this now has §53 new modes§r made available to you:\n\n§l- Geometry§r: Places standard blocks in a selected and configurable shape.\n\n§l- Cable§r: Allows you to place AE and GT cables & pipes in lines (and connecting them automatically).\n\n§l- Exchange§r: Allows you to swap large swaths of blocks like the TC Equal Trade Focus.\n\nAdditionally, it can now connect to your §5AE network§r for automatically transferring items and liquids. You can link the tool in your security terminal and use it while within wireless range.\n\nWhen something is placed into the world, the tool will §3pull§r from inventories in this order:\n1 - ME system\n2 - Player's inventory\n3 - Uplink§r\n\nWhen something is removed from the world, the tool will §3push§r into inventories in this order:\n1 - ME system\n2 - Uplink\n3 - Player's inventory\n4 - The Ground (Items Only)\n\n[note]This also comes stock with the ability to remove blocks, so there is no need for another excavation upgrade.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lMatter Manipulator MKI",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1414,
+    14848732441928659924
+  ],
+  "rewards": [],
+  "tasks": []
+}

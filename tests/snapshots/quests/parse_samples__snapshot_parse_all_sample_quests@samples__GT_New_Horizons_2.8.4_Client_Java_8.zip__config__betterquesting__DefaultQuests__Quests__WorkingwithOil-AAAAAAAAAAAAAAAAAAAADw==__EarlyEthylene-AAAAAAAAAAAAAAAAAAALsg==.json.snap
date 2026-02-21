@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2994,
+  "prerequisites": [
+    2993
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "In LV, cracking fuels is only possible in a Chemical Reactor, which has a lower efficiency than the Oil Cracker multiblock that is available at HV. That said, it is still a great source of some fluids, one of which being Ethylene, the precursor to Polyethylene, the first plastic that can be produced and a required part of progression in the pack. To obtain Ethylene from Oil, the best way to go is to severely steam-crack Refinery Gas.\n\nSimply put the Refinery Gas and the Steam in a Chemical Reactor with the correct circuit (check NEI) and then distill the cracked Refinery Gas. It can give a lot of different outputs, so make sure you choose the right one. After doing this, you'll have successfully processed Oil, both for power and for byproducts. Congratulations!\n\n[note]After you unlock different types of oil from underground fluids at MV the best route to ethylene may change depending on what type of oil you will decide to extract.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Early Ethylene",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2993
+  ],
+  "rewards": [],
+  "tasks": []
+}

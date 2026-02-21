@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2287,
+  "prerequisites": [
+    2288,
+    2164
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Agrarian bees are supposed to help crops nearby grow. The effect isn't really that noticeable, is it? You'll have to be in a Plains-like biome for these to appear. Breed them from Farmerly and Industrious.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Agrarian",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2288,
+    2164
+  ],
+  "rewards": [],
+  "tasks": []
+}

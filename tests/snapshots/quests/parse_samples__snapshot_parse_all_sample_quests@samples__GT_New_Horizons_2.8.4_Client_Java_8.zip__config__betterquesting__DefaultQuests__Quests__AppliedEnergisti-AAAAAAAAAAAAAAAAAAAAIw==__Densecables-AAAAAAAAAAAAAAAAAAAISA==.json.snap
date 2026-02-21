@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2120,
+  "prerequisites": [
+    2119
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Dense cables are going to be your network backbones. They can transfer 32 channels and display the number of channels in use. Buses and flat interfaces cannot be placed directly on them.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Dense cables",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2119
+  ],
+  "rewards": [],
+  "tasks": []
+}

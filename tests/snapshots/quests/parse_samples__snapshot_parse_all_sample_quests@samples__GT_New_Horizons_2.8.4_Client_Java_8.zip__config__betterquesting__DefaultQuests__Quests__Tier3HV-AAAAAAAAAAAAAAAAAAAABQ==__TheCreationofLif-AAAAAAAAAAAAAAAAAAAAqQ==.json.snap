@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 169,
+  "prerequisites": [
+    165,
+    141
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "By utilizing large amounts of energy, you're able to reactivate those broken spawners you may have found in the past. If you haven't, you should get one of them now.\n\nIf the broken spawner isn't of the type of mob you want to spawn, you'll need to do some extra work. Capture one in a soul vial, then use that and the broken spawner in the soul binder to change the type. This takes forever, and also levels.\n\nCombine a BS with your Powered Spawner in an anvil to set the type for it to spawn. Then you just gotta power it up!\n\nIf you set it to capture mode, you can make souls of a specific mob without any danger.\n\n[note]Please try to use as few as possible on servers, mobs are laggy. Use crops if possible.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lThe Creation of Life",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    165,
+    141
+  ],
+  "rewards": [],
+  "tasks": []
+}

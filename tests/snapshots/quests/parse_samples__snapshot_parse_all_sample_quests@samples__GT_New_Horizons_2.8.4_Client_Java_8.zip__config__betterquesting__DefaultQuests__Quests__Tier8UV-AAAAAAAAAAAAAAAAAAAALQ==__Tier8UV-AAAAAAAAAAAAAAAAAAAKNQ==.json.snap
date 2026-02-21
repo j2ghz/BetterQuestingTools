@@ -1,0 +1,43 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2613,
+  "prerequisites": [
+    2610,
+    2955,
+    2669,
+    1710,
+    1199
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "While called Ultimate Voltage, this has become far from the final tier. Instead, the \"Ultimate\" for all upcoming tiers can be considered an apt description of your future base, given how hard your power and infrastructure is going to scale.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Tier 8 (UV)",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "tierthemes:uv",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2610,
+    2955,
+    2669,
+    1710,
+    1199
+  ],
+  "rewards": [],
+  "tasks": []
+}

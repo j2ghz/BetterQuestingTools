@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 17153723027118781889,
+  "prerequisites": [
+    13256433337557620598
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Ever take a deep breath while roaming the nether and start to feel lightheaded or dizzy? Turns out that's from the highly toxic air. There may be no saving our lungs, but at least we can take advantage of this dense air for our own material gain!\n\nIf you haven't already been taking advantage of the Nether Air for it's sulfurous properties, (talking to you, Nitrobenzene lovers) you'll need to take advantage of it now for making §4Nether Semifluid§r.\n\nSetup a §5§lVacuum Freezer§r in the nether and attach an§2§l Air Intake Hatch§r to start collecting the Nether Air. You can move onto the next step once you've started Semifluid production. ",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§c§lNether Air & Semifluid",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    13256433337557620598
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 34,
+  "prerequisites": [
+    474
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You can find it in chunks of gravel on the surface.\n\nUse as little as possible and save the rest for when you get a macerator in Steam age, you'll get twice as much.\n\nIf you can't find any, you can buy them in the Coins tab.\n\nIf you get enough and fully process it, you can also get Gallium for Gallium Arsenide in LV age.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§2§lZinc Gravel",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    474
+  ],
+  "rewards": [],
+  "tasks": []
+}

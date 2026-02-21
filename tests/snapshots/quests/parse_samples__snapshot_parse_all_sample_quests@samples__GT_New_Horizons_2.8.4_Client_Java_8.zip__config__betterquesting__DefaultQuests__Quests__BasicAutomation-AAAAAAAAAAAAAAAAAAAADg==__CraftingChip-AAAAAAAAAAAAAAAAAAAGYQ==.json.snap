@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1633,
+  "prerequisites": [
+    1631
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The crafting chip does exactly what it says. It's not just for default crafting. You can use it with GT machines. Just put in the matrix that it should insert and the output is what it should extract. A great use for them is in combination with fluid canners or super tanks for filling cells.\n\n[note]While these chips are really powerful for your PRT system they become a lag hazard relatively quickly, so be careful.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Crafting Chip",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1631
+  ],
+  "rewards": [],
+  "tasks": []
+}

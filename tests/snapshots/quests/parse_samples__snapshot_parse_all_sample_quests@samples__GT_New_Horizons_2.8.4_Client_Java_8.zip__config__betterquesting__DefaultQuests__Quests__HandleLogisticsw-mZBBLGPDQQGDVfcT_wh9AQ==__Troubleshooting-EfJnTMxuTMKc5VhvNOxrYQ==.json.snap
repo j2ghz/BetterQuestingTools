@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 14730795828170746721,
+  "prerequisites": [
+    16946844550613071220
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "If you find your pipe has thick red corners, then it means something is wrong. Either the network is out of power or you formed a junction with an Unrouted Transport Pipe.\n\nWhen the system gets more complicated, the chances go up that something will go wrong. Have fun troubleshooting! :)",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Troubleshooting...",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    16946844550613071220
+  ],
+  "rewards": [],
+  "tasks": []
+}

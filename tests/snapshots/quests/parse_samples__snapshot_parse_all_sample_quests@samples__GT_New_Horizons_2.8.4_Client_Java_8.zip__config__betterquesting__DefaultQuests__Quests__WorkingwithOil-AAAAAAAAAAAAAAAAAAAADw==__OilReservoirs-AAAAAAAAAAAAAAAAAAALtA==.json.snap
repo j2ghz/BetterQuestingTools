@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2996,
+  "prerequisites": [
+    2987
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Unlike the oil spouts that are visible on the surface, the underground reservoirs cannot be seen or measured without the use of specific tools.\nThe main quest for prospecting \"Analyzing the Soil\" is in the LV tab.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Oil Reservoirs",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2987
+  ],
+  "rewards": [],
+  "tasks": []
+}

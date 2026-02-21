@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3278,
+  "prerequisites": [
+    3281,
+    3276
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Why use a small nozzle to print out the conductor on the board when one can just build it using nanites? Well the silver nanite isn't rigid enough for that so a new nanite will be needed... and so will new casings. Heard that celestial tungsten is a good candidate for a frame. Quantum can be used for the protection as these nanites will be forever flying around inside.\n\nThe structure will need to change as it needs to be a bit bigger and taller.\n\n[note]Works the same as the Tier 2 in most cases, but allows the player to use even less resources by using a gold nanite.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "PCB Factory Tier 3",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3281,
+    3276
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 412,
+  "prerequisites": [
+    410
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Alchemy can be weird, and tedious. There are a lot of reagents and even more possible combinations. For now, and in order to get started, you need a couple of basic things.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Simple Alchemical Things",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    410
+  ],
+  "rewards": [],
+  "tasks": []
+}

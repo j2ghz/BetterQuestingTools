@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1635,
+  "prerequisites": [
+    1634
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "[warn]Using the drawer controller with large amounts of I/O will tank TPS! If you're on a server, do not use drawer cubes, or expect the possibility of it being deleted or you getting banned.[/warn]\n\nTime to build a simple system to store your stuff. Place down the drawer controller and place the drawers around it. Connect the interface pipe to the drawer controller and put the dynamic item responder and broadcaster chips inside. Don't forget to set the broadcaster to transmit everything by leaving the filter empty and setting it to blacklist. Now you can request stuff from your storage and if you have a chest with a pipe and extractor chip everything you put inside will be sorted into the storage.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Simple Storage System",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1634
+  ],
+  "rewards": [],
+  "tasks": []
+}

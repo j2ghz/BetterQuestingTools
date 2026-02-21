@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1301,
+  "prerequisites": [
+    1296
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Formation Core - a component which can convert energy back into matter.\nAnnihilation Core - a component which can convert matter into energy.\nGates all network I/O.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Annihilation and Formation",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1296
+  ],
+  "rewards": [],
+  "tasks": []
+}

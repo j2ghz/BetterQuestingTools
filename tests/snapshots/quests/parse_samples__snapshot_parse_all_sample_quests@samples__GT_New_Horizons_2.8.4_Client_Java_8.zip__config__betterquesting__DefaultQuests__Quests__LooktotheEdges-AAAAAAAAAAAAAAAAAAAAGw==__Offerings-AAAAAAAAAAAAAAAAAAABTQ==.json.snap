@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 333,
+  "prerequisites": [
+    1575,
+    334
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "For all your offering needs. And of course, it looks fancy!\n\nAn altar is created by placing six altar blocks in a 2x3 pattern or by placing nine altar blocks in a 3x3 pattern. You will know it's correct when a red cloth appears over the top of the altar.\n\nRight-clicking on it will bring up a screen showing how much power the altar has collected, how much it can collect and its current recharge rate. It is important to check that there is sufficient available power to perform a given rite or use a distillery, or certain kettle or cauldron recipes.\n\nThe maximum amount of power available is determined by how many natural items are in the vicinity of the altar: dirt, grass, trees, plants, etc. all contribute; stone and sand do not. The important thing is to have a diverse mix of different plants, trees and crops (plants from other mods are supported to an extent as well).\n\nCertain objects (or foci) placed on the altar boost its focusing capabilities. This can increase the rate at which the altar replenishes focus, the focus capacity, and the focus range. Only one of each type of item (skull, chalice, etc.) has an effect. There may also be other less savory foci that dark magic practitioners could make use of. \n\n [note]P.S. The 3x3 Altar doesn't provide any practical benefits over its 3x2 counterpart, however enjoy the increased ability to center it within your builds.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Offerings",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1575,
+    334
+  ],
+  "rewards": [],
+  "tasks": []
+}

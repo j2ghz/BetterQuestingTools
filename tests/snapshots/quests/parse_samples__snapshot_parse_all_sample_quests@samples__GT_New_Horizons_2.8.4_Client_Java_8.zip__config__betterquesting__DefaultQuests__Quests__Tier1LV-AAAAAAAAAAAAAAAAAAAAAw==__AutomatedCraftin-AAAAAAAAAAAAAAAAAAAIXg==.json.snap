@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2142,
+  "prerequisites": [
+    576,
+    91
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Auto Workbench is a simple automated crafting system. You place ghost items in the grid to create the recipe, and place components in the inventory. They will slowly be converted into the crafted item. While not fast and can only do 1 recipe each, it does support automation - only items acceptable to the recipe are allowed in the inventory. It does not use power.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lAutomated Crafting",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    576,
+    91
+  ],
+  "rewards": [],
+  "tasks": []
+}

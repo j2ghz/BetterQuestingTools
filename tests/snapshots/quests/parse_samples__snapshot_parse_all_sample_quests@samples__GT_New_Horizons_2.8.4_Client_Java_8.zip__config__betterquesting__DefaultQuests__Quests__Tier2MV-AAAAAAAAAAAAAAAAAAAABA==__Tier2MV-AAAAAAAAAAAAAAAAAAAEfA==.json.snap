@@ -1,0 +1,43 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1148,
+  "prerequisites": [
+    97,
+    103,
+    77,
+    717,
+    543
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The MV Machine Hull needs aluminium. You're also gonna need aluminium for every MV machine part, so keep that EBF truckin'.\n\nHere are some tips on where to start:\n- MV Electrolyzer makes getting aluminium easier.\n- MV Extruder makes parts cheaper.\n- MV Miner saves your time.\n\nHave you read the quest Safety First for details about mixing tiers?\nSending MV to an LV machine causes it to explode.\nSending MV voltage over LV cables causes them to melt, which causes fire that will likely cause the machines to blow up.\nAdditionally, recipes done in a tier higher than the original one (not ULV, ULV counts as LV) are overclocked (OC'd). The OC'd recipes use 4x power but complete 2x faster.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lTier 2 (MV)",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "tierthemes:mv",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    97,
+    103,
+    77,
+    717,
+    543
+  ],
+  "rewards": [],
+  "tasks": []
+}

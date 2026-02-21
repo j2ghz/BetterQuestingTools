@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 9090599082530882256,
+  "prerequisites": [
+    4001522807926483475
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "This is the end of the mk3 fusion chain, and the three chains altogether. After 14 fusion recipes on top of Helium Plasma, you hold in your tanks the elusive Celestial Tungsten Plasma, whose fuel value of 720M makes it immune to XL Plasma penalties all the way to spacetime!\n\nUpscaling plasma powergen up to endgame, and the Dyson Swarm, is most likely reliant on either this or Americium Plasma, which is 1-step but not as powerful on a per-reactor basis. This can net you above 8 billion EU per tick, for every Mk3 compact that you have running Celestial Tungsten at 64 parallels, with Infinity turbines. Upscaling this is not so difficult, if you keep in mind which recipes will bottleneck you the most, as long as you have the resources for it.\n\nThere are no plasmas that build off Celestial Tungsten Plasma just yet, but it's possible that some might be added in the future, especially for GT++ materials such as Dragonblood. Congratulations on finishing this fusion chain! May the power be with you.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Celestial Tungsten Plasma - The Mk3 Finale",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    4001522807926483475
+  ],
+  "rewards": [],
+  "tasks": []
+}

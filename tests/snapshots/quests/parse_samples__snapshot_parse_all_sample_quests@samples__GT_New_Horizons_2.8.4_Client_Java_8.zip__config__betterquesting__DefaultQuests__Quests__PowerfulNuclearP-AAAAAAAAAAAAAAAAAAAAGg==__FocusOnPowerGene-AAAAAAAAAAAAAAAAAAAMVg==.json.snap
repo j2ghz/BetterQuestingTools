@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3158,
+  "prerequisites": [
+    3150
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Each side of this branch will focus on one of the two halves of nuclear fission outputs. This side will focus on generating power from the reactors available here, which is probably why you're here in the first place.\n\nThese setups share one purpose: when they were created, they were meant to bridge the gap between IC2 nukes and fusion, because there was really nothing else worth using beyond fluid nukes if there were no backups available, or redstone automation was too unreliable for vacuum nukes. Not only is there a full 2-tier gap of one single powergen until fusion, but there's also a required power input in order to begin a fusion reaction in the first place. This is both boring and difficult to push through, especially with the Assembly Line in the middle, so here we are.\n\nThe first setup you can put together is the LFTR chain, although only one half of it is available in IV. As such, that is where we will start.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Focus On Power Generation",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3150
+  ],
+  "rewards": [],
+  "tasks": []
+}

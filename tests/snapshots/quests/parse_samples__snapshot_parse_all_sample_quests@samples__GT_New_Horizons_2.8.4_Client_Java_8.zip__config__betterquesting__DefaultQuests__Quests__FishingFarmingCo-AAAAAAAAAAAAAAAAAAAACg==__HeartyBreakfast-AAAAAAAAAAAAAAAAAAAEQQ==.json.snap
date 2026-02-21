@@ -1,0 +1,41 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1089,
+  "prerequisites": [
+    1088,
+    638,
+    1086,
+    1087
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Now let's combine all the things together and make a healthy and delicious breakfast.\n\nSome cooked meat, potato cakes, toast, fried egg and a tasty juice provide you with a very nourishing meal.\n\nYou can use any cooked meat and any fruit juice here.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Hearty Breakfast",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1088,
+    638,
+    1086,
+    1087
+  ],
+  "rewards": [],
+  "tasks": []
+}

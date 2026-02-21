@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 472,
+  "prerequisites": [
+    33
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "When your tinkers tables are ready, you can craft your first §oreal§r tool. If you didn't find a village yet to grab some parts from the chest, you can only craft flint tools.\n\nLet's start with a pickaxe, an axe, and a shovel.\n\nKeep in mind that most of the original tool parts from Tinker's Construct are not shown in NEI. That doesn't mean that you can't craft them - use the tooltips on patterns and molds as guidance.\n\nYour new tools are weak at first, but the more you use them the better they will get. You get a modifier slot after some levels, needing more as you level it up. They will level up to level 99 if you play long enough, with 20 modifier slots. Tool parts can be replaced for a bit of level XP, however the tool must be fully repaired first.\n\nYou need to level up the mining level each time you replace the parts to unleash the full power of the pickaxe. Stone->Copper for this pickaxe. If you manage to get a Zombie, Skeleton, or Creeper head, you can use it to skip the level-up process. This doesn't use up a modifier level, but does change the look until you change the pickaxe part out.\n\nItem=Usable when mining level is X or less\nZombie=1\nSkeleton=2\nCreeper=4\nWither Skeleton=7\nNether Star=8\n\nYou could use a paper binding to add an extra modifier, but you will also get modifiers with tool levels.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§2§lYour First Tool",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    33
+  ],
+  "rewards": [],
+  "tasks": []
+}

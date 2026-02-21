@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 18365471609076117689,
+  "prerequisites": [
+    465,
+    468
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Ever wanted to order 10 million billion billion chests and noticed that your crafting storage was just not big enough?\n\nWell, here is your solution, provided to you by the good folks over at GTNHCorp (Name Pending).\n\nThe §cSingularity Crafting Storage§r has a storage of 9,223,372,036,854,775,807 Bytes, which, if you can't read numbers, is a lot.\n\nEnjoy crafting one :) You'll need to kill some Chaos Guardians for it.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Yet Another Singularity?!?!",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    465,
+    468
+  ],
+  "rewards": [],
+  "tasks": []
+}

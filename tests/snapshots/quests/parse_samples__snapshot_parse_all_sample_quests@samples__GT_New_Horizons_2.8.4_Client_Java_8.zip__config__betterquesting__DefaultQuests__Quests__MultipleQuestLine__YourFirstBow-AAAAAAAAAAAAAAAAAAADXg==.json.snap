@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 862,
+  "prerequisites": [
+    33
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Since vanilla bows are only craftable in the assembling machine and mobs don't drop them very often you should make a Tinkers bow.\n\nWood would be the best material for now. Craft the bow limbs out of wood and the bow string out of strings. The arrow that has the most durability is bone, so craft the stick out of bone. It is much lighter but less durable than a regular arrow. Use a flint tip to make it repairable with flint.\n\nYou can repair your bow the same way as all the other Tinkers tools. The arrows can be regained by repairing them or picking them up from the floor. The arrows should be in your inventory if you want to pick up the ones you fired.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§2§lYour First Bow",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    33
+  ],
+  "rewards": [],
+  "tasks": []
+}

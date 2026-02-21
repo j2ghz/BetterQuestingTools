@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2071,
+  "prerequisites": [
+    1490
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Now that you've reached LuV you can make the god-tier prospector - The Electric Prospector. This handheld machine can provide detailed information on ores in the area, and return maps of how much UG fluid and what type is in each chunk.\n\nNote that the range is determined by the tier and material (the durability seems to not matter). You can select an ore from the list to show only that ore, or double-click to switch dark/light mode.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§c§lPanning For Gold is For Chumps",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1490
+  ],
+  "rewards": [],
+  "tasks": []
+}

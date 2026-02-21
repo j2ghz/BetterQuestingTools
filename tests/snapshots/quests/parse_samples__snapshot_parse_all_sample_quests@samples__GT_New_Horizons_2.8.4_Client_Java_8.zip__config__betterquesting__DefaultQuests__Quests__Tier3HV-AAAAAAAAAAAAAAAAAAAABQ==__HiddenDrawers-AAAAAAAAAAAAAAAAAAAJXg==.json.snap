@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2398,
+  "prerequisites": [
+    1233
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You might notice once you get a wall of drawers that looking that direction gives you a little lag. If the lag gets bad enough, you can craft this key to stop putting the item on the front. Use it on the drawer controller to affect all of them.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lHidden Drawers",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1233
+  ],
+  "rewards": [],
+  "tasks": []
+}

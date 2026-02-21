@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1566,
+  "prerequisites": [
+    1564
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You woke up very early because of the nightmares following you in the dream world.\n\nYou weren't prepared for it, so let get some stuff together first and enter a second time to get some wispy/disturbed cotton.\n\nIf you haven't unlocked your Brewing stand yet, you have to do it first. Look in the Novice Thaumaturge tab for the quest.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Early Bird Gets the...Nightmare?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1564
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 855,
+  "prerequisites": [
+    854,
+    846
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "To make nitric oxide you need to combine oxygen and ammonia in a chemical reactor.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lNitric Oxide",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    854,
+    846
+  ],
+  "rewards": [],
+  "tasks": []
+}

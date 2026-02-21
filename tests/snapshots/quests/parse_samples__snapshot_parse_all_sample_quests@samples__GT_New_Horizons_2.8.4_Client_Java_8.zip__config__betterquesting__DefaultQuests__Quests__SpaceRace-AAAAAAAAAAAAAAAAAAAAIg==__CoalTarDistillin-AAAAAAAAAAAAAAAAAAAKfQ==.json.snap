@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2685,
+  "prerequisites": [
+    768,
+    12785511664937214930
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The next tier of rocket fuel is Dense Hydrazine. To start, let's make Phthalic Acid.\n\nThere are two ways to make Phthalic Acid. One is explored here, the other in the IV quest tab. However, we don't just need the Coal Tar for that, we also need it for Anthracene!\n\nIn order to distill Coal Tar, you need to get some first. To do so, run Charcoal, Lignite, Coal, or Coal Coke though either the Industrial Coke Oven or the Pyrolyse Oven.\n\nSince you need multiple products, use a Distillery Tower to get them all. Everything other than Naphtha is used to make Rocket Fuels.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lCoal Tar Distilling",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    768,
+    12785511664937214930
+  ],
+  "rewards": [],
+  "tasks": []
+}

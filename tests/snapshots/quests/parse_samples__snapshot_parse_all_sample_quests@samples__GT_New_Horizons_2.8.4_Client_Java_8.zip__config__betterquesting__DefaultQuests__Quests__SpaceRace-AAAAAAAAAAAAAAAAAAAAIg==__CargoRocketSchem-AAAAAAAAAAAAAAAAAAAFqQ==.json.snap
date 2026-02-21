@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1449,
+  "prerequisites": [
+    1446
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Cargo Rocket has the capability to transport solid items between dimensions, and is a perfect way to transport items between dimensions without relying on ender chests.\n\nThis rocket can be loaded with 2000L of Rocket Fuel. The safe fuel level is 80 percent.\n\nYou can fill up the right slots with chests to increase the storage space to 36 and 54 slots.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Cargo Rocket Schematic",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1446
+  ],
+  "rewards": [],
+  "tasks": []
+}

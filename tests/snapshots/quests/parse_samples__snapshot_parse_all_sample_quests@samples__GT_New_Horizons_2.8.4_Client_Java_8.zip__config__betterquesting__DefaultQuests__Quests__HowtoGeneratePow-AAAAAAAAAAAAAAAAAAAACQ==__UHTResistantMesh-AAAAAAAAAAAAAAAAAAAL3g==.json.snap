@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3038,
+  "prerequisites": [
+    2669
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "§o*Slaps UHT Resistant Mesh* This bad boy can withstand so much heat!§r\n\nYou should probably automate this if you want to build and use the Dyson Swarm multiblock.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "UHT Resistant Mesh",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2669
+  ],
+  "rewards": [],
+  "tasks": []
+}

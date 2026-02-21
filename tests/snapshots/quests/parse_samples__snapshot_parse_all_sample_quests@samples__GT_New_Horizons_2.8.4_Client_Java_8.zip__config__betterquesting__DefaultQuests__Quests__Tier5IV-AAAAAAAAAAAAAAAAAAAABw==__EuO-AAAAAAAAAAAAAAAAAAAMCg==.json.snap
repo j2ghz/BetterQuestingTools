@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3082,
+  "prerequisites": [
+    3081
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Monazite europium?\n\nUnfortunately you won't be able to process it until you actually have some actual europium, so just hold onto this for now.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lEuO",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3081
+  ],
+  "rewards": [],
+  "tasks": []
+}

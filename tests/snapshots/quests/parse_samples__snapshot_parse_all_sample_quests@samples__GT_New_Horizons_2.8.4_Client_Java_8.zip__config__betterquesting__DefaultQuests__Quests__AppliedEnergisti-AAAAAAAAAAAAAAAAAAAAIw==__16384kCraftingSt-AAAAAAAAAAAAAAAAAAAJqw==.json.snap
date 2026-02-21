@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2475,
+  "prerequisites": [
+    2467
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Component of the crafting CPU which provides 16,777,216 bytes of storage for crafting.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "16384k Crafting Storage",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2467
+  ],
+  "rewards": [],
+  "tasks": []
+}

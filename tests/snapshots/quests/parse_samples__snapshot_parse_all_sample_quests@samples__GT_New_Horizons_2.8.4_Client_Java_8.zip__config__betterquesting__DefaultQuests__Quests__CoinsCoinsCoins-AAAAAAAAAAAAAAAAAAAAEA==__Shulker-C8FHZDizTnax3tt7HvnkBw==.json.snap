@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 4085695556187972615,
+  "prerequisites": [
+    241,
+    88,
+    9095939251194715559
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "I would carry out this battle indoors if I were you...",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Shulker",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": 72000,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    241,
+    88,
+    9095939251194715559
+  ],
+  "rewards": [],
+  "tasks": []
+}

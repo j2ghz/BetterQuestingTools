@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 15599985800221413233,
+  "prerequisites": [
+    2610,
+    2622
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The MKIII is the final upgrade in the Matter Manipulator series, and grants you access to it's most heightened capabilities. With §210x§r the EU storage as the MKII, it also boasts an §5§lUnlimited§r block range and can handle placing §21024 Blocks / Second§r.\n\nFeature wise, the MKIII comes with all of the same abilities as the MKII, except now with the ability to use the §3§lQuantum Uplink§r, though you won't be able to build that multiblock until §4§lUV§r.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Matter Manipulator MKIII",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2610,
+    2622
+  ],
+  "rewards": [],
+  "tasks": []
+}

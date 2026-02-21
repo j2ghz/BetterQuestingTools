@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2858,
+  "prerequisites": [
+    88
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Thanks to the tireless work of the devs, you can now use cells to I/O fluids directly from the interface of GT machines. Just click on the fluid while holding a cell or other fluid container item.\n\nPoints to consider:\n1) Left-click to attempt filling/emptying all fluid containers held on cursor.\n2) Right-click to attempt filling/emptying one fluid container held on cursor.\n3) All fluid containers that can be used in a standard gt tank (e.g. super tanks or the X voltage tanks) are supported, including but not limited to: water bottles, vanilla buckets, ic2 (universal and normal) cells, volumetric flasks, large fluid cells, pressurized fluid tanks, etc.\n4) Can fill/take less than one cell (1000L or 144L if molten) of fluid if the fluid container supports doing so.\n5) It won't check if it's a valid fluid for the machine/recipe, keep that in mind.\n6) Doesn't work with Crops++ alcohols, feel free to code compatibility for us.\n7) EIO tanks need to be placed and picked up first before they can be used.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lMachine Interface Fluid I/O",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    88
+  ],
+  "rewards": [],
+  "tasks": []
+}

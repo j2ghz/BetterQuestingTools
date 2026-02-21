@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3196,
+  "optional_prerequisites": [
+    2610,
+    3195
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "What is the most powerful nuclear fission generator there is? The answer to that question isn't even a nuclear fission generator, for the most part. The answer is the Large Naquadah Generator. It follows the same principle as the LFTR, use a new processing chain to turn Thorium, Uranium and Plutonium into liquid fuels, very dense with energy, which are then slowly burned to generate large amounts of power over a very long period of time. This reactor, for example, burns its fuels 1 mB at a time, over several seconds, when running without additives, a very slow burner by default.\n\nLet's look at the NEI recipes. Excited Thorium outputs 2,200 EU/t, Excited Uranium outputs 12,960 EU/t and Excited Plutonium outputs 32,400 EU/t. These are small numbers, clearly, so this can't possibly be the most powerful nuclear fission reactor. However, this multi is more complicated than that! In total, there are 4 inputs you can provide for it: one of them is the required fuel and another is the also required Liquid Air to generate EU from that fuel, but the other 2 are additives that are optional, yet increase both the efficiency and the consumption speed of the fuel. The controller's tooltip lists all the possible additives and their bonuses.\n\nFuel efficiency here means that the fuel is burned at the same rate, but energy output is increased by the percentage. Let's consider the two best options, Cryotheum and Atomic Separation Catalyst. They multiply with each other, so the energy output is 2.75 x 16 = 44 times the displayed EU/t on NEI! Excited Plutonium, the most energetic of the three fuels, will award you with 1,425,600 EU/t, almost 3 UV amps.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Naquadah Reactor For Nuclear Fuels",
+    "party_single_reward": null,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

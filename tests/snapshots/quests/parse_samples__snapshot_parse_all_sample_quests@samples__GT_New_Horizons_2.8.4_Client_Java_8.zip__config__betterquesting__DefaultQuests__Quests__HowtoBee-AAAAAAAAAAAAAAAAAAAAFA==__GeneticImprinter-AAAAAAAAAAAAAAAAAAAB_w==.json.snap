@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 511,
+  "prerequisites": [
+    510
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "With this powerful machine, you can inject gene samples, which allows you to alter any aspect of your bee, tree or butterfly. The gene sample (or pattern) will not be destroyed.\n\nThe machine has 30% chance to downgrade pristine into ignoble and 80% chance to kill ignoble bees.\n\nOne labware is consumed per operation.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Genetic Imprinter",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    510
+  ],
+  "rewards": [],
+  "tasks": []
+}

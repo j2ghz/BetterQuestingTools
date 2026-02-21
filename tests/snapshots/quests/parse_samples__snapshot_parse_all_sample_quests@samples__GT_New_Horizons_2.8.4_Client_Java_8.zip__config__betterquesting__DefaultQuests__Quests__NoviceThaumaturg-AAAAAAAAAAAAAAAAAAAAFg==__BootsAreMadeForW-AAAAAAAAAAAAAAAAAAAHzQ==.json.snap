@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1997,
+  "prerequisites": [
+    1995,
+    238
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "And swimming. These boots of the traveller will make you a blur as you go around the world. You'll need to research infusion before you can make these.\n\n§3There's also Electric versions with greater discounts on the GAWD tab. ...I swear I didn't put any thought into the acronym of the tab.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Boots Are Made For Walking",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1995,
+    238
+  ],
+  "rewards": [],
+  "tasks": []
+}

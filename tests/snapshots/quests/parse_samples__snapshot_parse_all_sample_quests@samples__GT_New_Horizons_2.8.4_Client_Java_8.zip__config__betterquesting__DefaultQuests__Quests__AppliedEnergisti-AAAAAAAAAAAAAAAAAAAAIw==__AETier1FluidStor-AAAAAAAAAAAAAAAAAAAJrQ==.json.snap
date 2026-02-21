@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2477,
+  "prerequisites": [
+    183
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The main Processor used for crafting 1K, 4K, 16K and 64K Fluid Storage Components. Additionally, it's used to craft Dual Interfaces, as well as some other useful tools from AE2FC, like the Level Maintainer.\n\nDon't want to get rid of the Super Tanks you have been using up to now? Use the Fluid Storage Bus instead of the Fluid Storage Cells from AE2FC then. Super Tanks double in capacity each tier, but the Cells quadruple. They're also less expensive for sure. But you decide which to use.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "AE Tier 1 Fluid Storage",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    183
+  ],
+  "rewards": [],
+  "tasks": []
+}

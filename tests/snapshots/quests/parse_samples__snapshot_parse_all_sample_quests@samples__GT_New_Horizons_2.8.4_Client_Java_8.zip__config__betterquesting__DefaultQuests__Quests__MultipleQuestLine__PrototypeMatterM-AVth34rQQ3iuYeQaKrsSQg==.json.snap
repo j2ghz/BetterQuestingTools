@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 10002568955781911106,
+  "prerequisites": [
+    1232,
+    1222,
+    1871
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The §4§lMatter Manipulator§r is an extremely powerful tool that you can use during your entire playthrough. It is essentially a survival version of world-edit that is custom made for the GTNH player's convenience.\n\nThe §3§lPrototype Matter Manipulator§r is expectedly the least powerful, most rudimentary version. You can only use the §5§lGeometry Mode§r to create and manipulate shapes for use in building. You will §nnot§r be able to remove blocks until you install an upgrade unlocked in §2§lEV§r.\n\nFor the most accurate and detailed information visit: [url]https://github.com/RecursivePineapple/MatterManipulator/blob/master/README.md[/url]\n\n[note]The best way to learn about it is to use it! Experiment with the UI and become familiar with how it works.[/note]\n\n[warn]Checkout the Building Better Bases tab for the complete Manipulator questline.[/warn]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lPrototype Matter Manipulator",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1232,
+    1222,
+    1871
+  ],
+  "rewards": [],
+  "tasks": []
+}

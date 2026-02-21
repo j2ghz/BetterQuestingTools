@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1663,
+  "prerequisites": [
+    1662
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Put Dimethyldichlorosilane and Water into the chemical reactor to get Polydimethylsiloxane.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lPolydimethylsiloxane Dust",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "CHAIN"
+  },
+  "required_prerequisites": [
+    1662
+  ],
+  "rewards": [],
+  "tasks": []
+}

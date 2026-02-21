@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1696,
+  "prerequisites": [
+    213
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "High tier chemical recipes need a high tier IV chemical reactor.\n\nAlternatively you can use your Large Chemical Reactor with two EV or one IV energy hatches.\n\n[note]...Which you can make after you finish the platline. Have fun![/note]\n\n§6If you missed it or forgot, hold a stack of the platline dust to skip the quests in between.\n\nYou can also skip PBI, but you need to hold 256.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lChemical Reactions at IV level",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    213
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 826,
+  "prerequisites": [
+    474
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "With iron tools, you are able to mine most of the Overworld ores. You've probably already found iron or magnetite, given how common it is. So bring me some ores and make some iron ingots out of them.\n\nTo see where an ore can be found, click the raw ore in NEI, and it will show you more details. Works with small ores too.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§2§lIron Ore",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    474
+  ],
+  "rewards": [],
+  "tasks": []
+}

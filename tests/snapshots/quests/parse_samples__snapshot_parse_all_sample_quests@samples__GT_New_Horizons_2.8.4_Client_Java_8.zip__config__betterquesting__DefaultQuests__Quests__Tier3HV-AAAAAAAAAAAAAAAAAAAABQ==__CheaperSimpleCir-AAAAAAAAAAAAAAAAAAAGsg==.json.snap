@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1714,
+  "prerequisites": [
+    1713
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The NAND chip is an industrial replacement for the vacuum tubes that is much cheaper. You can't use it to make circuits though, only to make other things as a ULV circuit. Make sure to check out all the possible recipes!",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lCheaper Simple Circuit",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1713
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2399,
+  "prerequisites": [
+    948,
+    536
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Name Remover is a simple utility machine that can strip off incorrect or useless NBT data. Only works on GT items?\n\n§3Was more useful before NBT disassembly data was removed, but good riddance I (and basically everyone) say.\n\nLead is plentiful in the Twilight Forest. Or if you are desperate, small ores can be found in the Nether.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 1,
+    "name": "§3§lI Know His Name!",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    948,
+    536
+  ],
+  "rewards": [],
+  "tasks": []
+}

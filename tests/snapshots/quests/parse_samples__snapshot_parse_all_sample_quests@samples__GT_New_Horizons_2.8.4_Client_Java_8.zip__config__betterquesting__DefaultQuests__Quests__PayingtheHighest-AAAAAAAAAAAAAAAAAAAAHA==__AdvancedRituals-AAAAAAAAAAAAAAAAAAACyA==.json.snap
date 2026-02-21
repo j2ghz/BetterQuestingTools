@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 712,
+  "prerequisites": [
+    709
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "More powerful rituals require dusk runes. With your new dusk chalk, you can enhance your ritual diviner to place those. Allowing you to perform a lot more rituals.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Advanced Rituals",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    709
+  ],
+  "rewards": [],
+  "tasks": []
+}

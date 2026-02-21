@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 803,
+  "prerequisites": [
+    802,
+    807
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The quantum armor is a high tier and very durable armor with a lot of features like night vision, fall damage reduction and running very fast.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Quantum Armor",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    802,
+    807
+  ],
+  "rewards": [],
+  "tasks": []
+}

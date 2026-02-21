@@ -1,0 +1,43 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 388,
+  "prerequisites": [
+    320,
+    2648,
+    714,
+    284,
+    3231
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You have tinkered long and hard to try to combine magic and technology. It looks like you finally found a way! Combining your powers as a thaumaturge and blood mage with your UHV technology you think you have found a way to distill the power of a dragon into a small core. This machine can do it, you are sure. If only you know how precisely to assembler such a core.\n\n[note]Use a hologram projector to see how it is built. You can also upgrade your draconic cores but for that you need the higher tier schematics and you need to upgrade the multiblock.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lDraconic Evolution",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    320,
+    2648,
+    714,
+    284,
+    3231
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3157,
+  "prerequisites": [
+    3155
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Reactor Platings. These are very important for automation, although their supposed use is not this one. They serve to increase the maximum temperature of the reactor, but that is useless to you because you'll be using heat-neutral setups. Instead, they are simply the cheapest way to fill every slot of your nukes, except for those where fuel rods need to go.\n\nAs you know, the placement of each component is critical to keep the reactor safe. Fuel automation is as simple as just pushing fuel rods into the reactor, but you need to make it so the open slots are the only safe places for the rods. From there, you can use a filter set to the depleted version of the rods you're using to extract them, allowing the exchange to happen seamlessly.\n\nFrom there, you can turn the depleted rods into usable rods by putting them in the Thermal Centrifuge, adding back the fuel that wasn't recycled (each type of rod recycles different amounts of fuel) and the Empty Fuel Rods/Steel Rods.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Fuel Input Automation",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3155
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2626,
+  "prerequisites": [
+    2614
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Have you made the Large Scale Auto-Assembler yet? If you haven't, you'll have to make the Ultimate Assembly Constructor to progress. And to make the T6 Rocket. You'll also be able to make the next tier of coils.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "UV Assembling",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2614
+  ],
+  "rewards": [],
+  "tasks": []
+}

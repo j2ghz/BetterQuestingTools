@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1183,
+  "prerequisites": [
+    1181
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The furnace cart is a cheap locomotive. Click with coal or charcoal on the cart and it will start moving.\n\nThis is a curiosity, and probably you will use the steam locomotive from the next quest for an actual train.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Locomotive 0.1 Alpha",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1181
+  ],
+  "rewards": [],
+  "tasks": []
+}

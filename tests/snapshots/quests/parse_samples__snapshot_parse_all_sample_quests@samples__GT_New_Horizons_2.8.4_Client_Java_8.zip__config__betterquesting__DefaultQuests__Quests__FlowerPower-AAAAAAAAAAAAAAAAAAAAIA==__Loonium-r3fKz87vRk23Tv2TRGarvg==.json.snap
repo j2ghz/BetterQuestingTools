@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 14911214188921007038,
+  "prerequisites": [
+    3232
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "This flower uses mana to randomly produce dungeon loot that would be found in chests in your world. This loot drops as items. It can be disabled at will by applying a redstone signal.\n\n[note]Here you have a list of all possible drops[/note]\n\n[url]https://docs.google.com/spreadsheets/d/1EzFQYnL53GdzXxs6H2lVM2QJEgNEAUG1vSS-15DPPSM/edit?gid=0#gid=0[/url]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Loonium",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3232
+  ],
+  "rewards": [],
+  "tasks": []
+}

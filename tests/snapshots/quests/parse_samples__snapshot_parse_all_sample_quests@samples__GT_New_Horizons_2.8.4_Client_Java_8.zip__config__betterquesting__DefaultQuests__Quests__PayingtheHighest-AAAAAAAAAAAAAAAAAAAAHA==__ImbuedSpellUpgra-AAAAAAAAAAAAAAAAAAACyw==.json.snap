@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 715,
+  "prerequisites": [
+    703
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "With these new shards you're able to craft the most powerful spell components. Maybe it's time to upgrade your mining spell?",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Imbued Spell Upgrades",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    703
+  ],
+  "rewards": [],
+  "tasks": []
+}

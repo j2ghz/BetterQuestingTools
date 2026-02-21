@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2326,
+  "prerequisites": [
+    2325
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Sift Rhodium Nitrate to get Rhodium Filter Cake. You only have a 95% chance to get a dust.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lSift it Goooood",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "CHAIN"
+  },
+  "required_prerequisites": [
+    2325
+  ],
+  "rewards": [],
+  "tasks": []
+}

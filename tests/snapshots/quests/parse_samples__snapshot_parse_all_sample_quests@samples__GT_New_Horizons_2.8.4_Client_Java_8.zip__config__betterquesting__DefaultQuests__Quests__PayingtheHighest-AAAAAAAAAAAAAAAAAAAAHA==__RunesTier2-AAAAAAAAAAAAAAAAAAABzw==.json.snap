@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 463,
+  "prerequisites": [
+    423
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The speed rune is the only tier 2 rune. The speed rune does what its name implies, provides an additive 25% increase to the processing speed of the blood altar.\n\nHOWEVER, this makes it much more difficult to actually craft anything, so don't use them unless you're sure you can craft the item.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Runes Tier 2",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    423
+  ],
+  "rewards": [],
+  "tasks": []
+}

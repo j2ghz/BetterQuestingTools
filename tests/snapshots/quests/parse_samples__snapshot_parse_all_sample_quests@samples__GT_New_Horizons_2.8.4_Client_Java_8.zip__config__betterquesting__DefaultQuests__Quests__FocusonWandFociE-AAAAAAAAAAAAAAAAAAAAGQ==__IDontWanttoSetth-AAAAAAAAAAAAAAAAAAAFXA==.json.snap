@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1372,
+  "prerequisites": [
+    227
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Wand Focus: Fire is a basic wand focus that is able to spew a short-range cone of fire that deals damage and sets mobs ablaze.\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Potency§r: Increases damage dealt every level\n§5Alchemist's Fire§r (even levels): Hit mobs burn for longer and lights blocks on fire\n§5Fireball§r (level 3): The focus now shoots a large, explosive ball of fire which sets the ground on fire if paired with §5Alchemist's Fire§r\n§5Fire Beam§r (level 3): Concentrates the cone of fire into a beam that does more damage and shoots farther",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "I Don't Want to Set the World on Fire",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    227
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1642,
+  "prerequisites": [
+    1640
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The greatest reward is having your stuff automated if you've done everything correctly, but here's a reward for making it this far.\n\nSome other setups to look at automating are making polyethylene and nitric acid.\n\nWith stock keeper chips you can always keep a set amount on-hand and when you pull out the cells to use elsewhere, your setup will automatically make more.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Reward for Desulfurizing Automation",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1640
+  ],
+  "rewards": [],
+  "tasks": []
+}

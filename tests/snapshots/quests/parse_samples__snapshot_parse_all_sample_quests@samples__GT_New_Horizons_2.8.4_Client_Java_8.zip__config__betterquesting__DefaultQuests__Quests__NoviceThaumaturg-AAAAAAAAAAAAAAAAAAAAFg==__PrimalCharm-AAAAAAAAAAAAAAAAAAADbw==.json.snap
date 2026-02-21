@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 879,
+  "prerequisites": [
+    242,
+    237
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "With your new 50 vis wand you are able to make a Scepter which holds up to 75 vis.\nFirst you need some primal charms which cost 50 vis to craft.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Primal Charm",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    242,
+    237
+  ],
+  "rewards": [],
+  "tasks": []
+}

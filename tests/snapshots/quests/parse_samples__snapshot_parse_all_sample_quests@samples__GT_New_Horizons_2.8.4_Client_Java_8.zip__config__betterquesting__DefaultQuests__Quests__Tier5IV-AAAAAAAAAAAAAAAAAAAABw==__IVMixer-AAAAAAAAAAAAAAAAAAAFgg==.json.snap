@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1410,
+  "prerequisites": [
+    213
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "An IV mixer is required for example to mix HSS-S dust or to make IV superconductors.\n\nYou can also check out the Mass Processing tab and make a multiblock mixer out of this one.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lIV Mixer",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    213
+  ],
+  "rewards": [],
+  "tasks": []
+}

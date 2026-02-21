@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3050,
+  "prerequisites": [
+    3048
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Just EBF your zirconium tetrachloride with some magnesium and you're done!\n\nZirconium is used in many different multiblock machines such as the Industrial mixer and the Alloy blast smelter that you might have already built. It's also used in the creation of High Density rods for an extra boost to your nuclear reactors.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lZirconium Ingots",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3048
+  ],
+  "rewards": [],
+  "tasks": []
+}

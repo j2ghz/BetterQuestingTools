@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2298,
+  "prerequisites": [
+    2297
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "What, recycling? That's lame. I just wanna void this stuff! - is what you might think right now, but be aware that Platinum Salt still holds a high concentration of Platinum. We can recycle it to get even more Platinum out of it!\n\nYou need to sift it to get Refined Platinum Salt. You only have a 95% chance to get a dust.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§a§lPlatinum Salt Recycling",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "CHAIN"
+  },
+  "required_prerequisites": [
+    2297
+  ],
+  "rewards": [],
+  "tasks": []
+}

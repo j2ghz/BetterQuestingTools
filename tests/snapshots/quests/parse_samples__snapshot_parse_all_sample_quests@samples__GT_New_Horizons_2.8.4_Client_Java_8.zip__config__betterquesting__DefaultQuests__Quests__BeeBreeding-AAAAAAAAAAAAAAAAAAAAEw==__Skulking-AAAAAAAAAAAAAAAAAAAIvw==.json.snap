@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2239,
+  "prerequisites": [
+    2213
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Skulking bees are the core of the various mob bees. Check out the rest of the recipes in NEI, there are too many to show here. Breed them using Eldritch and Modest.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Skulking",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2213
+  ],
+  "rewards": [],
+  "tasks": []
+}

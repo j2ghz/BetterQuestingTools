@@ -1,0 +1,43 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1493,
+  "prerequisites": [
+    1412,
+    213,
+    2329,
+    2667,
+    1261
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "LuV-Level. You will need Rhodium-Plated Palladium for machines. Suggested planets and moons to visit: Jupiter's Moon Io, Venus and Mercury. Machine parts will now require an Assembly Line - Check Multiblock Goals for details.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§c§lTier 6 (LuV)",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "tierthemes:luv",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1412,
+    213,
+    2329,
+    2667,
+    1261
+  ],
+  "rewards": [],
+  "tasks": []
+}

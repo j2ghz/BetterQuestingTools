@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2538,
+  "prerequisites": [
+    1292
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "They're exactly what they sound like.\n\nThe first is for items and acts like a terminal. It can hold 4,032 of a single item.\n\nThe second is for liquids, and acts like the fluid terminal. It can hold 128 buckets of a single liquid.\n\nIt costs AE to put things in, take them out, or have the interface open. Use the Wireless Charger from EIO if you don't want it to take forever.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Portable Digital Storage",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1292
+  ],
+  "rewards": [],
+  "tasks": []
+}

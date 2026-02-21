@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1831,
+  "prerequisites": [
+    36
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "To build a Windmill you will need a Dispenser, but that item is locked behind the next Tier. Go and find one in a Witchery Circle. They look like small versions of Stonehenge.\n\nLook for the main quest in Multiblock Goals.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§2§lCircle Shapes Give Me Comfort",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    36
+  ],
+  "rewards": [],
+  "tasks": []
+}

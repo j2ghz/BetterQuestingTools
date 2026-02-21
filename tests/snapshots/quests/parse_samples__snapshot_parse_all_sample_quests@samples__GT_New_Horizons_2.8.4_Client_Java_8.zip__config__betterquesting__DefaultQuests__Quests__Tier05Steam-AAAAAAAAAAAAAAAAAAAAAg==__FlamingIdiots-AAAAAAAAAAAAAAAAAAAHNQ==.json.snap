@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1845,
+  "prerequisites": [
+    479
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Blazes are all infernals, and all nasty. Avoid like a plague. Get awesome weapons, awesome armor, and prepare for a fight.\n\nThe alternative is to figure out a way to destroy them with technology.\n\nThe alternative to the alternative is to figure out a different way to get blaze powder and blaze rods.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§3§lFlaming idiots",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    479
+  ],
+  "rewards": [],
+  "tasks": []
+}

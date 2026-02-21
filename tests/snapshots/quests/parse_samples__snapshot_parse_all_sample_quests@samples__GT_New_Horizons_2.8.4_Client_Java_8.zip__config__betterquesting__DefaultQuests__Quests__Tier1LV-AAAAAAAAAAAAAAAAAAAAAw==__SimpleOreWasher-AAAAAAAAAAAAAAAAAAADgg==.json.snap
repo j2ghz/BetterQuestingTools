@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 898,
+  "prerequisites": [
+    93
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Too lazy to make an ore washer, yet bored with your non-automatable cauldron? Then the simple washer is the machine for you! It works much faster than a normal ore washer. Of course, you don't get any byproducts, but who cares!\n\nThere are simple washers for every tier up to UV, but the speed doesn't increase much past the HV version.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lSimple Ore Washer",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    93
+  ],
+  "rewards": [],
+  "tasks": []
+}

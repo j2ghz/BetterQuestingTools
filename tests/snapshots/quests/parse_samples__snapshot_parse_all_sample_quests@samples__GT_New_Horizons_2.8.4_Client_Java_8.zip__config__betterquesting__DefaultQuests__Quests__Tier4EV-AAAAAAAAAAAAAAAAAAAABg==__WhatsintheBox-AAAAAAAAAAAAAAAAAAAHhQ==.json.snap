@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1925,
+  "prerequisites": [
+    1480
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Tired of waiting around for hours with radium in your inventory, waiting for it to decay? With a §5Lead-Lined Box§r you can safely leave your radium in it and it'll decay while you do real work.\n\n[note]Pipes work with it, but you can not use a WA.[/note]\n\nAdditionally, you can also choose to use the §5Decay Warehouse§r for this task; it's more efficient but comes at a much higher cost. (More info in Multiblock Goals tab)",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§a§lWhat's in the Box?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1480
+  ],
+  "rewards": [],
+  "tasks": []
+}

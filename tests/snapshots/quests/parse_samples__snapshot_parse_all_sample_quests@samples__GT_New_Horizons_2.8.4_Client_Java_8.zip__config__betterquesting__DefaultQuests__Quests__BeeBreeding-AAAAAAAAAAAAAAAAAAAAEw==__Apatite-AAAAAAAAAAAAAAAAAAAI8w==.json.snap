@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2291,
+  "prerequisites": [
+    2292,
+    2168
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Apatite bee requires an Apatite Block beneath it to breed. Its Seedy comb will make seed oil as well. Breed them from Ash and Coal.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Apatite",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2292,
+    2168
+  ],
+  "rewards": [],
+  "tasks": []
+}

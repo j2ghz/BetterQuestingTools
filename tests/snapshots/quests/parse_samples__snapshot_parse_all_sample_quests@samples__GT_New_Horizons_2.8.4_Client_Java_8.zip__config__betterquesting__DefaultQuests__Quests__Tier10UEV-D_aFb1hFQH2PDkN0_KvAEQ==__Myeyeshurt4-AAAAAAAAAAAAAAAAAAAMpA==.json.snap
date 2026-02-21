@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3236,
+  "prerequisites": [
+    12619450954549344712
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "So you finally did it... but there's so much more to do. Onwards comrade!",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "My Eyes Hurt! #4",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    12619450954549344712
+  ],
+  "rewards": [],
+  "tasks": []
+}

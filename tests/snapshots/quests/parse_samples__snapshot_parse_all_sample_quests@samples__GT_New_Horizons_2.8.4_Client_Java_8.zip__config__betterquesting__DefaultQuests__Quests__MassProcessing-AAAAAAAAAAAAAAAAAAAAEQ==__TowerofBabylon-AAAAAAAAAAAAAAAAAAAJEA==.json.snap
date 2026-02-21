@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2320,
+  "prerequisites": [
+    15325266858921172336
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Well what might happen if you combine 64 Distillation Towers in one...? You know... you get a 61 Block tall Multiblock.\n\nThis can handle up to 256 Recipes at once.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lTower of Babylon",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    15325266858921172336
+  ],
+  "rewards": [],
+  "tasks": []
+}

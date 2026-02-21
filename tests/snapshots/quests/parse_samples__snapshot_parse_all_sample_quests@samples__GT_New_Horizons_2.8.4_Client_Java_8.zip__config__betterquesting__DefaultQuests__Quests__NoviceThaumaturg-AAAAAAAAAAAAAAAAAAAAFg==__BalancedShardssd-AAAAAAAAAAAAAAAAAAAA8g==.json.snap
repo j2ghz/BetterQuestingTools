@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 242,
+  "prerequisites": [
+    241
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "By combining all six primal aspects in a crucible, you are able to make balanced shards. They can be ground up into \"Salis Mundus\", an absolutely crucial thing to have, trust me!",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Balanced Shards sdrahS decnalaB",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    241
+  ],
+  "rewards": [],
+  "tasks": []
+}

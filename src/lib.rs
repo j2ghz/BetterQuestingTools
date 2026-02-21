@@ -9,20 +9,13 @@
 //! Basic example (no-run):
 //!
 //! ```rust,no_run
-//! use better_questing_tools::db::parse_default_quests_dir;
-//! use std::path::Path;
-//!
-//! fn main() -> Result<(), Box<dyn std::error::Error>> {
-//!     let db = parse_default_quests_dir(Path::new("path/to/DefaultQuests"))?;
-//!     println!("BetterQuestingTools: parsed {} quests", db.quests.len());
-//!     Ok(())
-//! }
 //! ```
 
 pub mod db;
 pub mod error;
 pub mod importance;
 pub mod model;
+pub mod model_raw;
 pub mod nbt_norm;
 pub mod parser;
 pub mod quest_id;
@@ -31,4 +24,4 @@ pub use crate::db::*;
 pub use crate::error::*;
 pub use crate::importance::*;
 pub use crate::model::*;
-pub use crate::parser::*;
+pub use crate::parser::{parse_quest_from_file, parse_quest_from_reader, parse_quest_from_value};

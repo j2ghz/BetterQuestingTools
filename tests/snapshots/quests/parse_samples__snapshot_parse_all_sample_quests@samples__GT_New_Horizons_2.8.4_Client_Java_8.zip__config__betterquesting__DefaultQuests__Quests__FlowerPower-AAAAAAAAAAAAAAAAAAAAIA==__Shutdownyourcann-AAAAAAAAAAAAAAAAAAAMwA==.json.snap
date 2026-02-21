@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3264,
+  "prerequisites": [
+    3263
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Some flowers eat bees. Some eat leaves. Some eat slimes. This one eats everything (everything you can eat, anyway). The gourmaryllis is happiest when provided with a good variety of delicious meals, so I hope the HV-tier diet of canned sludge hasn't made you forget how to cook.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Shut Down Your Canning Machine",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3263
+  ],
+  "rewards": [],
+  "tasks": []
+}

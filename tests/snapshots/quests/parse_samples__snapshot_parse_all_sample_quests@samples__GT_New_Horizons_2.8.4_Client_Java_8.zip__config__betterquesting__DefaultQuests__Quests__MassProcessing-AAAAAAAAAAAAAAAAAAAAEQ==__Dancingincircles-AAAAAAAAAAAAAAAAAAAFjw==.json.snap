@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1423,
+  "prerequisites": [
+    17509788580095423501
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Spinning around, getting hot - sounds like a dance. Or a thermal centrifuge. Build a large thermal refinery to get the most out of your ores.\n\nYou can use Noise Hazard Signs instead of Thermal Processing Casings, as long as you have at least 8 Thermal Processing Casings.\n\nThe muffler goes on the bottom layer.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Dancing in circles",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    17509788580095423501
+  ],
+  "rewards": [],
+  "tasks": []
+}

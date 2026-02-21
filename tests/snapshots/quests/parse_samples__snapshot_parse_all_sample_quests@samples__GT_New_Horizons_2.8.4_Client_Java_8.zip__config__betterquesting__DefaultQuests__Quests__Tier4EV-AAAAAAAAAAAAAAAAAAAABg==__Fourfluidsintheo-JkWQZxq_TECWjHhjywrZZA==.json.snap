@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1927343006705965412,
+  "prerequisites": [
+    176
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Now that you're in EV tier you now have access to the Quadruple input hatches. These hatches can hold four different fluids in the one hatch which saves valuable spots in your multiblocks.\n\nPerfect to be placed in your EBFs.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§a§lFour fluids in the one Hatch!",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    176
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3446739774205646014,
+  "prerequisites": [
+    6004498835735652345
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "White Dwarf Matter, your first main EOH material! I must be able to craft all sorts of cool endgame things with this... right?\n\n[note]Currently, besides EOH casing upgrades, White Dwarf Matter is not used anywhere on its own, often paired with Black Dwarf Matter or other later materials. Save it up for now and keep upgrading that EOH![/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "What Do I Use This Stuff On?",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    6004498835735652345
+  ],
+  "rewards": [],
+  "tasks": []
+}

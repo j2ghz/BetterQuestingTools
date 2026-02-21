@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 11887325232753849323,
+  "prerequisites": [
+    3227,
+    1245
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Fountain of Alchemy as you may guess, is functionally just like the Mana Fountain, except it can handle the recipes that you would typically need an Alchemy Rune underneath a Mana Pool for.\n\nIf you need any further details about it's functionality, check out the Mana Fountain quest or the Lexica Botania.\n\n[warn]This cannot do regular Mana Pool recipes, only Alchemy recipes.[/warn]\n\n[note]If, for whatever reason, you needed an abundance of prismarine in the future... perhaps a quad Fountain of Alchemy would be an excellent aid in obtaining that.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Fountain Of Alchemy",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3227,
+    1245
+  ],
+  "rewards": [],
+  "tasks": []
+}

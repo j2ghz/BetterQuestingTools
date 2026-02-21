@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 12823509066507797246,
+  "prerequisites": [
+    2992162928039595612
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The penultimate energy hatch.\n\nHopefully you know what to upgrade first.\n\n[note]Have you checked out wireless energy hatches yet?[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "UMV Energy Hatch",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2992162928039595612
+  ],
+  "rewards": [],
+  "tasks": []
+}

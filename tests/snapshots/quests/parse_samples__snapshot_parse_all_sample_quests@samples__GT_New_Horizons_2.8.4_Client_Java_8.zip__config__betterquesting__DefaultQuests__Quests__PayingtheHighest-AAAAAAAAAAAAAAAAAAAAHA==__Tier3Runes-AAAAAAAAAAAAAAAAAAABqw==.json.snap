@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 427,
+  "prerequisites": [
+    424
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The first rune increases the I/O from the altar's buffer by a multiplicative 50% rate, and the second increases your altar's capacity by 3500L. This also increases the size of the I/O buffer, which is always 10% of the altar.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Tier 3 Runes",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    424
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 373,
+  "prerequisites": [
+    176,
+    962,
+    169
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "§6§lExtreme Entity Crusher§r is your newest and probably §lbest§r spawner/grinder, with this you are not only able to get drops without any §lTPS§r issues but also with style and §lextreme§r efficiency.\n\nOf course that depends on the quality of your sword; damage, looting, and durability are the only stats that will translate towards the efficacy of the machine. §3(weapon is optional however, there are spikes in it after all!)§r\n\nWill ocassionally spawn infernal mobs if possible and will use §2§lx8§r power with every infernal spawn so you need to take that into account!\n\nIf you are actively using the Blood Magic \"§c§lWell of Suffering§r\" ritual to power your altar, this multi may be used in combination with it to 'generate' and 'kill' mobs automatically for life essence, so you don't need a setup involving an actual spawner!\n\n§lNotes:§r\nWill generate §2§l120L§r of liquid XP with every cycle.\nIn case of any problems with multiblock animation just use §5soldering iron§r on the machine to disable it.\nRead the tooltip! There are a few unique quality of life settings that you may find of use.\n\n[warn]Enchanting the spikes does nothing to effect the machine.[/warn]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lAn Industrial Mobfarm",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    176,
+    962,
+    169
+  ],
+  "rewards": [],
+  "tasks": []
+}

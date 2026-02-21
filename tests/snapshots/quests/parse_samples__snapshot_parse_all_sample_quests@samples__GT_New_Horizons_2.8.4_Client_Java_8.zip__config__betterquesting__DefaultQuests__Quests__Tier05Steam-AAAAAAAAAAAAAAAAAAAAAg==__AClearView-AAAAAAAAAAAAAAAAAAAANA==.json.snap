@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 52,
+  "prerequisites": [
+    49
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Are you still living in your dirt/cobble hut? How about letting in some sunlight? Grind up some sand and flint and craft some glass dust. Put it in your smeltery and pour it into a casting basin to make clear glass.\n\n[note]Hint: In order to use it for recipes, you have to chisel it.[/note]\n\n[note]PS: The macerator no longer gives tiny piles, just uncraft a normal pile to get tiny ones. You'll appreciate this once you have a mixer in LV.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§3§lA Clear View",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    49
+  ],
+  "rewards": [],
+  "tasks": []
+}

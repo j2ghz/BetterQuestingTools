@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 8338768487073405587,
+  "prerequisites": [
+    2833412587994281978
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "After you've gotten ahold of some §2Prismarine Solution§r, combine it with §2Nitrobenzene§r in a §5§lChemical Bath§r in order to create a §3rich solution mixture§r. \n\nAdditionally, you will start to receive some §3Prismarine-Contaminated Hydrogen Peroxide§r byproduct.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Prismarine-Rich Nitrobenzene Solution",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2833412587994281978
+  ],
+  "rewards": [],
+  "tasks": []
+}

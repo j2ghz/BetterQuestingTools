@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2049,
+  "prerequisites": [
+    770,
+    1416
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Your research into energy has led you to energy buffers - a single block that can store enormous amounts, and is also portable. Better than a battery, these devices can be configured to output 1-16A. Using a high-amp transformer, that means you can up tier 2 tiers with these devices. This HV energy buffer can power an HV machine for several hours, or an EV machine for almost an hour. Perfect for mining operations in far off dimensions.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Energy Buffers",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    770,
+    1416
+  ],
+  "rewards": [],
+  "tasks": []
+}

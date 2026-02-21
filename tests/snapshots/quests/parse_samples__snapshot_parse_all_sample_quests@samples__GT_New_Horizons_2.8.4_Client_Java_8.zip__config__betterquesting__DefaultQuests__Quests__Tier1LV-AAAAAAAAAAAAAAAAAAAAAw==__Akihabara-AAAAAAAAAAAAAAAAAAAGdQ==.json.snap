@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1653,
+  "prerequisites": [
+    102
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Tired of talking one by one with every villager to determine their trades? A trading post will show you all available trades from villagers in the area.\n\nYou'll need an Assembler to finish it up.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lAkihabara",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    102
+  ],
+  "rewards": [],
+  "tasks": []
+}

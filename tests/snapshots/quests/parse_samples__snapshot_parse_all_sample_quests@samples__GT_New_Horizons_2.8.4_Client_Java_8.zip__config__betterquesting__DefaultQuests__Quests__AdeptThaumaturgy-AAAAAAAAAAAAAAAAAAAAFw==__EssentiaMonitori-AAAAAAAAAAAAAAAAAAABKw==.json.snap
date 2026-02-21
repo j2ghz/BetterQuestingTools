@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 299,
+  "prerequisites": [
+    295
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Manually checking your jars can be tedious, especially if you want to infuse a bunch of stuff at once. Luckily, the essentia locus can help you with that, as it monitors all jars that have been targeted with a crystalline eye.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Essentia Monitoring",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    295
+  ],
+  "rewards": [],
+  "tasks": []
+}

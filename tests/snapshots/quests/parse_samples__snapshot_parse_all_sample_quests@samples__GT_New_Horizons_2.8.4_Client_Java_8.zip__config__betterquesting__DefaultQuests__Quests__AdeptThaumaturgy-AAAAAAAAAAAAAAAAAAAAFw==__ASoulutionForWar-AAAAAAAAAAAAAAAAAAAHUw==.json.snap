@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1875,
+  "prerequisites": [
+    1099
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Soul Brazier from Thaumic Exploration will store your permanent warp.\n\nAs long as it has Ignis centi-vis and Mortuus essentia fed from underneath it will stay active, even while you are in other dimensions. Turning it off or running out of power will dump all that warp back into your body, so watch out.\n\nContaining warp does have a bit of a downside - taint. You'll need to figure out a way to stop that.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "A Soul-ution For Warp",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1099
+  ],
+  "rewards": [],
+  "tasks": []
+}

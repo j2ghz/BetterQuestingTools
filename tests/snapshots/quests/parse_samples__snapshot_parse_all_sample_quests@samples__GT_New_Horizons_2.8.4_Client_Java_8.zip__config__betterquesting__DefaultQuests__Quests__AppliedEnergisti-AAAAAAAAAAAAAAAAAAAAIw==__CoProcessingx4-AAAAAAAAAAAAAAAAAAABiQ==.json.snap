@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 393,
+  "prerequisites": [
+    1326
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Your crafting CPU is massive and still can't keep up? Don't worry, we have a custom solution for that!",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Co-Processing x4",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1326
+  ],
+  "rewards": [],
+  "tasks": []
+}

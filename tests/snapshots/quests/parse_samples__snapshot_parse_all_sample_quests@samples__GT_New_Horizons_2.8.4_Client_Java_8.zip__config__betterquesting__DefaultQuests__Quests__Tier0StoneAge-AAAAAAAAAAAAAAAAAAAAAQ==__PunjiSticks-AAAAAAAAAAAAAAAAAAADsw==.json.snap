@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 947,
+  "prerequisites": [
+    43
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "An early game protection moat can be made out of punji sticks. It hurts all mobs/players and additionally gives a slowness II potion effect. Make a trench around your base and put the punji sticks inside.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§2§lPunji Sticks",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    43
+  ],
+  "rewards": [],
+  "tasks": []
+}

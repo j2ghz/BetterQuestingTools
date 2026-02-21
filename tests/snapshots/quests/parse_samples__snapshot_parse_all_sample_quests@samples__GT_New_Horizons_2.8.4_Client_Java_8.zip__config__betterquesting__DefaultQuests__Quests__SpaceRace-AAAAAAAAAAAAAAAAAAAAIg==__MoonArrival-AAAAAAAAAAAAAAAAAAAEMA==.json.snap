@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1072,
+  "prerequisites": [
+    810
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "I have a small present for you: a Talisman of Remedium which is very useful to persevere during the dark nights with all these monsters.\n\nFirst you have to prove you can survive on the moon by yourself. After mining some moon turf, dirt, and rock, you can have it.\n\nMake sure you check back in the HV questline for necessary ores you should gather while here.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Moon Arrival",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    810
+  ],
+  "rewards": [],
+  "tasks": []
+}

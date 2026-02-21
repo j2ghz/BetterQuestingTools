@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2082,
+  "prerequisites": [
+    2081
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The acclimatiser is a key machine for breeding your bees. With lots of power and the appropriate ingredients you can toughen your bees to thrive anywhere. It's recommend to use an EnderIO capacitor to power this device. However, even with climate hardiness your bees still won't produce special items unless they are in their favorite climate. Along with the bee, put in these items to adjust the bee's traits:\n\nSnowball - More cold tolerance\nLava - More heat tolerance\nSand - More dry tolerance\nWater - More wet tolerance\n\nYou should know that the acclimatiser doesn't return capsules or cells. The amount of items needed is pretty random.\n\n[note]A nice trick is to start with a bee that already has both. Then you can use either direction to increase it further! You don't need any lava if you do it like this. And no cells either. You can just use sand and snowballs.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Making Bees More Comfortable",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2081
+  ],
+  "rewards": [],
+  "tasks": []
+}

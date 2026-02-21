@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1191,
+  "prerequisites": [
+    878
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "It is also possible to create a bizarre hybrid of staff and scepter (sometimes called a \"staffter\"), by using a staff core instead of a wand core in the scepter recipe. The resulting device can neither hold a focus nor be placed in a crafting table, but it can still be used to activate constructs, or as a \"vis battery\" for Repair-enchanted equipment or Runic shielding.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Magic \"Staffter\"",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    878
+  ],
+  "rewards": [],
+  "tasks": []
+}

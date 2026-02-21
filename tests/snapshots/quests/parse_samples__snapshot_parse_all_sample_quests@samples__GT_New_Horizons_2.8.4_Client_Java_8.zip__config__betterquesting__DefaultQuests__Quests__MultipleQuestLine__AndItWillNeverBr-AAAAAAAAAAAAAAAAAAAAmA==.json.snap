@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 152,
+  "prerequisites": [
+    151,
+    1101
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "By using an etheric sword, your killer joe will run...forever. Proper enchantments are a requirement for it to be efficient, but that shouldn't be a problem.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lAnd It Will Never Break",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    151,
+    1101
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2639,
+  "prerequisites": [
+    2752,
+    2658
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Rockets require heavy duty plates for the main hull. Let's craft 13 tier 6 heavy duty plates out of tier 5 plates and compressed lead-oriharukon plates.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Tier 6 Heavy Duty Plates",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2752,
+    2658
+  ],
+  "rewards": [],
+  "tasks": []
+}

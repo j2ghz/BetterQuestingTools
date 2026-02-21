@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 12513053663882952434,
+  "prerequisites": [
+    5172748222027675846
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Just like items which have itemsink modules for storage and provider modules for request, fluids have basically the equivalent pipes.\n\nThe Logistics Fluid Provider Pipe will do the job. It will provide the fluid to other pipes and machines connected to them that need the fluid.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Pls Provide",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    5172748222027675846
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1793,
+  "prerequisites": [
+    719
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "With an Assembler and some Seed Oil, you can turn Dirt and Sand into Garden Soil. This optimal Soil does not require nearby water, and Crops won't break when you fall on or run near it.\n\nHowever, unlike watered Farmland, it doesn't contribute to the humidity stat or speed up IC2 crops, so it's not useful for min-maxing.\n\nThe same goes for Enchanted Earth, the Lamp of Growth, Sprinklers, etc.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Turning Dirt into proper Soil",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    719
+  ],
+  "rewards": [],
+  "tasks": []
+}

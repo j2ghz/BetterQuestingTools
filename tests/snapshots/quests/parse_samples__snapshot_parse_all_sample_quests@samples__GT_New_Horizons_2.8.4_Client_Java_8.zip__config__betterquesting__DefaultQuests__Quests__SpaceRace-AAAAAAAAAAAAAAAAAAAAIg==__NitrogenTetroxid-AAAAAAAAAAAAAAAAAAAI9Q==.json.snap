@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2293,
+  "prerequisites": [
+    2688,
+    851,
+    2878
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Another ingredient for the final rocket fuel is Nitrogen Tetroxide. Combine some Copper Dust and Nitric Acid along with an Orange Metal Catalyst in the Chemical Plant. ",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lNitrogen Tetroxide",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2688,
+    851,
+    2878
+  ],
+  "rewards": [],
+  "tasks": []
+}

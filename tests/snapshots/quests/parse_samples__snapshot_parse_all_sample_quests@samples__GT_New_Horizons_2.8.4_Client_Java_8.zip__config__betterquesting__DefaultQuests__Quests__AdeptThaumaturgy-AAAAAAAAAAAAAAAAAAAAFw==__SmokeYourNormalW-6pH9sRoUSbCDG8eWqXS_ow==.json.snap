@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1879207967626411939,
+  "prerequisites": [
+    1055
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Having too much normal warp? Sanitizing Soap is too expensive for you?\n\nWell, luckily for you, you can remove your Warp using a Silverwood Smoking Pipe and some Relaxing Tobacco. This is a fairly cheap and sustainable option for removing your Normal warp (assuming you have a good option to get a lot of Vis).\n\nIt also has a chance to reduce your temporary warp.\n\n[note]The chance to reduce your normal warp per Relaxing Tobacco is 10%, so you'll be needing a bunch of it.[/note]\n",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Smoke Your Normal Warp Away",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1055
+  ],
+  "rewards": [],
+  "tasks": []
+}

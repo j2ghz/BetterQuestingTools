@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2677,
+  "prerequisites": [
+    1489
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Auto Maintenance Hatch will correct maintenance problems immediately at the cost of some materials. Invaluable if you want to make sure your cleanroom machines won't void stuff. Or you could just use a howler and do it yourself I guess.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§c§lNo, It Won't Repair Your Car",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1489
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2024,
+  "prerequisites": [
+    1493
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "When the pack updates and changes an assembly line recipe, your old data sticks also need to change their recipe. In old versions, you needed to update the sticks by scanning new items, but now they will update automatically if placed in the assembly line, so you don't need to change things manually. If there is some kind of bug with data stick recipes after updating, do let the developers know, either on the Discord server or on GitHub.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§c§lAssline Quest Updates",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1493
+  ],
+  "rewards": [],
+  "tasks": []
+}

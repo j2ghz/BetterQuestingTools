@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 482,
+  "prerequisites": [
+    483,
+    1476
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Trying to get some leather or wool? You'd probably need to spend a lot of time hunting animals and traveling around, or you could simply make a farm to get a decent amount of leather, wool, and meat close to home. Make sure you don't put too many animals in the pen or they will overcrowd and kill each other. This happens to villagers as well.\n\nAnimals will prioritize moving towards grass blocks over any other blocks, and if there's no grass blocks around, they prefer lit blocks over dark blocks. You can encourage animals to stay in pens, or at least not crowd the edges, by removing grass from around both sides of the fence and under it, and by placing a torch in the center of the pen. For sheep that need the grass to eat, which reduces time to mature and replaces sheared wool instantly, place it in the center of a cleared out area with a border of non-grass.\n\nAlso, large quantities can cause server lag, especially if they are bumping into each other a lot. So if you are in multiplayer, make sure you limit animals to no more than roughly one per block for small entities like chickens and one per two blocks for large entities like cows.\n\nAs an alternative, most animal and mob drops can be obtained from less laggy IC2 crop farms.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§2§lAnimal Farms",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    483,
+    1476
+  ],
+  "rewards": [],
+  "tasks": []
+}

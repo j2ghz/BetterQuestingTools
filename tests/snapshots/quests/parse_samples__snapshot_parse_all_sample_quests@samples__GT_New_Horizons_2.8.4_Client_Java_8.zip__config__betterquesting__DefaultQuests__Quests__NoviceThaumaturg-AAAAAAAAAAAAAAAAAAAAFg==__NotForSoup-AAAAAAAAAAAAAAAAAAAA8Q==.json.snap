@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 241,
+  "prerequisites": [
+    1096
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "At least not for edible soup, but for essentia slurry. Get yourself a cauldron and give it a solid whack with your wand. Place some netherrack 2 blocks under the crucible and set it on fire with some flint and steel. Lastly you need to fill it with water. This one works with pipes, so you can automate that.\n\nNow you can do crucible recipes!\n\nJust don't put in too much or, well, Bad Things will happen.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Not For Soup",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1096
+  ],
+  "rewards": [],
+  "tasks": []
+}

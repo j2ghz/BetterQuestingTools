@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1565,
+  "prerequisites": [
+    1106
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Hardcore darkness is a pain, but now the night will be bright. Or at least, your perception will be that it is, mobs can still spawn! Be careful, the mobs aren't any weaker.\n\nIf you want, you can make a longer-lasting potion out of the Potion of Night Vision. Also, you should probably make them in batches of 3 so you don't waste materials.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "The Night's Not Dark Anymore",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1106
+  ],
+  "rewards": [],
+  "tasks": []
+}

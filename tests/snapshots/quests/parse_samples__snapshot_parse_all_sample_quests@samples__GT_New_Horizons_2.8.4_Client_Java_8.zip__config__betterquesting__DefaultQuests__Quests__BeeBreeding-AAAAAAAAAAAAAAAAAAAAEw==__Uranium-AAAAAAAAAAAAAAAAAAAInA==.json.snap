@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2204,
+  "prerequisites": [
+    2203,
+    2206
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "All that hatred had a purpose - to create this bee, capable of producing enormous power. As before, keep away from everything. This bee will require a block of Uranium. Breed them from Avenging and Platinum.\n\nTo actually get the combs you need to either find a biome with cold temperature and normal humidity or emulated these conditions.\n\n[note]With these combs and the iridium ones you can now make climate control units for modules in your industrial apiary![/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Uranium",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2203,
+    2206
+  ],
+  "rewards": [],
+  "tasks": []
+}

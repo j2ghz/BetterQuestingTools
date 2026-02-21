@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1499,
+  "prerequisites": [
+    91,
+    93
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Wait, what? You want more byproducts from your ores? A cheaper way to make paper? Well, the chemical bath is perfect for you!\n\nYou'll have to provide liquids like mercury to extract different products like nickel, silver, copper, and platinum (only as PMP) from ores.\n\nFor paper you'll only need some water and wood pulp. Maybe you'll find more uses for it!",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lChemical Bath",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    91,
+    93
+  ],
+  "rewards": [],
+  "tasks": []
+}

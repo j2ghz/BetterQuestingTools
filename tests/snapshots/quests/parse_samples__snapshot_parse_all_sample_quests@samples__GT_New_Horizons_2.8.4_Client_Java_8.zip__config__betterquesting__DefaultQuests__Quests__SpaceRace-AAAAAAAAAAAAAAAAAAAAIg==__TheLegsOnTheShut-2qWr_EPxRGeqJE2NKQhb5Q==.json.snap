@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 4895769479789173733,
+  "prerequisites": [
+    3282,
+    2644
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Shuttle Legs are very useful, as they allow the Shuttle Rocket to land without any aid. I highly recommend you build them! §mYou don't have a choice anyway.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "The Legs On The Shuttle Rocket Go Step, Step, Step...",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3282,
+    2644
+  ],
+  "rewards": [],
+  "tasks": []
+}

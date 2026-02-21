@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2401,
+  "prerequisites": [
+    1121
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Normally you find Monastic drones by trading with Beekeeper villagers. If you haven't been lucky yet, your villages are all dead, or if your server owners are cruel and disable villages, you can buy some here.\n\n[note]It's expensive to encourage you to try looking really hard, and to try and heal zombie villagers. Good luck![/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Monastic Bees",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": 48000,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1121
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1836,
+  "prerequisites": [
+    753,
+    665
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "GregTech tools like the knives get used up when crafting foods. Pams Tool like the Cutting Board, Juicer or the Bakeware can last forever.\n\nAfter you reach stainless steel in HV you can make these tools that last forever.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 1,
+    "name": "Kitchenware 2.0",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    753,
+    665
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 16086939767994332205,
+  "prerequisites": [
+    3246891370769289343
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Finally, to actually get some ICs, use your photons in a Target Chamber.\n\nNote that the EU/t value listed in TC recipes is only a minimum, as recipe time is entirely determined by the Amount of photons you give the multi.\n\nMore specifically, you can get the recipe time by dividing recipe Amount by your input beam Amount, then multiplying that by 5s.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Collision Course",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3246891370769289343
+  ],
+  "rewards": [],
+  "tasks": []
+}

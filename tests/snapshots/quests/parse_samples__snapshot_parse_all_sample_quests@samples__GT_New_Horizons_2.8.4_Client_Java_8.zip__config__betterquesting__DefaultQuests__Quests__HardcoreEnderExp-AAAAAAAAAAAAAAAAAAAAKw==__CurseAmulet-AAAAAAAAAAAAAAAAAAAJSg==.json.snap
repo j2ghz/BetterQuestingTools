@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2378,
+  "prerequisites": [
+    2376
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Curse Amulet reveals all nearby Curses placed on blocks and depletes Curses quicker when held.\n\nIt is created by throwing End Powder, Gold Ingot, Ectoplasm and String into Ender Goo.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Curse Amulet",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2376
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,33 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1252,
+  "optional_prerequisites": [
+    176
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "An HV chemical bath or better is needed for the quantum eye. If you make an EV one you can also process Ilmenite better.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§a§lEV Chemical Bath",
+    "party_single_reward": false,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 9974706694212917942,
+  "prerequisites": [
+    5019343597665338373,
+    15664724741015223223
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You've finally solved it. Who knew that leaving dead stars long enough would cause your artificial solar system to implode and lead to a Big Bang?\n\nIf only you could tap into that much mass right before it started expanding again, you could literally hold the entire universe in the palm of your hand.\n\nThis is your third and final material from the EOH.\n\n[note]It's mainly used for UXV crafts, but your first few should go in the Eternity loop. The quest for it is located in the Endgame Goals tab.\n\nCongrats! You can now craft Magnetohydrodynamically Constrained Star Matter (MHDCSM).[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Finally, Universium!",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    5019343597665338373,
+    15664724741015223223
+  ],
+  "rewards": [],
+  "tasks": []
+}

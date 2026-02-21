@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3101,
+  "prerequisites": [
+    3099
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Each option generates a different amount of oil, but this should be the limiting factor in your Biodiesel production regardless of which you choose. This step is always slow, for better or for worse, so your job is to add more plants or more fish to the system. You might get byproducts, especially with fish, so deal with them accordingly.\n\nYou can upgrade the setup you have when you get to the next tier, or switch what you're using later. Either way, get some oil.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Extracting the Oil",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3099
+  ],
+  "rewards": [],
+  "tasks": []
+}

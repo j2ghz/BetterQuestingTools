@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 794,
+  "prerequisites": [
+    837,
+    795
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "In order to make HV machines, you need HV circuits. The first one you can make is the Advanced Circuit from IC2. You'll need to make LV circuits to make MV circuits to make the HV circuits. Yay for recursive crafting! Start with the LV Integrated Logic Circuit. And no, you can't use the IC2 Electronic Circuits.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lIntegrated Circuit",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    837,
+    795
+  ],
+  "rewards": [],
+  "tasks": []
+}

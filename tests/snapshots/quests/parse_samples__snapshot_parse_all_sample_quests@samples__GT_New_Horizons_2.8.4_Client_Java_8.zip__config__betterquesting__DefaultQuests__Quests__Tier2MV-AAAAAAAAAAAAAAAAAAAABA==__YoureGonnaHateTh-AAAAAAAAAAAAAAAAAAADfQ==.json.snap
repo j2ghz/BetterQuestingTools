@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 893,
+  "prerequisites": [
+    1867
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The second item you'll need a lot of in MV tier. When you want to get fluid out of tanks you'll want one, though you don't necessarily need an MV one.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lYou're Gonna Hate This in MV Too #2",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1867
+  ],
+  "rewards": [],
+  "tasks": []
+}

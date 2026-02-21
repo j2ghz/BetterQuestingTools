@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 436,
+  "prerequisites": [
+    433
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Upon right-clicking while activated, this axe will clear out any wood within a large area. Be warned: This uses a huge amount of LP. You might suffer from sudden death...",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Bound Tools: Axe",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    433
+  ],
+  "rewards": [],
+  "tasks": []
+}

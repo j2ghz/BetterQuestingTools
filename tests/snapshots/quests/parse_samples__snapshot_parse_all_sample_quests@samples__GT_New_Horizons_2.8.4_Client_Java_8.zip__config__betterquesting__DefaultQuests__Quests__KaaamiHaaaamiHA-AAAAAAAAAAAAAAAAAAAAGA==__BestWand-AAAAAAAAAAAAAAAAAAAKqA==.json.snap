@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2728,
+  "prerequisites": [
+    273,
+    2726,
+    2727
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "This is the best non-endgame/creative wand you can make. There's also a Scepter version.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Best Wand",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    273,
+    2726,
+    2727
+  ],
+  "rewards": [],
+  "tasks": []
+}

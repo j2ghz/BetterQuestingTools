@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3211,
+  "optional_prerequisites": [
+    1819,
+    126
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Silicon is needed in all boule (and thus wafers, chips, and circuits) creation. Silicon is therefore an §oincredibly important material§r.\n\nWith your new Electrolyzer you can obtain Raw Silicon Dust from many different sources. Alternatively, you can also centrifuge Redstone. You can also get it from Silicon Dioxide, by adding Magnesium Dust to it in a Chemical Reactor and then recycling it in an Electrolyzer, which also gives you a lot of bonus Oxygen.",
+    "global_share": true,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lRaw Silicon Dust",
+    "party_single_reward": null,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

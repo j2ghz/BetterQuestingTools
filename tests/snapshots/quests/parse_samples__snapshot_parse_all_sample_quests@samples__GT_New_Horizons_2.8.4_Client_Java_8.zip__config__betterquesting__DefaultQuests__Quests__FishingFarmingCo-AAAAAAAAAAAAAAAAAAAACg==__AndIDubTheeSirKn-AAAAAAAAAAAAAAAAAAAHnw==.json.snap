@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1951,
+  "prerequisites": [
+    1807
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Need an infinite source of knightmetal? It will be a hard plant to grow. Make sure you provide plenty of nutrients, clean air, fertilizer and water. Don't cry to me if it dies. Any oreberry is a good source crop, with Cobalt and Ardite best, then iron and the rest.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "And I Dub Thee Sir Knight",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1807
+  ],
+  "rewards": [],
+  "tasks": []
+}

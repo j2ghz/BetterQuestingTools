@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 16751505793567016354,
+  "prerequisites": [
+    5070855298364671931
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "United States of SMASH those particles together to initiate proper controlled fusion reactions that allow us to continue this immense powergen chain. This is Americium Plasma, remember that!\n\nThis is actually the plasma that is probably the best choice for XL Plasma Turbines as a 1-recipe powergen setup. However, compared to Helium and Tin Plasma's previous state, it loses out a lot on speed on a mk3 compact, because it doesn't have the 192x/128x parallels, not to mention its recipe time is already 8x as long as Tin for the same amount of plasma.\n\nIt will also demand huge amount of Pu-241 for a UEV/UIV base to be sustained, but this fusion chain greatly reduces the amount needed, even if both inputs actually need Pu-241.\n\nThis step takes more than half the time of the final step, so it's one of the major bottlenecks: if you upgrade the final step to a compact, you would need 37 mk3 reactors to match speed here.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "AMERICA!!!!!!!!!",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    5070855298364671931
+  ],
+  "rewards": [],
+  "tasks": []
+}

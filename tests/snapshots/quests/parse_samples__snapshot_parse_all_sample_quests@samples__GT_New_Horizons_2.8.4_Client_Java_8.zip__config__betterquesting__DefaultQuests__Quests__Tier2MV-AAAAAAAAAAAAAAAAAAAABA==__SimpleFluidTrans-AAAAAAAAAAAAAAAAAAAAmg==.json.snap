@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 154,
+  "prerequisites": [
+    153
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Just like the item translocators, the fluid ones transfer... fluids. Same restrictions apply, 1 block distance. These can also be upgraded.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lSimple Fluid Transfer",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    153
+  ],
+  "rewards": [],
+  "tasks": []
+}

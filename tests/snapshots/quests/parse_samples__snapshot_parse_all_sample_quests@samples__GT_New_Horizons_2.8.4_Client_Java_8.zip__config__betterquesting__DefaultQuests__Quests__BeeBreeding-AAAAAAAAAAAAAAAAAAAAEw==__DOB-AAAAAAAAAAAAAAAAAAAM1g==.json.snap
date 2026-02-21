@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3286,
+  "prerequisites": [
+    2241,
+    358
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "It is not the psychedelic drug kicking in. The NEI page is actually correct. You can get a lot of different stuff from this comb.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "D-O-B",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2241,
+    358
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 727,
+  "prerequisites": [
+    36
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "While barrels offer a slot for a single item, drawers can have up to 4 slots each, holding 16 stacks per slot.\n\nHowever, they do come with some downsides. You won't be able to make them point up or down, and you can only access the contents from the front. The automation can use any side.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 1,
+    "name": "§2§lBetter Than Barrels",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    36
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2385,
+  "prerequisites": [
+    2384,
+    2383
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "After conquering most the of content inside the End, it is time for a Master Quest.\nBring forth and slay the following and you shall receive some moderately great loot.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Master Grinder",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": 144000,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2384,
+    2383
+  ],
+  "rewards": [],
+  "tasks": []
+}

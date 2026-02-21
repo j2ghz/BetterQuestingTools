@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 541,
+  "prerequisites": [
+    91
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "If you want to cut diamond blocks into plates, it's time to get a new alloy, Cobalt Brass.\n\nFirst you need to make brass out of zinc (only found in small ores or TiCo Zinc Gavel Ore in the Overworld, in Nether Sphalerite, or as a centrifuge byproduct from tin or tetrahedrite) and copper. Mix it with tin and cobalt dust (you can get it as a byproduct of a couple ores, go searching in the nether, or go to the Twilight Forest for Cobaltite) to get the cobalt brass dust.\n\nNow that you've come this far, we think that you're able to look up the ores that you need by yourself with the help of NEI.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lA New Alloy - Cobalt Brass",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    91
+  ],
+  "rewards": [],
+  "tasks": []
+}

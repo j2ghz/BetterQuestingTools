@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2319,
+  "prerequisites": [
+    2316
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "By combining your Acidic Iridium Solution with Ammonia Chloride you'll get some Iridium Chloride, which is rather easy to process into Iridium. You're almost done.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lEven More Chlorine Needed",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "CHAIN"
+  },
+  "required_prerequisites": [
+    2316
+  ],
+  "rewards": [],
+  "tasks": []
+}

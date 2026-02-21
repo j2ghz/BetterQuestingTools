@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 289,
+  "prerequisites": [
+    238
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Wand Focus: Nine Hells is truly a weapon worthy of your skills. It can fire creatures of the Nether at your enemies!\n\n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level\n§5Potency§r: Increases damage dealt every level\n§5Bat Bombs§r (level 3): Summoned bats always explode on contact\n§5Devil Bats§r (level 3): Summoned bats are larger, do more damage, and stay around for longer\n§5Vampire Bats§r (level 5): Summoned bats will heal themselves and the caster when they deal damage",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "An Appropriate Weapon",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    238
+  ],
+  "rewards": [],
+  "tasks": []
+}

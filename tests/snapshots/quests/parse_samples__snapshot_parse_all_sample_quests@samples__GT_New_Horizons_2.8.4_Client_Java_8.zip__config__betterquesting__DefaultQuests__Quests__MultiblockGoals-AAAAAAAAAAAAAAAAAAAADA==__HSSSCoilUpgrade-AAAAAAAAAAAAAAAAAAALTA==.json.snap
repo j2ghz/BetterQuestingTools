@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2892,
+  "prerequisites": [
+    475
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Technically this coil tier can be skipped. But you need LuV to get the next one, so you should really get these coils for now.\n\nTo process more advanced materials like LuV Superconductor Base you need more than 5400K. Time to upgrade your EBF to 6300K.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lHSS-S Coil Upgrade",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    475
+  ],
+  "rewards": [],
+  "tasks": []
+}

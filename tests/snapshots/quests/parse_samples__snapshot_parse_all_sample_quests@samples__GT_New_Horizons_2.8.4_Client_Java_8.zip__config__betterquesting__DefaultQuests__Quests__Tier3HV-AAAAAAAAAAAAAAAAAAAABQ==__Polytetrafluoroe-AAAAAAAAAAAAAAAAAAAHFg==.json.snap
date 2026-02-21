@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1814,
+  "prerequisites": [
+    1813
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Molten plastics smell great, don't they? Mix your Hydrofluoric Acid and Chloroform to make Tetrafluoroethylene. React the TFE with oxygen to make molten PTFE.\n\n[note]To get the 125 sheets without any leftovers or anything missing, follow the amounts of the optional quest and use the recipe that uses 1000L of Tetrafluoroethylene and 7000L of Oxygen. [/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lPolytetrafluoroethylene",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "CHAIN"
+  },
+  "required_prerequisites": [
+    1813
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3040,
+  "prerequisites": [
+    3039
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "If you read the Dyson Swarm Ground Unit's tooltip carefully (which you should), you might have noticed, that it mentions a \"dimension-dependent factor\". The dimension you build the Dyson Swarm multiblock in can greatly affect the real power output.\n\n§lSorted by factor (descending):§r\n§2337% - Horus\n231% - Barnarda C\n228% - Neper\n228% - α Centauri Bb\n211% - Mehen belt\n198% - Maahes\n198% - Seth\n198% - Vega B\n194% - Venus Space Stations\n181% - Anubis\n176% - Venus\n161% - Mercury\n141% - Barnarda E\n134% - T Ceti E\n126% - Barnarda F\n112% - Ross128b, Ross128ba\n110% - Earth Space Stations§r\n§6100% - Overworld, Moon§r\n[warn]89% - Mars Space Stations\n81% - Mars, Phobos, Deimos\n61% - Asteroids\n60% - Ceres\n48% - Jupiter Space Stations\n44% - Europa, Io, Ganymede\n36% - Saturn Space Stations\n32% - Enceladus, Titan, Callisto\n25% - Uranus Space Stations\n23% - Oberon, Proteus, Miranda\n20% - Neptune Space Stations\n18% - Triton\n16% - Pluto, Kuiper Belt\n15% - Makemake, Haumea\n1% - Garden, Mining and Void Worlds\n0% - All other dimensions[/warn]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Where Do I Build the Dyson Swarm?",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3039
+  ],
+  "rewards": [],
+  "tasks": []
+}

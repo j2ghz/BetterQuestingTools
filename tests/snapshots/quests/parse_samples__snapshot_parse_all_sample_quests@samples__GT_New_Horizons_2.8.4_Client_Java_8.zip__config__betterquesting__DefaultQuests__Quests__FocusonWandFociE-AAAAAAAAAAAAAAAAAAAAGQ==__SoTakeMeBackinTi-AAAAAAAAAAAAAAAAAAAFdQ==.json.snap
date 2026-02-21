@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1397,
+  "prerequisites": [
+    1378,
+    284
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Wand Focus: Time can be used to move time forward by 12 hours. Using this focus at noon will set the time to midnight, while using it at dusk will make it dawn. This focus will also make the player unable to use any other foci for 30 seconds.\n\n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "So Take Me Back in Time...",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1378,
+    284
+  ],
+  "rewards": [],
+  "tasks": []
+}

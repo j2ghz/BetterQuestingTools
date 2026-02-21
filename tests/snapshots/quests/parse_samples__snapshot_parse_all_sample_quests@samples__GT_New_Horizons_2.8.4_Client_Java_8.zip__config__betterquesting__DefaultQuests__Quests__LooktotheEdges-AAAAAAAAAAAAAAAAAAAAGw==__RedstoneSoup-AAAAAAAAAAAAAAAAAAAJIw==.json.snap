@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2339,
+  "prerequisites": [
+    339,
+    1571
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Redstone soup is a witches brew that forms the base for all infusions, although it does have other uses.\n\nFilling a chalice with redstone soup will increase its magical affinity and upgrade it to a filled chalice, doubling its effectiveness.\n\nDrinking redstone soup will boost the health of the drinker for a few minutes.\n\nRedstone Soup is made in a kettle. Into the pot, throw Redstone, Drop of Luck, Wool of Bat, Tongue of Dog, Belladonna and Mandrake Root.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Redstone Soup?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    339,
+    1571
+  ],
+  "rewards": [],
+  "tasks": []
+}

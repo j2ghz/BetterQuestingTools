@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2913,
+  "prerequisites": [
+    37
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Can't find any Rubber Trees? Can't build a water tank? Too lazy to make a tree tap? Buy a stack of sticky resin for some coins.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Sticky Matter",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": 18000,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    37
+  ],
+  "rewards": [],
+  "tasks": []
+}

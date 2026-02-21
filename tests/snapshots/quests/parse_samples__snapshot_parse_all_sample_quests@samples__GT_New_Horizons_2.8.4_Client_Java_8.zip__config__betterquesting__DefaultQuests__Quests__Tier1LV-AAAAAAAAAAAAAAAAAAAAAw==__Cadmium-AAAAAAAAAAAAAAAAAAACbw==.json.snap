@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 623,
+  "prerequisites": [
+    609
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You can get Cadmium from Sphalerite (centrifuge or thermal centrifuge). Later on you can use GT++ Ore processing chains to get Cadmium from Rare Earths. I don't care how you get it, just get some Cadmium.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lCadmium",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    609
+  ],
+  "rewards": [],
+  "tasks": []
+}

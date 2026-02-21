@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1157,
+  "prerequisites": [
+    69
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Your wooden soft mallet breaks after a few uses. Now you can make a rubber mallet which is much more durable.\n\n§3The best one is made of Steeleaf, followed by Ironwood, both easily attainable once you get access to the Twilight Forest.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 1,
+    "name": "§3§lRubber Soft Mallet",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    69
+  ],
+  "rewards": [],
+  "tasks": []
+}

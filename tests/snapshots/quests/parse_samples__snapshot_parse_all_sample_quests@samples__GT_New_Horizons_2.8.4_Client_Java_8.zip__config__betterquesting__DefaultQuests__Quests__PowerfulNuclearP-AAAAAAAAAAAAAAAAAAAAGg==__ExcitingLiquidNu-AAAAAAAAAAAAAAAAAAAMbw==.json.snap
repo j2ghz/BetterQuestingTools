@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3183,
+  "optional_prerequisites": [
+    3196,
+    3180
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "With the reactor built, it's time to automate the fuel and additives, since there are additives this time. They are optional, so let's begin with the required inputs.\n\nLiquid Air is trivial to automate: it's a Vacuum Freezer job. Input energy and Air and output Liquid Air, there are quests for this. The fuels themselves are more complicated, but the three of them follow a similar set of recipes. First, you grab a lot of the radioactive element (Thorium, Uranium or Plutonium), wrap it in a specific foil and then put in an Implosion Compressor to make very dense nuggets. These are into the High Density items you need, which are then mixed with specific dusts to create the basic fuel fluid.\n\nThis part is where it becomes complicated, though. To get the energy out of this radioactive fluid, you need to activate it. Thorium is done by mixing with Helium Plasma (t1 fusion), while the other two are made directly in the Fusion Reactor (t2 fusion). The activated fuels can be thrown directly in the reactor to produce EU, at a very slow pace. Your bottleneck should be the main radioactive element, so make sure you can source it fast enough.\n\nBeing here, you should have a Large Naquadah Reactor ready to go. However, it is true that these Excited Fuels can be used to make fuel rods for IC2 nukes, with much larger heat outputs meant for fluid nukes. You can try to use them there, but there are no simulated setups of any kind for those rods, so it's going to be a very experimental setup if you ever decide to make it.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Exciting Liquid Nuking",
+    "party_single_reward": null,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

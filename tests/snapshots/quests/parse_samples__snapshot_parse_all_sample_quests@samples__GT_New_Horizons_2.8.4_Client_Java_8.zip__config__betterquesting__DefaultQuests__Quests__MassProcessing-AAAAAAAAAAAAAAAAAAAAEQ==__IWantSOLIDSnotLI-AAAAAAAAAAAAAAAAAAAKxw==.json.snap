@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2759,
+  "prerequisites": [
+    12880365575383562570
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "For when your ABS isn't the right machine. Also uses coils.\n\nNote that this is a multiblock version of the alloy smelter, not a solid version of the alloy blast smelter.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "I Want SOLIDS not LIQUIDS!",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    12880365575383562570
+  ],
+  "rewards": [],
+  "tasks": []
+}

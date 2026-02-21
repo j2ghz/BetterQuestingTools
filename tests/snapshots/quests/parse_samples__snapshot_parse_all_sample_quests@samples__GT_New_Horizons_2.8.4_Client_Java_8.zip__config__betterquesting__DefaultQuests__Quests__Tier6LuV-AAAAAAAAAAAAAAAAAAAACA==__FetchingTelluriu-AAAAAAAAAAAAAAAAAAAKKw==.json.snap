@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2603,
+  "prerequisites": [
+    2600
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "For Tellurium, you can do it these ways:\n\n1) EBF Crushed Lead Ore for 2 Tellurium Nuggets\n2) Make Rare Earth (III) out of Rare Earth using the strongest of acids and get it from Alburnite\n3) Toxic Everglades\n4) Once you have a Void Miner, you can place it in the Overworld to obtain Tellurium.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§c§lFetching Tellurium",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2600
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 182,
+  "prerequisites": [
+    1301
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Crafting can be a pain. So why not automate it? These can hold a single pattern each. However, if you place an ME interface against it, you can use it to craft any of the patterns in it. You can use multiple with the same MA, and given how expensive they are now, that might be a good idea. These do NOT require a channel, but do require network access.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Applied Crafting",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1301
+  ],
+  "rewards": [],
+  "tasks": []
+}

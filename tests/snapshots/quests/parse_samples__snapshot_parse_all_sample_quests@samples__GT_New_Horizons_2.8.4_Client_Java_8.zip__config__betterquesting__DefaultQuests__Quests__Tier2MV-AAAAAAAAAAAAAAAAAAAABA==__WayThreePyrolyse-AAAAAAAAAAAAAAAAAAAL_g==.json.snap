@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3070,
+  "prerequisites": [
+    733
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "By using the Pyrolyse Oven, you are able to reap the rewards of coil speed increases.\n\nYou can also side-step the need for a Fermenter. Check out NEI to see which way suits you best. The GT++ Industrial Coke Oven will allow you to do this as well.\n\n(You only have to submit one of these)",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lWay Three: Pyrolyse Oven",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    733
+  ],
+  "rewards": [],
+  "tasks": []
+}

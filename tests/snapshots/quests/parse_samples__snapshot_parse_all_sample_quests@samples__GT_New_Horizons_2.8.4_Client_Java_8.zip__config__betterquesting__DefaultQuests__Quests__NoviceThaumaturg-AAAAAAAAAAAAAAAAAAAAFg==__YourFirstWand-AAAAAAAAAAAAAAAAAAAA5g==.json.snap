@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 230,
+  "prerequisites": [
+    225
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You're sure that this place will give you all the answers you're looking for! To continue, you need something to handle the magic energy called \"vis\". Guess it's time to craft your first wand.\n\nIf you haven't started on defeating the TF bosses yet, you'll need to do so to proceed. All wands require some kind of TF boss drop, with better wands needing later boss's drops. Once you've defeated them once, you can buy a spawn egg (only usable in the TF) or use the trophy+salis mundus to make more of the drop.\n\n§3You should look for wand recipes in NEI. Not all of them are correct in the Thaumonomicon.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 1,
+    "name": "Your First Wand",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    225
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,41 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 16502119565900600744,
+  "prerequisites": [
+    2582,
+    11439228378407189328,
+    2588,
+    287
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Do you really need this?",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "And Another Digital Singularity",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2582,
+    11439228378407189328,
+    2588,
+    287
+  ],
+  "rewards": [],
+  "tasks": []
+}

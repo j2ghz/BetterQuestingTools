@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 6004498835735652345,
+  "prerequisites": [
+    5019343597665338373
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Who knew that creating artificial solar systems would finally allow you to extract the core of a freshly dead star?\n\nWith your current crude casings, you can only accelerate the life of an artificial solar system to observe white dwarfs.\n\nPerhaps this matter will help you push the process even further.\n\n[note]This is one of the three EOH materials. Use it to upgrade your casings up to T4.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "White Dwarf Matter",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    5019343597665338373
+  ],
+  "rewards": [],
+  "tasks": []
+}

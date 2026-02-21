@@ -1,0 +1,41 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1433,
+  "prerequisites": [
+    820,
+    821,
+    810,
+    829
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "While looking around for meteoric iron you might find a moon dungeon. The entrance looks like a deep hole. Go and kill the Boss Monster. It will drop the key for the chest in the next room with the schematics for tier 2 rockets.\n\nKill the Boss Monster again in a different dungeon if you want an extra tier 2 schematic to exchange for a moon buggy schematic.\n\nPlace the schematic in the NASA Workbench and unlock it on the last tab. This will unlock it for your character, so you can move the workbench if you want.\n\n[note]If you've made the chip in an older version, you can turn it back into a schematic in a PLE.[/note]\n\n[note]All dungeons work the same, just with a different boss. Also, sometimes the boss room or chest room doesn't generate, you'll need to find another dungeon.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Moon Dungeon",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    820,
+    821,
+    810,
+    829
+  ],
+  "rewards": [],
+  "tasks": []
+}

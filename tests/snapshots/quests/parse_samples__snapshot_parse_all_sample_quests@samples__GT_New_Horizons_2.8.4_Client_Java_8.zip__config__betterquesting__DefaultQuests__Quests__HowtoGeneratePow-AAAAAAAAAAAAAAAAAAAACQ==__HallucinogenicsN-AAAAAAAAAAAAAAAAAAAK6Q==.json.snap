@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2793,
+  "prerequisites": [
+    176
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "This is the EV version. I hope you're not using this for primary power gen? At least, it has a pretty good efficiency of 88% for an EV singleblock, and it's better than voiding the fluids that can be used as fuel here.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Hallucinogenics Not Included",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    176
+  ],
+  "rewards": [],
+  "tasks": []
+}

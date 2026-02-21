@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 57,
+  "prerequisites": [
+    51,
+    948,
+    76
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "An updated version of the steam extractor. Uses the same total amount of steam as its predecessor but does the job twice as fast.\n\nYou probably want to craft this, as the extractor does also extract your nerves...",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§3§lUpgrade: Extractor",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    51,
+    948,
+    76
+  ],
+  "rewards": [],
+  "tasks": []
+}

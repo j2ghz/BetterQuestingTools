@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 16446667263370667860,
+  "prerequisites": [
+    3368210867956738869
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Now that you've enjoyed your exotic cookies, let's keep going, shall we?\n\nWelcome to Insanely Ultimate Voltage! One of the shortest tiers in NH for now. This tier is mainly about solving your DTPF catalyst problems and getting to Eternal Coils.\n\nThere are a few QoL additions introduced, like the Uncertainty Resolver and the Thaumometric Essentia Cell.\n\nYou also gain access to the Dyson Swarm, an incredibly powerful power generation option.\n\n[warn]This tier is not fully complete. Expect changes.[/warn]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Tier 11 (UIV)",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "tierthemes:uiv",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3368210867956738869
+  ],
+  "rewards": [],
+  "tasks": []
+}

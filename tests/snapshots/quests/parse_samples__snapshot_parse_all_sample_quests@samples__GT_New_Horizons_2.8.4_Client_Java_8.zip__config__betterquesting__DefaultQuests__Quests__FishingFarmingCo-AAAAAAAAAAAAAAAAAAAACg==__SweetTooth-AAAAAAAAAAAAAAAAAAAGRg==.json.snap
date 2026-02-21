@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1606,
+  "prerequisites": [
+    1600
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Sugarcane or Reed not keeping up with your sugary needs? Sugar beets give 8 sugar per beet. Potatoes or carrots should easily give you sugar beets.\n\nHmm, now I want some candy. Give me some sugar from your beets. I'll share some with you.\n\n[note]Electrolyze the sugar into O2 for an easy source.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Sweet Tooth",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1600
+  ],
+  "rewards": [],
+  "tasks": []
+}

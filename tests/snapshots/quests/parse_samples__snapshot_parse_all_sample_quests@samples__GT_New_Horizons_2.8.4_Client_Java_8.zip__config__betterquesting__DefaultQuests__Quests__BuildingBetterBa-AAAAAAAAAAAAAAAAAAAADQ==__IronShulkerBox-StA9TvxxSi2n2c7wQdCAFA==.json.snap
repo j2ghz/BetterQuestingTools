@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 18190401928164311060,
+  "prerequisites": [
+    13073740252492184943,
+    1349475689634675503,
+    1148
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The portable equivalent of the Iron Barrel.\n\nHas §n54§r slots.\n\n[note]Can be Dyed![/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§2§lIron Shulker Box",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    13073740252492184943,
+    1349475689634675503,
+    1148
+  ],
+  "rewards": [],
+  "tasks": []
+}

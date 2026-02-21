@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2711,
+  "prerequisites": [
+    2649
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Ok, so let's say you've made some kind of culture, but you want more of it? You only need one per Vat, but they're consumed when making DNA Samples, so you should probably learn how.\n\nTo start off, you'll need to get an eColi Culture.\n\nUse that to make the eColi Bacteria Fluid. [note](I know the name is completely different, deal with it)[/note]\n\nCentrifuge that to make Liquid DNA.\n\nAnd combine it with Radon in the Mixer to make FluorecentdDNA.\n\neColi Bacteria Fluid can also be Centrifuged for Plasma Membranes (10% chance) and EnzymesSollution, so do that as well.\n\nAnd then Centrifuge the EnzymesSollution again for Polymerase.\n\nYou should expect to need a significant amount of eColi Bacteria Fluid if you plan on copying a lot of cultures, or making the hard to make ones.\n\n[note]To search for items related to copying cultures, search for 'culture', 'dna sample', or 'plasmid'. You can't do this for the Data Orbs, you have to check the uses of DNA Samples.[/note]\n\n§5A bunch of the fluids have incorrect spelling, don't blame me for it.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Fluids for Copying Cultures",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2649
+  ],
+  "rewards": [],
+  "tasks": []
+}

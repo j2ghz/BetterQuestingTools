@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 12245929296792252620,
+  "prerequisites": [
+    33
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "It's time to upgrade your wooden sword a little.\n\nYou only need one stick, one bone, and one flint to create the new weapon. However, it's recommended that you gather extra flint since it can be used to repair the sword.\n\nYou won't be able to kill a Wither with it now, but you can upgrade and improve this tool later.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§2§lYour First Flint Sword",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    33
+  ],
+  "rewards": [],
+  "tasks": []
+}

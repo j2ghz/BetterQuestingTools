@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1,
+  "prerequisites": [
+    2
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "As you might have noticed when collecting gravel, no Flint dropped for you.\n\nWell, there is a... recipe for that. Look up Flint in Not Enough Items (NEI) and craft some!\n\nThe search field of NEI is at the bottom of the screen when you open your inventory. The results are on the right side.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lWhere's the Flint?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2
+  ],
+  "rewards": [],
+  "tasks": []
+}

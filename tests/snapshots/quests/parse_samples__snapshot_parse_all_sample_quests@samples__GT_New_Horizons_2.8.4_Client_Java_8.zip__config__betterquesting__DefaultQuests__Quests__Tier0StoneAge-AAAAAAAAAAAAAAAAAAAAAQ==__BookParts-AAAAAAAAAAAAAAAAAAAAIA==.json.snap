@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 32,
+  "prerequisites": [
+    23
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "After you found a way to move water around, you had another brilliant idea: Paper! Paper is no longer made with sugarcane, you'll need wood pulp instead. You'll need a lot of wood to craft wood pulp, so better grab your axe and go chop some trees.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 1,
+    "name": "§2§lBook Parts",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    23
+  ],
+  "rewards": [],
+  "tasks": []
+}

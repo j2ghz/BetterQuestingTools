@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1848,
+  "prerequisites": [
+    692,
+    78
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "I've found another use for Ectoplasm - making Spectral Iron. An armor made from it is better than diamond and highly enchantable.\n\nIt also will drop healing orbs that will heal the nearest player when picked up.\n\nUnfortunately, a side effect is that you'll become partially transparent. Side effect, I mean bonus feature!",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Armor of the Dead",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    692,
+    78
+  ],
+  "rewards": [],
+  "tasks": []
+}

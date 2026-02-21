@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 850,
+  "prerequisites": [
+    1744,
+    852
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Hopefully you saved some sulfuric acid. If not, make some more. Together with acetic acid you can make ethenone.\n\nSave the ethenone for HV, you'll need it to make tetranitromethane for cetane boosted diesel.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lEthenone",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1744,
+    852
+  ],
+  "rewards": [],
+  "tasks": []
+}

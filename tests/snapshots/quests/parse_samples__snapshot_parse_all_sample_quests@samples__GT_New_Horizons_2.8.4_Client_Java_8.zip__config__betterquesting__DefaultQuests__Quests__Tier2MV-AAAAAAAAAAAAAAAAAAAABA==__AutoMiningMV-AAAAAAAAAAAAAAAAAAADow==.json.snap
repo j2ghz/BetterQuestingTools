@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 931,
+  "prerequisites": [
+    896,
+    1477
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The MV miner will find ores for you faster than the LV miner, and in a larger range. It also has a larger fortune bonus, great for gathering small ores in the Nether. Plus it's faster, but I'm sure you figured that.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lAuto Mining MV",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    896,
+    1477
+  ],
+  "rewards": [],
+  "tasks": []
+}

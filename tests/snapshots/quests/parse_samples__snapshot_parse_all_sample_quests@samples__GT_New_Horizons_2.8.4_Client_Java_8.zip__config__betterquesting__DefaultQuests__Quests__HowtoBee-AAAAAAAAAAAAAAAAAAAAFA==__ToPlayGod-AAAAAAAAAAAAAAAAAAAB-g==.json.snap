@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 506,
+  "prerequisites": [
+    507
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "In order to continue with bees, to mutate and breed them as you like, you need mutagen. This greenish, smelly liquid needs to be refined from bacterial sludge that seems to be most readily available from fluid pockets on Mars. You will be able to continue, once you've acquired this.\n\nIn the meantime you can start working with the Genetics mod, since we all know Gendustry is too easy... Check out the recipes and you'll understand why you should look into the Genetics mod.\n\n[note]Make sure to make more with the Vat once you can actually make it.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "To Play God",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    507
+  ],
+  "rewards": [],
+  "tasks": []
+}

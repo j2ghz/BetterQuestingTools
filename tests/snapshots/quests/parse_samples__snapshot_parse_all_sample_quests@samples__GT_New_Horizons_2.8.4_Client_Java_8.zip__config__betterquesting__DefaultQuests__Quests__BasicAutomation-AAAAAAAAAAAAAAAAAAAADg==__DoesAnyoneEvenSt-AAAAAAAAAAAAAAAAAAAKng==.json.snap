@@ -1,0 +1,36 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2718,
+  "optional_prerequisites": [
+    2675,
+    1208,
+    1210,
+    107
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "If you do, they're now really good. I guess. They sound like it at least?",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Does Anyone Even Still Use These?",
+    "party_single_reward": null,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2756,
+  "prerequisites": [
+    203
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "One of the more complicated parts of AE2, you'll need to understand this to really get anywhere with the mod. First, replace your EA with an ME Controller. Now you have a bunch more channels to work with. Place the P2P Bus against one of the sides and then connect some cables to it to a place a bit away. Make sure to send power to this cable with an EA or Quartz Fiber, but NOT a normal cable, this is now a separate network, and that would cancel that. Connect the second P2P Bus to the other end, and then place at least 1 Dense Cable coming off of it. Shift-right-click your 1st P2P Bus, then right-click the 2nd. They're now connected, and there are 2 channels being used on your subnetwork, while you have the full 32 from the side of your Controller to use. For each subnetwork that doesn't have an ME Controller, you can send 4 sides, or 128 channels. I'm sure you can understand how useful this is, right?\n\nThere's lots more to understand about AE2, but you should probably either experiment, read the quests, or watch a video for more than the basics.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Short Guide - P2P",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    203
+  ],
+  "rewards": [],
+  "tasks": []
+}

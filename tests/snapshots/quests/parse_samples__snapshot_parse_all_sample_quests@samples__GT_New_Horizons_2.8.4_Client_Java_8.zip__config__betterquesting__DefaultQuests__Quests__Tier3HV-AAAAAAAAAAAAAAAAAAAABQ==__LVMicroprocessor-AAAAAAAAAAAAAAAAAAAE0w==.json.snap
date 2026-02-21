@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1235,
+  "prerequisites": [
+    1221,
+    1015,
+    940
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Microprocessor is the highest tier version of the LV circuit, getting you 2 per recipe.\n\nIn addition to what's listed, you'll need 2 Resistors, Transistors, and Capacitors, SMD or non-SMD.\n\nThis advanced circuit type needs a cleanroom.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lLV Microprocessor",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1221,
+    1015,
+    940
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1781,
+  "prerequisites": [
+    689,
+    102,
+    838
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The goggles, wings, shoes, vest, belt and boots itself are not really special.\n\nYou can zoom with the googles, have an extra inventory hotbar with the belt, step-up assist with the shoes, jump boost with the wings and faster swimming ability with the vest.\n\nYou get protection like with normal armor too.\n\nLater on you can upgrade your items to become more powerful ones.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Traveller's Gear",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    689,
+    102,
+    838
+  ],
+  "rewards": [],
+  "tasks": []
+}

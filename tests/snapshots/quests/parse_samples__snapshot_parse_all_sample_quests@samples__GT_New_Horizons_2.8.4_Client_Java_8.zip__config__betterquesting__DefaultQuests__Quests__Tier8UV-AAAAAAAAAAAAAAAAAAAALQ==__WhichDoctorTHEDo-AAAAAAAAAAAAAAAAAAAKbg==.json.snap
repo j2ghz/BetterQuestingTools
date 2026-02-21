@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2670,
+  "prerequisites": [
+    2614
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "If you haven't made one before, go check out the quest in MV linked from the Robot Arm about how they work. This one gives the maximum boost, 256x, and uses between 1.5M-3M EU/t, so make sure your power grid can handle it, or dial it down.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Which Doctor? THE Doctor",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2614
+  ],
+  "rewards": [],
+  "tasks": []
+}

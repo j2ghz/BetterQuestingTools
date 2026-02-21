@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1684418950670712410,
+  "prerequisites": [
+    3239,
+    3781125166901867750,
+    15490774631735871952
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Proto-Halkonite Steel is a super stable material, completely indestructible once formed.\n\nYou first have to make Proto-Halkonite base, which then you pour into components made out of infinity.\n\nAfter getting Creon and Mellion, you can make Proto-Halkonite materials cheaper.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Another Type of Steel",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3239,
+    3781125166901867750,
+    15490774631735871952
+  ],
+  "rewards": [],
+  "tasks": []
+}

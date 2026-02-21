@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2309,
+  "prerequisites": [
+    2308
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Formic Acid, also known as methanoic acid, is an organic acid. We'll need it for the final Palladium step, so don't be shy, make tons of it! The Sodium Sulfate can be recycled.\n\nMake Sodium Formate, then the Formic Acid.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lAnother Acid to Worry About!",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "CHAIN"
+  },
+  "required_prerequisites": [
+    2308
+  ],
+  "rewards": [],
+  "tasks": []
+}

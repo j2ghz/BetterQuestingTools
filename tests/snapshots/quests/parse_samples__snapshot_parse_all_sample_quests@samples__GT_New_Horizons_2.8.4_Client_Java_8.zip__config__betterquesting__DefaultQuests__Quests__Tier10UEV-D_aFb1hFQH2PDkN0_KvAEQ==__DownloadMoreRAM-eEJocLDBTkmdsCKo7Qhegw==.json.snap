@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 12736547300596801155,
+  "prerequisites": [
+    3278419603209996424,
+    15712016548477362840,
+    11313972541508178496
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Only the most advanced memory chips will do when working with optical computers.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Download More RAM",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3278419603209996424,
+    15712016548477362840,
+    11313972541508178496
+  ],
+  "rewards": [],
+  "tasks": []
+}

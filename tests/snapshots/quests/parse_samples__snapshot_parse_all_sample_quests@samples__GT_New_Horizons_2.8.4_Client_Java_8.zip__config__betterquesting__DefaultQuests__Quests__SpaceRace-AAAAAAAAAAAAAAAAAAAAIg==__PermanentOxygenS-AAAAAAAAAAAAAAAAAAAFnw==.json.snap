@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1439,
+  "prerequisites": [
+    1440
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You decided to have a longer stay on the moon and look for a permanent oxygen setup to refill your outdoor gear and building a small Base.\n\nDon't forget to bring repair stuff for your tools and armor! Dream 2018!",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Permanent Oxygen Systems",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1440
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1920,
+  "prerequisites": [
+    718
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Many plants look the same. Someday you'll be able to use a machine to tell them apart+more, but for now you can make a simple Plant Lens to at least identify species.\n\nAfter using it you can tell the following:\nSpecies\nCrop tier\nWhether it can grow (some crops have requirements)\nWhether you can harvest it\nGrowth stage, and progress to the next",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "You Can't Tell Them Apart Either?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    718
+  ],
+  "rewards": [],
+  "tasks": []
+}

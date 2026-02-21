@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1615,
+  "prerequisites": [
+    943
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Want to make the synthetic rubber styrene-butadiene?\n\nI'll show you a way you can get it. You'll need an Oil Cracker and a Distillation Tower. There are different ways to do it and this quest is only an example of how you can make it.\n\nThe first step is to crack your Naphtha with steam.\n\n§6Already automated Styrene-Butadiene rubber or Polystyrene? Hold 128 sheets of each to skip their respective questline.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lSynthetic Rubber",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "UNLOCKED"
+  },
+  "required_prerequisites": [
+    943
+  ],
+  "rewards": [],
+  "tasks": []
+}

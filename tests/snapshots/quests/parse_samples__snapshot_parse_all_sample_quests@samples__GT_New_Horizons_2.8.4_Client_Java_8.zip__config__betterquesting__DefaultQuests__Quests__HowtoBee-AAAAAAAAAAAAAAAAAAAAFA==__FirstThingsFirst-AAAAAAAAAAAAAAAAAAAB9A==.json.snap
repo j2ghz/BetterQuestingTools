@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 500,
+  "prerequisites": [
+    493
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "As usual. In order to get started with bees, you need a few basic things. Most importantly... a scoop. For this quest you want to make a GregTech scoop. Later you can make scoops using magic or even rechargeable scoops.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "First Things First",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    493
+  ],
+  "rewards": [],
+  "tasks": []
+}

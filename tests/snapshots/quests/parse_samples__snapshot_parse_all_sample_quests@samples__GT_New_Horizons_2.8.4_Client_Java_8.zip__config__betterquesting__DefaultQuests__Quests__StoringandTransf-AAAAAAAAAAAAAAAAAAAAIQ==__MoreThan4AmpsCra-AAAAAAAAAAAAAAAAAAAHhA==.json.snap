@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1924,
+  "prerequisites": [
+    1923
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "For the truly insane, there is a 16 to 64 A power amp transformer. Just ludicrous!",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "More Than 4 Amps? Crazy!",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1923
+  ],
+  "rewards": [],
+  "tasks": []
+}

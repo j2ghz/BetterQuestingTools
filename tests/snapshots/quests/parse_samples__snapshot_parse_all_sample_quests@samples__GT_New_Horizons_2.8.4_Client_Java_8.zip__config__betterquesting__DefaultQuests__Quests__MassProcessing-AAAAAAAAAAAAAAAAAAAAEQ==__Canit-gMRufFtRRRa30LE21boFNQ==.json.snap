@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 6580116494942340405,
+  "prerequisites": [
+    8148220388809046234
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "If you've ever needed to wait on a Canning Machine to fill up your supply of tin cans, or for a Fluid Canning Machine to make mountains of coolant, consider the TurboCan Pro. This multiblock acts as both machines and has significant bonuses - when the time comes that you decide you need it!",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Can it!",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    8148220388809046234
+  ],
+  "rewards": [],
+  "tasks": []
+}

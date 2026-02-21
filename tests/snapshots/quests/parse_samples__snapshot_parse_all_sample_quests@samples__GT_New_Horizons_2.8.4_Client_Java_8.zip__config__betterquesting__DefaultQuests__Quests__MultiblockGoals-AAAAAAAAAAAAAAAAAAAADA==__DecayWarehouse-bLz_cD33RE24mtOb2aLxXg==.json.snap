@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 4465112656715641182,
+  "prerequisites": [
+    1480
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Decay Warehouse stores a single type of radioactive isotope and allows it to decay over time. \n\nThe decay speed of the isotope is §adependent§r on its half-life.\n\nIsotopes will decay §9regardless§r of whether the warehouse is on or powered. \n\nThe Warehouse's capacity equals the chest's capacity divided by §c400§r.\n\nCapacity of the multiblock for each chest:\n\n§6Super Chest I:§r §c10,000\n§6Super Chest II:§r §c20,000\n§6Super Chest III:§r §c40,000\n§6Super Chest IV:§r §c80,000\n§6Super Chest V:§r §c160,000\n§6Quantum Chest I:§r §c320,000\n§6Quantum Chest II:§r §c640,000\n§6Quantum Chest III:§r §c1,280,000\n§6Quantum Chest IV:§r §c2,560,000\n§6Quantum Chest V:§r §c5,368,000§r\n\n[note]Right click the controller with a §aScrewdriver§r to dump stored isotopes into an output bus.\n\nRight click the controller with a §aPlunger§r to empty it. [/note]\n\n[warn]The Warehouse's contents are §nvoided§r when the controller is broken[/warn]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Decay Warehouse",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1480
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1919,
+  "prerequisites": [
+    53
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Impossible! But if you really want to get rid of excess items, make yourself a trashcan. If you want to be really fancy, you can use a hopper with a lever next to it to make sure you only throw away items you really want. I mean, §lI've§r never thrown away a tool accidentally, nope, never me.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§3§lToo Much Junk??",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    53
+  ],
+  "rewards": [],
+  "tasks": []
+}

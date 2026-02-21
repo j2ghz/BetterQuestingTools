@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3202,
+  "optional_prerequisites": [
+    3172,
+    3167
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Were you courageous enough to build a vac nuke? If so, are you courageous enough to do it in a MOX setup, with high heat?\n\nYes, this is possible, and extremely powerful. However, all the risks you signed up for are exponentially increased, since MOX nukes keep getting better and better the closer the nuke's temperature is to the critical point. This sort of automation is more complicated than almost any other, and I honestly don't have any specific guidelines for you.\n\nIf you manage this, do share it on the Discord. I bet people will be surprised.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Max Danger Nukes",
+    "party_single_reward": null,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

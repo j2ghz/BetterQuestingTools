@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2585,
+  "prerequisites": [
+    2595,
+    2728
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Provides an absurd quantity of vis storage. It also fills as soon as you pick it up.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Infinite Vis Storage, kinda?",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2595,
+    2728
+  ],
+  "rewards": [],
+  "tasks": []
+}

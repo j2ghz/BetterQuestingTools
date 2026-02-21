@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1534,
+  "prerequisites": [
+    215
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Ledox is a material you need for Tier 4 Rockets which can be found on Europa. Look for it at Y 55-65. You can also find Chrome, Molybdenum, Manganese, Tungstate and Rubracium, among others.\n\n[note]You can also get Ledox from small ores on Callisto.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lEuropa Trip",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    215
+  ],
+  "rewards": [],
+  "tasks": []
+}

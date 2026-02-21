@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1976,
+  "prerequisites": [
+    1973
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "These simple lamps from Ztones are a nice, subdued looking lamp style. I like using them on ceilings for the \"office\" look.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Flat Lamps",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1973
+  ],
+  "rewards": [],
+  "tasks": []
+}

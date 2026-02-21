@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 237,
+  "prerequisites": [
+    798
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "With gold caps you avoid the downsides of iron. So best to upgrade to a Gold Banded Greatwood Wand!\n\nYou could also consider making your Greatwood Wand with enchanted cloth caps instead. That gives you an extra 5% discount!\n\nWith this Greatwood Wand you are more powerful than ever!\n\n[note]You only need one of the tasks to complete the quest.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "\"Stores 50 Vis\" Wand",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    798
+  ],
+  "rewards": [],
+  "tasks": []
+}

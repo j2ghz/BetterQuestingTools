@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 135,
+  "prerequisites": [
+    134
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Yeta Wrench is more than just a regular wrench. While holding it, you are able to switch between conduit types, eventually allowing you to remove one specific conduit type from a bundle of many. Ctrl-Mousewheel will switch modes, also shift-left-click allows you to open the configuration interface even if you don't have access to that side of the conduit.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lYet Another Wrench",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    134
+  ],
+  "rewards": [],
+  "tasks": []
+}

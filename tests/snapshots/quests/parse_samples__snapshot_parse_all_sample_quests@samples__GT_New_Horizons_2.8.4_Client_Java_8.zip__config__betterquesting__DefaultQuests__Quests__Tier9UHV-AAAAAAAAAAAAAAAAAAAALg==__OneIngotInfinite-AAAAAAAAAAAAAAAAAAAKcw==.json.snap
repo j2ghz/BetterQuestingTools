@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2675,
+  "prerequisites": [
+    2674
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Here at Questbook, Inc. we are seriously worried about your health if you got here legitimately. Playing this much might be bad for you. You can always go outside, you know?\n\nBy the way, to make the ingot, it's just a simple Dire Crafting Table recipe. Remember that you were the one that chose to be here.\n\n[note]A number of endgame recipes have now opened up. Check the Endgame Goals tab or NEI recipes for the Table to see what they are.[/note]\n\n[note]Something else to note is that there's an automated DCT if you happen to need a lot of these (hint: you will).[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "One Ingot, Infinite Power",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2674
+  ],
+  "rewards": [],
+  "tasks": []
+}

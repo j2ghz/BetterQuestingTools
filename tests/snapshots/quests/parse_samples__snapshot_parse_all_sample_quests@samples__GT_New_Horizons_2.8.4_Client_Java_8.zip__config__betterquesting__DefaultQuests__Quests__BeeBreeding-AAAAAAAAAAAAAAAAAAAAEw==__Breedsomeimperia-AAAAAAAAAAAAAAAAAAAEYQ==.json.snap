@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1121,
+  "prerequisites": [
+    1120
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Cross breeding noble and majestic bees can result in imperial bees.\n\nThese bees produce a Regeneration buff in their active area. You can probably find a use for this in case of...accidents.\n\nImperial bees produce dripping combs every 3.8 minutes and royal jelly every 5.1 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time.\n\nRoyal jelly is needed in making scented paneling for an Alveary - the third tier bee housing.\n\nYou can now start working towards the Master Registry in the How to Be(e) tab.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Breed some imperial bees",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1120
+  ],
+  "rewards": [],
+  "tasks": []
+}

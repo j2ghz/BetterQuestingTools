@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2029,
+  "prerequisites": [
+    12038758990578169035,
+    1493
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The best source for hundreds of thousands of glass for...something? I dunno, think of something interesting and impress me!\n\nThis machine also does plasma arc furnace recipes.\n\n[note]This multi is LuV and requires Thorium 232.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Bask in the currents",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    12038758990578169035,
+    1493
+  ],
+  "rewards": [],
+  "tasks": []
+}

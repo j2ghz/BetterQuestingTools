@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 37,
+  "prerequisites": [
+    474
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Iron can be found in multiple veins, and there are many types of ores that will smelt down into iron ingots such as magnetite, brown / yellow limonite, banded iron, roasted iron, and granitic / basaltic mineral sand.\n\n§lIron-Rich Veins:\n§rMagnetite veins (Y 60-180)\nChalcopyrite veins (Y 5-60) \nGold veins (Y 30-60)\nLimonite veins (Y 10-40)\n\n[note]You can use NEI to see information for all of the ore veins in the game![/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§2§lGetting Iron",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    474
+  ],
+  "rewards": [],
+  "tasks": []
+}

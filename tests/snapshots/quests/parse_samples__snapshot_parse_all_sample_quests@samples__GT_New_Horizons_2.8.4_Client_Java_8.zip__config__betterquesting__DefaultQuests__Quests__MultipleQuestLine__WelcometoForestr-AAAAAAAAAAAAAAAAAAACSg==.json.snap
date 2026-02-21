@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 586,
+  "prerequisites": [
+    1008
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Want to make some automated farms or work with tree or bee breeding? Want the Forestry Worktable for easier recipe access? Then this is the right chapter for you. You'll need a bookshelf to unlock it, better rev up that compressor.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§3§lWelcome to Forestry",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1008
+  ],
+  "rewards": [],
+  "tasks": []
+}

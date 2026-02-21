@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 894,
+  "prerequisites": [
+    893
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "This one stores 256,000L. The ULV circuits make it annoying to craft, so make them only if you need them. This is the last of the Voltage Tier ones, after this is the Super Tanks, which you can actually make right now.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lGT Tanks, HV Tank",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    893
+  ],
+  "rewards": [],
+  "tasks": []
+}

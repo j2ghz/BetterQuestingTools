@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3098,
+  "optional_prerequisites": [
+    1148,
+    3117
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Having walked into MV, you are soon going to be able to produce and consume Benzene. It's more efficient than burning the Charcoal in a boiler, but you will still need to provide a lot of wood to make sure you have consistent, abundant power. It's heavily recommended that you automate this wood input, if you haven't already, possibly with an MV Crop Manager instead of the LV one, or with the Crop Harvester from IC2.\n\nFor automation, you're still stuck with using bonsais, not regular trees. HV will provide a few options that don't need crops, but for now you might want to increase your crop stats by crossbreeding. Planting saplings on cropsticks creates 1/1/1 bonsais, which are much slower than their high-stat variants. If you want to invest in crops, you can later use the high stats to get more of a several dozen different items that crops can output, but you should start with Stickreed to develop your crop stats, not bonsais.\n\nDon't throw away your saplings, either! They will be useful later on, so save up as many as you can.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "The Benzene Tier",
+    "party_single_reward": null,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

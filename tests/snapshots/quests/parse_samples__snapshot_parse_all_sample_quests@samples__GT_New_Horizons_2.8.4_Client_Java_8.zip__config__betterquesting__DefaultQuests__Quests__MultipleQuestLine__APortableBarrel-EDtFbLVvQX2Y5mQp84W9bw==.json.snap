@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 13073740252492184943,
+  "prerequisites": [
+    241,
+    88,
+    9095939251194715559
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "As an upgrade to the barrels, EFR also adds the ever-familiar shulker box! The shulker box allows you to portably tote it's contents. You can find the research for them in the New Horizons tab of the Thaumonomicon.\n\nThese have seven additional tiers much like the barrels and chests that give you additional storage space. \n\nYou can dye any tier by shapelessly crafting them with a dye, and undye them by shapelessly crafting them alone. They §nwill§r retain their inventory. \n\n[note]There are many ways to obtain shulker shells:\n1. Fighting Shulkers in the Twilight Forest Lich & Ghast Queen Towers.\n2. Fighting Shulkers from the eggs in the Coins tab\n3. Manually crafting the shells[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§2§lA Portable Barrel?",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    241,
+    88,
+    9095939251194715559
+  ],
+  "rewards": [],
+  "tasks": []
+}

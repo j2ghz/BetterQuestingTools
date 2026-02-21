@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 839,
+  "prerequisites": [
+    92
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Don't you hate having to manually compress all those tiny piles? Well, let me show you how to automate that. A combination of type filter, chest buffer (or super buffer in HV) and packager frees you from that annoying task. The chest buffer can hold up to 9 stacks of tiny piles and the super buffer can hold 256 stacks of tiny dusts, which is more than enough. You can set its mode with a screwdriver on the output side. Set it to 9 to export 9 tiny piles at a time and let the packager compress these into regular dusts.\n\nSuper buffers can be lag sources, so be careful to keep them as empty as possible. If you're using a multiblock packager, be sure to change the buffer from Stocking mode to Transfer Size mode.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lHandle Tiny Piles Like a K1ng",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    92
+  ],
+  "rewards": [],
+  "tasks": []
+}

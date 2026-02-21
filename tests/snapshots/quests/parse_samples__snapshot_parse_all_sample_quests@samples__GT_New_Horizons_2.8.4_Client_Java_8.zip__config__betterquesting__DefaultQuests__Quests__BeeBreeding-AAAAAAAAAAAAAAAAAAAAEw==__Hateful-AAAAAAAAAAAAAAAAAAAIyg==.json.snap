@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2250,
+  "prerequisites": [
+    2213
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You can feel the waves of hate radiating out of her eyes. Don't even think about getting close without an Apiarist Suit. Must be bred in the Nether. Breed them from Eldritch and Infernal.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Hateful",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2213
+  ],
+  "rewards": [],
+  "tasks": []
+}

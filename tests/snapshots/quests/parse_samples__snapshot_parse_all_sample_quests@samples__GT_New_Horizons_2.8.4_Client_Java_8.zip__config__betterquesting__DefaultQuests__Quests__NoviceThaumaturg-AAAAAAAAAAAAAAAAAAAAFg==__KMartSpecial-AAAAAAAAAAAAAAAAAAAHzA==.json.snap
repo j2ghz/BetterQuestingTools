@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1996,
+  "prerequisites": [
+    1995
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Every point of vis is critical, so make yourself some magical robes to help conserve how much you use. Later you can make even better robes. They don't offer much in protection, so remember to change before going to hunt!",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "K-Mart Special",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1995
+  ],
+  "rewards": [],
+  "tasks": []
+}

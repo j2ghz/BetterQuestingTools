@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1982,
+  "prerequisites": [
+    91
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Malisis Door Factory lets you go crazy with all kinds of ideas for custom doors.\n\nA Player Sensor is a nice way of opening a door. Better than pushing a button or stepping on a plate!\n\nMaybe you can find a use for this block mixer, it's kinda weird and doesn't work right.\n\nThere are some craftable Malisis items as well, check them out in NEI.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "What's Behind Door #3?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    91
+  ],
+  "rewards": [],
+  "tasks": []
+}

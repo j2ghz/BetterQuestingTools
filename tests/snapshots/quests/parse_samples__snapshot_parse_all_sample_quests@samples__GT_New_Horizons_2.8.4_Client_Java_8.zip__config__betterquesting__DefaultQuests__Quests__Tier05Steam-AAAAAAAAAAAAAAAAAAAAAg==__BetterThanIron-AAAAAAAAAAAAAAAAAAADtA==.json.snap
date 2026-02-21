@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 948,
+  "prerequisites": [
+    65
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "But not as good as steel. Mostly, this is used in machine hulls, or in tools if you don't want to use steel up for that.\n\nTo make wrought iron, you either need to use a Tinkers' Smeltery to melt some Iron Ingots down and cast into Iron Nuggets, or use an Iron Ingot and a saw to craft Iron Nuggets. Now put these in a furnace to get Wrought Iron Nuggets. With the Compressor, you can compress the nuggets into ingots.\n\n§3Hint: Crushed or purified iron ore (not a mixed version like pyrite, look for Iron Ore in Chalcopyrite veins) can be smelted to iron nuggets directly. \n\nYou can optionally use an Alloy Smelter to turn iron ingots into nuggets faster than a smeltery. \n\nLater on, you can use an Arc Furnace to make Wrought Iron Ingots directly.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§3§lBetter Than Iron",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    65
+  ],
+  "rewards": [],
+  "tasks": []
+}

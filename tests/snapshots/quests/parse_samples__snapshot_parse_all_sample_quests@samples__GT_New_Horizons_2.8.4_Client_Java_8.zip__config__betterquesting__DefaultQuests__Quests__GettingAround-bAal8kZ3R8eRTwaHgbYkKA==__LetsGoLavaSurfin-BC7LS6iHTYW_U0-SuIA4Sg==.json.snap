@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 12143760156949231690,
+  "prerequisites": [
+    243,
+    1177,
+    1664154019548398429
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Thaumium Boat is an upgraded version of your Greatwood Boat. The experience you have gained from manufacturing boats made of magical materials allows you to create a boat that can go even faster. Additionally, the Thaumium coating allows it to sail not only in rivers but also lava streams! Take it with you on your vacation in the Nether and enjoy.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Let's Go Lava Surfing!",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    243,
+    1177,
+    1664154019548398429
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 82835363694990855,
+  "prerequisites": [
+    424
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The peak of all Incenses.\n\n§dPurpura§r will increase your Incense from §92400§r to §93500§r.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Jeremy Fragrance",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    424
+  ],
+  "rewards": [],
+  "tasks": []
+}

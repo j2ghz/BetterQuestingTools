@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 787,
+  "prerequisites": [
+    162
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Titanium Large Boiler is a distant cousin to the Bronze and Steel Boilers, and it has a significant difference. Instead of accepting just about any burnable fuel, it will only accept specific ones and reject all others. You can see which ones are accepted by looking at the appropriate NEI tab, but the Solid Super Fuels are guaranteed to work.\n\nThis is a big downside, but the upside is that these boilers output respectable power even in these tiers. Without any other inputs, this boiler produces Superheated Steam at a flow rate matching 4000 EU/t, on turbines running at 100% fuel efficiency. If this becomes 150%, then the steam output will produce 6000 EU/t, almost the same as a boosted Large Combustion Engine!\n\nTo get all the power from this, though, you will need an HP Steam Turbine, followed by a regular Steam Turbine, or more than one of each if the flow rate is too big for the turbine material you've chosen. Make sure to send the Distilled Water back to the boilers!",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lMoooooore Steam",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    162
+  ],
+  "rewards": [],
+  "tasks": []
+}

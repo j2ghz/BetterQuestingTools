@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3180,
+  "optional_prerequisites": [
+    2610,
+    3179
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "This quest is late LuV.\n\nYou might have read before that Lutetium is necessary as an input for fusion crafting. In a tier 2 fusion reactor, Lutetium + Chrome = Americium, a required material for many required crafts. Lutetium is a material that is obtained exclusively from breeding, so you're in the right place to find ways to get it.\n\nThe very first method, EV's IC2 Thorium nukes, is the cheapest, but also the slowest. Each fuel rod takes 50000 seconds to deplete, almost 14 hours, with half of a Lutetium Dust per depleted rod. Highly stackable designs, such as the 2-chamber 11 quad rod one, will grant you 22 dust per cycle. After building 10 of those, the rate is still 16 dust per hour. This processing speed isn't good enough to keep progressing forever, and there is no need to make more towers of breeder nukes.\n\nYour 5 main options are:\n\n1) HTGR - fastest but also quite expensive multiblock reactor, unfortunately it requires purified thorium232 you will need to purify it first\n2) Lutetium bees - if you started bees getting it should be quite easy\n3) Spamming IC2 nuclear reactors\n4) Distilling Heavy Naquadah Fuel\n5) Summoning meteors",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Faster Lutetium Excitement",
+    "party_single_reward": null,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

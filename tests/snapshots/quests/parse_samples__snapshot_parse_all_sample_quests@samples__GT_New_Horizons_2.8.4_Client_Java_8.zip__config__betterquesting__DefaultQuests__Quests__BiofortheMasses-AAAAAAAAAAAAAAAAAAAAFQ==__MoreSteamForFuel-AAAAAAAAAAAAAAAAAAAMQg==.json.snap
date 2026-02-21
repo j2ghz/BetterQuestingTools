@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3138,
+  "optional_prerequisites": [
+    3136,
+    213
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The last of the Large Boilers is IV-tier, and it's the Tungstensteel version. In numbers, it beats all of the other boilers, both in EU/t and fuel efficiency, so it's a good idea to build one or more of these if you've been working on the Super Fuels. Each one will output Superheated Steam matching an EU output of 16000 EU/t, at 100% fuel efficiency, or 24000 EU/t with 150%.\n\nAlongside this, you should also work on automating the Magic Super Fuel, if you haven't already. It needs more inputs, but it's even more bang for your buck, the entire point of this fuel line! You will need automated Blazes and Endermen, preferably, unless you can automate the Thaumcraft version of the Magic Fuel Binder recipe. For the fuel itself, Alumentum can be done simply with Charcoal Dust in a Cauldron or Thaumatorium.\n\nThe dark blue towers might ask for a lot of Large Turbines to process all of the Steam, especially if you build a quad boiler setup. You can expect almost 11000 L/t of it as output, per boiler, so look at some of the turbines you can craft and check out how many you need. The quest after this one gives some suggestions for battling the potential turbine spam.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "More Steam For Fuel",
+    "party_single_reward": null,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1268,
+  "prerequisites": [
+    1266
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "If you need a transformer with more than 4A you need a high amp transformer. You can input 4A MV and output 16A LV. Useful for running lots of LV machines. Its mode can be changed with a soft mallet, just like before.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "LV High-Amp Transformer",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1266
+  ],
+  "rewards": [],
+  "tasks": []
+}

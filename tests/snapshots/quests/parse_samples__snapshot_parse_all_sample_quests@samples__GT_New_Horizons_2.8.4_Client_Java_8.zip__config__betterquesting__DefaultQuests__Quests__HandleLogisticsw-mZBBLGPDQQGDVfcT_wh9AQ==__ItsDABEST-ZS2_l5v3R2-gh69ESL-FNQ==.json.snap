@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 11238529938413815093,
+  "prerequisites": [
+    9725598087078473255,
+    989
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You still need MORE recipe slots for the crafting modules?\n\nThis one will cost you §lTITANIUM§r. Are you sure about that?\n\nYes? OK...\n\nHere is the final tier of chassis: Chassis Mk5. Instead of incrementing the number of modules it can hold by 1 compared to the last tier, it straight up doubles the slots. Hopefully you think it is worth it.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "It's DA BEST",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    9725598087078473255,
+    989
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,38 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 247,
+  "optional_prerequisites": [
+    244,
+    245,
+    246,
+    248,
+    249,
+    250
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "In exchange for 6 clusters, I will give you this node. May it serve you well. Oh, don't place it too close to another node, or it might start to drain vis...",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "The Choice: Perditio",
+    "party_single_reward": false,
+    "quest_logic": "XOR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

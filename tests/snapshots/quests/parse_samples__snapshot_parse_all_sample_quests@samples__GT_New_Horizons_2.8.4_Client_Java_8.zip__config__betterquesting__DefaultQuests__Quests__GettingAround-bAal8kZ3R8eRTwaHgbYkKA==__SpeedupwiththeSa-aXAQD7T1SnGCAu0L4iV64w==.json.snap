@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 13039410149107006179,
+  "prerequisites": [
+    3228
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Sashes from Botania improves your speed passively along with a jump boost and provide Step assist all while fitting in your belt slot, how convenient is that?\n\nYou will need a method of powering them with either the mana tablet or the mana mirror linked to a pool.\n\nThe Soujourner Sash provides the basic speed boost, jump boost and step assist while the Globetrotter provides double the jump height and speed boost.\n\nThe Planestrider is special since it provides a slowly increasing speed boost as long as you are moving. You can even reach up to 11 times the Soujourner Sash speed boost!\n\n[note]You only need to make one Sash to complete the quest.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Speed up with the Sash",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3228
+  ],
+  "rewards": [],
+  "tasks": []
+}

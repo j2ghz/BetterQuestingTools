@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2989,
+  "prerequisites": [
+    546,
+    213
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "What does this mean, \"the era of multis\"? I've built so many multis already!\n\nWell, yes, but now it's all multiblocks. There are still singleblock machines for all the tasks they're needed for, but at IV the newer GT++ multis become available, or at least most of them, which can do the same jobs of bending, extruding, extracting, amongst others, but with higher initial investments and many bonuses to their processing. Remember what I said before about higher initial investments being worth it?\n\nThat said, there isn't a new oil processing chain in IV, you only improve what you already have. If there was a step in the chain that was running too slow, and you needed to add more machines to it or overclock, it's likely that there is now a multi that can take over that role by itself. Tungstensteel is usually an important part of these things, so get it automated in anticipation of what's to come.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "The Era of Multis",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    546,
+    213
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1791,
+  "prerequisites": [
+    539
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Oilsand is another way to get heavy oil. Maybe you got lucky and found some in a mountainous biome. With your centrifuge you're able to get heavy oil and sand out of the ore. The veins can be found between Y 50-80.\n\nSadly, you can't use heavy oil until MV, so just stick them in a barrel or something until then.\n\n[note]Until MV it can only be used for lubricant and burning in a semifluid generator.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lOilsand, or How You Get Heavy Oil",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    539
+  ],
+  "rewards": [],
+  "tasks": []
+}

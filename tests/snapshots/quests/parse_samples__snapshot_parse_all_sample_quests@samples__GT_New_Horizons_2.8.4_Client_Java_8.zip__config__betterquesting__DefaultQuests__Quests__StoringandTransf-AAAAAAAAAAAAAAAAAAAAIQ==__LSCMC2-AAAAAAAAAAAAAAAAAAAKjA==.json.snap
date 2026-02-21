@@ -1,0 +1,33 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2700,
+  "optional_prerequisites": [
+    2735
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "This is the final upgrade to the LSC when it comes to storage. You can use either the Ultimate or Really Ultimate batteries to craft it, it costs about the same either way.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "LSC = MC^2",
+    "party_single_reward": null,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 555,
+  "prerequisites": [
+    539
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You can get some nitrogen by centrifuging... air. This process takes a long time, especially at LV tier.\n\nYou get that air from compressed air cells, which are gotten from running cells through a compressor. Each one contains 2000L, unlike a normal cell that contains 1000L.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lN Like Nitrogen... Hide, the Alphabet Strikes Again!",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    539
+  ],
+  "rewards": [],
+  "tasks": []
+}

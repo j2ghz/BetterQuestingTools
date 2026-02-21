@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2693,
+  "prerequisites": [
+    2694
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Make Phthalic Acid out of Naphthalene and Lithium in a Chemical Reactor.\n\nIronically, you can't make this out of Naphtha.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lPhthalic Acid, The Cool Kids' Way",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2694
+  ],
+  "rewards": [],
+  "tasks": []
+}

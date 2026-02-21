@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 663,
+  "prerequisites": [
+    662
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "A faster alternative to steel production is to use the arc furnace and smelt iron ingots (or dust) into wrought iron ingots. Then macerate them to dust and smelt them very fast in the EBF to steel.\n\nOf course, you'll need enough oxygen to do so.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lFaster Steel Production",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    662
+  ],
+  "rewards": [],
+  "tasks": []
+}

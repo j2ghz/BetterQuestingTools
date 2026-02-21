@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2262,
+  "prerequisites": [
+    803,
+    2261
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Quantum Boots of the Traveller, for when you really need to run as fast as the wind. Might cause you some problems standing still!\n\n[note]If you want to advance in the dark arts you can also make them voidwalker boots.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Walking across the stars",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    803,
+    2261
+  ],
+  "rewards": [],
+  "tasks": []
+}

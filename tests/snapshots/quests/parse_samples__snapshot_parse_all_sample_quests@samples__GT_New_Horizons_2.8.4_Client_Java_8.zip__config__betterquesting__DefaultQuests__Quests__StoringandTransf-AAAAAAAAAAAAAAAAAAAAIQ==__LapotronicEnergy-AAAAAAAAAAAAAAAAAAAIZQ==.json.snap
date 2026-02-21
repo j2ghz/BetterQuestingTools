@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2149,
+  "prerequisites": [
+    2148,
+    1677
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Lapotronic Energy Orb is the IV tier battery item. It can store 100M EU.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Lapotronic Energy Orb",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2148,
+    1677
+  ],
+  "rewards": [],
+  "tasks": []
+}

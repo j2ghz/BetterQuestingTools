@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 725,
+  "prerequisites": [
+    718
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Growing dyes on crops sticks? Try to plant some flowers. If you cross breed Rose and Dandelion flowers maybe you'll get a new flower and new dyes with different colors.\n\nYou will need to plant 4 vanilla flowers to get them on a cropstick. They also don't plant unless they are in bright light.\n\nTo get \"Rose Seeds\" place poppies. Honestly there are several flowers you can use, though.\n\n[note]If you actually want these for dyes, go make the rainbow cactus instead.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Flower Power",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    718
+  ],
+  "rewards": [],
+  "tasks": []
+}

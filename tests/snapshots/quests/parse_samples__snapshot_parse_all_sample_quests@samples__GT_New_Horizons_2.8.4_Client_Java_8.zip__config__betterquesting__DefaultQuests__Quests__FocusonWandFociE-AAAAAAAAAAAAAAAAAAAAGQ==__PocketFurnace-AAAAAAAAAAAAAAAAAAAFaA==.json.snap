@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1384,
+  "prerequisites": [
+    1372,
+    1373
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Wand Focus: Efreet's Flame shoots a beam similar to the Wand Focus: Excavation that smelts blocks like a Furnace.\n\n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Pocket Furnace",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1372,
+    1373
+  ],
+  "rewards": [],
+  "tasks": []
+}

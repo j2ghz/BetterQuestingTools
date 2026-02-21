@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1116,
+  "prerequisites": [
+    1117
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Common Princess and Forest Drone can be bred to cultivated bees.\n\nCultivated bees have the shortest lifespan - this means they make great princesses to breed with your newly bred drones. The queen will die quickly, quickly giving genetic material to work with. Make sure the traits you want are kept!\n\nThey are also a Fast production bee, which means lots of honey combs for powering your Beealyzer or Treealyzer.\n\nCultivated Bees produce Honey Combs every 0.9 minutes. Note that production times are an approximation based on the bee's base production speed and the product's rarity. They do not reflect actual production time.\n\nMake sure your cultivated bees are pure with a Beealyzer or GT scanner.\n\nThe main bee breeding quests will require pure bees but you can use Ignoble or Pristine princesses.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Breed some cultivated bees",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1117
+  ],
+  "rewards": [],
+  "tasks": []
+}

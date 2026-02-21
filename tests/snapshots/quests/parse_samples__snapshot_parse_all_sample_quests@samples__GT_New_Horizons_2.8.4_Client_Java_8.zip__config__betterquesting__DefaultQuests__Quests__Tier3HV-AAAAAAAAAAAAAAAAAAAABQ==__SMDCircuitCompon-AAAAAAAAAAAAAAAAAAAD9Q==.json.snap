@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1013,
+  "prerequisites": [
+    2295,
+    1598
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Surface-mount devices are more advanced circuit parts. They're needed for circuits starting next tier and are cheaper to craft than basic capacitors, transistors, diodes and resistors. Once you get a reliable polyethylene setup, you can save a lot of resources by using SMD components.\n\nBe sure to check how much gallium you have available. It might not be worth it to use SMD diodes and transistors until you have a steady supply with an HV macerator or bees. Also look into IC2 crops to 4x your zinc, sphalerite, and bauxite.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lSMD Circuit Components",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2295,
+    1598
+  ],
+  "rewards": [],
+  "tasks": []
+}

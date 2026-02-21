@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3047,
+  "prerequisites": [
+    3045
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "There is a key difference with hafnium here, however. Follow this mini line to hear more.\n\nFirst off you'll need to react your hafnia with some hydrochloric acid.\n\nAnd, like with zirconium, you'll need the solution rather than the dust.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lHafnium Line",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3045
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1681,
+  "prerequisites": [
+    202
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "While the ender quarry on its own with speed upgrade is good, why not speed it up a little bit more?",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§c§lAccelerating Things II",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    202
+  ],
+  "rewards": [],
+  "tasks": []
+}

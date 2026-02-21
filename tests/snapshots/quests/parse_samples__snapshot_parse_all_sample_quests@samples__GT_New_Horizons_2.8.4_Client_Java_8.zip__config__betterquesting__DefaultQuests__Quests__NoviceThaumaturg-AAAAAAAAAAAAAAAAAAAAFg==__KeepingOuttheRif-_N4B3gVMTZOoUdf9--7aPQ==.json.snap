@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 381765366401915453,
+  "prerequisites": [
+    239
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You're starting to get tired of having to build everything like some kind of fortress just to make sure no unwanted guests come in. Sure, that's just the nature of living in a world where infinite hoards of restless undead haunt every other dark corner, but is having a secure entryway that isn't conveniently door-shaped too much to ask?\n\nNot anymore. Paving Stone of Warding, assuming nothing sits on top of it, will project a two block tall invisible force-field above itself that block non-player mobs from passing through, at least the common riff-raff. As a bonus spiders cannot climb the force-field, so no need for overhangs to keep them out too.\n\nThat said, since the force-field cannot tell an arrow fired by you from one fired §oat you§r, mundane objects will still pass through regardless. And the force-field does as much to block line of sight as the term §oinvisible§r would suggest.\n\nOf course, you're not concerned about that part. Being able to shoot things with your crossbow while they can't reach you is very much in §oyour§r favor, all told.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Keeping Out the Riff-Raff",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    239
+  ],
+  "rewards": [],
+  "tasks": []
+}

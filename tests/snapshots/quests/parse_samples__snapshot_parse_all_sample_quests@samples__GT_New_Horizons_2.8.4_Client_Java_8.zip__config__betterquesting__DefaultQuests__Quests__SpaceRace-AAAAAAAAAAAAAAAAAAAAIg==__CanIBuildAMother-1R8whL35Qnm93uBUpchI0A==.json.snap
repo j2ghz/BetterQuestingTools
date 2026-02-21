@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 13689045632609175760,
+  "prerequisites": [
+    4676510302671185670,
+    17916802937595670679
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The §1§lMothership§r is a Space Station which you can move to a different celestial body (even stars!). It is the only way to get to the outermost system, the Amun-Ra system. That system has six planets and moons you can access. The most important one is Seth, where you can find §aRaw Tengam Ore§r.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Can I Build A Mothership For My Father?",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    4676510302671185670,
+    17916802937595670679
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1362,
+  "prerequisites": [
+    1363
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "So you found it. The One Ring, forged by a mighty Dark Wizard. A strange feeling tells you to put it on. The Ring seems to whisper to you as well...\n\n[warn]Yeah, maybe don't do that. Unless you like tons of warp and withers spawning on your ass, blowing up your base.[/warn]\n\nThe ring may make you §1invisible§r and §1invincible§r, but not only does it collect §5warp§r itself, it piles it on you as well. After an hour the amount SIGNIFICANTLY increases so try not to wear it that long unless you have a pure tear handy. You can also expect other effects, and the ring to not want to come off either.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "The One Ring",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "UNLOCKED"
+  },
+  "required_prerequisites": [
+    1363
+  ],
+  "rewards": [],
+  "tasks": []
+}

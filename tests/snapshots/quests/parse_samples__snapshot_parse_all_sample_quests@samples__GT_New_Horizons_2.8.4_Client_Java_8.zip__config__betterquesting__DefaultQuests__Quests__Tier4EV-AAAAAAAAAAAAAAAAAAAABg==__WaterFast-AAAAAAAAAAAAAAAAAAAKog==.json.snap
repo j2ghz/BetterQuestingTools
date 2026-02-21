@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2722,
+  "prerequisites": [
+    1245
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Remote IO Water Reservoir works like the Everfull Urn in that you can pull water out as fast as you need. Additionally, you can pull water from any side of the block.\n\nYou can further upgrade it into a reservoir hatch, which can be used as an input hatch directly. Producing massive amounts of distilled water with a DT has never been easier!\n\n§3Maybe those massive amounts of water could be condensed into something useful...",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§a§lWater, Fast",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1245
+  ],
+  "rewards": [],
+  "tasks": []
+}

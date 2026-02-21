@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2223,
+  "prerequisites": [
+    2214,
+    2219
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Windy bees must be bred on top of Oak leaves. Breed them using Ethereal and Supernatural.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Windy",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2214,
+    2219
+  ],
+  "rewards": [],
+  "tasks": []
+}

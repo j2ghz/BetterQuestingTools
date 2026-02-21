@@ -1,0 +1,43 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3026,
+  "prerequisites": [
+    3009,
+    3025,
+    2994,
+    2999,
+    3019
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Welcome, o' Baron of Oil. For you who has completed the 5 questlines of oil processing, a new chapter awaits you.\n\nThe following quests are not guidelines on how to work with oil. In reality, they are meant for tiers where you're not supposed to be using this kind of power anymore. However, if you do want to continue it, and push it as far as it can go, the following are a few challenges that you can take on, mostly for bragging rights.\n\nAll these challenges are for the tiers after IV. Some of them are for LuV, others need further progression. Good luck!",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Breaking the Mold",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "SECRET"
+  },
+  "required_prerequisites": [
+    3009,
+    3025,
+    2994,
+    2999,
+    3019
+  ],
+  "rewards": [],
+  "tasks": []
+}

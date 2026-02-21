@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 625,
+  "prerequisites": [
+    65,
+    69
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Want to move your chests and barrels without spilling all the things (buildcraft™)? No problem! Make a dolly and you can carry your full chests, barrels or storage drawers anywhere you want. But be warned, you will get a slowness debuff so hopefully you don't have to travel very far. You can also move non-portable buildcraft and iron tanks without losing fluids, and worktables without losing stored recipes.\n\nShift-right-click an empty dolly to collapse it. It won't carry anything until you unfold it, but it will stack and can go in your backpack.\n\n§3PS: Later on you can fly or make a traveller's belt to get around the debuff.§r",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§3§lMoving Your Tanks, Chests, and Barrels",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    65,
+    69
+  ],
+  "rewards": [],
+  "tasks": []
+}

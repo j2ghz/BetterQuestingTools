@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1005,
+  "prerequisites": [
+    176
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "At EV you're able to make Indium. Indium cannot be found in Ore form [note](except in super small amounts on Ross)[/note].\n\nFirst you need to make Indium concentrate out of purified galena and sphalerite ore, then mix in some aluminium to get Indium. Indium is used in large amounts later on, automate this ASAP.\n\nYou also get lead, zinc, silver, sulfur, and water back from the lead-zinc solution. So it's not like you don't get the materials from the ores at all, just less of them.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§a§lIndium",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    176
+  ],
+  "rewards": [],
+  "tasks": []
+}

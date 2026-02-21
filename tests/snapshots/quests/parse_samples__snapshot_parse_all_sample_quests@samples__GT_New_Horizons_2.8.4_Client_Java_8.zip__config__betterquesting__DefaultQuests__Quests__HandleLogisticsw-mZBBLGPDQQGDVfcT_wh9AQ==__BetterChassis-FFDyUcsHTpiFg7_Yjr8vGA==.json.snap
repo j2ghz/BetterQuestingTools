@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 14629748331673235224,
+  "prerequisites": [
+    103,
+    11876062681918760726
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Now that storage is handled, you want to dive into the automation part?\n\nA Mk1 Chassis can't hold enough modules for complex functions. We need a better one.\n\nChassis Mk2 can hold 2 modules. It should do for now.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Better Chassis",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    103,
+    11876062681918760726
+  ],
+  "rewards": [],
+  "tasks": []
+}

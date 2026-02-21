@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 5547107955440160195,
+  "prerequisites": [
+    2629
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The crystal living chips are more efficient and will make your wetware processors cheaper!",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Cheaper LuV Circuits",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2629
+  ],
+  "rewards": [],
+  "tasks": []
+}

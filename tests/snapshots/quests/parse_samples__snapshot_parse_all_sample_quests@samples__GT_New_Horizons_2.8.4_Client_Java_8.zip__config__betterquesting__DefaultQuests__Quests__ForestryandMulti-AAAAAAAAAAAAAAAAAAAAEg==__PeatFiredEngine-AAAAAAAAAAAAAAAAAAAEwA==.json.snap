@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1216,
+  "prerequisites": [
+    577
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Peat fired engines use Peat or Bituminous Peat to run. Peat burns for 5000 ticks and produces 10 RF every tick, 1 peat makes 0.66 Ash, so you get 2 Ash for burning 3 peat. Bituminous Peat burns for 6000 ticks and produces 20 RF/tick.\n\nPeat Farms can be set up by using a managed farm with tin electron tubes. It is possible with a manual farm too.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Peat Fired Engine",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    577
+  ],
+  "rewards": [],
+  "tasks": []
+}

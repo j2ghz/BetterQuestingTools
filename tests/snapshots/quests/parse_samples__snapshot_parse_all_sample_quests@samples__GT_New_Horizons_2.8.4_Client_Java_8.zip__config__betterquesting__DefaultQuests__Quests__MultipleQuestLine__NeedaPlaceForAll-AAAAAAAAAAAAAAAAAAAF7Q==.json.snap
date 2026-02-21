@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1517,
+  "prerequisites": [
+    932,
+    11437823223018006489,
+    6466970483704145601
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "...at last, the final chest, it will keep its inventory even after breaking! Item transportation will become much simpler with this!",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lNeed a Place For All Those Ores?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    932,
+    11437823223018006489,
+    6466970483704145601
+  ],
+  "rewards": [],
+  "tasks": []
+}

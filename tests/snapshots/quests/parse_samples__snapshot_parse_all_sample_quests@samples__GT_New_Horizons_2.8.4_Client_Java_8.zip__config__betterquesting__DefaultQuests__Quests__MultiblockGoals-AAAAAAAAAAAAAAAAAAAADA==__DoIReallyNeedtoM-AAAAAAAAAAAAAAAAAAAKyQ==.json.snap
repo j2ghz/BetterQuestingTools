@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2761,
+  "prerequisites": [
+    1493
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Oh wait, yes, you actually need this now! That was supposed to be a rhetorical question!\n\nThe main thing you will probably get out of it is the Quantum Anomaly.\n\n[note]This multi is LuV. But you don't need it until UHV.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Do I Really Need to Make This?",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1493
+  ],
+  "rewards": [],
+  "tasks": []
+}

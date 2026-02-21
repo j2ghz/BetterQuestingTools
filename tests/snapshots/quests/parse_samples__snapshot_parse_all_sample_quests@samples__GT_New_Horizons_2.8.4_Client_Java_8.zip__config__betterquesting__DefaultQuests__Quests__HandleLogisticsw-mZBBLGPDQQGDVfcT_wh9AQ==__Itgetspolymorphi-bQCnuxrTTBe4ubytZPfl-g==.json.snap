@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1932972328434001402,
+  "prerequisites": [
+    8885686795144739984
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Sometimes people have a storage system that contains a lot of different items, or they have a large quantity of the same item.\n\nHere comes the Polymorphic ItemSink. It assigns inventory space to the kind of items already in the inventory.\n\nVery handy especially when you have a storage controller connecting to a lot of drawers.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "It gets polymorphic",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    8885686795144739984
+  ],
+  "rewards": [],
+  "tasks": []
+}

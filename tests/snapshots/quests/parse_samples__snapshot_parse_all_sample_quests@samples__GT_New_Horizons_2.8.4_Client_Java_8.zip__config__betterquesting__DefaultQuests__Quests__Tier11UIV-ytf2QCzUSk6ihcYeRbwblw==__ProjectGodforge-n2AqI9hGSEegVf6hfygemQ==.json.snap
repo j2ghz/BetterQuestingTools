@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 15584223032475393689,
+  "prerequisites": [
+    15479227107966238149,
+    13644861183554273146,
+    14587807468287963853
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "With your research now complete, you have finally constructed it - the Forge of the Gods.\n\nThe Forge of the Gods is an immensely powerful structure constructed around a stabilized neutron star - it is so advanced that its full capabilities are not yet understood. However, through continued use, one can slowly upgrade and expand the range of abilities of the Forge, and learn the power hidden in the most extreme parts of the universe: [note]Graviton Shards[/note].\n\nThis esoteric material can only be found where conventional matter and degenerate neutronium crust matter on the surface of a neutron star meet. At this point in space, gravitons are far more common and irradiate this material mixture to create highly unstable graviton shards, which can be used to internally upgrade the Forge. While these shards cannot yet exist outside the extreme conditions of the Forge, with continued research and utilization it may be possible to eventually isolate and extract them outside the Forge - but for what purpose?\n\n[note]Click on the logo in the UI to read more on how to operate the Godforge.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lProject Godforge",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    15479227107966238149,
+    13644861183554273146,
+    14587807468287963853
+  ],
+  "rewards": [],
+  "tasks": []
+}

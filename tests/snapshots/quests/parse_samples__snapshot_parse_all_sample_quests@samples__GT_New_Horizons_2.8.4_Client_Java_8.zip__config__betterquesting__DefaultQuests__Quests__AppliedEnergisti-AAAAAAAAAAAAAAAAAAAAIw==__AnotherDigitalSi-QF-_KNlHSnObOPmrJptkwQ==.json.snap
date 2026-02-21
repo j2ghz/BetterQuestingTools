@@ -1,0 +1,41 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 15656564488006231233,
+  "prerequisites": [
+    7275355826391455636,
+    2582,
+    2665,
+    2588
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You've probably drained quite a few of them at this point.\n\n[note]Have you heard about YOTTanks?[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Another Digital Singularity",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    7275355826391455636,
+    2582,
+    2665,
+    2588
+  ],
+  "rewards": [],
+  "tasks": []
+}

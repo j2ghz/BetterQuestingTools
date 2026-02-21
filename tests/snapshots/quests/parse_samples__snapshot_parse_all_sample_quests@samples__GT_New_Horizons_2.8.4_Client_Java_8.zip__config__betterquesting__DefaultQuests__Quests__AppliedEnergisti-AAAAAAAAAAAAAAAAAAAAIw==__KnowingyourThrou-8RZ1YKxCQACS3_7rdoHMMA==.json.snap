@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 12412553893718903856,
+  "prerequisites": [
+    2522
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "[quest]ME Throughput Monitor[/quest]\n\nThe ME Throughput Monitor will show the speed of items entering your network.\n\nClicking with an item will add it to the monitor.\n\nUse a §aWrench§r to lock the monitor\n\nWhen the monitor is locked, use §cShift+Right Click§r to change the measured time frame. \n\nModes: \n\n§6Per Tick\nPer Second\nPer Minute\nPer Hour",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Knowing your Throughput! ",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2522
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2658,
+  "prerequisites": [
+    1197
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "In order to make Tritanium, first you need to make Duranium.\n\nTritanium is used for the T6 rocket, Gravisuit, the T4 mining multi, and UHV circuits.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Making Tritanium",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1197
+  ],
+  "rewards": [],
+  "tasks": []
+}

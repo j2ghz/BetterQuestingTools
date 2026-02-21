@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 9061886084547110748,
+  "prerequisites": [
+    15841492284952551310
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Fabricating Crystal SoCs with LuAG is so much faster than directly engraving crystal chips! They can also be used for Raw Advanced Crystal Chip.\n\nRemember to keep some LuAG gems for growing more crystals.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Synthetic Crystal",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    15841492284952551310
+  ],
+  "rewards": [],
+  "tasks": []
+}

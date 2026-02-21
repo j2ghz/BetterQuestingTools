@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 8519757157673233156,
+  "prerequisites": [
+    3237,
+    3242
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "A bit expensive, but worth the QoL items you can craft with it.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "UIV Field Generator",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3237,
+    3242
+  ],
+  "rewards": [],
+  "tasks": []
+}

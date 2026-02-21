@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3515139917016817911,
+  "prerequisites": [
+    1099
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Sanitizing Soap isn't strong enough to keep up? \n\nThis soap has a 50% Chance to reduce your normal warp, increased to 75% if you have the Warp Ward effect (obtained by Purifying Bath Salts) and increased to 100% if you're standing inside of the purifying fluid. \nThis soap also has a 100% chance to cleanse §lall§r of your temporary warp!\n\nIn case you're wondering how to pronounce it: Don't even bother trying.\n",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Who Came Up With This Name??",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1099
+  ],
+  "rewards": [],
+  "tasks": []
+}

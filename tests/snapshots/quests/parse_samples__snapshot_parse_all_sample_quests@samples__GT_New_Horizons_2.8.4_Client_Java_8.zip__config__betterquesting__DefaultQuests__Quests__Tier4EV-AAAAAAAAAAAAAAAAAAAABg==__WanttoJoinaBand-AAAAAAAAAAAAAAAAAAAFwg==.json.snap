@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1474,
+  "prerequisites": [
+    176
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Or at least play with drums? If you have extra Meteoric Iron after building your rocket and making your thermal padding, turn it into Meteoric Steel and use it to make some drums. These drums can hold 256 buckets even after breaking.\n\nAnd did you know you can use them as cells? Try loading or unloading a supertank!",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§a§lWant to Join a Band?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    176
+  ],
+  "rewards": [],
+  "tasks": []
+}

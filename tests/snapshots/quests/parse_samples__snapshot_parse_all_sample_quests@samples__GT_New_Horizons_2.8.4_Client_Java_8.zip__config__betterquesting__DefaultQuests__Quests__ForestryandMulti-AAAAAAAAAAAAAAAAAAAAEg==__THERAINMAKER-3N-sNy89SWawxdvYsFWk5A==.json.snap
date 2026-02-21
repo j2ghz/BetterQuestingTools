@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3403957598755857636,
+  "prerequisites": [
+    4246123611375582103
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Rainmaker is a Forestry block capable of stopping/producing rain & creating thunderstorms.\n\nThe Rainmaker has no GUI, but can be right clicked with §a3§r different capsules:\n\n§cIodine Capsule:§r Produces Rain\n\n§cPhosphoric Iodine Capsule:§r Produces a Thunderstorm\n\n§cDissipation Charge:§r Stops Rain\n\nThe Rainmaker requires around ~30 seconds after activation for the §9rain§r and §9thunderstorm§r to start.\n\nThe dissipation charge will stop the rain after a few seconds until the next activation. ",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "THE RAINMAKER",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    4246123611375582103
+  ],
+  "rewards": [],
+  "tasks": []
+}

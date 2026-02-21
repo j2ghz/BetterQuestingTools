@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 159,
+  "prerequisites": [
+    157
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Hmmm, crispy bacon. What would happen if you enable neutral mobs as targeting...?",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lBurn Them. Burn Them All!",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    157
+  ],
+  "rewards": [],
+  "tasks": []
+}

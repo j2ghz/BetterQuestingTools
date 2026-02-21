@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1812,
+  "prerequisites": [
+    943
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "To make PTFE, aka Teflon, you only need a few steps.\n\nThe first one is hydrofluoric acid. If you haven't reached the moon yet, the best sources for fluorine might be cryolite. Other options are treating Sand or Sandstone in a Chemical Plant for some Fluorite Ore, and centrifuging stone dust or black granite dust for biotite. You can also get small amounts from Lepidolite in salt veins and Mica. Mix it with some hydrogen to get hydrofluoric acid.\n\nIf you have reached the moon, you can also process Bastnasite ore.\n\n§6Already automated PTFE? Hold 128 sheets to skip this questline.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lTeflon Don",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "UNLOCKED"
+  },
+  "required_prerequisites": [
+    943
+  ],
+  "rewards": [],
+  "tasks": []
+}

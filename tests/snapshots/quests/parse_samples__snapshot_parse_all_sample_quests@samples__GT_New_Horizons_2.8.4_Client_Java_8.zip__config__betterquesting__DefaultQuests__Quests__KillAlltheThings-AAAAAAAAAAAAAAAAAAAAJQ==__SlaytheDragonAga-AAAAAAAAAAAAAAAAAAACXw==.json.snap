@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 607,
+  "prerequisites": [
+    2350
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "If you're bored, you could resurrect the dragon. Or, you can find a chaos dragon, if you dare. Anyway, kill one of those, and you'll be well rewarded.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Slay the Dragon. (Again)",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2350
+  ],
+  "rewards": [],
+  "tasks": []
+}

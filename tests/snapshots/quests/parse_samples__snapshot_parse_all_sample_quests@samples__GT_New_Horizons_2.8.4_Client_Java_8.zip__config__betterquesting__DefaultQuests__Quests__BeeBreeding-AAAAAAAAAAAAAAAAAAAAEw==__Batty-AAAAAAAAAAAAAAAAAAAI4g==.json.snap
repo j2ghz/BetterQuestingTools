@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2274,
+  "prerequisites": [
+    2223,
+    2239
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Batty bees will spawn firebats. So prepare for battle. Their specialty is Gunpowder. Breed them from Skulking and Windy.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Batty",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2223,
+    2239
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3156,
+  "prerequisites": [
+    3154
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "A required intermediate machine between your fluid nukes and your power is the Large Heat Exchanger (LHE). It takes in a hot fluid, in this case Hot Coolant, and transforms Distilled Water into Steam or Superheated Steam depending on how fast the hot fluid is coming in. It's important to only use Distilled Water here, because the Steam Turbines will output and recycle it back to the LHE.\n\nFor this purpose, you will need around one LHE per fluid nuke if you're doing one of the good setups from the wiki. None of them will reach the maximum flow one LHE can accept, but any setup above 800 HU will give you Superheated Steam, which is more efficient for EU and what you want to get.\n\nIf your setup does not match that 800 HU threshold, you can use a Hot Coolant buffer and set up a redstone latch so that the Hot Coolant flows in fast enough, until the buffer is almost empty. ProjectRed has a special block that acts as the latch, and you will then need two redstone signals that scale with the amount of fluid stored in your buffer tank. One of the signals should be normal, and the other reversed.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Large Heat Infrastructure",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3154
+  ],
+  "rewards": [],
+  "tasks": []
+}

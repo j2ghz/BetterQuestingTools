@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1112,
+  "prerequisites": [
+    501
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Untreated frames are the simplest frames. They do not work in bee houses, only in apiaries or alvearies. You will need them to craft bee houses.\n\nThey increase the bee's performance. Each untreated frame will double a bee's productivity.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 1,
+    "name": "Frames",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    501
+  ],
+  "rewards": [],
+  "tasks": []
+}

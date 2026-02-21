@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 721,
+  "prerequisites": [
+    719
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You have a lot of unknown seeds already. Use your scanner to scan all the seeds.\n\nSeeds can be planted again to breed better and more resilient crops.\n\nLater you can use your portable scanner to see the crop stats while still in the ground.\n\nGrowability depends on having dirt beneath your crop (4 max), biome (swamp/jungle types are all pretty much the same), air quality (increases up to Y124 and don't place a lot above/around your plants), hydration, and fertilizer. When the crop tier and plant stats get high enough, they will actually die without enough Growability. This is never a concern if you use a good biome though.\n\nAs long as you water and fertilize them, you can pretty much grow crops anywhere.\n\nIf the Growth stat gets too high, greater than 24 or so, the plant will spread weeds onto neighbors.\n\nSome crops, such as Redwheat or oreberries, require certain light levels to crossbreed or grow.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Unknown Seeds No More",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    719
+  ],
+  "rewards": [],
+  "tasks": []
+}

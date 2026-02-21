@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2365,
+  "prerequisites": [
+    2363
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Transference Gems and Spatial Gems can be enhanced in a similar manner, using End Powder and the enhancement item.\n\nRight-click the End Powder, choose an enchantment, and fill four End Powder and four instability orbs for instant teleport, four Lapis Lazuli for a longer teleport range, and four endium ingots to increase the capacity of the gem.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Gem Enchantment",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2363
+  ],
+  "rewards": [],
+  "tasks": []
+}

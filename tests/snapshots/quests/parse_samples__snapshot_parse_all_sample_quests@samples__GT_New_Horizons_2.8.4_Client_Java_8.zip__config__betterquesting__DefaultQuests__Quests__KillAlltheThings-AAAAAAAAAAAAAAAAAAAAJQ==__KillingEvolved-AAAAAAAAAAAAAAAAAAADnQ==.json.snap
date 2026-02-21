@@ -1,0 +1,41 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 925,
+  "prerequisites": [
+    916,
+    906,
+    908,
+    924
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "I guess you're good at killing things, huh? And if you got this far, maybe making things too? If you want to §oreally§r prove yourself though, head on over to the Endgame Goals tab.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Killing: Evolved",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "SECRET"
+  },
+  "required_prerequisites": [
+    916,
+    906,
+    908,
+    924
+  ],
+  "rewards": [],
+  "tasks": []
+}

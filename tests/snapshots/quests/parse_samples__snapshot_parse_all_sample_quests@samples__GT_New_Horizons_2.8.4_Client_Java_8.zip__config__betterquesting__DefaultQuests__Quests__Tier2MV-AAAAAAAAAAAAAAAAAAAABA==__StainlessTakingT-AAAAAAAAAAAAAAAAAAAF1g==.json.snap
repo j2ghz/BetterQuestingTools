@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1494,
+  "prerequisites": [
+    753
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Time for a second EBF!\n\nYou can make ingots faster in 3 ways - better coils, higher tier energy hatches, or adding more furnaces. It's probably time to add a second EBF to your base.\n\nMultiblock machines can share casings, mufflers, and input/output hatches/buses, but not maintenance hatches (you can share the auto ones though). You can share energy hatches, but only if you can supply enough power to all machines it's a part of.\n\nRemember, pollution will be very high with two EBFs active at once! Watch out for high pollution effects. Use the best mufflers available and don't place the EBFs in the same chunk as farmland or other high pollution machines like Pyrolyse Ovens and Large Boilers. Maybe it is time to do something more active?\n\nYou can use whatever coils you have lying around, but you certainly want to start searching for Mica if you haven't found any yet.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lStainless Taking Too Long?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    753
+  ],
+  "rewards": [],
+  "tasks": []
+}

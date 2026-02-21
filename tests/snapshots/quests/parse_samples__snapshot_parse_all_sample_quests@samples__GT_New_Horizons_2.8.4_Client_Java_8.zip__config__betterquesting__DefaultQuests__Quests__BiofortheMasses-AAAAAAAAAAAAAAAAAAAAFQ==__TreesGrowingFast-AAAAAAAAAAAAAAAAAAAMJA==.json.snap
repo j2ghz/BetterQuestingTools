@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3108,
+  "optional_prerequisites": [
+    160,
+    3141
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "No matter which way you used to get wood, you can simplify it. There's nothing much simpler than just pulling out more and more wood from a multiblock that doesn't even grow trees! That's what the Tree Growth Simulator does, with a special input: saws. This multi can replace the bonsais that were used for wood automation, however it is only available in IV. You have two further options in the meantime:\n\nTo continue using bonsais, in case you have gotten good stats on them, you can use the HV version of the Crop Manager, or the multiblock version, the Multifarm. This multi is special because it needs Uranium Rods, which are HV due to needing Eyes of Ender, but it has a massive range to harvest crops, being able to work with 1000+ of them, while only consuming 6 ULV amps when built correctly. It also hydrates and fertilizes automatically, and is much more efficient with the Fertilizer than its competition. Compared to the Crop Manager, it only loses out on the extra drops per harvest.\n\nOther than these two options, you can also grow and harvest trees normally with the EnderIO Farmer, which is a more typical tree automation machine. It's HV-locked, simple, and reliable and only needs a bit of power to get the wood you need, at a pretty fast rate. Ideally you want to use an unbreakable lumber axe with a tree type that produces a lot of logs (spruce is decent). To crank out a lot of wood you can then use sprinklers with water or a world accelerator.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Trees Growing Faster",
+    "party_single_reward": null,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

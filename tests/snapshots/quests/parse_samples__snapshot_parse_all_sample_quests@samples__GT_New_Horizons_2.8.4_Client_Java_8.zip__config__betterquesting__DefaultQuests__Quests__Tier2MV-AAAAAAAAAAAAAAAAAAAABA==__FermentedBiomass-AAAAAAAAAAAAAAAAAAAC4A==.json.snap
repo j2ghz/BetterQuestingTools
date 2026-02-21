@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 736,
+  "optional_prerequisites": [
+    1323,
+    3070
+  ],
+  "prerequisites": [],
+  "properties": {
+    "": "With the MV fermenter you can produce fermented biomass. This is the base product to make methane, ethanol and methanol.\nWhen you reach HV tier there's a more efficient way to process it - the distillation tower multiblock.",
+    "auto_claim": false,
+    "desc": "Fermenting your biomass allows you to get more products out of it like methanol, ethanol, ammonia, etc.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lFermented Biomass",
+    "party_single_reward": false,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

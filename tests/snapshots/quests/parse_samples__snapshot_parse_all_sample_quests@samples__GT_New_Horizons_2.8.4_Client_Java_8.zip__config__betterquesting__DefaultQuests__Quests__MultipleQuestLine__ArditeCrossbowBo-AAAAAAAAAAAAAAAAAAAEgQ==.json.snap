@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1153,
+  "prerequisites": [
+    1152
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "To make your crossbow even better, craft an ardite crossbow body. You received a few ardite ingots as reward before but will need to find ore in the Nether and process it in an Electric Blast Furnace.\n\nWith redstone you can make your bow faster. This requires a free modifier slot on your crossbow.\n\nDon't bother putting Nether Quartz on the crossbow, it only improves damage from whacking mobs over the head with it. Put the Nether Quartz on your bolts instead.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lArdite Crossbow Body",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1152
+  ],
+  "rewards": [],
+  "tasks": []
+}

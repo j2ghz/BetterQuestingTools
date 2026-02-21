@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2606,
+  "prerequisites": [
+    2603,
+    2604,
+    2605
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Once you've collected all the materials, you'll need to make Magneto Resonatic Dust and Circuit Compound Mk3 in a Mixer.\n\nCombine these in the Forming Press to make Raw Imprint Supporting Boards.\n\nYou then craft those into Imprint Supporting Boards in an Autoclave in a Cleanroom with Soldering Alloy. Unfortunately, there's only a 75% chance of succeeding, so I had you collect extra materials. You can use the leftovers for your next imprint.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§c§lRNG is Definitely Good Game Design",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2603,
+    2604,
+    2605
+  ],
+  "rewards": [],
+  "tasks": []
+}

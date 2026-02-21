@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1795,
+  "prerequisites": [
+    1601
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You can even create metals not found on Earth using crops! You'll need the proper metal block beneath the crop in order for them to fully mature.\n\nBTW, higher tier crops have a lower chance of dropping seeds, so consider breeding a second one before you try breaking them, OK?",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Metals From the Sky",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1601
+  ],
+  "rewards": [],
+  "tasks": []
+}

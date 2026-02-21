@@ -1,0 +1,41 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 468,
+  "prerequisites": [
+    2467,
+    2582,
+    2665,
+    2588
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "What? You filled up the Quantum storage cell? I hope it was with something better than Cobblestone. Anyway, you'd better make something EVEN bigger then.\n\nHmm, adding even more storage capacity to a single cell would result in something so dense with information that it would just collapse into a singularity. So why not be smart about it? Just use an already existing singularity! Build a sturdy casing around it and add some connecting components, and you should be good. Better use an eternal singularity, though, to make sure things remain stable.\n\n[note]The Digital Singularity can store more than 4 quintillion items. If you manage to fill one up, please contact the dev team so that they can ban you for cheating... eh, I mean, congratulate you on your achievement, of course![/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "A Digital Singularity",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2467,
+    2582,
+    2665,
+    2588
+  ],
+  "rewards": [],
+  "tasks": []
+}

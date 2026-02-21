@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 194,
+  "prerequisites": [
+    195
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "It's important to monitor your reactor (Or just fancy to have a big screen somewhere...). So now that you've gained knowledge about the available fuel rods, you can start to build yourself a power plant. Here is something to help you out.\n\nUse the sensor kit on the block you want to monitor, then put the sensor card in the display panel. Next select which lines of information you want to display.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§a§lMonitoring Your Reactor",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    195
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 240,
+  "prerequisites": [
+    256,
+    1177,
+    239
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "In order to get essentia, you need to dissolve items. Obviously, you only want to dissolve those items you don't really need, and only those with essentia you need to craft things.\n\nMake sure you keep your furnace as empty as possible. If it fills up with essentia, it can cause a large TPS drop.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Essentia Cooking",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    256,
+    1177,
+    239
+  ],
+  "rewards": [],
+  "tasks": []
+}

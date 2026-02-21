@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 137,
+  "prerequisites": [
+    129,
+    134
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "While conduits on their own are already awesome, you can also hide them if you want. There are 2 types of facades, basic and hardened. While basic ones are simple and easy, the reinforced ones are able to withstand explosions and mining with tools. You have to use your Yeta Wrench to remove it.\n\nYou'll have to paint your facades in the Painting Machine first - place the block you want them to look like where the paintbrush is, and the facade on the left. Of course, the Painting Machine needs to be powered.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lMaking Things Pretty",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    129,
+    134
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 17014953405431341274,
+  "prerequisites": [
+    3243
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "SpaceTime is quite a challenge, isn't it? You should definitely consider upgrading your Component Assembly Lines to save on some of it.\n\n[note]Did you know you can wall-share the component casings? Just turn one CoAL upside down.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Saving on SpaceTime",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3243
+  ],
+  "rewards": [],
+  "tasks": []
+}

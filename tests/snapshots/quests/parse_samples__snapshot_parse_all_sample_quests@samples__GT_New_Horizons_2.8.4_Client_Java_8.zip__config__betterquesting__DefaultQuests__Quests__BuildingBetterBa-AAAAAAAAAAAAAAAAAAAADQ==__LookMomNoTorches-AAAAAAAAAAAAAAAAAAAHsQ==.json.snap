@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1969,
+  "prerequisites": [
+    36
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Tired of a base using nothing but torches? This set of quests will go through the various options available to light up your beautiful base.\n\nFirst up, Railcraft lanterns. These come in stone and metallic varieties. The stone varieties don't need much to craft. One plus/minus for these lanterns is that they are solid blocks - while you cannot walk through them, they also do not fall if the surrounding blocks are removed. Search \"lantern\" in NEI for more varieties. They are a bit annoying to craft now, but if you check NEI you can make them pretty easily with assemblers later.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Look Mom, No Torches!",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    36
+  ],
+  "rewards": [],
+  "tasks": []
+}

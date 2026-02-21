@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1300,
+  "prerequisites": [
+    1298,
+    1299
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "After you link up the wireless terminal in the ME security terminal, it grants portable access to the ME network. Put it into a charger to recharge it.\n\nHolds 1.6m AE in its battery and drains 1 AE/t for each block you are away from the nearest ME wireless access point.\n\nCharge your Wireless Terminals (and the successors) with an EIO Wireless Charger if you don't want to wait a century for them to charge.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Wireless Applied Energistics Terminal",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1298,
+    1299
+  ],
+  "rewards": [],
+  "tasks": []
+}

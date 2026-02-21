@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 847,
+  "optional_prerequisites": [
+    1744,
+    1148
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You can make ethylene several different ways\n\n- Ethanol and sulfuric acid in a Chemical Reactor\n- Ethanol in a Chemical Dehydrator\n- Distilling various gases (i.e. wood gas) in a Distillery\n- Obtain it from Oil in the Working with Oil tab\n\n[note]You will need much more than 12 cells later on so keep that in mind.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lEthylene",
+    "party_single_reward": false,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

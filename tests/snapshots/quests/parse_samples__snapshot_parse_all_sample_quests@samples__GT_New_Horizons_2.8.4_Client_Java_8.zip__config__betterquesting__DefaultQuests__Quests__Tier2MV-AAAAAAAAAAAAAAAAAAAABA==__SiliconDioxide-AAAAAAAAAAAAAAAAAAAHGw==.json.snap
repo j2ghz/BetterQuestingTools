@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1819,
+  "prerequisites": [
+    126
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Get yourself some Silicon Dioxide! Smelting it in your EBF with some carbon is the best way to obtain raw silicon ingots. It is used it a few places but most importantly you can macerate it back down to raw silicon dust. You can also turn the silicon dioxide into raw silicon dust via chemical processes using aluminium or magnesium.\n\nYou can get silicon dioxide easily by centrifuging glass dust or electrolyzing sand.\n\nIf you have raw silicon dust but want silicon dioxide for some reason, you can use an arc furnace or an autoclave.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lSilicon Dioxide",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    126
+  ],
+  "rewards": [],
+  "tasks": []
+}

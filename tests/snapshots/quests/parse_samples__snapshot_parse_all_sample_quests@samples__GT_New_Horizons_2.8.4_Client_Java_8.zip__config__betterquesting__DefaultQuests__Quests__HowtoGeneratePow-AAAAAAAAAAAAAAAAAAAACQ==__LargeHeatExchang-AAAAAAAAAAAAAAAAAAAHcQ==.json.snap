@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1905,
+  "prerequisites": [
+    860,
+    1245
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Large Heat Exchanger is a powergen multi that accepts a non-direct fuel, and doesn't output EU. What is it for, then? §7To heat up water with hot liquids, that's what!§r\n\nEffectively, it's a Steam Boiler that uses fluids instead of solids, but it's more complicated. The three sources of energy are Lava, Hot Coolant, and Hot Solar Salt. The salt is the most powerful, but hardest to get. Lava can be automated from Everburn Urns or a myriad of other options, Hot Coolant usually comes from Fluid Nukes, and Hot Solar Salt is produced in the Solar Tower.\n\nFor Lava, the LHE outputs §d160 L of Steam for every 1 L of Lava, up to 1000 L/s of Lava input§r (§a4000 EU/t§r at 100% turbine efficiency). For Hot Coolant, the LHE outputs §d400 L of Steam for every 1 L of Hot Coolant, up to 800 L/s of input§r (§a8000 EU/t§r at 100% turbine efficiency). For Hot Solar Salt, the LHE outputs §d2000 L of Steam for every 1 L of Hot Solar Salt, up to 160 L/s of input§r (§a8000 EU/t§r at 100% turbine efficiency).\n\n§cIf you go above these input rates, the output becomes Superheated Steam, which needs to pass through a Large HP Steam Turbine before the regular Large Steam Turbine.§r The maximum input rate here is twice of what was before and the conversion rates are now §d1:80 for Lava§r, §d1:200 for Hot Coolant§r, and §d1:1000 for Hot Solar Salt§r. The energy output at 100% turbine efficiency is §a12000 EU/t§r for Lava, §a24000 EU/t§r for Hot Coolant, and §a24000 EU/t§r for Hot Solar Salt.\n\n§6§lVery powerful, but complicated, and needs turbines!§r\n\nFor more information, visit [url]https://wiki.gtnewhorizons.com/wiki/Large_Heat_Exchanger[/url] or [url]https://wiki.gtnewhorizons.com/wiki/Fluid_Reactor[/url].",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lLarge Heat Exchanger - Fermat's Last",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    860,
+    1245
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3186,
+  "prerequisites": [
+    3165
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Once you upgrade your Fusion Reactor to tier 2, you gain access to a better recipe for power generation, which is Tin Plasma. Helium-3 is used, as it was before, but now with Silver, which you can automate in a million ways. The processing speed is slightly higher than before, but the fuel value of this plasma is much higher than what you were using before, at 150,000,000 EU per bucket. This impressive fuel value means that the max power output of a single t2 reactor at 100% fuel efficiency is 2,700,000 EU/t, and with the turbines you can use here, you can twice as much as that or even more!\n\nTo utilize all of the plasma, you will be using 10 or more turbines with good rotors. Before doing that, though, it's a good idea to step back and test your turbines with this plasma, preferably in Creative mode, because the fuel value is so high that one liter of plasma is worth 150,000 EU at 100% efficiency. If you set the input rate to anything higher than 2 L/t, you will go above the ZPM Dynamo limit, and even 2 L/t will be too high if the turbine's efficiency is 174% or above! Until you upgrade your hatches, you might once again be stuck will less power output or efficiency than you'd like. There's only one way to fix that.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Tin Plasma From T2",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3165
+  ],
+  "rewards": [],
+  "tasks": []
+}

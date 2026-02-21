@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2199,
+  "prerequisites": [
+    2173
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "An otherwise mostly useless bee, Olivine is required for breeding better bees. I guess if you need Magnesium? Breed them from Ender and Certus.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Olivine",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2173
+  ],
+  "rewards": [],
+  "tasks": []
+}

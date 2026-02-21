@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2095,
+  "prerequisites": [
+    2088
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Another important resource is Raw DNA. This can be obtained from any breedable organism such as bees, trees or flowers, and is created in the Genepool. The Genepool requires both Ethanol and Enzyme to digest the DNA, and will destroy the organism. Note this gives raw DNA, and does not preserve any genes or alleles present.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Genepool",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2088
+  ],
+  "rewards": [],
+  "tasks": []
+}

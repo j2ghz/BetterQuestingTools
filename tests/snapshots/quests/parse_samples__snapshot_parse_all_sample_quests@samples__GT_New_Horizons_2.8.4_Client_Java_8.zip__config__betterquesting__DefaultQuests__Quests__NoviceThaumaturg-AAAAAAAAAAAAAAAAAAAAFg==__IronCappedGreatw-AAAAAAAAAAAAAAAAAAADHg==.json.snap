@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 798,
+  "prerequisites": [
+    234,
+    235,
+    236
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Making a gold capped greatwood wand requires 30 vis, but your old wand's limit is 25. So first create an iron or copper capped greatwood wand reload it with 50 vis and then later on in the next quest create a gold capped greatwood wand.\n\n§3You can always press the NEI 'U' command on the caps, the core, or the boss ingredient to find the correct GT:NH recipe for the wands.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Iron Capped Greatwood Wand",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    234,
+    235,
+    236
+  ],
+  "rewards": [],
+  "tasks": []
+}

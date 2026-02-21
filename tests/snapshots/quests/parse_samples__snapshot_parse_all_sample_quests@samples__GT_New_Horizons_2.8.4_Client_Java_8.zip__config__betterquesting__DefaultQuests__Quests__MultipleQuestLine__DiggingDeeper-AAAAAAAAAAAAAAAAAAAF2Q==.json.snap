@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1497,
+  "prerequisites": [
+    1496
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Now that you know what an Ore Chunk is, dig all the way down to bedrock to find if there is a vein located in it.\n\nCheck out an ore in NEI to see where you can find a vein that contains it. Search for it and click on it to get this info, among other things.\n\nThere are many types of ores, even just for getting one material like Iron, so don't stick to only one ore.\n\nYou can also search small ores in NEI, but not all of them are used.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§2§lDigging Deeper",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1496
+  ],
+  "rewards": [],
+  "tasks": []
+}

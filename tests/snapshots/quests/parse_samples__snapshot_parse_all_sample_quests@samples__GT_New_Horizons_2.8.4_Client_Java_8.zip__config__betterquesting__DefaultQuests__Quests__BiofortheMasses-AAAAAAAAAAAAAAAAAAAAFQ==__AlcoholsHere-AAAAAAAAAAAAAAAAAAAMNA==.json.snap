@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3124,
+  "optional_prerequisites": [
+    3121,
+    3115
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Ethanol and Methanol are two different chemicals, but they are both outputs from DTing Fermented Biomass or Wood Vinegar. Between the two, you can make Ethylene (and then Polyethylene, by adding Sulfuric Acid and Oxygen), Biodiesel, Dense Hydrazine (GT++ rocket fuel, it's very powerful in IV, try it), some chemicals for HOG (EV fuel from crude oil), and many other things such as Chloromethane. For future processing lines, you're going to want to have these stocked up.\n\nThey are both also power sources, if you end up with full super tanks. Their fuel values aren't the best, with Ethanol at 192k and Methanol at 84k, but they are perfectly capable of fueling your powergen setups, leaving your best fuels free to power your main base. Even if you're using them for Biodiesel and Polyethylene at the same time, it's quite likely that you'll have leftovers. If you have the choice to use any of the two in a recipe, choose Methanol, since Ethanol has a lot more EU per bucket to give.\n\n(Also note that you get almost no Ethanol from Wood Vinegar compared to Methanol. On the Fermented Biomass side, the amounts are the same.)",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Alcohols Here",
+    "party_single_reward": null,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

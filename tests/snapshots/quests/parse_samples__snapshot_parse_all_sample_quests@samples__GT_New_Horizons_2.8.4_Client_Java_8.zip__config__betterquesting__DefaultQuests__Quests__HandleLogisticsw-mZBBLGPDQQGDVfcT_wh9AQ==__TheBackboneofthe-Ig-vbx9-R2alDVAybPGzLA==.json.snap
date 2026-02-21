@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2269329767481324332,
+  "prerequisites": [
+    97
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Welcome to Logistics Pipes! This questline is dedicated to this automation mod, which is placed in the MV tier to help manage your chests, crafting and even fluid crafting. It's quite similar to ProjectRed: Transportation, but with some differences, particularly in fluid crafting.\n\nHere, you can connect chests and machines to a central location, but before you build that central location, you have to get some pipes for connection. The Unrouted Transport Pipe is the first pipe you will ever need in Logistics Pipes.\n\nThey only connect to other pipes and don't have any item routing capabilities, but you will need a ton of them.\n\n§cWarning: Do NOT form junctions with the Unrouted Transport Pipes. Items going into an unrouted transport pipe junction will come out of a random exit of the junction.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "The Backbone of the System",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    97
+  ],
+  "rewards": [],
+  "tasks": []
+}

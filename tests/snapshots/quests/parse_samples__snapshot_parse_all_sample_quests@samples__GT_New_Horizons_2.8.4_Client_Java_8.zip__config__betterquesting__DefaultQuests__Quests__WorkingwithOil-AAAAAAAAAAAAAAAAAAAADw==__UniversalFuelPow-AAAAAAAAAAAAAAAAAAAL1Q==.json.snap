@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3029,
+  "prerequisites": [
+    3026
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "This is the most powerful combustion engine that has ever been built. In fact, it's not only that, but also a Gas Turbine and a Rocket Fuel Generator!\n\nThe Universal Chemical Fuel Engine burns fuel with some additives, as did its predecessors, but it runs at a lower efficiency. The 150% value is a mathematical limit, you cannot reach it without supplying infinite fuel, but this engine compensates by running as fast as fuel is input into it, without the maximum EU/t limitation the others had. The only two things you have to make sure of are that you supply enough Combustion Promoter to keep efficiency up (I'll let you figure the best ratio on your own, but 1:4 promoter:fuel is decent), and that the dynamo can support the EU/t that the generator is outputting.\n\n[warn]You will need an Assembly Line to craft the dynamo needed to complete this quest. You better burn enough HOG to make it worth![/warn]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Universal Fuel Power",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "SECRET"
+  },
+  "required_prerequisites": [
+    3026
+  ],
+  "rewards": [],
+  "tasks": []
+}

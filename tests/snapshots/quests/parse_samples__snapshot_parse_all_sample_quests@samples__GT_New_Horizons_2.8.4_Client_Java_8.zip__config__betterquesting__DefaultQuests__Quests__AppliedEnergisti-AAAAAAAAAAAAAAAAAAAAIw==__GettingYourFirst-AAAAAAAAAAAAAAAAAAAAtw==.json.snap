@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 183,
+  "prerequisites": [
+    178
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "There are 3 different ways to make AE2 processors. First, there's the AE2 Inscribers, which are slow, hold one of each item at a time, require inputs (and output) from specific directions, but can be sped up with cards. Second, there's the Advanced Inscribers, which are similar, but allow stacking, and do not require specific directions. Lastly, there's GT Assemblers (and later the multiblock) which can be very fast, but require a fluid input, and consume more power. Get 8 of each one for now.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Getting Your First Processors",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    178
+  ],
+  "rewards": [],
+  "tasks": []
+}

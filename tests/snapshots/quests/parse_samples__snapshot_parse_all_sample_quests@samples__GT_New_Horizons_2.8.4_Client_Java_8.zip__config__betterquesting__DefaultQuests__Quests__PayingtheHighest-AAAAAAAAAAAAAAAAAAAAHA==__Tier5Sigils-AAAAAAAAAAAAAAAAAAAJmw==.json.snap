@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2459,
+  "prerequisites": [
+    702
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "They're of seriously questionable utility this time, so why not try to get the blood arsenal ones as well? Collect them all!\n\nPS: You need Lightning Sigils for the Transcendent Orb",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Tier 5 Sigils",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    702
+  ],
+  "rewards": [],
+  "tasks": []
+}

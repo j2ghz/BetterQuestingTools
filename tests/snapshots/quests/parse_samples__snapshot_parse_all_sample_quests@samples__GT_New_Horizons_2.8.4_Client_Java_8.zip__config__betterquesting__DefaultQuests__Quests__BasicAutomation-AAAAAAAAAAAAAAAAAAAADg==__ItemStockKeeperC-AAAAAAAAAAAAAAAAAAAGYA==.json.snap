@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1632,
+  "prerequisites": [
+    1631
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The item stock keeper looks at the connecting inventory and keeps item stocked in there. If the item is missing it will keep bothering item broadcasters every few seconds if they have the item and if they can send it. It's basically like an annoying child.\n\nIt is really useful though. Want a chest that will always have 64 cobble and dirt in it and if you take them they will get replaced? This guy is perfect for that job. It's great for keeping machines stocked. When stocking GT machines, the top left slot of the 3x3 is equal to the left slot of the machine. Want a chemical reactor that keeps 3 hydrogen cells ready to go to make ammonia, just add nitrogen? This is the chip for you.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Item Stock Keeper Chip",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1631
+  ],
+  "rewards": [],
+  "tasks": []
+}

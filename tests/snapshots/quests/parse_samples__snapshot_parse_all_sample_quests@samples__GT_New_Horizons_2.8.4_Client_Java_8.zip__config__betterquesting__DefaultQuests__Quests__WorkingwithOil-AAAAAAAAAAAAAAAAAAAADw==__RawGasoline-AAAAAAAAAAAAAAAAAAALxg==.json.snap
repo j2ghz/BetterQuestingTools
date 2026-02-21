@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3014,
+  "prerequisites": [
+    3012
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "At this point, you have almost all the additives needed to transform basic gasoline into the powerful HOG. What you'll need to do next is to create the gasoline itself, and this begins with Raw Gasoline. It has four different inputs, and each of them is sourced in a different way, but none of them are new: Naphtha and Refinery gas are well-known to you, Methanol was created in the previous quest and Acetone was explained in the \"Acetone and Ethenone\" quest in HV.\n\nAn important detail here is that Raw Gasoline is 80% Naphtha. It can be obtained in large quantities from raw oil. If you are not pumping raw oil, you will most likely find the amount you get to be short. But this problem has already been solved! Your source of Octane, if processed in a DT as explained, will also crack the Light Fuel into a lot of Naphtha that you can use here to compensate for the low amount you get from Oil. If you get low on Light Fuel, you can also crack Heavy Fuel to get some.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Raw Gasoline",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3012
+  ],
+  "rewards": [],
+  "tasks": []
+}

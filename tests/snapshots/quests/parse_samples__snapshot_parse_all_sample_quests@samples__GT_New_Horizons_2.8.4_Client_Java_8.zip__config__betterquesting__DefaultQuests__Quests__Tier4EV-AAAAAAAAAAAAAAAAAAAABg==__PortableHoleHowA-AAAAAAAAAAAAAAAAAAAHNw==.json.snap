@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1847,
+  "prerequisites": [
+    186
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "With further research, I've discovered a key made of spectral iron can open a portal into a pocket dimension. It's only one chunk wide, but perfect for storing stuff I might need while exploring faraway planets, or as a quiet refuge after a difficult battle. Using it as a teleportation hub might also be an idea...",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§a§lPortable Hole? How About Portable Chunk!",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    186
+  ],
+  "rewards": [],
+  "tasks": []
+}

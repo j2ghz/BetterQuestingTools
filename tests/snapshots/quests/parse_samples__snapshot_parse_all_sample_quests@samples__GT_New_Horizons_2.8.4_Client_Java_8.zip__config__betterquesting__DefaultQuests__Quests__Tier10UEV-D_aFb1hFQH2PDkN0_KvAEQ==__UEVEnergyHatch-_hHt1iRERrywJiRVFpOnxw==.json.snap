@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2613291457428301767,
+  "prerequisites": [
+    15712016548477362840
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Another tier, another energy hatch. You can use these to overclock your assembly lines to UIV voltage and speed them up.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "UEV Energy Hatch",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    15712016548477362840
+  ],
+  "rewards": [],
+  "tasks": []
+}

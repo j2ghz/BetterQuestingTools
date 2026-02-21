@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1137,
+  "prerequisites": [
+    860
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Kinetic Generator will transform mechanical energy into electricity. The EU output depends on the KU input. It is most commonly used together with a Kinetic Wind Generator or Kinetic Water Generator. The Kinetic Steam Generator only has one tier, so you should probably use a Steam Turbine instead.\n\nWhen placing a kinetic generator, any time, the \"input\" side is the side facing you. So you will place the kinetic generator, then the wind/water/steam gen, and then place a rotor inside. Power can be drawn from any side of the kinetic generator, up to the rated amount per side.\n\nWARNING: Breaking a kinetic generator improperly will not return the generator. Use a GT wrench, and right-click it. It should drop immediately. Try again if it just changed directions.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lKinetic Power HV",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    860
+  ],
+  "rewards": [],
+  "tasks": []
+}

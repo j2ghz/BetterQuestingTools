@@ -1,0 +1,41 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 161,
+  "prerequisites": [
+    240,
+    1568,
+    241,
+    239
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "When regular magic just isn't enough, you need something... stronger. Which is paid with blood. Your blood, and maybe others'.\n\nIn tier 1 you only need to place the blood altar. Plan for the configuration to grow in size up to 23x23 for a single altar.\n\nKeep in mind that you get less blood, and use more when crafting in GTNH. Plan for pain and frustration too.\n\nThe altar has a 10,000L blood tank, plus a 1,000L I/O buffer (you can pump in and out, but the rate is pitifully low at the start). Blood will flow to the I/O buffer until it's full, so be aware of that before your first craft.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Paying the Highest Price",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    240,
+    1568,
+    241,
+    239
+  ],
+  "rewards": [],
+  "tasks": []
+}

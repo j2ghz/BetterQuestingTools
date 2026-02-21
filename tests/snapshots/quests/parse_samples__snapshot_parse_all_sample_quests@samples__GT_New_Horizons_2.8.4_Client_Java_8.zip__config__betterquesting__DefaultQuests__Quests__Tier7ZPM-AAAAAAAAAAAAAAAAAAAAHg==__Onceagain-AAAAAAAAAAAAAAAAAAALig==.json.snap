@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2954,
+  "prerequisites": [
+    2951
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The miscibility of P-507 and naquadria is still very perfect like naquadah. Most naquadria can be concentrated again.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Once again",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2951
+  ],
+  "rewards": [],
+  "tasks": []
+}

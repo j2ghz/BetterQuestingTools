@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1506,
+  "prerequisites": [
+    1505
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "NEI has some really nice advanced features too.\n\nClicking LMB or pressing R on an item shows the recipes to create it. RMB or U show recipes that use the item. Backspace moves you back to the previously browsed recipe.\n\nHold Shift to stop the oredict cycling through items, and to show the oredict entries for the current item under your cursor.\n\nSearch using @ to find all items from that mod; for example, §o@thaumcraft§r will list all Thaumcraft items and blocks.\n\nYou can combine multiple search terms with a space. §o@thaumcraft table§r will search for anything with table in the name or description, in the mod Thaumcraft.\n\nIt has even more advanced features than mentioned here and many configuration options, you can look in the NEI option menu under Inventory to find a few. Here you can change more things about how the search works (like using regex), toggle collapsible items or the item zoom panel, or configure the history panel to your liking.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§2§lNEI is More Powerful Than You Imagine",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1505
+  ],
+  "rewards": [],
+  "tasks": []
+}

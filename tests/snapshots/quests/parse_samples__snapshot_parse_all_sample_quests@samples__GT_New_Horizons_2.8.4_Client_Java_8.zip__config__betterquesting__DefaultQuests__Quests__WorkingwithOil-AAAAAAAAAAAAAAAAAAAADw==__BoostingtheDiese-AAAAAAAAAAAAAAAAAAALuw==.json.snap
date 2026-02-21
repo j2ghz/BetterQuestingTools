@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3003,
+  "prerequisites": [
+    3002
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "As you might have guessed, extra byproducts is not the only thing that HV does with Oil. On top of that, you can further improve the main fuel that you use for power, and this builds on the previous tier, as Diesel did from Light Fuel. As before, you will need to mix the fuel you have with something else to improve it, but it is not a direct byproduct this time. Instead, it's a chemical that requires a complicated processing chain to produce, at a much higher EU cost, with only a tiny amount needed to create the next fuel, Cetane-Boosted Diesel.\n\nTo make this additive, Tetranitromethane (TNM), you will need to source several chemicals you might have not used yet. I hope you have some Distillation Towers handy, because they will be very useful for this.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Boosting the Diesel",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3002
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 17832365771009773418,
+  "prerequisites": [
+    17509788580095423501
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Just in time for the huge number of crystal rods you'll need to get your Applied Energistics system up and running, the Industrial Precision Lathe!\n\nThe number of recipes that can be processed in parallel by the IPL depends on the item pipe casing.\n§9(Parallel = Item Pipe Casing Tier * 8)§r\n\nAdditionally, it has a 300% speed boost on all recipes compared to the singleblock of that voltage and only consumes 80% of the EU/t normally required",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "See You Lather",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    17509788580095423501
+  ],
+  "rewards": [],
+  "tasks": []
+}

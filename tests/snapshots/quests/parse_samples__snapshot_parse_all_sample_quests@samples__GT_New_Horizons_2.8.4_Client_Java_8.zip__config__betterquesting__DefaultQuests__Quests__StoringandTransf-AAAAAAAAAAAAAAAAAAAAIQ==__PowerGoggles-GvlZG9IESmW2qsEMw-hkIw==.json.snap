@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 15133302448810648611,
+  "prerequisites": [
+    2732
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Wanna see how your LSC is doing but don't want to run to it or your information panel every time? Get yourself a pair of §6§oPower Goggles§r to see your energy storage straight from the HUD!\n\nBy §adefault§r the goggles are §cunlinked§r and will monitor the amount of energy in your wireless network.\n\nTo link the goggles to an LSC, §cRight+Click§r the controller with the goggles in your hand. §cShift+Right Click§r air to unlink.\n\nIf you wish to move or modify the display you can do so by opening the power goggles config menu!\n\n[warn]Make sure to check your keybinds! There's also a keybind for toggling the power chart!\n\nOr, if you don't wanna deal with that, you can use the /powergoggles command[/warn]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Power Goggles",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2732
+  ],
+  "rewards": [],
+  "tasks": []
+}

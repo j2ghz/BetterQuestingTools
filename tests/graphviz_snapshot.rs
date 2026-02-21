@@ -67,22 +67,22 @@ fn quest_graph_dot_snapshot() {
     let mut dot = String::from("digraph quests {\n");
     // Add all nodes: id [label="name (#id)"]
     for (qid, quest) in &quest_vec {
-        let label = if let Some(props) = &quest.properties {
-            if let Some(name) = &props.name {
-                // Remove Minecraft formatting codes from labels for debug/snapshot readability.
-                // These codes can be parsed to display color/font styling in future if needed.
-                format!(
-                    "{} ({})",
-                    strip_minecraft_format_codes(&name.replace('"', "\\\"")),
-                    qid.as_u64()
-                )
-            } else {
-                format!("{}", qid.as_u64())
+        if let Some(properties) = quest.properties.as_ref() {
+            if properties.name.is_empty() {
+                panic!("Quest with id {} has an empty name!", qid.as_u64());
             }
+            let name = &properties.name;
+            // Remove Minecraft formatting codes from labels for debug/snapshot readability.
+            // These codes can be parsed to display color/font styling in future if needed.
+            let label = format!(
+                "{} ({})",
+                strip_minecraft_format_codes(&name.replace('"', "\\\"")),
+                qid.as_u64()
+            );
+            dot.push_str(&format!("  {} [label=\"{}\"]\n", qid.as_u64(), label));
         } else {
-            format!("{}", qid.as_u64())
-        };
-        dot.push_str(&format!("  {} [label=\"{}\"]\n", qid.as_u64(), label));
+            panic!("Quest with id {} has no properties!", qid.as_u64());
+        }
     }
 
     // Add edges for all prerequisites (including required and optional)

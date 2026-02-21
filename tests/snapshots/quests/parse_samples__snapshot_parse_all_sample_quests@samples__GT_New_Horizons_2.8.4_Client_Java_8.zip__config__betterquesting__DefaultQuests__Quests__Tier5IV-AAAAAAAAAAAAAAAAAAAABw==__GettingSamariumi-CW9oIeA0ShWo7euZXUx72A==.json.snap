@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 16155619218904873944,
+  "prerequisites": [
+    14757536238818899165
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Mix Samarium chloride dust with Salt. Electrolyze the result and the Samarium dust will be separated out.\n\nSodium and chlorine can also be fully recovered.\n\nYou also get some additional residue. It does not have any uses currently but might be useful in the future.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lGetting Samarium in IV",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    14757536238818899165
+  ],
+  "rewards": [],
+  "tasks": []
+}

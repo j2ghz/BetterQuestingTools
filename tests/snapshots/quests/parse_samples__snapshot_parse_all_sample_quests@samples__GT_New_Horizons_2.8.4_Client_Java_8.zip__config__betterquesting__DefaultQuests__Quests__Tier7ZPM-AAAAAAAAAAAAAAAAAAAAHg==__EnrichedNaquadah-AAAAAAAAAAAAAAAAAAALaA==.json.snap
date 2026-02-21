@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2920,
+  "prerequisites": [
+    2610
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Enriched Naquadah line is much shorter than the Naquadah line, and easier. It's used for fuel or Neuro Processing Units which are UV content, and it's also used in the Prismarine line to make Prismatic Naquadah; something you will need for Trinium Coils.\n\n[warn]Hold 16 enriched Naquadah Ingot / Dust to skip this questline.[/warn]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Enriched Naquadah Time",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2610
+  ],
+  "rewards": [],
+  "tasks": []
+}

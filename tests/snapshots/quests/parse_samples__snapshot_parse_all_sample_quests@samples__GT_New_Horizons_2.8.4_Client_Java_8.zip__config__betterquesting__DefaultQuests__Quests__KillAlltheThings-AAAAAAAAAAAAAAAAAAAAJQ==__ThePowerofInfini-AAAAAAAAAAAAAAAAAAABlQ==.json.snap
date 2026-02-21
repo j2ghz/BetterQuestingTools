@@ -1,0 +1,47 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 405,
+  "prerequisites": [
+    400,
+    401,
+    402,
+    403,
+    404,
+    398,
+    399
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You've mastered everything possible. And now it's time to give your equipment the final boost. The infinity egg is just the right addition to your altar. It's quite expensive, but well worth the cost.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "The Power of Infinity",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "SECRET"
+  },
+  "required_prerequisites": [
+    400,
+    401,
+    402,
+    403,
+    404,
+    398,
+    399
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 17148104794549036327,
+  "prerequisites": [
+    11
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Fox can be found in colder biomes. Make sure you're properly equipped, they're quite quick!",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Time to Kill (Fox)",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": 432000,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    11
+  ],
+  "rewards": [],
+  "tasks": []
+}

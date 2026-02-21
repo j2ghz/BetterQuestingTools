@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3291,
+  "prerequisites": [
+    3290
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Consider improving your QFT's focusing capabilities even further by replacing your §3Cosmic Fabric Shielding Core§r casings with §3Infinity Infused Shielding Core§r casings. Like the tier 3 manipulators, these also require §3Superconductor Rare-Earth Composite§r.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Tier 3 Shielding",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3290
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3133,
+  "prerequisites": [
+    3130,
+    3131,
+    3132
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "With the Chemplant finished, you can slap in the necessary hatches and automate this fuel easily. The Titanium gate really is the main obstacle to this improvement, since you can more than triple the power your Benzene can make with some cheap additions to it!\n\nAs usual, the cost of building the setup will pay off over time. In this case, it'll happen even faster than usual, given how cheap the setup is. Benzene doesn't go anywhere beyond this point, but you can grab this final upgrade and make a lot out of it. Check out the multiblock Gas Turbines, and add a good turbine into them, made of a material like Manyullyn or Shadow Metal.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Nitrobenzene",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3130,
+    3131,
+    3132
+  ],
+  "rewards": [],
+  "tasks": []
+}

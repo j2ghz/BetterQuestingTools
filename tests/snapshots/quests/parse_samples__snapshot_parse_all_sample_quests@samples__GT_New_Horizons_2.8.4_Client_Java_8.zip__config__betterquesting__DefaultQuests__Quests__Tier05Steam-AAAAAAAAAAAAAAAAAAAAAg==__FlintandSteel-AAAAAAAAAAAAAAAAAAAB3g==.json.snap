@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 478,
+  "prerequisites": [
+    65
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "After you make steel you are able to craft flint and steel. I guess you'll want to travel to the Nether as soon as possible but be aware; the Nether is a very dangerous place.\n\nNote: The ball of moss gives a tinker's tool self-repair. But if the tool is completely broken, it won't repair it.\n\nNote that the flint and steel can take a few times to work.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§3§lFlint and Steel",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    65
+  ],
+  "rewards": [],
+  "tasks": []
+}

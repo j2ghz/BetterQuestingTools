@@ -1,0 +1,36 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2556,
+  "optional_prerequisites": [
+    2561,
+    3210,
+    2044,
+    2732
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The next tier of Borosilicate glass is Titanium (4). Make it to allow higher tier recipes in the Bacterial Vat, higher tier Energy Hatches in the MBF, or better Capacitors in your LSC. Or just use it for machine recipes, whatever.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lBetter Glass Upgrade, EV Glass",
+    "party_single_reward": false,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

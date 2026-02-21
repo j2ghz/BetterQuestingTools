@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 15642768008152791499,
+  "prerequisites": [
+    529,
+    6361690505160453527
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Your system now has the capability of providing items for requests, time to request items.\n\nThis Request Logistics Pipe can send out requests that, if the network has items that can fulfill the requests, send the item to the pipe.\n\nAttach an inventory to it so that when items reach the request logistics pipe, they are stored in an inventory and don't get yeeted out.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Time to Request",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    529,
+    6361690505160453527
+  ],
+  "rewards": [],
+  "tasks": []
+}

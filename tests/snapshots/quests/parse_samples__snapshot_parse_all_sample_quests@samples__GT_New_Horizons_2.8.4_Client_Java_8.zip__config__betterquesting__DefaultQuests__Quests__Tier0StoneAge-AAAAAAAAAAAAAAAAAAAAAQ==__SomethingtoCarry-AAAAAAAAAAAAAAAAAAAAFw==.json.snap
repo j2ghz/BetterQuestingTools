@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 23,
+  "prerequisites": [
+    19,
+    21
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You tried to move water with your bare hands, which didn't work at all. Luckily, you remember how to make a bucket out of clay dust.\n\nPut it in a mortar to get small clay dust which can be crafted to clay dust.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 1,
+    "name": "§2§lSomething to Carry Liquids",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    19,
+    21
+  ],
+  "rewards": [],
+  "tasks": []
+}

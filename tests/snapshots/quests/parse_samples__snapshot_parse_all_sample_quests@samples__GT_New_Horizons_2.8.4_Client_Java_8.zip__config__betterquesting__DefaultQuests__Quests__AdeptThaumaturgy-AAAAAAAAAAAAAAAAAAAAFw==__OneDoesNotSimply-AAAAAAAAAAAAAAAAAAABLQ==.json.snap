@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 301,
+  "prerequisites": [
+    272
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "...play with magic. Be warned, these fires are very dangerous! But who doesn't want a patch of snow in the nether?\n\n[warn]Fire spread can be disabled in the configs of servers to prevent massive lag and world destruction.[/warn]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "One Does Not Simply...",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    272
+  ],
+  "rewards": [],
+  "tasks": []
+}

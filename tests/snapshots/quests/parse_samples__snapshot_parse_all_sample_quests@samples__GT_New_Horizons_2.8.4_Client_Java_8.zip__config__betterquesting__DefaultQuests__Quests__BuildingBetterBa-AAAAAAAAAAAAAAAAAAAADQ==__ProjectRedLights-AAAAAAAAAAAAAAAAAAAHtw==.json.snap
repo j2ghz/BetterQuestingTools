@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1975,
+  "prerequisites": [
+    554
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "ProjectRed offers a couple of special lights that can be used as buttons. The normal buttons are always lit up. The Feedback buttons are lit up when powered by any redstone signal.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "ProjectRed Lights With a Purpose",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    554
+  ],
+  "rewards": [],
+  "tasks": []
+}

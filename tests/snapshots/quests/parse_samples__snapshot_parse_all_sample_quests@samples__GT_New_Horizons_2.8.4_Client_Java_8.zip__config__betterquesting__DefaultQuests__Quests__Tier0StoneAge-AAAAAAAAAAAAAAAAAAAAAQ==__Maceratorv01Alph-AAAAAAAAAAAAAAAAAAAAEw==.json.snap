@@ -1,0 +1,36 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 19,
+  "prerequisites": [
+    18
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "This fancy little device works (almost...) like a macerator. Some people say it's even better, since it does not require power, yay! You only need to craft one for this quest, but you probably should make some more if you can...\n\n[note]The mortar lets you make flint much, much more efficiently - you only need one gravel instead of three. Many tools and stations you'll make in the future will also open up better crafting recipes for things you can already make as well. If you need something but are hard up on resources, use NEI to check the recipes for that item - you may have options you didn't before.[/note]",
+    "global_share": true,
+    "icon": null,
+    "ignoreNBT": 1,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 1,
+    "name": "§2§lMacerator v0.1 Alpha",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    18
+  ],
+  "rewards": [],
+  "tasks": []
+}

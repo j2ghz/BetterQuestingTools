@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 9086928863325674984,
+  "prerequisites": [
+    3278419603209996424,
+    3273
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Using various carefully picked materials, you've managed to create a circuit board that will be able to contain the flows of photons in these new circuit parts.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Capturing Light on a Circuit Board",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3278419603209996424,
+    3273
+  ],
+  "rewards": [],
+  "tasks": []
+}

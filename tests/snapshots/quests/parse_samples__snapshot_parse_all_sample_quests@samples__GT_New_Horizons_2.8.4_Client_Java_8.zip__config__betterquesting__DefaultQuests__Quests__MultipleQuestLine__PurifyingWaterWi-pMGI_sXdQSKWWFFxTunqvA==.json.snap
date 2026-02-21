@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 14257623610933504700,
+  "prerequisites": [
+    2628,
+    8293455332711077908,
+    13521579799263400927
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "As usual, before you can make use of your Americium to make better wafers, you will need better water. This time, we're going to use plasma to rapidly heat up the water and then cool it back down.\n\nSome of the mechanics may seem similar to how you set up the pH neutralization process, maybe you can expand on what you learned there?\n\n[note]This multiblock is very picky about where its plasma and coolant input hatches go. If you can't figure out why it's not forming, chances are you forgot to place these hatches in the correct location. Use the hologram projector to see where they go.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Purifying Water With Plasma",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2628,
+    8293455332711077908,
+    13521579799263400927
+  ],
+  "rewards": [],
+  "tasks": []
+}

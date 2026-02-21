@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1957,
+  "prerequisites": [
+    1956
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The soil meter will tell you the soil stats - how dry, how many nutrients, etc. You can amend the soil with the various powders so that it matches the requirements for your flower.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Like Having a County Extension Office in Your Hand",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1956
+  ],
+  "rewards": [],
+  "tasks": []
+}

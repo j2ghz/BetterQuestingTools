@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3227,
+  "prerequisites": [
+    3224
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The next step is to make some catalysts. The Alchemical catalyst can use mana to change one item or block into a related item or block.\n\nPut it under a filled mana pool, then try it out by making some prismarine.\n\nThe recipe will need to be researched in the Thaumonomicon.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "A Glimpse Into A Watery Future",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3224
+  ],
+  "rewards": [],
+  "tasks": []
+}

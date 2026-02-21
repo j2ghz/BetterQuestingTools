@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 13794597559551602789,
+  "prerequisites": [
+    1246
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Ever wonder where your redstone transmitters are? Or wish they were labeled? Maybe your teammate placed one down, didn't tell you, and now you're stuck wondering what private frequency they placed?\n\nNow, you have a way to do all of that.\n\nIntroducing the §6Redstone Sniffer§r!\n\nFor §cregular wireless redstone§r, the sniffer will list all currently used frequencies, tell you whether that frequency is private, and gives you an option to label it.\n\nFor §cadvanced wireless covers§r, the sniffer will additionally tell you where that cover is currently located, including in other dimensions, and offers you the option to also highlight or teleport to it. ",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "The Redstone Sniffer",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1246
+  ],
+  "rewards": [],
+  "tasks": []
+}

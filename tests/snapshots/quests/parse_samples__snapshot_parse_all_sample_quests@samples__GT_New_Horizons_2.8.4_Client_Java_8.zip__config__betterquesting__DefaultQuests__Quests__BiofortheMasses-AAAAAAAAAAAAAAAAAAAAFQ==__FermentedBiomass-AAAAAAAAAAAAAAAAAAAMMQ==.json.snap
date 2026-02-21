@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3121,
+  "prerequisites": [
+    3109
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "After this biomass leaves the Pyro, you can input it straight into a DT and it will be separated into its component parts. This is one of the tallest towers that you can make with fully renewable powergen and, sadly, not all outputs are useful. However, you'll still get a nice bang for your buck, if you manage to not get lost in NEI in the middle of all this chemistry.\n\nThe following quests will explain some important uses for the outputs of this DT recipe. First, however, you need to get it going, which means you need a lot of Fermented Biomass and a tall enough tower to process it. There is one caveat that you might run into as you try to speed up your machines, which is that saplings don't come fast enough! You can work around this by throwing more plant stuff into the Compressor, and how you solve this is really up to you and what you have.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Fermented Biomass",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3109
+  ],
+  "rewards": [],
+  "tasks": []
+}

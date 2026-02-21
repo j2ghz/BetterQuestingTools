@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 283,
+  "prerequisites": [
+    279
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "No, nooo! They have hidden it! Must find the keeey. Must find it! We need the tablet to open the door my precious.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Find the Key",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    279
+  ],
+  "rewards": [],
+  "tasks": []
+}

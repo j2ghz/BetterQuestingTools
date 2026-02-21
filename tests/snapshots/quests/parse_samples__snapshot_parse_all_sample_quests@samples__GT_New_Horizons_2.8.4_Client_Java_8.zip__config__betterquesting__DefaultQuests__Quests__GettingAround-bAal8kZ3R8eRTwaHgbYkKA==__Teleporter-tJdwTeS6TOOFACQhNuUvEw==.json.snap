@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 16481570325078028051,
+  "prerequisites": [
+    176
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The IndustrialCraft2 Teleporter allows for teleportation between 2 connected teleporters.\nIt requires energy storing block right next to it due to the massive power demand.\n\n[note]The energy required is determined by the distance between the teleporters and amount of items in the inventory.[/note]\n\n[note]The teleporter is quite buggy according to the official wiki.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Teleporter",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    176
+  ],
+  "rewards": [],
+  "tasks": []
+}

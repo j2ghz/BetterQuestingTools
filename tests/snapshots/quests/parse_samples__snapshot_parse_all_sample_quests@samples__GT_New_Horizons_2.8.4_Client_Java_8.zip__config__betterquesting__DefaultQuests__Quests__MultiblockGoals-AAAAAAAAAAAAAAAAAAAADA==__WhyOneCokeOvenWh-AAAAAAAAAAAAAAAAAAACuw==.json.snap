@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 699,
+  "prerequisites": [
+    91,
+    93
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Your bricked blast furnace uses coal like hell and your steam boilers do too? Well it's time to make more coke ovens and automate them a bit. Wooden fluid pipes and tin item pipes will help you reach your goal. You can use either faucets with redstone clocks or LV pumps to empty the creosote. For the charcoal, hoppers are easy to get once you have an assembler.\n\nUnlike GregTech multiblocks, coke ovens must have 1 space separating each oven.\n\nSearch NEI for a more efficient way to make coke oven bricks.\n\nRemember that tin item pipes require a steel wrench to dismantle them.\n\nThe whole coke-oven process generates a lot of pollution, so consider putting it further away.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lWhy One Coke Oven When You Can Have Ten?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    91,
+    93
+  ],
+  "rewards": [],
+  "tasks": []
+}

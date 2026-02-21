@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1553,
+  "prerequisites": [
+    108
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Now that you have a cargo manager you need a specific rail so that your cart can interact with it. Just place it next to the cargo manager, depending on the color of the side it is on you will have to adjust settings in the cargo manager GUI.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Advanced Detector Rail",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    108
+  ],
+  "rewards": [],
+  "tasks": []
+}

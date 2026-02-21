@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1538,
+  "prerequisites": [
+    215
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You can find the same ores as Callisto minus callisto ice here, but the real goal is the dungeon and the small ores: Naquadah and Quantium.\n\nNaquadah is used for efficient Silicon Wafer, as well as highly advanced components you'll need tons of at ZPM.\n\nQuantium is used for T5 Rocket and item pipe that has the best throughput in GT.\n\n[note]Make sure to bring your MBM to maximize ore yield.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lCeres Trip",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    215
+  ],
+  "rewards": [],
+  "tasks": []
+}

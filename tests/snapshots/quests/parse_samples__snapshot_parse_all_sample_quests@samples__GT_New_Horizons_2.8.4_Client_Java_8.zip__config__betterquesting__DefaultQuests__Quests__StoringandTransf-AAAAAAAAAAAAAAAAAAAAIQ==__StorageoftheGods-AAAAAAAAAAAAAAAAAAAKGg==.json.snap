@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2586,
+  "prerequisites": [
+    2621,
+    2623
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Who needs a PSS when this bad boy holds over 600,000x as much.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Storage of the Gods",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2621,
+    2623
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 438,
+  "prerequisites": [
+    424
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Unlike the simple spells with foci and paradigm, the complex spell system is incredibly...complex. There are way too many combinations to cover them here, so it's advised to look for the knowledge in other places. However, with the items from this quest, you are able to craft a simple mining spell.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Complex Spell System",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    424
+  ],
+  "rewards": [],
+  "tasks": []
+}

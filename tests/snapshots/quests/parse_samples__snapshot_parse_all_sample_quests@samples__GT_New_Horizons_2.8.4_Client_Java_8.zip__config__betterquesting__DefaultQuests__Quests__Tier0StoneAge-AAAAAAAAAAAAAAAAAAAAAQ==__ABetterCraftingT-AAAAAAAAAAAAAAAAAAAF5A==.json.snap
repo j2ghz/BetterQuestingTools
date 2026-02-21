@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1508,
+  "prerequisites": [
+    36
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Tired of your stuff falling out of your crafting table every time you walk away? This fancy table from Tinker's Construct has slots to hold the items in your recipe.\n\nYou can also use it to upgrade tools with 8 modifiers at a time. Very handy for Redstone additional speed and Lapis looting!\n\nWhen it's placed next to a vanilla chest, it will even show the chest's inventory in the crafting window. Single or double vanilla chests only, please.\n\nCut it again for a sleek, low profile version.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§2§lA Better Crafting Table",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    36
+  ],
+  "rewards": [],
+  "tasks": []
+}

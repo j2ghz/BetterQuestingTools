@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 85,
+  "prerequisites": [
+    8148220388809046234,
+    838
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "...with this great invention! Upgrade power and coils to smelt absolutely ridiculous amounts of items.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Smelt All the Things Stack-Wise...",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    8148220388809046234,
+    838
+  ],
+  "rewards": [],
+  "tasks": []
+}

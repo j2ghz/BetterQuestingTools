@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1879,
+  "prerequisites": [
+    1880
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Using the scanner, you can scan certain items (check the replicator's NEI recipes) to store the information of the item to a data orb so you can make copies of them with the replicator. This process uses a varying amount of UUM and time, depending on the item. Scanning also takes forever.\n\nSome items you might want to replicate include:\nIndium\nPlatline metals like Iridium and Osmium\nNeon, Krypton, Xenon from liquid air distilling\nOganesson\n\nFor some things (Oganesson), this might be considered the only reasonable way of getting a decent amount.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§a§lCreate New Materials Out of Pure Energy",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1880
+  ],
+  "rewards": [],
+  "tasks": []
+}

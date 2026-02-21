@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 80,
+  "prerequisites": [
+    838,
+    1148
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Martin's (DreamMasterXXL) favorite machine. Compress ALL the things! With explosives, of course. Boom today!\n\nNote: You might want to put this far from your living quarters, the pollution can get high really fast.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lCompress All the Things",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    838,
+    1148
+  ],
+  "rewards": [],
+  "tasks": []
+}

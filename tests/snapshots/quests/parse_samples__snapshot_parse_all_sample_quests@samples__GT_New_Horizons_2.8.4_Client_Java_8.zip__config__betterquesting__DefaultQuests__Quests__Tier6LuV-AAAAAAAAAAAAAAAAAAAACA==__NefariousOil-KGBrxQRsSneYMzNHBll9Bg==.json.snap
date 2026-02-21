@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 318711548704554246,
+  "prerequisites": [
+    11936583602454463221,
+    1781247789925276168
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Using purified water, you can use an §5§lOil Cracker§r to convert the Nefarious Gas from the previous step into §4Nefarious Oil§r.\n\n[note]If you are proactive and setup grade 2 water production, you unlock a recipe that produces much more oil, with much less water, in much less time. §[[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§c§lNefarious Oil",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    11936583602454463221,
+    1781247789925276168
+  ],
+  "rewards": [],
+  "tasks": []
+}

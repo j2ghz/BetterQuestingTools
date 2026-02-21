@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 11371675338124672723,
+  "prerequisites": [
+    388
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Draconic Fusion Crafted has 5 tier of casings, each an upgrade of the previous tier.\n\nEach new tier of casings allows you to make better Cores, eventually ending at the Chaotic Core.\n\n[note]Recipe time is divided by number of tiers above recipe tier![/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Draconic Development",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    388
+  ],
+  "rewards": [],
+  "tasks": []
+}

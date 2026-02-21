@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2374,
+  "prerequisites": [
+    2354,
+    2373
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Infestation Remedy is a drinkable item used to shorten effects of the Infestation.\n\nObtaining:\nThe Infestation Remedy is brewed in an Enhanced Brewing Stand, using Silverfish Blood as the brewing ingredient and an Awkward Potion.\n\nUsage:\nWhen drank, the remedy will shorten each of the Infestation effects by 150 to 180 seconds.\n\nYou can make splash potions with gunpowder and 3 more End Powder as well.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Infestation Remedy",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2354,
+    2373
+  ],
+  "rewards": [],
+  "tasks": []
+}

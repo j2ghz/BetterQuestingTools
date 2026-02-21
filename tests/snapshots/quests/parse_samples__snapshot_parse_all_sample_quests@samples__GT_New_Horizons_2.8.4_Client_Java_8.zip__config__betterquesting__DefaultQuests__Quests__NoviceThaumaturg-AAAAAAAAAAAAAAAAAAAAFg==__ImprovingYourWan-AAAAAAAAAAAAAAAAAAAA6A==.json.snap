@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 232,
+  "prerequisites": [
+    227
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Your wand does a great job in storing and releasing vis as you please. However, those iron caps are... §oweak§r. If you don't pay enough attention to it, it might hurt the node. They also make crafting harder. Maybe you should try to improve it with caps made out of a more valuable material. Like... gold, perhaps?",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Improving Your Wand",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    227
+  ],
+  "rewards": [],
+  "tasks": []
+}

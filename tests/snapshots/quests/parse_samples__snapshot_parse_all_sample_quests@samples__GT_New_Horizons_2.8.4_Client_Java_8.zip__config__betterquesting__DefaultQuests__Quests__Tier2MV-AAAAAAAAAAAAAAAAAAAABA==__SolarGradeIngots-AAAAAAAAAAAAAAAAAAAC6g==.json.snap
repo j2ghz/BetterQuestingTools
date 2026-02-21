@@ -1,0 +1,41 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 746,
+  "prerequisites": [
+    3072,
+    3073,
+    1788,
+    77
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "To turn your solar grade dust into solar grade ingots you need to use an EBF with kanthal coils and then cool the resulting hot ingots in a chemical bath.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lSolar Grade Ingots",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3072,
+    3073,
+    1788,
+    77
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1367,
+  "prerequisites": [
+    995,
+    486
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "With your woven silk you can upgrade your Forestry backpacks. Each Pack has 45 slots.\n\nYou need a carpenter, your old backpack and a bit of seed oil.\n\nIf the recipe isn't working, put the bag in a crafting grid to reset its NBT data. After removing anything in it of course.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Upgrade Your Forestry Backpack",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    995,
+    486
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2364,
+  "prerequisites": [
+    2363
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Transference Gem is used to teleport to a marked location.\n\nThe Transference Gem uses Energy and can be charged in an Energy Extraction Table. Shift-right-clicking on a block with a Transference Gem in hand will link the gem to that block.\nThe state of the gem itself will switch to \"Linked\", as seen in its tooltip.\nAfter linking, the player can right-click with a Transference Gem in hand to teleport to the linked block, using some of the Energy stored in the gem.\n\nUsing F3+H to enable detailed item tooltips makes the Transference Gem show the exact coordinates and the dimension of the linked location.\n\nOnce the charge of the Transference Gem becomes lower than 44%, negative effects will appear:\n\nDeflection - the player will be teleported to a random location instead of the linked block.\nVarious negative potion effects, the lower the charge is - the longer they will last:\n\nSlowness II\nNausea I\nWeakness II\nHunger I\n\nEndermen - Angry Endermen will spawn and attack the player.\nItem drop - a random amount of items in player's inventory will drop to the ground.\nStorm - will cause a 2-3 minute storm. This is the rarest effect.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Transference Gem",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2363
+  ],
+  "rewards": [],
+  "tasks": []
+}

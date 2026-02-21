@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3223,
+  "prerequisites": [
+    102,
+    3222
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Now that you have livingrock, create your first mana pool. Chop some pieces into slabs with a saw to make the bottom, then stick them together with plates for the sides.\n\nYou lack the knowledge to make it effective, so sadly it won't be able to craft a lot as a result.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Your First Mana Pool",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    102,
+    3222
+  ],
+  "rewards": [],
+  "tasks": []
+}

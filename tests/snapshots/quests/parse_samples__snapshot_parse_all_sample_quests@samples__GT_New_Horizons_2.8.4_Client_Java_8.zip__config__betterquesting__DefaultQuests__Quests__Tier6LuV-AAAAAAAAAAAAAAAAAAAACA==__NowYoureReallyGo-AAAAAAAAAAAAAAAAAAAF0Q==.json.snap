@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1489,
+  "prerequisites": [
+    1665,
+    1493,
+    2330
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Pumps, pistons, conveyor modules and robot arms are the most needed machine parts in LuV. Go and craft one of each with your new Assembly Line.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§c§lNow You're Really Gonna Hate This 1-4 in LuV",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1665,
+    1493,
+    2330
+  ],
+  "rewards": [],
+  "tasks": []
+}

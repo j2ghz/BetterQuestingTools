@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2992,
+  "prerequisites": [
+    2991
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Light Fuel is a great power source in LV, for several reasons. Not only is it much more power-dense than Steam, which means that you need a smaller amount of it to get the same EU amount, but the generators that can burn it have a higher fuel efficiency than the Steam ones. Even wooden fluid pipes will be enough to transport this fuel!\n\nThat said, your old generators will not accept Light Fuel, so you will have to make some Combustion Generators to get power out of it. You'll still get one LV amp out of each, which means you might have to make more if you are running several machines at once. By the time you build your first Electric Blast Furnace, you will want 4 of these feeding it power.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Light Fuel Power",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2991
+  ],
+  "rewards": [],
+  "tasks": []
+}

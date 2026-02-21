@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1156,
+  "prerequisites": [
+    1151
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Your crossbow need some ammo to shoot with. Let's craft some wooden bolts. For now, you can put either iron, obzinite, or steel on the tip of your bolts using the Smeltery. For higher tier bolts and tips you will need to pump metals into a Fluid Solidifier with the correct tool rod inserted.\n\n[warn]For upgrades:[/warn]\n§lNether Quartz§r - More damage\n§lMoss§r - Self-Repair (unlock in GTNH Thaumcraft tab)\n\n[note]You can store these in a bauble slot to save on inventory space![/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§3§lWooden Bolts",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1151
+  ],
+  "rewards": [],
+  "tasks": []
+}

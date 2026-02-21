@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 15932697060280773372,
+  "prerequisites": [
+    10873178299393728452
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Directly dissolve and chlorinate of lanthanide ores in Digester to get the concentrated solution of the corresponding ore. Then use the corresponding Extracting Nano Resin to extract the main material in the solution. The rest (Chlorinated Rare Earth Concentrate) is still rich in useful lanthanides.\n\nYou can use any type Extracting Nano Resin to extract the useful things in the rest. What Nano Resin you use, what lanthanide you'll get. Every bucket of Chlorinated Rare Earth Concentrate can do this extraction 3 times. First Concentrate to Enriched Solution, then Enriched Solution to Diluted Solution, then waste liquid.\n\nAfter extracting, the Nano Resin will be \"Filled\". Put them \"Filled\" into Electrolyzer then nanites will transfer the \"Particles\" out from the resin under the influence of electric field. And you can get the Nano Resins and let them go into the next work round, again and again without breaks.\n\nYes, Rare Earth will not be Rare. Bless the Nano Tech.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Extract what you want",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    10873178299393728452
+  ],
+  "rewards": [],
+  "tasks": []
+}

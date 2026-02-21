@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1523,
+  "prerequisites": [
+    1504
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Having trouble locating some of the basic Ores? Trade in some coins for ore blocks to use in the Ore Finder Wand.\n\nIf you're clever, you can use one ore block to find a vein containing another ore block to use to find another vein. For example, if you choose Redstone, you can use that to find Cinnabar, which can be used to find Thaumcraft Aspect Shard Ores in the Twilight Forest. Experiment and find some combos!",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Can't Find Those Ores?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": 144000,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1504
+  ],
+  "rewards": [],
+  "tasks": []
+}

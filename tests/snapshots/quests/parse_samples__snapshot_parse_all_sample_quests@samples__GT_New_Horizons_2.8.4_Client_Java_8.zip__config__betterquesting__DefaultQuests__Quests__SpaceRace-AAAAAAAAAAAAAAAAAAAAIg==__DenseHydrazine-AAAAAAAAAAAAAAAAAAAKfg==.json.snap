@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2686,
+  "prerequisites": [
+    2394
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Mix Hydrazine and Methanol in a Titanium Chemical Plant to make Dense Hydrazine for your Tier 3 and 4 Rockets.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§4§lDense Hydrazine",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2394
+  ],
+  "rewards": [],
+  "tasks": []
+}

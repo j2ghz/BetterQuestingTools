@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 11876062681918760726,
+  "prerequisites": [
+    97,
+    16946844550613071220
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Basic Pipes can interact with adjacent blocks, but they also don't do much on their own.\n\nLogistics Pipes has modules that provide the pipes with more complex functions, but the Basic Logistics Pipes can't make use of them.\n\nTo make use of the modules, there are special pipes called Chassis.\n\nThere are multiple tiers of Chassis in Logistics Pipes. For now, a Mk 1, which can hold 1 module, will work.\n\nYou can insert modules directly in the chassis by right-clicking said chassis with the module. But if you need to take modules out of a chassis or configure a module in one, you need to right-click the chassis with a wrench to access its UI.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Chassis",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    97,
+    16946844550613071220
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1419,
+  "prerequisites": [
+    779,
+    1247
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "...when it means you don't have to strip naked to recharge your nanosuit?\nThe Wireless Charger will keep your armor and tools charged up without having to put them into a battery buffer.\n\nIt will charge armor and tools at the tier and below.\n\nYou didn't want kids anyways...",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Who Cares About a Little Cancer...",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    779,
+    1247
+  ],
+  "rewards": [],
+  "tasks": []
+}

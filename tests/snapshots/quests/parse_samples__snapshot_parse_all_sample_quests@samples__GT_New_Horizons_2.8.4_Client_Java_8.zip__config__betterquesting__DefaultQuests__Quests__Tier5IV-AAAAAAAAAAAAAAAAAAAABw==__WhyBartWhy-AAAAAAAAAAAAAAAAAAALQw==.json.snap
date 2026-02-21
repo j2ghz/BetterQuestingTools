@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2883,
+  "prerequisites": [
+    2881
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Take your Hot Ruthenium Tetroxide Solution and distill it in a DT to get Ruthenium Tetroxide. Also, Salt and Water.\n\nThe amounts in this step are quite annoying unfortunately. You need to run it 5 times to get whole cell amounts.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lWhy, Bart, Why?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "CHAIN"
+  },
+  "required_prerequisites": [
+    2881
+  ],
+  "rewards": [],
+  "tasks": []
+}

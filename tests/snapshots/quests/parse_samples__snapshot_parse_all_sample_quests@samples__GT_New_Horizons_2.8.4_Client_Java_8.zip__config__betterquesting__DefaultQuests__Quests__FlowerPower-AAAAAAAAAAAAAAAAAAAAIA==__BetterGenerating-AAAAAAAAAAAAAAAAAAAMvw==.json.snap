@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3263,
+  "prerequisites": [
+    3228,
+    3262
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "If you want anything better than an endoflame, you'll need a runic altar. Fortunately, most runes are easily crafted as soon as you can make the runic altar. Sinful runes, however, require titanium to make. For now, just make one of each of the elemental runes; that'll be enough to get you started.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Better Generating Flowers",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3228,
+    3262
+  ],
+  "rewards": [],
+  "tasks": []
+}

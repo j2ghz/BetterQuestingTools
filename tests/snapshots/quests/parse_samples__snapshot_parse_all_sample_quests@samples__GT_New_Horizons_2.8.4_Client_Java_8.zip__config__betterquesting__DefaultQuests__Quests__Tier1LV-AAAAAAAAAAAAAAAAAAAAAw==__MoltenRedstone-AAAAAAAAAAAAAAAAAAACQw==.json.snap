@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 579,
+  "prerequisites": [
+    95
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You heard that the carpenter needs some molten redstone for a few recipes. Converting redstone dust into a fluid requires a fluid extractor. Let's build one.\n\nIf you want to get that molten redstone into a cell, you'll need a fluid canner instead of a GT tank. Why? Because Reasons.\n\nFortunately, most fluids work properly, but redstone, cracked fluids, and certain other ones do not. Or just use a universal cell.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lMolten Redstone?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    95
+  ],
+  "rewards": [],
+  "tasks": []
+}

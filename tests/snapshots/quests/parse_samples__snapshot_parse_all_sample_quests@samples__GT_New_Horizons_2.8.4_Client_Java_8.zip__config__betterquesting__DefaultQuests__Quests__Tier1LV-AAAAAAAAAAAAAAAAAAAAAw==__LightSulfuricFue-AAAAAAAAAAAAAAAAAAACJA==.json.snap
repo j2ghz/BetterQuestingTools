@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 548,
+  "prerequisites": [
+    547
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You can distill your oil into light sulfuric fuel, that has a burn value of 40,000 EU.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lLight Sulfuric Fuel",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    547
+  ],
+  "rewards": [],
+  "tasks": []
+}

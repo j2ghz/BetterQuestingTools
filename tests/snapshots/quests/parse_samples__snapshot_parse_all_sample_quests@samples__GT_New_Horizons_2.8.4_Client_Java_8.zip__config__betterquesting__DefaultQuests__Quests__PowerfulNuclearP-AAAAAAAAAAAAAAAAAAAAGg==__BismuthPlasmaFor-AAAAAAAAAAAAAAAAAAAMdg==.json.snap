@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3190,
+  "prerequisites": [
+    3191
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Who in their right mind would use a plasma to solder things together? That's mental. Well, all the progression at this point is mental, that's all there is to it.\n\nIt's not directly with the plasma, though. It is once again about the Mutated Living Solder, and now its fluid inputs: Tin Plasma and Bismuth Plasma. These are the two main components of the previous solders, and that's the reason they're needed now. Tin Plasma is t2 fusion, and you might have already made a lot of it to generate power, but Bismuth Plasma is t3, with the inputs being Zinc Plasma and Molten Tantalum, which is actually Tritium, Copper and Tantalum in the end.\n\nThe recipes are cheap in power, you just have to make sure the inputs are there. Tritium can be centrifuged from Deuterium, which itself can be centrifuged from Hydrogen Gas, and the other two inputs are easy. You will need 18000L of each plasma for 40000L of the solder, or almost half the amount for each.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Bismuth Plasma For Soldering",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3191
+  ],
+  "rewards": [],
+  "tasks": []
+}

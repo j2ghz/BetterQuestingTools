@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 409,
+  "prerequisites": [
+    164,
+    407
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Blood Rune is the basic rune that makes up blood altars, expect to make a lot of them.\n\nYou need 8 runes for your tier 2 altar. You can make new stuff with your upgraded altar.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Basic Rune",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    164,
+    407
+  ],
+  "rewards": [],
+  "tasks": []
+}

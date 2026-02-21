@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3201,
+  "optional_prerequisites": [
+    3169,
+    3166
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Thorium and Uranium have a lot of differences, but also a lot of similarities.\n\nIn general, Uranium is a better fuel, but fluid nukes do not follow that general rule. Because they do not output any EU/t, and simply convert heat to Hot Coolant, the difference between the two fuels becomes minimal and Thorium stands out as being much easier to get and turn into fuel rods. The maximum amount of heat you can safely move around in a reactor limits the amount of Uranium Fuel Rods you can use, which means that your HU value will not be as high as you would have wanted.\n\nFor regular and vacuum IC2 nukes, however, Uranium has a big advantage. Especially in vacuum nukes, which are the most powerful, the efficient cooling through the cells makes it so a lot of Uranium can be processed at once, which returns incredible amounts of EU/t. The different conversion from fuel to energy between fluid and vacuum means that Thorium is very good for fluid nukes, whereas Uranium is very good for vacuum nukes.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Thorium vs. Uranium",
+    "party_single_reward": null,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

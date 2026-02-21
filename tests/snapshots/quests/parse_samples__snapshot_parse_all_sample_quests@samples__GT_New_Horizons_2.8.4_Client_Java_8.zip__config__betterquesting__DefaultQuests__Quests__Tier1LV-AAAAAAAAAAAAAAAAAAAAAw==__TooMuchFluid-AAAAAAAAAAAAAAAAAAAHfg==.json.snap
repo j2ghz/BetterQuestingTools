@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1918,
+  "prerequisites": [
+    97
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Impossible! If you really think you have so much fluid that you want to just get rid of it, make a fluid trashcan. You can route as much excess creosote or whatever into it that you want.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lToo Much Fluid??",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    97
+  ],
+  "rewards": [],
+  "tasks": []
+}

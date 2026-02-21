@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 858,
+  "prerequisites": [
+    665
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "I need some ingredients to help me train since they don't grow well where I am, could you provide some? I'll give you the results in return.\n\n[note]You only need to turn in one set each time you complete the quest.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Chef Training",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": 0,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    665
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 16946844550613071220,
+  "prerequisites": [
+    1266,
+    17063090544386410347
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Every system takes power. A Logistics Pipes network is no exception.\n\nThe Logistics Pipes system runs on an energy called LP, but there are no generators that generate LP.\n\nInstead, Logistics Pipes has a power adapter called the Logistics Power Junction that converts EU into LP. Use a Basic Logistics Pipe to connect the Power Junction to the whole network.\n\nThe Power Junction can receive power from all 6 sides while a Basic Logistics Pipe can only connect to the sides in the 4 cardinal directions.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Powering Logistics",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1266,
+    17063090544386410347
+  ],
+  "rewards": [],
+  "tasks": []
+}

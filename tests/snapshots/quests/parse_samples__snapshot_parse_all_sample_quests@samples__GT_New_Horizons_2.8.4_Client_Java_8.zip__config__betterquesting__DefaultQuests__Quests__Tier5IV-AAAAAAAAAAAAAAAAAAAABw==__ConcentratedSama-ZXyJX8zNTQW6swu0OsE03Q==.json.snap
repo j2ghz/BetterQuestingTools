@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 14757536238818899165,
+  "prerequisites": [
+    7074951042284607672
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Precipitate samarium ions with oxalic acid. Samarium oxalate is then washed with hydrochloric acid; you get Impure Samarium Chloride as a result. This Samarium chloride dust is the base material for the extraction of samarium.\n\nTo actually get Samarium Dust out of this, there are two methods, one is for IV, the other a bit later in LuV.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lConcentrated Samarium",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    7074951042284607672
+  ],
+  "rewards": [],
+  "tasks": []
+}

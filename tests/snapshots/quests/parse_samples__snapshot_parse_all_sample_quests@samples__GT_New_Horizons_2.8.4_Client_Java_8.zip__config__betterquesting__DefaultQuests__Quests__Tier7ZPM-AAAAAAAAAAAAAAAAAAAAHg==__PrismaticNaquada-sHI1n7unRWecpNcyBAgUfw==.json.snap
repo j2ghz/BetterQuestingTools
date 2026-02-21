@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 13521852714954790015,
+  "prerequisites": [
+    6437138727920992374
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "§5§lDehydrating§r this §2Prismatic Naquqdah Composite Slurry§r over the top of §2Tungsten Carbide§r & §2Lead foil§r creates a completely §3Radiation-Proof Composite Sheet§r. This will prove to be very useful in protecting your environment from radiation emitting structures.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Prismatic Naquadah Composite Sheet",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    6437138727920992374
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2242,
+  "prerequisites": [
+    2241,
+    2238
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Tired of all the effort it takes to make Salis Mundus? After hours of breeding you can now do magic trouble free with this bee making all the Salis Mundus you need. It requires a Magical Forest Biome. Breed them from Thaumic Shards and Thaumium Dust.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Salis Mundus",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2241,
+    2238
+  ],
+  "rewards": [],
+  "tasks": []
+}

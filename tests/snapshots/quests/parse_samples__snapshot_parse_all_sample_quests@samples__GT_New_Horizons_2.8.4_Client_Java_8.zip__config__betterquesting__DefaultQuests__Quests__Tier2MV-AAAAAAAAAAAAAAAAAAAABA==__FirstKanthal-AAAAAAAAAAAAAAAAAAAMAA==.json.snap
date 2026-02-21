@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3072,
+  "prerequisites": [
+    3073,
+    754,
+    3071
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You made your first Kanthal ingots. It's time to make some more to upgrade your Electric Blast Furnace.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lFirst Kanthal",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3073,
+    754,
+    3071
+  ],
+  "rewards": [],
+  "tasks": []
+}

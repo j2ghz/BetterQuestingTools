@@ -1,57 +1,87 @@
+//! Parsing utilities for BetterQuesting "DefaultQuests" data.
+//!
+//! This module parses the directory layout produced by the BetterQuesting mod
+//! (optional `QuestSettings` file, `Quests/` and `QuestLines/`) and converts the
+//! JSON/NBT-like contents into the crate's in-memory model types (`QuestDatabase`,
+//! `Quest`, `QuestLine`, `QuestLineEntry`, `QuestSettings`, and friends).
+//!
+//! Parsing is performed with `serde_json` after normalizing values using
+//! `nbt_norm::normalize_value`. The module is filesystem-agnostic: callers provide
+//! a `QuestDataSource` implementation which abstracts listing directories and
+//! reading files (this makes testing easier and keeps parsing logic decoupled
+//! from IO).
+//!
+//! The primary entry point is `parse_default_quests_dir_from_source`. IDs are
+//! constructed from "High"/"Low" components (e.g. `questIDHigh`/`questIDLow`),
+//! and questline parsing validates references - missing or duplicate IDs yield
+//! `crate::error::ParseError` values rather than panics.
+//!
+//! Settings parsing prefers `properties -> betterquesting -> ...`, then a direct
+//! `betterquesting` object, and finally falls back to top-level keys.
+//!
+//! Public functions return `Result<...>` to allow callers to handle parse errors.
 use crate::error::{ParseError, Result};
 use crate::model::*;
-use crate::nbt_norm::normalize_value;
 use crate::quest_id::QuestId;
 use serde_json::Value;
 use std::collections::HashMap;
-use std::fs;
-use std::path::Path;
 
 /// Type alias for the result of parsing a questline directory.
 type QuestlineDirParseResult = (Option<QuestLine>, Vec<(QuestId, QuestLineEntry)>);
 
-/// Parse the DefaultQuests folder into a QuestDatabase. This is strict: missing references
-/// will return Err(ParseError::Unexpected(...)).
-pub fn parse_default_quests_dir(dir: &Path) -> Result<QuestDatabase> {
-    if !dir.is_dir() {
-        return Err(ParseError::InvalidFormat(format!(
-            "not a dir: {}",
-            dir.display()
-        )));
+/// Abstracts file/directory access for quest parsing.
+pub trait QuestDataSource {
+    /// List entries in a directory (returns file/dir names, not full paths).
+    fn list_dir(&self, path: &str) -> Result<Vec<String>>;
+    /// Returns true if the path is a directory.
+    fn is_dir(&self, path: &str) -> bool;
+    /// Returns true if the path is a file.
+    fn is_file(&self, path: &str) -> bool;
+    /// Reads the file at path to a string.
+    fn read_to_string(&self, path: &str) -> Result<String>;
+}
+
+/// Parse the DefaultQuests folder into a QuestDatabase using an abstract data source.
+pub fn parse_default_quests_dir_from_source(
+    source: &dyn QuestDataSource,
+    root: &str,
+) -> Result<QuestDatabase> {
+    if !source.is_dir(root) {
+        return Err(ParseError::InvalidFormat(format!("not a dir: {}", root)));
     }
 
     // settings: optional file named QuestSettings.json or QuestSettings
     let mut settings: Option<QuestSettings> = None;
     let settings_paths = ["QuestSettings.json", "QuestSettings"];
     for p in &settings_paths {
-        let fp = dir.join(p);
-        if fp.is_file() {
-            settings = Some(parse_settings_file(&fp)?);
+        let fp = format!("{}/{}", root, p);
+        if source.is_file(&fp) {
+            settings = Some(parse_settings_file_from_source(source, &fp)?);
             break;
         }
     }
 
     // parse quests
     let mut quests: HashMap<QuestId, Quest> = HashMap::new();
-    let quests_dir = dir.join("Quests");
-    if quests_dir.is_dir() {
-        for entry in fs::read_dir(&quests_dir)? {
-            let entry = entry?;
-            let path = entry.path();
-            if path.is_file() && path.extension().map(|s| s == "json").unwrap_or(false) {
-                let s = fs::read_to_string(&path)?;
-                let v: Value = serde_json::from_str(&s)?;
-                let norm = normalize_value(v);
-                let quest = crate::parser::parse_quest_from_value(&norm)?;
+    let quests_dir = format!("{}/Quests", root);
+    if source.is_dir(&quests_dir) {
+        for entry in source.list_dir(&quests_dir)? {
+            let path = format!("{}/{}", &quests_dir, entry);
+            if source.is_file(&path) && path.ends_with(".json") {
+                let s = source.read_to_string(&path)?;
+                // Deserialize into the RawQuest directly; normalization happens during conversion
+                let raw: crate::model_raw::RawQuest = serde_json::from_str(&s)?;
+                let quest = Quest::from_raw(raw)?;
                 if quests.insert(quest.id, quest).is_some() {
-                    return Err(ParseError::DuplicateQuestId(path.display().to_string()));
+                    return Err(ParseError::DuplicateQuestId(path));
                 }
             }
         }
     }
 
     // parse questlines
-    let (questlines, questline_order) = parse_questlines_dir(&dir.join("QuestLines"))?;
+    let (questlines, questline_order) =
+        parse_questlines_dir_from_source(source, &format!("{}/QuestLines", root))?;
 
     // resolve references (strict: fail on missing quest)
     for (qlid, qline) in &questlines {
@@ -74,15 +104,17 @@ pub fn parse_default_quests_dir(dir: &Path) -> Result<QuestDatabase> {
 }
 
 /// Parse the QuestLines directory into a map of QuestLine and their order.
-fn parse_questlines_dir(qlines_dir: &Path) -> Result<(HashMap<QuestId, QuestLine>, Vec<QuestId>)> {
+fn parse_questlines_dir_from_source(
+    source: &dyn QuestDataSource,
+    qlines_dir: &str,
+) -> Result<(HashMap<QuestId, QuestLine>, Vec<QuestId>)> {
     let mut questlines: HashMap<QuestId, QuestLine> = HashMap::new();
     let mut questline_order: Vec<QuestId> = Vec::new();
-    if qlines_dir.is_dir() {
-        for entry in fs::read_dir(qlines_dir)? {
-            let entry = entry?;
-            let path = entry.path();
-            if path.is_dir() {
-                let (qline_opt, entries) = parse_questline_dir(&path)?;
+    if source.is_dir(qlines_dir) {
+        for entry in source.list_dir(qlines_dir)? {
+            let path = format!("{}/{}", qlines_dir, entry);
+            if source.is_dir(&path) {
+                let (qline_opt, entries) = parse_questline_dir_from_source(source, &path)?;
                 if let Some(mut qline) = qline_opt {
                     let mut sorted_entries: Vec<(QuestId, QuestLineEntry)> = entries;
                     sorted_entries.sort_by_key(|(qid, _entry)| qid.as_u64());
@@ -90,7 +122,7 @@ fn parse_questlines_dir(qlines_dir: &Path) -> Result<(HashMap<QuestId, QuestLine
                         qline.entries.push(entry);
                     }
                     if questlines.insert(qline.id, qline).is_some() {
-                        return Err(ParseError::DuplicateQuestId(path.display().to_string()));
+                        return Err(ParseError::DuplicateQuestId(path));
                     }
                 }
             }
@@ -103,13 +135,17 @@ fn parse_questlines_dir(qlines_dir: &Path) -> Result<(HashMap<QuestId, QuestLine
 }
 
 /// Parse a single questline directory, returning the QuestLine (if present) and its entries.
-fn parse_questline_dir(path: &Path) -> Result<QuestlineDirParseResult> {
-    let qline_json = path.join("QuestLine.json");
+fn parse_questline_dir_from_source(
+    source: &dyn QuestDataSource,
+    path: &str,
+) -> Result<QuestlineDirParseResult> {
+    let qline_json = format!("{}/QuestLine.json", path);
     let mut qline_opt: Option<QuestLine> = None;
-    if qline_json.is_file() {
-        let s = fs::read_to_string(&qline_json)?;
+    if source.is_file(&qline_json) {
+        let s = source.read_to_string(&qline_json)?;
         let v: Value = serde_json::from_str(&s)?;
-        let norm = normalize_value(v);
+        // Normalize only the questline object for field extraction
+        let norm = crate::nbt_norm::normalize_value(v);
         if let Value::Object(map) = norm {
             let high = map
                 .get("questLineIDHigh")
@@ -122,9 +158,21 @@ fn parse_questline_dir(path: &Path) -> Result<QuestlineDirParseResult> {
                 .map(|n| n as i32)
                 .unwrap_or(0);
             let id = QuestId::from_parts(high, low);
-            let props = map
-                .get("properties")
-                .and_then(|p| crate::parser::parse_properties(p).ok().flatten());
+            let props = map.get("properties").and_then(|p| {
+                if let Some(obj) = p.as_object() {
+                    if let Some(bqv) = obj.get("betterquesting") {
+                        let bq_norm = crate::nbt_norm::normalize_value(bqv.clone());
+                        serde_json::from_value::<QuestProperties>(bq_norm).ok()
+                    } else if let Some((_k, inner)) = obj.iter().next() {
+                        let inner_norm = crate::nbt_norm::normalize_value(inner.clone());
+                        serde_json::from_value::<QuestProperties>(inner_norm).ok()
+                    } else {
+                        None
+                    }
+                } else {
+                    None
+                }
+            });
             qline_opt = Some(QuestLine {
                 id,
                 properties: props,
@@ -134,15 +182,16 @@ fn parse_questline_dir(path: &Path) -> Result<QuestlineDirParseResult> {
         }
     }
     let mut entries: Vec<(QuestId, QuestLineEntry)> = Vec::new();
-    for e in fs::read_dir(path)? {
-        let e = e?;
-        let p = e.path();
-        if p.is_file() && p.extension().map(|s| s == "json").unwrap_or(false) {
-            if p.file_name().and_then(|n| n.to_str()) == Some("QuestLine.json") {
-                continue;
-            }
-            if let Some((qid, entry)) = parse_questline_entry_file(&p)? {
-                entries.push((qid, entry));
+    if source.is_dir(path) {
+        for entry in source.list_dir(path)? {
+            let p = format!("{}/{}", path, entry);
+            if source.is_file(&p) && p.ends_with(".json") {
+                if entry == "QuestLine.json" {
+                    continue;
+                }
+                if let Some((qid, entry)) = parse_questline_entry_file_from_source(source, &p)? {
+                    entries.push((qid, entry));
+                }
             }
         }
     }
@@ -150,10 +199,14 @@ fn parse_questline_dir(path: &Path) -> Result<QuestlineDirParseResult> {
 }
 
 /// Parse a questline entry file, returning the QuestId and QuestLineEntry if valid.
-fn parse_questline_entry_file(p: &Path) -> Result<Option<(QuestId, QuestLineEntry)>> {
-    let s = fs::read_to_string(p)?;
+fn parse_questline_entry_file_from_source(
+    source: &dyn QuestDataSource,
+    p: &str,
+) -> Result<Option<(QuestId, QuestLineEntry)>> {
+    let s = source.read_to_string(p)?;
     let v: Value = serde_json::from_str(&s)?;
-    let norm = normalize_value(v);
+    // Normalize this entry object before extracting fields
+    let norm = crate::nbt_norm::normalize_value(v);
     if let Value::Object(map) = norm {
         let high = map
             .get("questIDHigh")
@@ -181,11 +234,14 @@ fn parse_questline_entry_file(p: &Path) -> Result<Option<(QuestId, QuestLineEntr
     }
 }
 
-fn parse_settings_file(path: &Path) -> Result<QuestSettings> {
-    let s = fs::read_to_string(path)?;
+fn parse_settings_file_from_source(
+    source: &dyn QuestDataSource,
+    path: &str,
+) -> Result<QuestSettings> {
+    let s = source.read_to_string(path)?;
     let v: Value = serde_json::from_str(&s)?;
-    let norm = normalize_value(v);
-    Ok(parse_settings_value(&norm))
+    // Do targeted normalization inside parse_settings_value if needed; pass raw value here
+    Ok(parse_settings_value(&v))
 }
 
 fn parse_settings_value(v: &Value) -> QuestSettings {

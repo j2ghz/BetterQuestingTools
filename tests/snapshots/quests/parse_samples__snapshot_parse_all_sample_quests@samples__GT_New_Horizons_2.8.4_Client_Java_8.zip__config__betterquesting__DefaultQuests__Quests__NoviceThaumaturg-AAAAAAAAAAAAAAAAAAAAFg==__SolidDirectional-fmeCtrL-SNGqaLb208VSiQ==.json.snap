@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 12897826448873968265,
+  "prerequisites": [
+    241
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Redstone Dust is a wonderful substance, but it has several limitations that only true Minecrafters can handle.\n\nLuckily, with a bit of magic the dust crystallizes and becomes much easier to handle.\n\nRedcrystal can be placed directly against a wall or ceiling, and also allows you to use a wand to toggle whether a given side sends/receives any redstone signals. This allows for nice and compact builds in places regular redstone couldn't even exist in the first place.\n\nMaybe it is possible to improve these redcrystals further to allow them to manipulate or process the signal they're receiving in some way...",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Solid, Directional Redstone",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    241
+  ],
+  "rewards": [],
+  "tasks": []
+}

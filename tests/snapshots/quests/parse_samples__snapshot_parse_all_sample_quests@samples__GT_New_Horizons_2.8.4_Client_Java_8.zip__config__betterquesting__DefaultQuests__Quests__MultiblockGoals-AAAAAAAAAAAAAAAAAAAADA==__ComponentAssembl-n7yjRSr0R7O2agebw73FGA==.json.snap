@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3095177681319085336,
+  "prerequisites": [
+    1412,
+    2613
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Check the NEI pages to see all the nice recipes this machine can handle for you. Great to craft GT components in bulk.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lComponent Assembly Line",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1412,
+    2613
+  ],
+  "rewards": [],
+  "tasks": []
+}

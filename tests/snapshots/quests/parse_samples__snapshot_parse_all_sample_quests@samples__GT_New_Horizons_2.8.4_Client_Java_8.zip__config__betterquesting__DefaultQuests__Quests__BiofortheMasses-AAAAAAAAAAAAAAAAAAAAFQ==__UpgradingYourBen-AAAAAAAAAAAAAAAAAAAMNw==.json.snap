@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3127,
+  "optional_prerequisites": [
+    176,
+    3114
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Having moved another tier, you have unlocked another fuel upgrade! Luckily for you, it uses simple inputs, although the place in which you craft it is more expensive than usual. This time around, the bigger expense is by far the processing multiblock, and you will need several stacks of Titanium to put it together.\n\nGiven as much, this is not a task for the very start of EV. It's recommended that you automate your Titanium processing line before you attempt this, because the Chemical Plant is going to grind your manual patience otherwise. If you already have a lot of that, everything else should be much simpler.\n\n(You will need a lot more than a stack. This is just to get you started.)",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Upgrading Your Benzene",
+    "party_single_reward": null,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

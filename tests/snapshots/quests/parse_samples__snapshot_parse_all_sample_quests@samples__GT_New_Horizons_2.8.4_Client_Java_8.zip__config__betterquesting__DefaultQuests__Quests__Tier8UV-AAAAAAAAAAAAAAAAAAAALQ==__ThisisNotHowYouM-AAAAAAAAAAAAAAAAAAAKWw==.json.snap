@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2651,
+  "prerequisites": [
+    2561,
+    2566,
+    2635
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "In order to make Wetware circuits, you'll need Sterilized Growth Catalyst Medium and Stemcells.\n\nTo begin, you will first need Bacteria which you can get through the Bacterial Vat or the Brewing Machine. The vat recipe is more efficient, but you need a culture for it so you need to start with the brewing recipe. The Bacterial Vat needs at least Bismuth rods in the Radio Hatch for the proper Sievert and at least EV-tier glass to make Bacteria. There are also 3 different recipes, so you can use a higher tier one later if you like.\n\nYou'll also need Mince Meat and Agar. You'll want a stable supply of meat such as a fish farm, a standard animal farm, or IC2 Meatrose/Goldfish farm.\n\nAgar has a more complicated processing chain, but it's nothing compared to Platinum. You'll need even more meat for it.\n\nUse some of the Bacteria to create an Ova Evolutionis culture (15% chance), and then place that in the Bacterial Vat's controller. The Bacterial Vat also needs at least Uranium rods in the Radio Hatch for the proper Sievert and at least IV-tier glass to make Raw Growth Catalyst Medium. There are higher tier recipes for this as well.\n\n[note]Cultures are NOT consumed in the Bacterial Vat.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "This is Not How You Make Cheese",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2561,
+    2566,
+    2635
+  ],
+  "rewards": [],
+  "tasks": []
+}

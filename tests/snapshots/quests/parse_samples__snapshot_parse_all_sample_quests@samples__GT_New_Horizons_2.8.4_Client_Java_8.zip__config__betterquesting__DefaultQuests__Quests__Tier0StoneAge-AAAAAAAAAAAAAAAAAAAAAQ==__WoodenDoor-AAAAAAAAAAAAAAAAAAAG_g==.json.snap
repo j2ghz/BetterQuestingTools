@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1790,
+  "prerequisites": [
+    37
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "For your new House you need some wooden doors. Well, the recipe is really hard and needs iron/copper and a lot of wood.\n\nYou can choose two more doors as a reward if you like.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§2§lWooden Door",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    37
+  ],
+  "rewards": [],
+  "tasks": []
+}

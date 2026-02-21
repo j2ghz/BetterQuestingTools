@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2518,
+  "prerequisites": [
+    185
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The ME Fluid Terminal allows you to directly input and output fluids from the network using buckets, cells, and other fluid-containing items. Put a filled cell (or other item) in the bottom left to have the contents deposited into the network, and the cell moved to the output slot. For the reverse, select a fluid and insert an empty cell, and it'll fill it.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "The Fluid Terminal",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    185
+  ],
+  "rewards": [],
+  "tasks": []
+}

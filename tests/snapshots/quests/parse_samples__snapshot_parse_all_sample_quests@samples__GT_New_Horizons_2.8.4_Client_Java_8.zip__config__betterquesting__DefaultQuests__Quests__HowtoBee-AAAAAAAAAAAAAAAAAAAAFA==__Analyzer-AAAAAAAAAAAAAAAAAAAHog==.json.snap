@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1954,
+  "prerequisites": [
+    2096
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Analyzer is a machine that acts in an identical way to the Forestry Analyzer, in that it reveals the genome of bees, trees, butterflies and flowers. It can also be used to reveal the gene present on the DNA Sequence. Unlike the Analyzer, the Analyzer uses power (RF or EU) and DNA Dye to stain chromosomes and determine the genome directly. The analyzer takes 15 seconds to analyze a single individual.\n\nInformation from these quests was taken from Binnie's wiki at [url]https://binnie.mods.wiki/wiki/Tutorial/Genetics[/url]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Analyzer",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2096
+  ],
+  "rewards": [],
+  "tasks": []
+}

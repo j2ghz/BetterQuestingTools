@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3161,
+  "optional_prerequisites": [
+    3160,
+    3178
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "This is the last structure of the LFTR chain, and the only one gated after the Assembly Line. The best LFTR fuel, Fuel 3, is locked after this, and a lot of useful byproducts are only obtainable here as well, so it's important that you build this if you have a working LFTR.\n\nThe structure itself is very similar to a Distillation Tower, but with different blocks. The controller is the most expensive part, but the biggest obstacle is having the Assembly Line; everything after that shouldn't be too difficult. It's recommended that you have more than one tower, but for one focus on making only one.\n\nNote: the height of this tower is not adjustable. It is meant to be a 3x8x3 multiblock with at least 45 Sparge Tower Casings.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Sparge Tower",
+    "party_single_reward": null,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

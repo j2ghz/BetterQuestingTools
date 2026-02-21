@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2355,
+  "prerequisites": [
+    2349
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Biome Compass is a special type of compass, which points to the nearest Biome Islands as long one exists and the player is in the End. Right-clicking will scroll through all existing biomes.\n\nHolding the compass shows all biomes of the selected type as markers on the screen. The markers are small rectangles with the color of the selected biome, the rectangles also get bigger the closer you are to the island (they also disappear if you reach the island, and reappear when you leave it).",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "HEE Biome Compass",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2349
+  ],
+  "rewards": [],
+  "tasks": []
+}

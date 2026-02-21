@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 916,
+  "prerequisites": [
+    563
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "After collecting a couple of those wither skeleton heads, you feel like you could use some more action. So why not kill a wither? You'll need a ton of nether stars anyway...\n\nKill it twice for something nice.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Time to Kill (Wither)",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": 1728000,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    563
+  ],
+  "rewards": [],
+  "tasks": []
+}

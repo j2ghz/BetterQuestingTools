@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1640,
+  "prerequisites": [
+    1639
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Now let's convert all that H2S into sulfuric acid. Hook up a chemical reactor to electricity, water and interface pipe. Put inside an item responder chip set to accept H2S cells and extract empty cells. Distill that diluted sulfuric acid in distillery and store it in super tank.\n\nCongratulations. You now have a completely automatic desulfurization of oil, automatic production of hydrogen and oxygen and you also store all that sulfuric acid.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Dealing with H2S",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1639
+  ],
+  "rewards": [],
+  "tasks": []
+}

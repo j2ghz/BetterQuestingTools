@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1313,
+  "prerequisites": [
+    1314,
+    1310
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Lowest tier storage cell, which can contain 1,024 bytes of storage. 1,024 bytes of storage can hold 127 stacks of a single item, or 65 stacks, while holding 63 different items. The 1k storage cell uses 8 bytes of data to store a single type.\n\nWhen placed inside a drive or chest will consume 0.5 AE/t. It must be in an ME drive or ME chest to be usable.\n\nYou can remove the 1k ME storage component by fully emptying the storage cell, and sneak-clicking it in your hand.\n\nYou can format it in the cell workbench.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "1k Item Storage Cell",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1314,
+    1310
+  ],
+  "rewards": [],
+  "tasks": []
+}

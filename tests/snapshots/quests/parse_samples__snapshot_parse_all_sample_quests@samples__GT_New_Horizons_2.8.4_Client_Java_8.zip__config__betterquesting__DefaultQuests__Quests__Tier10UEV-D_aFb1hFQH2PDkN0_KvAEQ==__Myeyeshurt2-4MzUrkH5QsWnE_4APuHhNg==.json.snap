@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 4753904296597250358,
+  "prerequisites": [
+    15864577584844137134
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The optical assembly is the second optical circuit. It is a UHV-tier circuit.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "My Eyes Hurt! #2",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    15864577584844137134
+  ],
+  "rewards": [],
+  "tasks": []
+}

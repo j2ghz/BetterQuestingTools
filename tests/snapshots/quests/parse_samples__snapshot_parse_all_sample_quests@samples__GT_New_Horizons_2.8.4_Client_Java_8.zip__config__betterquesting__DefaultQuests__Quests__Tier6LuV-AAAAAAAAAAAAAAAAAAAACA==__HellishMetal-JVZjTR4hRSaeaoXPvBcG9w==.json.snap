@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2171092528035989239,
+  "prerequisites": [
+    12782704186218069608
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Regular Netherite Nanoparticles alone don't have enough density to compress into Netherite... they require a strong and somewhat magical binding agent. \n\n§4Hellish Metal§r should be the perfect candidate, you can either fabricate it in the §5§lElectrolyzer§r or §5§lInfuse§r it.\n\n[note]The Infusion recipe is much cheaper, but can only be used by those who have been proactive in their magic infrastructure.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§c§lHellish Metal",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    12782704186218069608
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 132,
+  "prerequisites": [
+    130
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "This generator requires both water as coolant, and a burnable liquid as fuel. The amount of power it produces depends on the type of liquid used.\n\nFuel           Burn Time (ticks/mb)    Power Output (RF/tick)    Power Output (RF/mb)\nOil                5                          30                               150\nHootch          6                          60                               360\nEthanol        15                          40                               600\nFire Water    15                          80                              1200\nDiesel/Fuel   25                          60                              1500\n\n[note]Rocket Fuel is disabled.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lSimple RF Power: Liquids",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    130
+  ],
+  "rewards": [],
+  "tasks": []
+}

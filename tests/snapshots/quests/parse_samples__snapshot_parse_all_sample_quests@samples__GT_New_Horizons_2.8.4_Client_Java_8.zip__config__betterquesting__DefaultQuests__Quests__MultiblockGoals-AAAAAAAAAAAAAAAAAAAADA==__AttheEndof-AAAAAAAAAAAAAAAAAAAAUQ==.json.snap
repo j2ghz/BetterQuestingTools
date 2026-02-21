@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 81,
+  "prerequisites": [
+    1014,
+    940
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "...the universe everything freezes eventually. But waiting for the heat death of the universe might take too long. Therefore, we present you the vacuum freezer. It should be good enough to cool your hot stuff.\n\nIngots that go through the EBF above a certain temperature will come out as hot ingots that need to be cooled.\n\nYou will need a minimum of 16 frost proof machine casings, the rest depends on your setup.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lAt the End of...",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1014,
+    940
+  ],
+  "rewards": [],
+  "tasks": []
+}

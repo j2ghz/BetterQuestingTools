@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 59,
+  "prerequisites": [
+    44
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "There is more than one way to get steam for your machines. This completely optional questline shows you some alternative methods for producing steam.\n\n§3For the ones that need glass, you'll need to progress a few more quests to see how to do so, though you can also make it now if you know how to use NEI to find the recipe.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§3§lSteam Alternatives",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    44
+  ],
+  "rewards": [],
+  "tasks": []
+}

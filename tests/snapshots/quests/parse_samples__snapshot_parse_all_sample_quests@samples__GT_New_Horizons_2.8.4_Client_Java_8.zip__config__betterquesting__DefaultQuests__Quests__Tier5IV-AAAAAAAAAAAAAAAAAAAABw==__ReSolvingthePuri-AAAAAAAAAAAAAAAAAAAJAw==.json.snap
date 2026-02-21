@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2307,
+  "prerequisites": [
+    2326
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Hmm, the sifting did well, you lost a lot of impurities, but also, new ones from the sifting grates are there... Time to filter them out with water.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lRe-Solving the Purity Issue",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "CHAIN"
+  },
+  "required_prerequisites": [
+    2326
+  ],
+  "rewards": [],
+  "tasks": []
+}

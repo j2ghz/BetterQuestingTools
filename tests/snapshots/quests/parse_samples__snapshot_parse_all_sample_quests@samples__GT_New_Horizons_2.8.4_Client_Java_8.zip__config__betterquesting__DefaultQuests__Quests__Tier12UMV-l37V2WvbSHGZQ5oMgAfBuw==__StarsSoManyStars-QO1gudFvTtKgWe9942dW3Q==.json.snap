@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 15091367544007120605,
+  "prerequisites": [
+    3219,
+    5584830154924781078
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Eternal coils? Perfect time for stargate trophy number three.\nYou know the drill, you give 2 stargates' worth of stuff, you get your trophy. Simple as that.\n\n[note]Our journey through time continues onwards, entering the UMV, aka DTPF era.\n\nSurprisingly, it still is the year 2022, but there have been a huge amount of changes since our last stop in the UEV era. The DTPF exists now, hypogen & eternal coils included, and machine parts up to UMV thus are craftable. Wireless energy is a thing now too, both the LSC and the regular hatch kind, and AE2FC is in the pack, allowing direct fluid crafting (meaning no more volumetric flask shuffling).\nThe power situation hasn't changed much since the UEV era, except for dyson being even more bugged and giving free uncapped infinite power (abusing this was obviously labeled as bugabuse).\nSome other new useful things are the MABS, Integrated Ore Factory, Space Elevator, UIV and UMV singleblocks, EIG, EEC, industrial & mega apiary, yottanks, stocking buses, data bank chaining and the Draconic Fusion Crafter.\nThe stargate's cost has now skyrocketed far more than ever before, marking the beginning of this new era of GT:NH endgame, the era of expansion.\n\nThis time around the leading §aGDCloud§r was challenged by the team §aNeo Caelestia§r, who were progressing at a staggering speed, inching ever closer to being first to gate, but ultimately weren't able to fully catch up and thus §aGDCloud§r once again was first to conquer the challenge on the §a19th of November, 2022§r.\n\nP.S.: You know how this works, right? Here's the list:\n-PCB Factory, Component Assemblyline, AAL, Transcendent Plasma Mixer, EOH, QFT\n-Multi-Amp wireless hatches\n-Sub 1-tick OC, Batch Mode, inbuilt Void Protection on multis\n-Level Maintainer, Stocking Hatches, Crafting Input Buses\n\nP.P.S.: Chaotic capacitor bank? What's that?[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Stars, So Many Stars",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3219,
+    5584830154924781078
+  ],
+  "rewards": [],
+  "tasks": []
+}

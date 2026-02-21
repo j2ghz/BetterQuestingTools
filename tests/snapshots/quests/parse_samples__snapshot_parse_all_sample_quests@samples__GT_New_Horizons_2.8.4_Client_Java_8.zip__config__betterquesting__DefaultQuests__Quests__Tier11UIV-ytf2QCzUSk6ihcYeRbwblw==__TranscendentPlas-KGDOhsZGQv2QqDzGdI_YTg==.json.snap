@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 14287180524229220430,
+  "prerequisites": [
+    1684418950670712410
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Definitely consider making one.\n\nThe Transcendent Plasma Mixer is a powerful asset for all your DTPF catalyst needs.\n\nThe base processing time is always 5 seconds. You can specify the number of parallels the machine can run in the GUI.\n\nEach parallel additively increases the power requirement, so you don't lose any efficiency while increasing production!\n\n[note]Most of your power will go here. Consider upgrading your naquadah fuel or creating the Dyson Swarm.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Transcendent Plasma Mixer",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1684418950670712410
+  ],
+  "rewards": [],
+  "tasks": []
+}

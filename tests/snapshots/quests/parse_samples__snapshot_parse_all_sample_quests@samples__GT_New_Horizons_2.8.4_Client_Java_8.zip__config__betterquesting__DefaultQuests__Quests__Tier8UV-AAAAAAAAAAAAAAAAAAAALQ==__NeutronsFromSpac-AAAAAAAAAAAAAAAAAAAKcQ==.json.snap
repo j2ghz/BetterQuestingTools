@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2673,
+  "prerequisites": [
+    2613
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Now let's make Cosmic Neutronium, a material that is used in a lot of late game stuff.\nCentrifuge Black Plutonium to get a Pile of Neutrons. It can then be compressed to Cosmic Neutronium Nuggets in an Implosion Compressor.\n\nCompress the nuggets again to make a Cosmic Neutronium Ingot.\n\n[note]Avaritia's Neutronium and GT Cosmic Neutronium are oredicted together, it's not the same as normal GT Neutronium. It goes back to being called SpNt if you craft it into something, like a plate.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Neutrons From Space",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2613
+  ],
+  "rewards": [],
+  "tasks": []
+}

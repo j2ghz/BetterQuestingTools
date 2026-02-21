@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 6437138727920992374,
+  "prerequisites": [
+    14547265343326926506
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Why stop at §2Prismatic Naquadah§r? Given it's malleable nature you suspect that it may be advantageous to use it's unique strength to form new, much more durable, foil types.\n\nCombing the §2Prismatic Naquadah§r with your choice of §2binding powder§r in a §5§lMixer§r and you'll create exactly the type of substance you were looking for; A §3Prismatic Naquadah Composite Slurry§r to mold into foil. ",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Prismatic Naquadah Composite Slurry",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    14547265343326926506
+  ],
+  "rewards": [],
+  "tasks": []
+}

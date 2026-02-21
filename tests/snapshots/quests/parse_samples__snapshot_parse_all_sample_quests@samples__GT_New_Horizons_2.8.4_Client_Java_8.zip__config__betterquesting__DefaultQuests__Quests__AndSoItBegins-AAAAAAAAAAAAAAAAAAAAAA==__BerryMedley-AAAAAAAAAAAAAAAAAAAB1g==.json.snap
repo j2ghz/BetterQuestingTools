@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 470,
+  "prerequisites": [
+    469
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Hmmm... what can you do with all those berries? Just eating? You will see that they have a very low saturation level. Let's plant the new berry bushes and mix the berries to make some better food.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 1,
+    "name": "§9§lBerry Medley",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    469
+  ],
+  "rewards": [],
+  "tasks": []
+}

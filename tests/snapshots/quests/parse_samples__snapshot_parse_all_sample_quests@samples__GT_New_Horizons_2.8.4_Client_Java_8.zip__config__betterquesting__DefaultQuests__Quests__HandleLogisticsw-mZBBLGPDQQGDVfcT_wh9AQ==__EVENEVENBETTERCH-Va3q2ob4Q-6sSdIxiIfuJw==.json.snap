@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 9725598087078473255,
+  "prerequisites": [
+    3072,
+    4416705102887472369
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "What? You need better chassis already? Need even more recipe slots?\n\nHere is the Chassis Mk4. It holds 4 modules.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "EVEN EVEN BETTER CHASSIS",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3072,
+    4416705102887472369
+  ],
+  "rewards": [],
+  "tasks": []
+}

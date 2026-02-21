@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3198,
+  "prerequisites": [
+    3196
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Naquadah Reactor has the potential to be an endgame power generator, but only if the right additives are used. These additives boost the EU/t output of the multi, but in different ways, and it's important to upgrade them as quickly as possible. However, going beyond the max output of the Dynamo Hatch is not a good idea!\n\nThere are two types of additives: the coolants and the fuel boosters. The coolants boost fuel efficiency, which means fuel consumption is the same, whereas the boosters increase the speed the multi burns the fuel, increasing the output at the same time.\n\nThere are three coolants, but the 275% efficiency boost by using Cryotheum should not be ignored. To automate it, you will need an automated source of Blaze Rods and Snowballs (Snow is made from Water). To this, you add Redstone and Saltpeter, and you're done.\n\nThe boosters are more difficult to choose from. Caesium should be ignored, Uranium 235 can be automated from Uranium 238 with magic at an almost 1:1 ratio, but Naquadah is what you probably have ready to use for this, which quadruples the speed of this reactor. However, if this is too slow, you can instead automate Atomic Separation Catalyst to get a 16x speed boost! There are many recipes for this, so choose your favorite.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Radioactivity's Additives",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3196
+  ],
+  "rewards": [],
+  "tasks": []
+}

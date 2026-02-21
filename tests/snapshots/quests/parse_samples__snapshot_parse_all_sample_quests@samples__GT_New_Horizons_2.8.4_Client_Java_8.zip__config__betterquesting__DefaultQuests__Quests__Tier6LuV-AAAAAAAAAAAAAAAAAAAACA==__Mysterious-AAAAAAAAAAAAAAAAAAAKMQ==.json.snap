@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2609,
+  "prerequisites": [
+    2645,
+    1726
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "If you want some of this highly mysterious material, you'll need to go to Enceladus and collect some of those crystals lying around everywhere and macerate them. Or grab some Ice with a shovel and get the Dust out of it. You can also turn the dust back into Unknown Crystal Shards with an Autoclave if you need those.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§c§lMysterious...",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2645,
+    1726
+  ],
+  "rewards": [],
+  "tasks": []
+}

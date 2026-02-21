@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 10644623299541773492,
+  "prerequisites": [
+    423
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "§3Livens§r will increase your Incense from §9800§r to §91500§r.\n§aViridis§r will increase it even further from §91500§r to §92400§r.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Smelling Even Better",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    423
+  ],
+  "rewards": [],
+  "tasks": []
+}

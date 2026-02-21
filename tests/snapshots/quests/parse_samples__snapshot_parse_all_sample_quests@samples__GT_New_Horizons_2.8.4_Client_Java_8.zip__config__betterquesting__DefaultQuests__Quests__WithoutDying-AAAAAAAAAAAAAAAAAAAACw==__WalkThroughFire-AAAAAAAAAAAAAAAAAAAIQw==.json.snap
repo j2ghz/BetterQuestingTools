@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2115,
+  "prerequisites": [
+    2139
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Pigman backpack will make the Nether ezpz with fire resistance. You'll have to figure out a way to get struck by lightning while wearing a Pig backpack to get it...",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Walk Through Fire",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2139
+  ],
+  "rewards": [],
+  "tasks": []
+}

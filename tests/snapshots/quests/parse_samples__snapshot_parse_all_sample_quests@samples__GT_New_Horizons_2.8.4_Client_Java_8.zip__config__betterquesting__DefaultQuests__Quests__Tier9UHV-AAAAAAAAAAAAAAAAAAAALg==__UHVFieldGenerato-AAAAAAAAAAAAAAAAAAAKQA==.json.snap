@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2624,
+  "prerequisites": [
+    2665
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "I wonder if they're circles because they're basically just wrapped wire, there's certainly enough of it in there.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "UHV Field Generator",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2665
+  ],
+  "rewards": [],
+  "tasks": []
+}

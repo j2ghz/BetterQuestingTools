@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1225,
+  "prerequisites": [
+    1222
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Mainframes are the first IV Circuits you can make. It's used for a few EV machines, and basically all IV machines and components.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lMainframes, Your First IV Circuit ",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1222
+  ],
+  "rewards": [],
+  "tasks": []
+}

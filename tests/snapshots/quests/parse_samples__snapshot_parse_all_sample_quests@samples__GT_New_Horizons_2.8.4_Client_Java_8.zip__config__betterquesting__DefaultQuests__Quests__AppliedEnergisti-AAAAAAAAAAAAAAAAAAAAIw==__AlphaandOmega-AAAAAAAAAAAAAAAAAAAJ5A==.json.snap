@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2532,
+  "prerequisites": [
+    1301
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The ME Annihilation Plane destroys blocks as if you had mined them, and places them into the network. The Identity version acts as if silk touch was used.\n\nThe ME Formation Plane does the opposite, it places blocks into the world. You'll need to tell it what to place/drop though. This can work in both block and item mode.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Alpha and Omega",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1301
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1470,
+  "prerequisites": [
+    1469
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Cavernous Vine is a poisonous plant that grows naturally in the Mars underground. It grows from the ceiling down to the floor in the huge caves flooded with Bacterial Sludge, emits light and can trap mobs in it.\n\nAny mob that touches this plant will be poisoned, dragged up and lose health down to 1 health point (half a heart) while trapped in this plant. Mobs that are immune to poison, like Zombies and Skeletons, will not lose health.\n\nThey grow from the bottom face of a solid block down to 1 block away from the floor.\n\nCavernous vines can be broken by hand without taking damage or being poisoned but they will drop nothing. They can be obtained as an item using shears. Even picks with Silk Touch enchant will not obtain anything.\n\nOnce obtained, they can be replanted elsewhere and regrow, like cactus.\n\n[note]That said, they're still useless.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Cavernous Vine",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1469
+  ],
+  "rewards": [],
+  "tasks": []
+}

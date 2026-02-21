@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2605,
+  "prerequisites": [
+    2600
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "For Prasiolite you'll want to put Quartzite and Amethyst in an EBF to get Flawed Prasiolite. You'll need to either use the Implosion Compressor or Precision Laser Engraver to up the quality to Exquisite. You'll also need the dust version as well, so don't convert them all.\n\nFor the amount of Amethyst you'll need, you'll want to make a stop on Venus.\n\nIf you have a T5 rocket, you can get the ore from Ross128ba directly and run it through the sifter.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§c§lFetching Prasiolite",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2600
+  ],
+  "rewards": [],
+  "tasks": []
+}

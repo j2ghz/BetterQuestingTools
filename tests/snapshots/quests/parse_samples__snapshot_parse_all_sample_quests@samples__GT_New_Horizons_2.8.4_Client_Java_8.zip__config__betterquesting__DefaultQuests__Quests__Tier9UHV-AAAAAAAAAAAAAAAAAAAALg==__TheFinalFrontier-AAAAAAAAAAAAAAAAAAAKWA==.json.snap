@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2648,
+  "prerequisites": [
+    2616
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The last of the normal rocket progression. After this is there is only the Mothership for the T9 system and the Deep Dark, which has all the ores+more.\n\nAlthough you get access to six new planets, there's only two new veins. And don't complain that Barnarda should be Barnard, we can't fix it.\n\nThe Barnarda system is to the NNW, and you can visit Barnada C, E, and F.\nThe α Centauri system is to the NE, and you can visit α Centauri Bb (Proxima Centauri is not visitable). [note]Remember to wear your SpaceSuit![/note]\nThe Tau Ceti system is to the SSW, and you can visit the habitable planet Tau Ceti E.\nThe Vega System is to the WNW, and you can visit the planet Vega B.\n\nThe new veins are Cadmium and Samarium. The ores are Cadmium, Caesium, Cerium, Lanthanum, Neodymium, Samarium, and Tartarite.\n\nYou can get Awakened Draconium from small ores on Barnarda E, Barnarda F, Tau Ceti E, and Vega B.\nYou can get Bedrockium from small ores on Barnarda F.\nYou can get Infinity Catalyst from small ores on Vega B.\n\nIn addition to planet ores and blocks, grab some Barnarda C Saplings and Dirt so you can grow some more if you need it for Radox (lol). You can also grab some more Unknown Crystal Shards from the Rainbow Crystals lying around.\n\nMore importantly you should collect Seaweed from Tau Ceti E. You need it to make UEV circuits, and though you can make it as well, you need some to begin with. The unknown liquid to grow these is however found in lakes and underground on Barnarda C.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "The Final Frontier?",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2616
+  ],
+  "rewards": [],
+  "tasks": []
+}

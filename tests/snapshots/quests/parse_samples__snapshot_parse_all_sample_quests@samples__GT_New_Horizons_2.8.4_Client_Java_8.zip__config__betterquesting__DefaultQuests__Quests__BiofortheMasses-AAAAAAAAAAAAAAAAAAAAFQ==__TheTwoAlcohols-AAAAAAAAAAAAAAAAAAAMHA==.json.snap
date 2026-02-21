@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3100,
+  "prerequisites": [
+    3099
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The other fluid that mixes in with one of the natural oils to create Biodiesel can be one of two siblings: Methanol and Ethanol. They're very similar, both alcohols composed of carbon atoms surrounded by hydrogen ones, with one OH at the end. They often come from the same source (for example, running Wood Vinegar or Biomass through a Distillation Tower), but they also have some differences. To produce them from simpler elements in a Chemical Reactor, you'll need MV tier, which is where you are at.\n\nCheck NEI for all the recipes you can use for either of these. You only need one, so choose which of the quest tasks you want to complete. The one you're likely going to produce is Methanol.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "The Two Alcohols",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3099
+  ],
+  "rewards": [],
+  "tasks": []
+}

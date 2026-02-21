@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 163,
+  "prerequisites": [
+    146,
+    142
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The inventory panel is an alternative to a PR or LP storage system. Just like PR, you have to connect every chest/barrel with an item conduit.\n\nIn addition to that, you also have to install a \"Remote Awareness\" upgrade into every conduit side you want the panel to see, and provide the panel with Nutrient Distillation which you make in The Vat.\n\nWell, they're all obsolete once you get AE2 though.\n",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lI See Everything",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    146,
+    142
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 287,
+  "prerequisites": [
+    285
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "256 essentia in one block! Now that is what I call storage. Does make weird sounds, but I guess it's nothing special...",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "What Could Possibly Go Wrong?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    285
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 486,
+  "prerequisites": [
+    36
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You have found a way to make leather more durable and resistant by further processing it. Make some bound leather from four pieces of leather, some strings and woven cotton. Now you only have to hang it on a drying rack and wait about 10 minutes to get some tanned leather. Stockpile some for later.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§2§lTanned Leather",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    36
+  ],
+  "rewards": [],
+  "tasks": []
+}

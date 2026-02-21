@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2295,
+  "prerequisites": [
+    160,
+    78
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Efficient Platinum processing is quite complicated. But for now, we can just smelt it directly into nuggets. This might not be the most efficient route to take, but it is enough for what we want to do next.\n\nAt this tier, your best source of Platinum is Nickel ores from the Twilight Forest, or maybe Endstone Dust if you've managed to survive the End already.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lGetting Your First Platinum",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    160,
+    78
+  ],
+  "rewards": [],
+  "tasks": []
+}

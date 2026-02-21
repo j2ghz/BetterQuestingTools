@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 17971695594000210796,
+  "prerequisites": [
+    9280310146674628723
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Upgrades can be applied for pipes and modules, but an extra upgrade is needed if we need to apply upgrades to modules.\n\nHere is the Upgrade Module Upgrade. But regardless of how many of these you stuff into a chassis, there will always be 2 module upgrades per module.\n\n[note]Author's Note: Why is the Upgrade Module Upgrade the ONLY upgrade that has a more 3D-style texture while the other modules and upgrades are completely flat?[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Modular Upgrades",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    9280310146674628723
+  ],
+  "rewards": [],
+  "tasks": []
+}

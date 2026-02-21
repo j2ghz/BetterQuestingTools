@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2093,
+  "prerequisites": [
+    1123
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Supporting circuit boards that can hold 4 electron tubes, the Electrical Stimulator provides a variety of functions. All numbers are in percent:\n\nIron ET - Production: 150 (Max 500)\nDiamantine ET - Production: 250 (Max 1000)\nApatine ET - Pollination: 150 (Max 500)\nObsidian ET - Lifespan: 80 (Min 20)\nLapis ET - Lifespan: 150 (Max 500)\nBlazing ET - Simulates hellish temperature\nGolden ET - Mutation rate: 150 (Max 500)\nTin ET - Territory: 40 (Min 10) Prod: 90 (Min 50)\nBronze ET - Territory: 150 (Max 500)\n\nGenetic Decay is also increased by 50% for all of them. This affects how long until ignoble bees die off, so don't worry about it if your bees are pristine.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "A Stim a Day Keeps the Doctor Awake",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1123
+  ],
+  "rewards": [],
+  "tasks": []
+}

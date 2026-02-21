@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2495,
+  "prerequisites": [
+    183
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The main processor for 1K, 4K, 16k, and 64k essentia cells.\n\nUse your AE network to store all that nasty essentia! Remember, you need to do the research first.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "AE Essentia Storage",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    183
+  ],
+  "rewards": [],
+  "tasks": []
+}

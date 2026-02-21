@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2632,
+  "prerequisites": [
+    2630
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You need these for Solars, UV -> UHV transformers, and ZPM Hatches and Dynamos.\n\n[note]You'll need a ZPM Cutting Machine, or an OC'd multi.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Nano Power ICs",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2630
+  ],
+  "rewards": [],
+  "tasks": []
+}

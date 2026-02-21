@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 17060551419232301286,
+  "prerequisites": [
+    3283,
+    8221118042900992282,
+    2590
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Suck up liquids like never before! This module replaces the infinite fluid drilling rig, but has the convenience of being inside your space elevator. Look at the NEI recipes to see which fluids you can pump with this.\n\n[note]Will require MK-II motors on Space Elevator to function.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Something From Nothing, Part 3?",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3283,
+    8221118042900992282,
+    2590
+  ],
+  "rewards": [],
+  "tasks": []
+}

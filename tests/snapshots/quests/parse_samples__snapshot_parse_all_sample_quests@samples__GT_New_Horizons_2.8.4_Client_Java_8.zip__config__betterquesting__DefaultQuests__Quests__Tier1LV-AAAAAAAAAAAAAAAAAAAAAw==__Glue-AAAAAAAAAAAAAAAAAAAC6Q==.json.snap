@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 745,
+  "optional_prerequisites": [
+    579,
+    539
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "To make Good Circuit Boards, you need either glue or refined glue.\n\nYou can obtain refined glue either by centrifuging sticky resin or distilling glue. Note that it is GT glue, not Tinkers' Construct glue.\n\nAlternatively, you can extract glue from slime trees that you can obtain from slime islands in the sky.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lGlue",
+    "party_single_reward": false,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

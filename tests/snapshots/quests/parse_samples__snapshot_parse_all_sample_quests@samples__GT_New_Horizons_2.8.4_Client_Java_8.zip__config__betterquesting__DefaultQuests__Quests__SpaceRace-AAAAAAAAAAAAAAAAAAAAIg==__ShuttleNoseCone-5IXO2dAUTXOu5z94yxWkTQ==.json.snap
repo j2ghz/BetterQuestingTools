@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 14993694219146994765,
+  "prerequisites": [
+    3282,
+    2644
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "This Rocket Cone doesn't have the spiky thing like the others have. Is this good or bad? I don't know, I'm only here to tell you what to do. So go build one Shuttle Nose Cone! Otherwise I will revoke your license to progress!",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Shuttle Nose Cone",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3282,
+    2644
+  ],
+  "rewards": [],
+  "tasks": []
+}

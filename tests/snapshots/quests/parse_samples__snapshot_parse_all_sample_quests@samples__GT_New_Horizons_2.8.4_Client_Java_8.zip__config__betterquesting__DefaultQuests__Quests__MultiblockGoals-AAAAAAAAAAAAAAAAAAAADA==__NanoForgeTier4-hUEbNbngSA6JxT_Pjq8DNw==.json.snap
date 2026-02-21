@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 13393784519160431415,
+  "prerequisites": [
+    3281
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Transcendent nanite has the required complexity and speed to create most nanites, but lacks the strength required to handle the exotic, hyper-dense, magnetic forms of matter you need to manipulate in order to advance. Fortunately with Eternity, you have found an ample replacement that should be up to the task... But you suspect that you'll need a far more complicated structure to be able to contain such a process.\n\n[note]Grants the ability to create §lMagmatter Nanites§r in addition to a greater speed at the cost of assembling a more expensive structure.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Nano Forge Tier 4",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3281
+  ],
+  "rewards": [],
+  "tasks": []
+}

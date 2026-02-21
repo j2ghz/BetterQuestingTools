@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 675,
+  "prerequisites": [
+    48,
+    667,
+    76
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The switch lever is the manual version of the switch motor, requiring a player to operate it instead of a redstone signal.\n\nIt is used in various signaling systems, mainly to change the way switch tracks and wye tracks work.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Switch Lever",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    48,
+    667,
+    76
+  ],
+  "rewards": [],
+  "tasks": []
+}

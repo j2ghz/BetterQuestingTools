@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 469,
+  "prerequisites": [
+    6
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Are you waiting for the carrots to grow? Go and find some berry bushes and berries.\n\nThe berries are a good source of food, and you can put these bushes around your house to make a wall. It should provide a good protection against all those monsters that want to come into your house and kill you.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lCollecting Some Berries",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    6
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 11450766184093287407,
+  "prerequisites": [
+    11439228378407189328
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "These hold 33,554,432 units of essentia.\n\nAnd can hold 60 types.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "16384k Essentia Storage Cell",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    11439228378407189328
+  ],
+  "rewards": [],
+  "tasks": []
+}

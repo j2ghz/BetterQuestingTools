@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 395,
+  "prerequisites": [
+    355
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Dragon Blood Bee is a lot of effort to obtain but quite handy for hypogen in late game.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Dragon Blood",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    355
+  ],
+  "rewards": [],
+  "tasks": []
+}

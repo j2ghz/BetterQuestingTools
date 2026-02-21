@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 475,
+  "prerequisites": [
+    86
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "To process more advanced materials like HSS-E, HSS-S and naquadah you need more than 4500K. Time to upgrade your EBF to 5400K.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lHSS-G Coil Upgrade",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    86
+  ],
+  "rewards": [],
+  "tasks": []
+}

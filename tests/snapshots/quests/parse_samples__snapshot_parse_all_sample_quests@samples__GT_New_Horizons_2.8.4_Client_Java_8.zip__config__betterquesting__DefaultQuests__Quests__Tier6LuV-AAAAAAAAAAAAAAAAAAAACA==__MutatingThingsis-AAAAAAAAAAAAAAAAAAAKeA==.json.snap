@@ -1,0 +1,43 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2680,
+  "prerequisites": [
+    2561,
+    2609,
+    2566,
+    1687,
+    1469
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "When making Raw Crystal Chips, you have two other options if using Europium constantly is too expensive for you: Bacterial Sludge, and Mutagen.\n\nMutagen is obviously better than the sludge, but how do you get it? I'll teach you how.\n\nFirst, get the Bacterial Sludge you got from Mars, and run it through a Brewery along with some U-238 to get Enriched Bacterial Sludge. Then Ferment it to get Fermented Bacterial Sludge. And finally you Distill it to get Mutagen.\n\nBut is a single bucket enough for you? Hardly! But now that we have some, we can make more with the vat. Use the Mutagen you got along with some of that Mysterious Crystal Dust to make a culture. Unfortunately the chances are pretty low, so you'll almost certainly have to do it several times.\n\nOnce you have your culture you can use it in the vat along with some of the dust again to make more. You'll need LuV-tier glass, and Plutonium rods.\n\nIf you want to get more Bacterial Sludge more easily, you can use the vat to make that too! The culture is much easier to make.\n\n[note]Mutagen is also used for Gendustry, so if you want to do that, make a bunch.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§c§lMutating Things is Cool",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2561,
+    2609,
+    2566,
+    1687,
+    1469
+  ],
+  "rewards": [],
+  "tasks": []
+}

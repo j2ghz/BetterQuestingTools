@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2279,
+  "prerequisites": [
+    2280,
+    2282
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Finally, the Oily bee! Its combs produce the most oil, but its output isn't that thrilling...yet. Breed them from Primeval and Ocean. As an alternative, you can breed them from Primeval and Frugal if you can't find an Ocean biome or used up all your Beekeeper coins.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Oily",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2280,
+    2282
+  ],
+  "rewards": [],
+  "tasks": []
+}

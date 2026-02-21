@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1491,
+  "prerequisites": [
+    86,
+    2390
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "After you craft an IV assembler, upgrade your Electric Blast Furnace with new Coils out of HSS-G Ingots. This ingot becomes even more very important in LuV tier. But right now both of these are still far away. Just make a bit that you need for the next rocket.\n\nTo find a Molybdenum Vein, you probably want to make a high quality Prospector's Scanner with a good range.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§a§lHSS-G",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    86,
+    2390
+  ],
+  "rewards": [],
+  "tasks": []
+}

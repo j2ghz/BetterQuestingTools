@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3112,
+  "prerequisites": [
+    3110
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "This one is not as specialized as Toluene is. It's also more likely that you will be producing it in a Chemical Reactor, or working around it with recipes, if you choose not to use Oil or Benzene for some reason. You're here, though, so you have all of the possibilities, and all of the advantages of skipping through steps in several important chemical lines that accept Phenol, one of the first being epoxy resin. If you check NEI, you can more easily see where this chemical can come in handy.\n\nIt is true, though, that it isn't as required in HV as Toluene is. Since both of them are good power options alongside Benzene, it's preferable that you burn this one for power between the two, if you have to. In the best situation, you won't need to, but it's also acceptable to burn all of the Benzene and some Phenol, while the Toluene gets converted into its gelled form to make several stacks of TNT. Don't discredit the amount of power you can get from this.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Phenol's Width",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3110
+  ],
+  "rewards": [],
+  "tasks": []
+}

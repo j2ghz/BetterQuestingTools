@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3293625263206213155,
+  "prerequisites": [
+    17509788580095423501
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Bigger, better, faster. The Large Electric Compressor does about what you would expect.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Under Pressure",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    17509788580095423501
+  ],
+  "rewards": [],
+  "tasks": []
+}

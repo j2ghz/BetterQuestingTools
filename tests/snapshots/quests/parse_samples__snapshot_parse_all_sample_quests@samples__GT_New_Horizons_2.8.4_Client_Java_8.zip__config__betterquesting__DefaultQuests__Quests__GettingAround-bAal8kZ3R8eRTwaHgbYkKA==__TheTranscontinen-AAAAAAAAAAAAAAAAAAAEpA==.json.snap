@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1188,
+  "prerequisites": [
+    753,
+    866
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Railroads in the nether are dangerous. The reinforced tracks are blast proof. Hopefully you're blast proof too?\n\nYou can move 25% faster than with normal tracks.\n\nNEI doesn't show the right recipe on the first page. Go through the recipes a bit to find the right one.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "The Transcontinental Railroad - Creeper-Proof",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    753,
+    866
+  ],
+  "rewards": [],
+  "tasks": []
+}

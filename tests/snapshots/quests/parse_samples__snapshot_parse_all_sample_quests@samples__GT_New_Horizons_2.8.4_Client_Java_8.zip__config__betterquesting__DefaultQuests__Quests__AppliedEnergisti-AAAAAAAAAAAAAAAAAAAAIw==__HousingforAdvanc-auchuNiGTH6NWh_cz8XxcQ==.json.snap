@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 15602242066607108465,
+  "prerequisites": [
+    9249917096519586060
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You need to use this for the higher-tiered Fluid Cells.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Housing for Advanced Fluid Components",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    9249917096519586060
+  ],
+  "rewards": [],
+  "tasks": []
+}

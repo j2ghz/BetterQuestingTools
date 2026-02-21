@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2185,
+  "prerequisites": [
+    1117
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Monastic bees aren't found in hives or bred. Instead, you will need to find a Beekeeper villager and trade with them for it. There are various ways to make more villagers, so do some research.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Monastic",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1117
+  ],
+  "rewards": [],
+  "tasks": []
+}

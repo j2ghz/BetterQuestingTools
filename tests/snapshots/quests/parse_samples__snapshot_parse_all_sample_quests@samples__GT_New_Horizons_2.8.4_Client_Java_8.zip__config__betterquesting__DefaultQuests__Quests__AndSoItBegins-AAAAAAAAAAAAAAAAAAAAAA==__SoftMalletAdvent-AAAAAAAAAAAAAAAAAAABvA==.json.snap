@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 444,
+  "prerequisites": [
+    5
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You now have some melon slices or pumpkins but what can you do with them?\n\nYou can just eat them or... use a mallet to get some seeds. OK, let's craft one. Perhaps you can use this mallet for some other things too.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lSoft Mallet Adventure",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    5
+  ],
+  "rewards": [],
+  "tasks": []
+}

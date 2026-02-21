@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1537,
+  "prerequisites": [
+    609,
+    76
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Tired of having to replace tools all the time because they constantly break? Now that Steel is available, it's time to make some electric versions of the Screwdriver and Wrench! Charge them up like Batteries, and they'll last much longer than the non-electric versions of these tools.\n\nYou can use Lithium Batteries, or if you're on a budget, Cadmium or Sodium Batteries instead. This does reduce their energy capacity though. Later on, Vibrant Alloy will make excellent tools with great durability. There are, however, a multitude of other great materials that you may have access to, so take a look around in NEI and decide for yourself.\n\nThere are also MV and HV versions, though they require that you can process Aluminium or Stainless Steel, respectively.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lBlack and Decker",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    609,
+    76
+  ],
+  "rewards": [],
+  "tasks": []
+}

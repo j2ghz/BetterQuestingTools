@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 70,
+  "prerequisites": [
+    68,
+    71,
+    72
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You've almost made it. One last crafting step is required in order to advance to Tier 1. Keep going!\n\nThis Steam Turbine generates electricity from Steam. The power source you've been using is the same, but from this point on you will generate EU, and bring it to your machines via cables, instead of bringing the Steam directly to them. Luckily, electric machines don't need an exhaust port, and they are considerably more efficient than Bronze machines.\n\nAt a later point, you will most likely switch from Steam to another fuel, though.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§3§lSteam-a-licious!",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    68,
+    71,
+    72
+  ],
+  "rewards": [],
+  "tasks": []
+}

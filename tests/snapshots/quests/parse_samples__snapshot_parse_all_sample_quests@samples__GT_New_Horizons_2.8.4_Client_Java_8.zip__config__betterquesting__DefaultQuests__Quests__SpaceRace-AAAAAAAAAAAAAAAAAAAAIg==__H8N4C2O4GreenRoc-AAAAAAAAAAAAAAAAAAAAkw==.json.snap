@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 147,
+  "prerequisites": [
+    2293,
+    2695,
+    856
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Combine your Nitrogen Tetroxide and 1,1-Dimethylhydrazine in a Laurenium (Tier 7) Chemical Plant to make the green rocket fuel.\n\nThis is the final Rocket Fuel. With this, you can go anywhere. If you have the right rocket, of course.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§2§lH8N4C2O4 (Green) Rocket Fuel",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2293,
+    2695,
+    856
+  ],
+  "rewards": [],
+  "tasks": []
+}

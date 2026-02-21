@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2224012721220028601,
+  "prerequisites": [
+    768,
+    81
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Using the Vacuum Freezer you can create Liquid Air. Liquid Air can be centrifuged into additional gases you won't get when centrifuging normal compressed air. If you can gather enough Liquid Air you can instead distill it into a larger quantity and variety of rare gases.\n\nMake these special hatches to hold and store the amounts required for this recipe.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lDistill the Atmosphere",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    768,
+    81
+  ],
+  "rewards": [],
+  "tasks": []
+}

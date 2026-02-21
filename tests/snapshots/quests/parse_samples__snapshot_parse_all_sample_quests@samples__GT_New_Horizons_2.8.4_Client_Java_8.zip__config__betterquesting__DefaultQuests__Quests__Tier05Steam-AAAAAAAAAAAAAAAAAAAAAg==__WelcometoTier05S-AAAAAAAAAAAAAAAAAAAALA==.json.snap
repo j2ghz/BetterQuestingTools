@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 44,
+  "prerequisites": [
+    40
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Welcome, and well done so far! This tier is all about your first machines, getting more stuff from your ores and making bronze ingots in a more efficient manner.\n\nFor water, check out the Water Tank multiblock in the §9\"Water Dilemma\"§r quest. (Multiblock Goals tab)\n\nTo connect up your boilers, be sure to provide water from the bottom, they'll accept only water from this side, so no risk of melting your pipe. Wooden pipes are fine for this. Make sure you never run out of water - [warn]adding water to a dry hot boiler will cause it to explode![/warn]\n\nSteam will come out from the sides. Remember, steam is hot! It will destroy wooden pipes. And it can burn you if you walk on bronze pipes full of steam. Cover them with wooden planks or paper. Or just don't walk on/next to them.\n\nAnd no, you can't automate it. Make an electric one if you want to do that.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§3§lWelcome to Tier 0.5, Steam!",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "tierthemes:steam",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    40
+  ],
+  "rewards": [],
+  "tasks": []
+}

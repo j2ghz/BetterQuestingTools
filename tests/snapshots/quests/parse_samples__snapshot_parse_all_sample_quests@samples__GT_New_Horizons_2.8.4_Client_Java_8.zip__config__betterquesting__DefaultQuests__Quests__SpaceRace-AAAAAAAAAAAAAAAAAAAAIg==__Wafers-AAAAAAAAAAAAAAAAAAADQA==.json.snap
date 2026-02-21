@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 832,
+  "prerequisites": [
+    2744
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The basic wafer is used for creating basic machines such as the basic solar panel, the fuel loader, the energy storage module and the compressor.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Wafers",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2744
+  ],
+  "rewards": [],
+  "tasks": []
+}

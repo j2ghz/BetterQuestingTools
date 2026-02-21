@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 12617757762220607636,
+  "prerequisites": [
+    80,
+    12038758990578169035,
+    2621
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Introducing the bigger (and better) Implosion Compressor, the Electric Implosion Compressor.\n\nThe Electric Implosion Compressor does not need any explosive and only needs electricity, isn't that very nice!\n\nFurthermore it gains extra parallels 4^(Tier - 1) based on the containment block used in the middle.\n\nTier 1: Neutronium Block\nTier 2: Infinity Block\nTier 3: transcendent Metal Block\nTier 4: Spacetime Block\nTier 5: Universium Block\n\n[note]While the structure preview shows holes in the middle, it requires the full 27 containment blocks to form, once formed the middle 5 blocks will disappear visually, but sometimes when breaking you will get them back (and sometimes you won't). [/note]\n\n[note]The minimum allowed energy hatch tier is one tier below the recipe tier, so let's start with 2 UHV energy hatches for now.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Clean Implosions?!",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    80,
+    12038758990578169035,
+    2621
+  ],
+  "rewards": [],
+  "tasks": []
+}

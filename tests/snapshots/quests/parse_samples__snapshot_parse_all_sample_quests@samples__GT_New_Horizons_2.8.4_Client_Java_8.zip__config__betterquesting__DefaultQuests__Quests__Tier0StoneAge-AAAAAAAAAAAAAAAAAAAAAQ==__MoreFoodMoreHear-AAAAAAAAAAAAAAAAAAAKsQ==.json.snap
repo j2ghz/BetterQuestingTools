@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2737,
+  "prerequisites": [
+    15
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "So, food is great, right? But what's even greater is eating tons of it! Too boring and pointless you say? Well, what if I told you, that you can get extra hearts just by expanding your palate. You get 1 point for every half shank of hunger from a food eaten, and after 50 points, you get 1 extra heart! Now you have a reason to make all those Pam's foods. Each food contributes its shank-value once. Eating something from a lunch box counts as if you took it out and ate it manually.\n\nIf you want to see what foods you've eaten, you can use the Food Journal, but it's clunky. Realistically, you want to use NEI to both see foods eaten and not eaten. You can search for 'not yet eaten' to see foods left, and 'assisted' to see foods eaten. You need to have started diminishing returns first to see this.\n\nIf it doesn't work, go to NEI options at bottom-left when the inventory is open, then click on Inventory, and change Search Mode to Regex. Then restart your client and try searching again.§r\n\nThere are also two commands:\n\n/foodlist size\nTells you the overall progress, and the progress to the next heart.\n\n/foodlist sync <PlayerName>\nSync your food progression with the server if it gets out of sync.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§2§lMore Food, More Hearts",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    15
+  ],
+  "rewards": [],
+  "tasks": []
+}

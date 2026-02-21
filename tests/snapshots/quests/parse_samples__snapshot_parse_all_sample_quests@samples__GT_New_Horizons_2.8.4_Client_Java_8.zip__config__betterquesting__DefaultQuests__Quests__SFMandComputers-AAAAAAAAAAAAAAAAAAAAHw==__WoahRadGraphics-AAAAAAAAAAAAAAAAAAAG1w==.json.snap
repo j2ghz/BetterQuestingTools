@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1751,
+  "prerequisites": [
+    1759
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "See the digital world.\n\nYour graphics card allows the computer to draw text and other things to the screen.\n\nThe better graphics card you use the higher resolution, and better features can be drawn.\n\nYou also need a higher tier monitor to display colors or to get touchscreen compatibility, but that's something to worry about for another day.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Woah, Rad Graphics!",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1759
+  ],
+  "rewards": [],
+  "tasks": []
+}

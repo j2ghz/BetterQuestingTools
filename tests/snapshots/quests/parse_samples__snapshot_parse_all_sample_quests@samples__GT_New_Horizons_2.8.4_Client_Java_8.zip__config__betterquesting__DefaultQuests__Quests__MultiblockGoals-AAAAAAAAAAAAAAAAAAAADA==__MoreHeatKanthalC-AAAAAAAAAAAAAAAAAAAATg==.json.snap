@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 78,
+  "prerequisites": [
+    77
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Better materials need higher temperatures. You can just exchange the old coils with the new ones. Kanthal coils let you reach 2700K. You can even reuse the old coils in your Pyro or to make other machines, how fancy is that! If you don't have any other place to use them, you can macerate or arc furnace them too.\n\nIf you don't have a Vacuum Freezer yet, then cool the hot ingots in an MV Chemical Bath with Coolant.\n\nRemember that you can get an upgraded OC (4/4) instead of a regular one (4/2) if your coils are 1800K above the recipe temperature, as well as an EU discount. This applies to every 900K or 1800K above, so you should try to upgrade your coils as soon as you can.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lMore Heat - Kanthal Coil Upgrade",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    77
+  ],
+  "rewards": [],
+  "tasks": []
+}

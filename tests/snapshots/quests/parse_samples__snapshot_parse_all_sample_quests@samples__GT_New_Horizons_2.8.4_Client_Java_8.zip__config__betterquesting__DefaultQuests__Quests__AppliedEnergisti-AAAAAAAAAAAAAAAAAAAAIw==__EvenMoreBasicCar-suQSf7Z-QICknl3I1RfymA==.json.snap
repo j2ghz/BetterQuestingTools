@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 13150018884043535000,
+  "prerequisites": [
+    2539
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "[quest]Overflow Void, Pattern Refiller, and Sticky Cards[/quest]\n\n§6Overflow Void Card:§r \n\nOverflow Void Cards will cause the ME Storage Cell to void excess inputs\n\n§6Pattern Refiller Card:§r \n\nThe Pattern Refiller card will refill empty patterns in your Processing and Fluid Processing Terminals.\n\n§6Sticky Card:§r \n\nSticky Cards are useful if you want your ME System to only store a filtered item in one location across your entire network. \n\n[warn]Be careful with where you use sticky cards as they can lead to your passive systems jamming. [/warn]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Even More Basic Cards! ",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2539
+  ],
+  "rewards": [],
+  "tasks": []
+}

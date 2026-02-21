@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 17965788175562213466,
+  "prerequisites": [
+    529,
+    95
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Precision Laser Engraver does not have many functions in LV, but is needed to create Cut Firestone which can later be filled with lava.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lPrecision Laser Engraver",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    529,
+    95
+  ],
+  "rewards": [],
+  "tasks": []
+}

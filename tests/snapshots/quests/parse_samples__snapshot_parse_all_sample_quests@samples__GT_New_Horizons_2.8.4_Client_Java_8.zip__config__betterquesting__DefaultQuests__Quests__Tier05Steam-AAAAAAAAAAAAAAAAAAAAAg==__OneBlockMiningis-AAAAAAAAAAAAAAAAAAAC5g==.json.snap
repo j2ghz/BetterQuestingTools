@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 742,
+  "prerequisites": [
+    741
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "By making a hammer you are now able to mine a shaft of 3x3 blocks. You can use iron, steel, or obzinite poured from the Smeltery, it doesn't need to be steel. Higher tier metals require the MV extruder. You'll need a hammer head, two large plates and a large rod for your hammer. Be careful in the Nether or you could be boiled in lava very quickly.\n\n§6The quest should accept the tool whatever materials you used.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§3§lOne Block Mining is so Old School",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    741
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2166,
+  "prerequisites": [
+    2165,
+    2169
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Never having to use a treetap again? Sign me up! You'll need to put a Rubber Wood log beneath the bee housing. Breed them from Slimeball and Peat.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Sticky Resin",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2165,
+    2169
+  ],
+  "rewards": [],
+  "tasks": []
+}

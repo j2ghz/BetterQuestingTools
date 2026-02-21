@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2578,
+  "prerequisites": [
+    467,
+    2582
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Infinity axe, never breaks and capable of chopping down an entire tree instantly.\n\n[note]Cuz a levelled up and modified lumber axe is totally not capable of that.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Nature's Ruin",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    467,
+    2582
+  ],
+  "rewards": [],
+  "tasks": []
+}

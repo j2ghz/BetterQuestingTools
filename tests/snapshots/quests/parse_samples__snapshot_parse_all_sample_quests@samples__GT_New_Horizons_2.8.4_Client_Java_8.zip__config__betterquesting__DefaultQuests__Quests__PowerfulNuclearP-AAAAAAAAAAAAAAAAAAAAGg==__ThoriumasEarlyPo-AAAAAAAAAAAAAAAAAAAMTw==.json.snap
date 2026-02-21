@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3151,
+  "prerequisites": [
+    3145
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The very first step into nuclear power is done with Thorium in an Industrialcraft2 nuke. This multiblock already has a good amount of information in the questbook, split between the EV and How to Generate Power pages, so you should look at those if you want even more information that might not be written here. For the sake of not repeating everything, this will be more of a summary.\n\nThorium nukes are better for creating other elements, specifically Lutetium, than for power. The best setup needs the maximum amount of chambers, 6, and a lot of components inside the reactor to burn 10 quad Thorium rods and generate 1920 EU/t, close to one EV amp. If you made 4 of these, you would get close to an IV amp, but this becomes very costly between the total 36 chambers and the recursive crafting of the components inside. The good news is that Thorium is a very cheap fuel, easily mined in the Nether, and recyclable in large amounts from depleted fuel rods.\n\nThis setup, and many others, can be found in the GTNH wiki in the \"Nuclear Reactors\" page. However, to display it here as best I can, this is the 1920 EU/t Thorium reactor:\n\nOPVOVOPPO\nEOOEOEOOE\nORRORORRO\nORRORORRO\nEOOEOEOOE\nOPPOVOVPO\n\nE -> Component Heat Exchanger (8 needed)\nV -> Component Heat Vent (4 needed)\nO -> Overclocked Heat Vent (26 needed)\nR -> Quad Fuel Rod of Thorium (10 needed)\nP -> Reactor Plating (6 needed)\n\nYou can make this setup, if you wish, but the only required task to continue to the next quest are 10 single Thorium rods.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Thorium as Early Power",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3145
+  ],
+  "rewards": [],
+  "tasks": []
+}

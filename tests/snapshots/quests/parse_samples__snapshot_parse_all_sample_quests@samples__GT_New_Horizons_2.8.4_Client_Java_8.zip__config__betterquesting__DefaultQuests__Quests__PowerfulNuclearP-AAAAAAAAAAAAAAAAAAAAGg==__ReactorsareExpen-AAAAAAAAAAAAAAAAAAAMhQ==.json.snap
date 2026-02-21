@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3205,
+  "optional_prerequisites": [
+    3162,
+    3163
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Your first t1 Fusion Reactor is one of the biggest walls to overcome throughout this pack's progression. It's very unlikely you can afford to just build another one right after, so you will have to manage several reactions with that single one.\n\nThe new fusion condition is that you will have to pay a cost of EU and time every time you switch the recipe that's being crafted. Assuming you're using fusion power, the production of Europium and any other material should be batched between your usual rows of power generation. Perhaps you're overproducing power? In that case, you can use the pause to fuse some useful materials.\n\nIn time, you will be able to afford and use multiple fusion reactors. For now, this isn't the case.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Reactors are Expensive!",
+    "party_single_reward": null,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

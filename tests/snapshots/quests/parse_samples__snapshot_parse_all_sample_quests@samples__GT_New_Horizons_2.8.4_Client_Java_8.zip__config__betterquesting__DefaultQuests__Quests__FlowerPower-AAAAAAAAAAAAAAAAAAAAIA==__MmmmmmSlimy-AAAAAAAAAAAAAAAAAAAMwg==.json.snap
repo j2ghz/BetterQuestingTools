@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3266,
+  "prerequisites": [
+    3263
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Have you ever seen a slime and thought \"I'd love to eat that\"? The narslimmus has.\n\nIt needs to be planted somewhere slimes can naturally appear, but if you can find a good place for a narslimmus it'll consume those slimes and give you a good amount of mana in return.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Mmmmmm, Slimy!",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3263
+  ],
+  "rewards": [],
+  "tasks": []
+}

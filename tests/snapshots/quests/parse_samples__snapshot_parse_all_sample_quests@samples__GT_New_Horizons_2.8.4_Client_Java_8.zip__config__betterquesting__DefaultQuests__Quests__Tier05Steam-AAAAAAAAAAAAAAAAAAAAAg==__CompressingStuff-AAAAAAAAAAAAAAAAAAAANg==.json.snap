@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 54,
+  "prerequisites": [
+    49
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "This rather simple device does a very important job: compression. Its main function is to press 9 ingots into a block, but it's also useful for a variety of recipes, for example making firm tofu.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 1,
+    "name": "§3§lCompressing Stuff",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    49
+  ],
+  "rewards": [],
+  "tasks": []
+}

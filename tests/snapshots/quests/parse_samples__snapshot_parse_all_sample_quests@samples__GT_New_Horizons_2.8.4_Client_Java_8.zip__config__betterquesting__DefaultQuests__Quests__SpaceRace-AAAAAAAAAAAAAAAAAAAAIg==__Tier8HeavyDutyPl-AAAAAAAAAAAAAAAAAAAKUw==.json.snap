@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2643,
+  "prerequisites": [
+    2708,
+    2629
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Rockets require heavy duty plates for the main hull. Let's craft 19 tier 8 heavy duty plates out of tier 7 plates and compressed black plutonium plates.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Tier 8 Heavy Duty Plates",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2708,
+    2629
+  ],
+  "rewards": [],
+  "tasks": []
+}

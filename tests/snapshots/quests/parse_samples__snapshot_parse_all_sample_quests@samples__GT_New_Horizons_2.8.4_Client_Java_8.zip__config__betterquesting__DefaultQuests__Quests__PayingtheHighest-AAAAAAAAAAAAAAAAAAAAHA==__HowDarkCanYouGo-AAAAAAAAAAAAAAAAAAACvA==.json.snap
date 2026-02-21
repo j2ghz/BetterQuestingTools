@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 700,
+  "prerequisites": [
+    2460
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Seriously, how dark can one be? You're sure the face in that crystal was nothing but imagination...",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "How Dark Can You Go?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2460
+  ],
+  "rewards": [],
+  "tasks": []
+}

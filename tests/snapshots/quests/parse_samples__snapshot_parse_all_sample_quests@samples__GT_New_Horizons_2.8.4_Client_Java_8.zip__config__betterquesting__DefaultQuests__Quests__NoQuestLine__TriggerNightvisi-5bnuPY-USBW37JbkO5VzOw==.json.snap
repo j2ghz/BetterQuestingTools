@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 10345973500008035131,
+  "prerequisites": [
+    753,
+    838,
+    775
+  ],
+  "properties": {
+    "auto_claim": true,
+    "desc": "Skip is here for those who get the goggles in a lootbag",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": true,
+    "locked_progress": 0,
+    "name": "Trigger: Nightvision Goggle Skip",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    753,
+    838,
+    775
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1764,
+  "prerequisites": [
+    1763
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "For this part we will learn how to use our adapter, place it next to, let's say your EBFs battery buffer and connect it to the computer with cables.\nNow let's type in lua while on the computer to open the LUA environment where we can test things without worrying about saving and trying our program.\n\nType in 'component.list()' this will display a table of all of .list from component. What we're looking for is gt_batterybuffer.\nIf you have too many nearby things it may not display and the way to search the entire list of components is too advanced for starters.\n\nSo now assign a variable to it; for example 'a = component.gt_batterybuffer'; now we can call 'a' to see what methods the batteryBuffer has.\nWhat we'll be using in this example is the 'getBatteryCharge' method. So type  'a.getBatteryCharge(1)' this will call the method getBatteryCharge from the first inventory slot on the gt_batterybuffer in component.\n\nSo if we're using a 2x2 battery buffer; we can type something like, 'for i=1, 4 do print(a.getBatteryCharge(i)) end'\nPoof you now see what all the batteries EU values. Now what can we do with this?\n\nTry making a variable called 'batteryCharge = 0', now do 'for i=1, 4 do batteryCharge = batteryCharge + a.getBatteryCharge(i) end'\n\nNow print(batteryCharge) will display the total charge. Here's a program example of this being used.\n\nPlace in your tape drive and type 'install', and follow the prompts to install it into C. Then edit it, test it, figure how it works.\n\nI suppose that's enough for now; congrats! Experiment and learn, and don't forget to check google as much as possible!\nThis questline will be updated again in the future; but I figure this is a good ending point for now.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Basic Power Display",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1763
+  ],
+  "rewards": [],
+  "tasks": []
+}

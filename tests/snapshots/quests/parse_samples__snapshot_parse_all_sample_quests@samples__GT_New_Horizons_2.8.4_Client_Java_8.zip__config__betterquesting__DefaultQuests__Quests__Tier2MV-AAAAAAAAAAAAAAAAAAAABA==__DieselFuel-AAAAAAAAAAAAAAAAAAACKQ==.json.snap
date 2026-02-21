@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 553,
+  "prerequisites": [
+    549,
+    552,
+    751
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "If you get an MV mixer, you can mix your light and heavy fuel together to give diesel. At 480,000 per cell, this turns 1,885,000 EU into 2,880,000, not accounting for how much you spent to get it, so it's definitely worth it.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lDiesel Fuel",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    549,
+    552,
+    751
+  ],
+  "rewards": [],
+  "tasks": []
+}

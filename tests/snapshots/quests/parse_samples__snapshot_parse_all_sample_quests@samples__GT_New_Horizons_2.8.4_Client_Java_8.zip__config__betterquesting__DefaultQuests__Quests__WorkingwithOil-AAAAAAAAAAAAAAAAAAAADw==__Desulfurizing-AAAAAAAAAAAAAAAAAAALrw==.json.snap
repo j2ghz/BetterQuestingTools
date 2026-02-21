@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2991,
+  "prerequisites": [
+    2984
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "After distillation, the fluid you got still isn't that good. It can be used for power, but it's almost as bad as Oil itself unless you remove the sulfuric content it has. This applies for all the portions that can be distilled from Oil, and as such it's a required step regardless of which one you're working with.\n\nTo get clean Light Fuel, the sulfur needs to be drawn out with something that reacts with it, in a Chemical Reactor. What you need is Hydrogen, a relatively common gas that can be electrolyzed from water, or from specific ores (check NEI for all the possible sources). After reacting, you will get Hydrogen Sulfide and the clean Light Fuel, which can be further processed or burned for power at this stage.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Desulfurizing",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2984
+  ],
+  "rewards": [],
+  "tasks": []
+}

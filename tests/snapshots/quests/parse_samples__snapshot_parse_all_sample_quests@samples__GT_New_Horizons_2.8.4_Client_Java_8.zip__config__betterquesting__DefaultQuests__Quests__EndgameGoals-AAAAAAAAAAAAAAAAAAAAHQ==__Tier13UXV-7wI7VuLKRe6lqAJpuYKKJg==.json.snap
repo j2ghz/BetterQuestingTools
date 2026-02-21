@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 16341951089484139046,
+  "prerequisites": [
+    10271101829445155085,
+    18135508534117862498
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Welcome to the final tier of NH (for now).\n\nWe hope you enjoy your stay, though be prepared for a lot of waiting.\n\nNow that you have a reliable way to make MHDCSM, it would be wise to upgrade your EOHs to T9 for the Universium boost.\n\nHave fun crafting the Stargate!\n\n[warn]This tier is far from complete. Expect changes.[/warn]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Tier 13 (UXV)",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "tierthemes:uxv",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    10271101829445155085,
+    18135508534117862498
+  ],
+  "rewards": [],
+  "tasks": []
+}

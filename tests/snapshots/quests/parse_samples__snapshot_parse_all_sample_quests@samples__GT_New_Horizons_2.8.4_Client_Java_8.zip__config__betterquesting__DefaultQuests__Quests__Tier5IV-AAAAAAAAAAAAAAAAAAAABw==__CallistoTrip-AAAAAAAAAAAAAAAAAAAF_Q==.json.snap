@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1533,
+  "prerequisites": [
+    215
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Callisto Ice is a material you need for Tier 4 Rockets. Look for it at Y 40-60. You can also find platinum series and radioactive ores here.\n\n[note]You can also find Mytryl and Ledox here as small ores.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lCallisto Trip",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    215
+  ],
+  "rewards": [],
+  "tasks": []
+}

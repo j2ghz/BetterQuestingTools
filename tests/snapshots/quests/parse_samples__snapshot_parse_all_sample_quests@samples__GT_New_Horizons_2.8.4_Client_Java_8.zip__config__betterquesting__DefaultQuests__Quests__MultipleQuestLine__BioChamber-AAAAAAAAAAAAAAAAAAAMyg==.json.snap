@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3274,
+  "prerequisites": [
+    3273
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "As I got new technologies, I have seen the need to make a chamber where the circuit board can contain neurons for the wetware boards or the upcoming bioware boards.\n\nThe Bio Chamber is a simple upgrade, it doesn't require many resources. Don't know why I didn't make it earlier.\n\n[note]It can use any glass.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Bio Chamber",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3273
+  ],
+  "rewards": [],
+  "tasks": []
+}

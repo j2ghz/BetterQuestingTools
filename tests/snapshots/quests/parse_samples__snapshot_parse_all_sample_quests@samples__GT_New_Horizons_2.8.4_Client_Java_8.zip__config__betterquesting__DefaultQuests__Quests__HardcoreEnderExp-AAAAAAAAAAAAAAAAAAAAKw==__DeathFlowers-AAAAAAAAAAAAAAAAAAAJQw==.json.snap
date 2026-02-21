@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2371,
+  "prerequisites": [
+    2350
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The purple flowers found on top of Endstone Blobs are Death Flowers. They can be planted on End Stone, Dirt, Grass or inside Flower Pots.\n\nOutside the End, the flower will slowly decay, even if in a Flower Pot.\n\nAfter some time of decaying, it starts to occasionally attract Angry Endermen.\n\nWhen the flower decays completely, it turns dark, propagates massive amount decay to nearby blocks and spawns an Energy Cluster.\n\nPartial decay can be healed a little using End Powder.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Death Flowers",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2350
+  ],
+  "rewards": [],
+  "tasks": []
+}

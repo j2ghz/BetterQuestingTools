@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2616,
+  "prerequisites": [
+    2656,
+    2673,
+    2613
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Welcome to Highly Ultimate Voltage... you're starting to get near the late game. In this tier you will use Cosmic Neutronium to create strong parts, and eventually start making your very own Infinity. You will gain access to some very powerful Quality-of-Life tools during this chapter.\n\n[note]Oh, and... have fun with Xenoxene![/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Tier 9 (UHV)",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "tierthemes:uhv",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2656,
+    2673,
+    2613
+  ],
+  "rewards": [],
+  "tasks": []
+}

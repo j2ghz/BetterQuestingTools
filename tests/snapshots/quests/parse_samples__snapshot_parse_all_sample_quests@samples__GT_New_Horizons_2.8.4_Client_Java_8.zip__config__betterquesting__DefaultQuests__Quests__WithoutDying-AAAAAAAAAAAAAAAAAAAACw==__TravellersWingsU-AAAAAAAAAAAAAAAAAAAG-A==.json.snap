@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1784,
+  "prerequisites": [
+    1781
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Your wings can be equipped with a few modifications such as feather falling and double jump. Place the wings in the center of a Crafting Station.\n\nFeather Fall allows you to glide down slowly in air.\nDouble Jump means you jump while in the air to jump again.\n\nHint:\nAutorepair can be added to the wings as well.\nEvery Armor part has 3 Slots for modification.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Traveller's Wings Upgrades",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1781
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 17850384832099655846,
+  "prerequisites": [
+    3218
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "[note]Hurrah, you can finally move on to the UMV tier![/note]\n\nThe residue produced from the DTPFs seems to have an interesting interaction with reality, as if it bends the universe to its will.\n\nWhat if you combined it with some infinity and hypogen to excite it, and an energized tesseract as a way to fling it back and forth to the 4th Dimension?\n\nMaybe then you could achieve the unachievable, a building block of the entire universe.\n\n[note]The base recipe is horrible, so definitely make the Eternal Coils for your DTPF first.\n\nCongrats on making it this far![/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Your First SpaceTime",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3218
+  ],
+  "rewards": [],
+  "tasks": []
+}

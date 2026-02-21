@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2118,
+  "prerequisites": [
+    2112
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Dragon backpack gives you Fire Resistance, Strength, Night Vision and Regeneration.\n\n[note]It may be really good, but also uses up a dragon egg, so be sure you want it, or can craft another.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Here There be Dragons",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2112
+  ],
+  "rewards": [],
+  "tasks": []
+}

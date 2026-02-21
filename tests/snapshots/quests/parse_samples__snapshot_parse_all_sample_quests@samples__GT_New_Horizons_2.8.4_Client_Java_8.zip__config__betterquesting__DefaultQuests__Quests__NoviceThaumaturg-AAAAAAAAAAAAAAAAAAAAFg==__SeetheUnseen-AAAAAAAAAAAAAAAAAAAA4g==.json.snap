@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 226,
+  "prerequisites": [
+    233
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Everything is made of 6 primal aspects. Those aspects can be combined to form compound aspects, but in the end, there are only 6, kinda like the infused shards you found. You noticed that those shards start to vibrate when you bring them next to something that is made of the respective aspect. Maybe you can create a device to actually \"scan\" items, and reveal their compounds? This could be very useful later on.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "See the Unseen",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    233
+  ],
+  "rewards": [],
+  "tasks": []
+}

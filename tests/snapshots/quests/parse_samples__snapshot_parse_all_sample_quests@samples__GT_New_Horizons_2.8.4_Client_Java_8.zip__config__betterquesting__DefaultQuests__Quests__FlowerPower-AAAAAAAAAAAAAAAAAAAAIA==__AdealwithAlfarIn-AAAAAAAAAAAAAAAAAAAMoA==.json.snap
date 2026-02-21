@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3232,
+  "prerequisites": [
+    3230
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "So the rumors about the elves are true. Well, §owere§r true. Some are still true. And what isn't true used to be true.\n\nTurns out they have since been talking to a mysterious individual they call the §oDream Master§r. Apparently that sparked an industrial revolution among the Alfar. Sadly, that means that they now insist on receiving the latest fashion in machinery to fuel their ever-expanding factories, in exchange for the elven materials that are now rapidly going out of fashion.\n\nSomeone needs to have a word with this guy...",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "A Deal With Alfar Industries",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3230
+  ],
+  "rewards": [],
+  "tasks": []
+}

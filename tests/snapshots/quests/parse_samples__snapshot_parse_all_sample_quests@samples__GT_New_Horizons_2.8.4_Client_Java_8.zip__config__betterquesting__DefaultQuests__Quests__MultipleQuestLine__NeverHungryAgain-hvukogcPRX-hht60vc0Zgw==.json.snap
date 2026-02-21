@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 508701697863653763,
+  "prerequisites": [
+    2628
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Congratulations! You have gracefully served your penance; no longer shall you be bound by the woes of hunger. \n\nWith this new trinket (equipable in a baubles slot) you will automatically have your hunger and saturation replenished, so long as the nanobooster stays charged.\n\nAdditionally it will do it's best to keep you healed, though it cannot ward off death completely on its own.\n\n[note]P.S. Upgrading your wireless charger might be a good idea![/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Never Hungry Again",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2628
+  ],
+  "rewards": [],
+  "tasks": []
+}

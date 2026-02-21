@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 900,
+  "prerequisites": [
+    901
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Bad things may happen if this creature is allowed to stay alive. The ores in its cave being valuable have nothing to do with why you need to kill it. Seriously.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Don't Look it in the Eyes!",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": 864000,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    901
+  ],
+  "rewards": [],
+  "tasks": []
+}

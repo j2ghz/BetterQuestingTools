@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2535,
+  "prerequisites": [
+    2137
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Quest names are hard sometimes, ok? To make a Singularity (for the Quantum Network Bridge), you'll need to dump 512,000 items into the Matter Condenser set to Singularity Mode, while using a 64k component or higher.\n\nThese singularities have a few purposes. Primarily they are used in creating quantum entangled singularities for the quantum ring, but they can also be used to create void cells and a couple other useful items.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Singular Singularities Signify Something",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2137
+  ],
+  "rewards": [],
+  "tasks": []
+}

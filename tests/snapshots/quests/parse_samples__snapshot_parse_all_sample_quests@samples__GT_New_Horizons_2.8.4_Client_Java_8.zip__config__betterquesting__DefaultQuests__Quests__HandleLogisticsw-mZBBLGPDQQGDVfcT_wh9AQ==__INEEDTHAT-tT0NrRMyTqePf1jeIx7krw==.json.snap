@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1383254515311895727,
+  "prerequisites": [
+    17971695594000210796,
+    12513053663882952434
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "A lot of recipes take fluids. But crafting modules only have slots for items...\n\nIntroducing the Fluid Crafting Upgrade. It will allow you to allocate one kind of fluid for the craft. Drag one fluid cell containing the fluid you need into the fluid slot and set the correct amount.\n\nDon't forget to bind it to a fluid satellite pipe. The way it binds is identical to the satellite logistics pipe.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "I NEED THAT!!!!!!",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    17971695594000210796,
+    12513053663882952434
+  ],
+  "rewards": [],
+  "tasks": []
+}

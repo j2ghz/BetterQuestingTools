@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3153,
+  "prerequisites": [
+    3149
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "All the regular Fusion Reactors share the same structure. The tier they belong to is determined by the materials used, which become more expensive for each tier. Tier 1 is LuV, tier 2 is ZPM, tier 3 is UV and there's also a tier 4. The structure looks like a huge ring, which barely fits in one chunk, with the controller on the inside of the ring, not the outside.\n\nTo help you with placing all the blocks in the right places, the controller's interface shows a diagram of which blocks go where. To get a 3D view of the placements in the world, use the Multiblock Structure Hologram Projector on the controller. If you need even more assistance, there are lots of resources on the internet that explain how it's build, since this is a big GregTech multiblock that is required in many packs, and almost always built the same way.\n\nThe original quests for each reactor tier will be included in the questline, since they provide good information about each tier and are updated.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Building the Reactor",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3149
+  ],
+  "rewards": [],
+  "tasks": []
+}

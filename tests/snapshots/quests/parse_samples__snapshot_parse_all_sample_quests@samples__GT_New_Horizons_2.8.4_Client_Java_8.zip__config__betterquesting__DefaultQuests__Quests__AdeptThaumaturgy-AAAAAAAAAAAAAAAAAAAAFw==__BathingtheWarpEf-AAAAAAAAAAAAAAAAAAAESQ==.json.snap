@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1097,
+  "prerequisites": [
+    1055
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Litmus paper will tell you how high your warp level is, but how can you get rid of the nasty warp effects? Bath salt will help you by prohibiting warp effects for a short period. Just throw the salt into a 1x1 water hole and jump inside. You will feel relieved a bit after bathing.\n\n[note]Note: The more permanent warp you have, the shorter the duration.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Bathing the Warp Effects Away",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1055
+  ],
+  "rewards": [],
+  "tasks": []
+}

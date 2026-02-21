@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 300,
+  "prerequisites": [
+    295
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "As you do more and more infusions, you're getting tired of removing all the flux that's generated. The Shovel of the Purifier will help you clean up flux, and is a must-have.\n\n§3Actually this is pretty useless, if you have any concept of what you're doing.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Cleaning the Goo",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    295
+  ],
+  "rewards": [],
+  "tasks": []
+}

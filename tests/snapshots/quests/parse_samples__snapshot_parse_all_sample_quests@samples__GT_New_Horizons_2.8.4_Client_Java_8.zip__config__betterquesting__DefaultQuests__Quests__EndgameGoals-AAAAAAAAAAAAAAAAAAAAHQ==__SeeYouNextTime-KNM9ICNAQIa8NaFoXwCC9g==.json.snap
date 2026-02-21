@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2540101135700624118,
+  "optional_prerequisites": [
+    2598,
+    7654505089167594487
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Still want more? Consider doing another run! Maybe even with some restrictions if you want to spice it up a bit. Check the first quest chapter for some recommendations!\n\nThere's also roles to be earned for completing the pack two or even three times if you want an extra incentive.\n\n[note]This quest and “The Factory Must Grow!” are mutually exclusive; completing one will lock the other.\r\n\r\nIf you are going for 100% questbook completion, don't panic, finishing either quest still allows the tab to receive a green check (much like the previous XOR quests).[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "See You Next Time!",
+    "party_single_reward": null,
+    "quest_logic": "XOR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "SECRET"
+  },
+  "rewards": [],
+  "tasks": []
+}

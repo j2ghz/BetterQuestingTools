@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 14163329716812610545,
+  "prerequisites": [
+    3241
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The item when used will raise a sphere of land into the air, centered on the selected block. The radius of the sphere and the height elevated are determined by the Shard Power. The process is not instant, and instead will move each block at a time until every block within a radius is moved. Blocks that rely on walls or floors, such as torches and crops, will drop in the process, as the required support is not moved alongside.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Laputa I",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3241
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 466,
+  "prerequisites": [
+    2656,
+    2467
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Now you §ocould§r connect Quantum Chests to your ME System with Storage Buses, and maybe you are already doing that. But why not use all your new technology to make a Quantum Storage Cell?\n\nIt only takes a single item type, but you can store more than a billion items! That surely must be enough, right? RIGHT?",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Quantum Storage",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2656,
+    2467
+  ],
+  "rewards": [],
+  "tasks": []
+}

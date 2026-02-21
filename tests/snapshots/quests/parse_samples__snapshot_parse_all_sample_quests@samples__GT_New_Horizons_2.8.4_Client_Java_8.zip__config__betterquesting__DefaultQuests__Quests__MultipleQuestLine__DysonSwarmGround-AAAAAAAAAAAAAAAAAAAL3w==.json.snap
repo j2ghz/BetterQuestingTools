@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3039,
+  "prerequisites": [
+    3242,
+    3038
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Dyson Swarm Ground Unit multiblock is basically a solar panel, you just insert Dyson Swarm Modules (how many depends on how much energy you want) and get energy out. There are some complications though:\n- Each hour, n of m modules are destroyed according to this formula: n = m (2 * 0.066) / (exp(-0.00005 * (m - 1))+exp(0.00003 * cps)), where cps is computation per second,\n- Needs 3.6M L/h of Gelid Cryotheum.\n- Up to 10,000 modules can be inserted into a single Dyson Swarm.\n- Dyson Swarm can only accept up to 100k computation.\n\n[note]Note: TecTech's Multi-Amp Dynamo Hatches and Laser Source Hatches are supported.[/note]\n\nThe amount of each part on the right is only the minimum, depending on how many Dynamo Hatches, Input Buses, Input Hatches and Optical Reception Connectors you use, you may need more Energy Receiver Base Casings, Module Deployment Unit Base Casings or Control Center Base Casings.\n\n[warn]This machine will explode if Dynamo buffer is full![/warn]\n\nFun fact: The maximum output is 337B EU/t (limited by 10,000 Modules and the 3.37x dimension bonus of Horus)\n\n(If you don't want to calculate how many modules you need per hour, the number is 64 for max stats)",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Dyson Swarm Ground Unit",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3242,
+    3038
+  ],
+  "rewards": [],
+  "tasks": []
+}

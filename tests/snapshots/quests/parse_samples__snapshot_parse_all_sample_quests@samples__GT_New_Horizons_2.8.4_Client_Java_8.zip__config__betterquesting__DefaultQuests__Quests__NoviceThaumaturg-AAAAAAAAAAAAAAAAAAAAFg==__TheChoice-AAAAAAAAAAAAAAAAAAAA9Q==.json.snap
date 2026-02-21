@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 245,
+  "prerequisites": [
+    252
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "By now, you should've collected a few (or a lot) of locations for aura nodes to get vis from. You might also have noticed that you're probably low on a certain aspect, like ordo or ignis. Well, good news. In exchange for some crystal clusters, I will give you one of my old nodes. They're all pale, but they'll still help you out. You may only choose one, so think twice before you make your decision.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "The Choice...",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    252
+  ],
+  "rewards": [],
+  "tasks": []
+}

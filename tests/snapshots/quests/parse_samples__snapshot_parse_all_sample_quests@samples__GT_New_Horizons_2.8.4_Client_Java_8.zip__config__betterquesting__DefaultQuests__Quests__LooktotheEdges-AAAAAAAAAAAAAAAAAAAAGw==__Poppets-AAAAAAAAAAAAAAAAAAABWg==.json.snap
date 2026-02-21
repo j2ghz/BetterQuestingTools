@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 346,
+  "prerequisites": [
+    335
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Get a poppet and make the type you like with it to protect you against that thing. We recommend the death protection one.\n\nConsider making the poppet shelf so you don't need to carry a bunch of them around with you. It needs to be chunkloaded to work.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Poppets",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    335
+  ],
+  "rewards": [],
+  "tasks": []
+}

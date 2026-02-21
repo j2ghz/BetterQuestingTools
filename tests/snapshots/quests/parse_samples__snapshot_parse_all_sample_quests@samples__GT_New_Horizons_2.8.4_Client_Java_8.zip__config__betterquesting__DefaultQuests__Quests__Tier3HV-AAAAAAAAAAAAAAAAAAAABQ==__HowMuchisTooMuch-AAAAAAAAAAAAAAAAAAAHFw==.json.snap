@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1815,
+  "prerequisites": [
+    1871
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "There's no limit to how much fluid you might want to store. Make yourself some super tank III's for all your bulk storage needs.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lHow Much is Too Much Fluid?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1871
+  ],
+  "rewards": [],
+  "tasks": []
+}

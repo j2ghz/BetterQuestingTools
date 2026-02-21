@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 184,
+  "prerequisites": [
+    181
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "To have access to your applied energistics network from your entire base, you'll need cables. A lot of them. For now, the basic ones will do, but eventually, you'll end up using dense cables and p2p channels. Glass and Covered cables are functionally identical, just different in looks. Each can carry 8 channels. Quartz fibers don't carry channels but can carry energy. This is useful for providing power from your main network to independent subnetworks.\n\nYou can also color your cables - cables with different colors will not connect, so those can be used to expand network capacity by running parallel cables. Only fluix colored cables connect to all other colors. Later it will probably be more efficient to use P2P channels to jam a bunch of channels into 1.\n\nAnchors are like covers, keeping things from connecting when you don't want them to.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Cables",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    181
+  ],
+  "rewards": [],
+  "tasks": []
+}

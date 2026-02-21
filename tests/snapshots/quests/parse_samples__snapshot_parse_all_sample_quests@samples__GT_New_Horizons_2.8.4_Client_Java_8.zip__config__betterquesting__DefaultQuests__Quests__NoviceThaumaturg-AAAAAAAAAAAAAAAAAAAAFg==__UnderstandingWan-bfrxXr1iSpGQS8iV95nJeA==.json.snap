@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 13646551811670788472,
+  "prerequisites": [
+    232
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "More advanced Thaumcraft recipes require larger and larger amounts of vis that your initial wands can't handle. You need to progress bit by bit to increase your capabilities. The progression is two-fold:\n\nFirst, you need to craft more advanced wands, the Greatwood Wand is next. And secondly, you need to improve your crafting discounts. They reduce the vis cost of crafts and thus also let you craft higher vis recipes.\n\nIn your progression you will need to rely on both aspects. Better wands and higher discounts. However, as you progress, there are many different ways on how to proceed. Some ways focus more on discounts, others more on wands. Therefore, the questbook can only give you some general advice.\n\nFor example, when making a new wand type, it is always cheapest to first make it with iron caps and then try to improve it afterwards. One way you can improve your wand is by swapping the cores & caps for higher tiers as you unlock them §3(see \"Substitution\" research)§r. However, if you are able to obtain enough discounts you can directly make the wand with gold caps or better, skipping the iron capped wand altogether.\n\nBut before all these options really open up, let us work on that Greatwood Wand!",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Understanding Wand Progression",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    232
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1935,
+  "prerequisites": [
+    54
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "If you want to decorate your base, you're going to need a better chisel.\n\nNormal: 256\nObsidian: 512\nDiamond: 2560\nBedrockium: 32767\n\nThey obviously get harder to make the longer they last.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "A Better Chisel",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    54
+  ],
+  "rewards": [],
+  "tasks": []
+}

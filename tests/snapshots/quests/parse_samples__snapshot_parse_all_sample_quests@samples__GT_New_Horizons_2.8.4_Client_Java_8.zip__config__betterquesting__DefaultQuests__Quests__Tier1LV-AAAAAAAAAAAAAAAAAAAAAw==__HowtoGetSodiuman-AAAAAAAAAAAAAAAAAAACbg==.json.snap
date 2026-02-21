@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 622,
+  "prerequisites": [
+    609
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Salt ore mixes can be found in the Overworld between Y 50-70.\n\nSalt isn't only used to get sodium, it's an important ingredient in many pam's harvestcraft food recipes.\n\nLepidolite and spodumene are good sources of lithium for your batteries. Later on you can get a lot more in different ways.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lHow to Get Sodium and Lithium",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    609
+  ],
+  "rewards": [],
+  "tasks": []
+}

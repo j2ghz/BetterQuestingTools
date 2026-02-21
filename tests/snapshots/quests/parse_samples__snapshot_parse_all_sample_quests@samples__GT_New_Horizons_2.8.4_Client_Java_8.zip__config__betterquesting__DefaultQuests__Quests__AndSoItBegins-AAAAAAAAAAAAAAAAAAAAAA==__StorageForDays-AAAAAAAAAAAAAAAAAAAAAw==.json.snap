@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3,
+  "prerequisites": [
+    5
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Now that you've gotten your tools and are about to go collect a bunch of stuff, it's time to make some storage for it.\nTake some of your wood, and craft a chest. You will need 4 wood, 4 planks, and 1 flint.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 1,
+    "name": "§9§lStorage For Days",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    5
+  ],
+  "rewards": [],
+  "tasks": []
+}

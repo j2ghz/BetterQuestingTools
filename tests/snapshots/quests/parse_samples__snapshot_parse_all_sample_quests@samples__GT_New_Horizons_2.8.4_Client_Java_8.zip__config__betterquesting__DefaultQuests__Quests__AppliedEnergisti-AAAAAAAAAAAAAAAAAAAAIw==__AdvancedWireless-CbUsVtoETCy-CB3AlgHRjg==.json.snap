@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 15709765154554106254,
+  "prerequisites": [
+    1329,
+    2610
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Advanced Wireless Setup Kit is a must have for heavy wireless users. Instead of being a 1:1 back and forth it allows you to enter a \"queuing mode\" and a \"binding mode\" where you can select multiple targets at one time to bind in a row.\n\nWhen binding to connectors, the kit will bind connectors in the exact order that they were queued in. \n\nTo clear a queue and reset the kit, just shapelessly craft it into itself in your inventory.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Advanced Wireless Setup Kit",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1329,
+    2610
+  ],
+  "rewards": [],
+  "tasks": []
+}

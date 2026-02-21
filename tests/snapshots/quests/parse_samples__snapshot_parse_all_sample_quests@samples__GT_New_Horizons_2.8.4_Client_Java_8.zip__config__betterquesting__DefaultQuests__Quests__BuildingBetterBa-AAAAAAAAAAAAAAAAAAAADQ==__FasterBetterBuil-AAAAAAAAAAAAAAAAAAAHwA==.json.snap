@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1984,
+  "prerequisites": [
+    1598,
+    1983
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Enhanced Building Guide offers more features than the standard model. Most importantly, you can right-click on any white part of the block with the item you want placed and the block will place in the world. It needs a redstone signal to activate.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Faster, Better, Buildi-er",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1598,
+    1983
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2083,
+  "prerequisites": [
+    578,
+    103
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Now that you have entered MV you can begin breeding Forestry trees the smart way. Start by getting a Treealyzer, and scan the vanilla trees. They will transform into the forestry versions. You will need to gather honey or honeydew drops from bee combs to power the Treealyzer.\n\nIf you want to bulk scan saplings, you can feed them through a GT scanner filled with honey.\n\nYou can also try the Genetics mod to modify them. It's on the first bee tab.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Such Pretty Leaves...",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    578,
+    103
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 643,
+  "prerequisites": [
+    642,
+    550,
+    543
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Refine your gas in a chemical reactor with Hydrogen gas to give it a better burn value of 160,000 EU. It used to be the least useful fraction of oil, but it's now possible to distill it into large amounts of Ethylene if you steam-crack the Refinery Gas beforehand.\n\nThis early, you will have to use a Chemical Reactor to crack it, but later on there's a dedicated multiblock for this purpose, the Oil Cracker. For best Ethylene results, you should severely steam-crack it, and you will get lots of Methane as well.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lRefinery Gas",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    642,
+    550,
+    543
+  ],
+  "rewards": [],
+  "tasks": []
+}

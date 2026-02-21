@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 205,
+  "prerequisites": [
+    1449,
+    186,
+    1452
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "No need to fly to distant planets on your own, just to grab ores.\n\n[note]Usefulness level: Doubtful.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Cargo Rocket: For the Fun",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1449,
+    186,
+    1452
+  ],
+  "rewards": [],
+  "tasks": []
+}

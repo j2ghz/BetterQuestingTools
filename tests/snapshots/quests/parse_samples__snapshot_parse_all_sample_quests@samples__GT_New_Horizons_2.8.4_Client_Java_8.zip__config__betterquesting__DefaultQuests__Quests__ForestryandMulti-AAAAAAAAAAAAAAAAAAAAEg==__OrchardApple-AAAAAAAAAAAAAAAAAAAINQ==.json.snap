@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2101,
+  "prerequisites": [
+    2128
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Orchard Apple tree has a couple of nice traits. The Faster maturity trait means it will turn from sapling to tree quickly. The Higher yield is the best yield from any Forestry tree. Breed the Orchard Apple from an Apple Oak and Hill Cherry.\n\nIf you want Fastest maturity for quick tree farms, you can breed Golden Raspberry. Try and figure out the breeding chain yourself.\n\nHigher Yield Get!",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Orchard Apple",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2128
+  ],
+  "rewards": [],
+  "tasks": []
+}

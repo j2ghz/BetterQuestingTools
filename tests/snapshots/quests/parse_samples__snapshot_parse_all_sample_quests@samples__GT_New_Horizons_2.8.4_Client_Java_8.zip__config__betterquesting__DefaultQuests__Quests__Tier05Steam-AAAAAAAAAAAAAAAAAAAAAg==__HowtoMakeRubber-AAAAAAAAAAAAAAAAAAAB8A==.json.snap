@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 496,
+  "prerequisites": [
+    51,
+    479
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Making rubber is now more complicated - you need raw rubber and sulfur. Finding a sulfur vein in the Nether seems like a good idea, doesn't it? Found on Y 5-20. Later on you can get sulfur from chemicals like hydrogen sulfide or pyrite.\n\n[warn]Sphalerite will be important later for gallium and zinc. Save it until you can fully process it in LV.[/warn]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§3§lHow to Make Rubber",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    51,
+    479
+  ],
+  "rewards": [],
+  "tasks": []
+}

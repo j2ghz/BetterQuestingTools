@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1284,
+  "prerequisites": [
+    479
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Giant wasps can be found in the Nether. Quick! Sneak into their hive and steal some honey!\n\n[note]Just having the fluid in cells or buckets in your inventory lets the quest detect it.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Wasps honey",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    479
+  ],
+  "rewards": [],
+  "tasks": []
+}

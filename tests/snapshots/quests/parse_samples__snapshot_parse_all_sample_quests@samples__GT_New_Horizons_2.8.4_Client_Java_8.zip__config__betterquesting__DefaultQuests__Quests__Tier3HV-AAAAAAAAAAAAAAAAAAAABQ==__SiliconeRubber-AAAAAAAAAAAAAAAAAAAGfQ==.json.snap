@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1661,
+  "prerequisites": [
+    943
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Want to make the synthetic rubber Silicone? As the first step you need Chloromethane.\n\nYou can use 2 Chlorine and 1 Methane per Chloromethane in your chemical reactor. Alternatively you can use Methanol and Hydrochloric Acid.\n\nThere are different ways to do it and this quest is only an example of how you can make it.\n\n§6Already automated Silicone Rubber? Hold 128 sheets to skip this questline.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lSilicone Rubber",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "UNLOCKED"
+  },
+  "required_prerequisites": [
+    943
+  ],
+  "rewards": [],
+  "tasks": []
+}

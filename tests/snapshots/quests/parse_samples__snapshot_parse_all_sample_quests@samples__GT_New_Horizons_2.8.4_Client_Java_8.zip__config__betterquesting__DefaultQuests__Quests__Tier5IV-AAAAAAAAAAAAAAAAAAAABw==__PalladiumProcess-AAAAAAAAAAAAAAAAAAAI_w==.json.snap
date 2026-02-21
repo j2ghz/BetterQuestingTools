@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2303,
+  "prerequisites": [
+    1696
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Palladium is a rather useful Platinum Group Metal, necessary to make all machines in LuV.\n\nThis questline will help you figure out how to process it properly.\n\nFirst, process some of your Palladium Enriched Ammonia to Palladium Salt Dust.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lPalladium Processing",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "UNLOCKED"
+  },
+  "required_prerequisites": [
+    1696
+  ],
+  "rewards": [],
+  "tasks": []
+}

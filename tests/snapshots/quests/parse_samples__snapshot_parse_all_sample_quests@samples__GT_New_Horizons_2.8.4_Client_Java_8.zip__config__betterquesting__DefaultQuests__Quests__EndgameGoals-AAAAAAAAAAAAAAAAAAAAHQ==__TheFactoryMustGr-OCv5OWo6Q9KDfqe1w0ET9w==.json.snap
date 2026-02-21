@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 7654505089167594487,
+  "optional_prerequisites": [
+    2598,
+    2540101135700624118
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "A single stargate pair wasn't enough for you?\n\nWell then, time to build a network.\n\nWelcome to the post-stargate tier! \n\nNow that you successfully managed to make a stargate, what about crafting them in industrial quantities? Try to craft 5 pairs of gates in the least amount of time, then come in #screenshot-brag and post your time to see where your infrastructure stands in the community!\n\n[note]This quest and “See You Next Time!” are mutually exclusive; completing one will lock the other.\n\nIf you are going for 100% questbook completion, don't panic, finishing either quest still allows the tab to receive a green check (much like the previous XOR quests).[/note]\n\n§dEnjoy your round of Minesweeper!\n",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "The Factory Must Grow!",
+    "party_single_reward": null,
+    "quest_logic": "XOR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "SECRET"
+  },
+  "rewards": [],
+  "tasks": []
+}

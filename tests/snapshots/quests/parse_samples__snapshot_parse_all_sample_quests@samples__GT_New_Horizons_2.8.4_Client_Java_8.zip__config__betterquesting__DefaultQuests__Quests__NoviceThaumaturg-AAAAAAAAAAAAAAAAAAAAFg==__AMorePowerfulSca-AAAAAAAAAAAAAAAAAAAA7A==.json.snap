@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 236,
+  "prerequisites": [
+    234
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The naga scales are weak, they can only hold a very limited amount of vis. You need a better, more powerful component to store vis in your wand. You've heard rumors about an evil wizard in the Twilight Forest. Maybe he has... something... that can be used?",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "A More Powerful \"Scale\"",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    234
+  ],
+  "rewards": [],
+  "tasks": []
+}

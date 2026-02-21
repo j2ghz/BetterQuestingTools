@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 6712690811645316155,
+  "prerequisites": [
+    2694646261188414354
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The final multi-amp hatches for IV, 64A!",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "IV 64A Hatches",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2694646261188414354
+  ],
+  "rewards": [],
+  "tasks": []
+}

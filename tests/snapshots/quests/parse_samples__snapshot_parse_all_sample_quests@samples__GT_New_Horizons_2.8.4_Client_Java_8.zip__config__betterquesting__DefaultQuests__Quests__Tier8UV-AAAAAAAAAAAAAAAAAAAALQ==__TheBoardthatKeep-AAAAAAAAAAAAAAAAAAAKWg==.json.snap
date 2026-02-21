@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2650,
+  "prerequisites": [
+    2649
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "To make Wetware Circuits, you'll need to make a Wetware Lifesupport Circuit Board. Making this board is quite a different process than making all the other Circuit Boards you've made, because making it actually requires materials!\n\nTo actually use it in circuits, you need to etch it. I guess by now, you know how to etch a circuit board, so I won't tell you and you have to use NEI :P",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "The Board that Keeps Life",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2649
+  ],
+  "rewards": [],
+  "tasks": []
+}

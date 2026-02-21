@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3207,
+  "optional_prerequisites": [
+    3187,
+    3191
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "At this point, why not? You should be in a better position to afford it, but there is the issue that t3 fusion unlocks an easier Americium recipe, which lets you craft a second t3 more easily. You might not want to wait that long, maybe you've been smelting a lot of ingots, or using World Accelerators?\n\nRegardless, two Helium Plasma reactors will surely suffice for whatever it is you're doing. Tin Plasma is worth using, of course, but the Molecular Transformer recipe to convert Silver to Tin isn't available in the singleblock anymore, so you might want the easier option, since you're rocking two reactors and all. With the 2x overclock they're still produce millions of EU/t with the right Plasma Turbines, assuming you have them ready.\n\nIf you want to continue expanding, you can look at the Mk2 fusion chain that ends at Runite Plasma. This process uses Force Plasma from the Mk1 fusion chain, so it needs those 5 fusion recipes, plus another 5. Despite being an extremely powerful powergen option, it's unlikely you need something in this scale right now. Keep in mind, however, that you might need it in UHV or UEV.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "A Second Reactor?",
+    "party_single_reward": null,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

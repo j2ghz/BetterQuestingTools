@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 88,
+  "prerequisites": [
+    70
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Why, hello there! It seems you've made it into the electrical age. Don't be so quick to throw away your steam machines, you'll probably want to keep using them for a while.\n\nTo make your life easier, you'll want to focus on getting a wiremill and bender first... once you suffer through making all the machine components.\n\nAfter that, the polarizer, assembler, lathe, and chemical reactor+fluid solidifier (for rubber) all help make things cheaper.\n\nLV machines are more energy-efficient than their steam counterparts because steam machines convert Steam to Power with 50% efficiency, when the starting LV Steam Turbine has 85% efficiency.\n\nULV doesn't exist.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lWelcome to Tier 1, LV",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "tierthemes:lv",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    70
+  ],
+  "rewards": [],
+  "tasks": []
+}

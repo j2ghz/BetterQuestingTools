@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1332,
+  "prerequisites": [
+    935,
+    237
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The power of the sun x10. This solar panel works like 10 regular ones, but costs only 8. How is this possible? Magic! NOTE: They give out GT EU. NO TRANSFORMER NEEDED!",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Compressed Solar LV",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    935,
+    237
+  ],
+  "rewards": [],
+  "tasks": []
+}

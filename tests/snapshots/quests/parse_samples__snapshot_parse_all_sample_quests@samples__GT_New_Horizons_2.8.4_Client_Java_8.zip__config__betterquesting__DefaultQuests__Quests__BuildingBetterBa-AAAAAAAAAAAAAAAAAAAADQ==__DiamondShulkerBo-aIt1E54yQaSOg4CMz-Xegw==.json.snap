@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 11399245782946537091,
+  "prerequisites": [
+    13073740252492184943,
+    1148,
+    5334881515063456948
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The portable equivalent of the Diamond Barrel, you'll need to either upgrade your wand or take advantage of the Gold -) Diamond shulker box upgrade.\n\nHas §n108§r slots.\n\n[note]Can be Dyed![/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lDiamond Shulker Box",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    13073740252492184943,
+    1148,
+    5334881515063456948
+  ],
+  "rewards": [],
+  "tasks": []
+}

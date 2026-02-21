@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 136,
+  "prerequisites": [
+    134
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Conduits on their own are pretty awesome, but you can do better. By using filters and speed upgrades, you gain even more control over what they do and how fast they work.\n\n[note]PS: You can't make all of these right now.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lImproving Conduits",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    134
+  ],
+  "rewards": [],
+  "tasks": []
+}

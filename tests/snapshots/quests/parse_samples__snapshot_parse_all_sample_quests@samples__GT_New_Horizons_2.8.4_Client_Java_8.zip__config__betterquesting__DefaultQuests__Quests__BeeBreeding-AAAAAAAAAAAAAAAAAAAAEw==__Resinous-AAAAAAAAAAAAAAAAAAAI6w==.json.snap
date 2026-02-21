@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2283,
+  "prerequisites": [
+    2280,
+    2284
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Well at least you can get a couple of Sticky Resin from this otherwise boring bee. Breed them from Miry and Primeval.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Resinous",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2280,
+    2284
+  ],
+  "rewards": [],
+  "tasks": []
+}

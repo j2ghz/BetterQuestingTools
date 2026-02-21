@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3077726032780411493,
+  "prerequisites": [
+    14560777611133840185
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "NEI search got improved even further!\n\nSelect a search mode extended+ to try it out!\n\nExtended+ works pretty much like extended, but it doesn't support * and ? expanding in the names. Also the following symbols have to be escaped with a `\\`: `-` (dash) `<` and `>` (less-than and more-than) `^` (caret) `{` and `}` (curly brackets) `|` (vertical bar) `\\` (backslash) ` ` (space) `\"` (quote) alongside with the prefixes that you have enabled like §5@§r or §b$§r.\n\nExamples: §5@§oElectro\\-Magic§r, §oiron\\ ingot§r, §oPB\\&J§r.\n\nExtended+ adds some QoL to your everyday search experience and an improved recipe search (next quest). In the following backticks `` are used around the search queries. You don't need them when searching.\n\nWant to search for something without having to put a backslash before every other symbol? Use quotes! You could use a quote inside quotes too, but you would have to escape it. Like this: `§6\"§r\\\"§6\"§r`.\n\nUse curly brackets §7{}§r to group conditions. Searching for `§7{§rmytryl§7|§rmanasteel§7}§r hammer head` would show you hammer heads made out of mytryl or manasteel.\n\nSpace is no longer necessary to use. So `§7{§rmytryl§7|§rmanasteel§7}§rhammer` works too!\n\nThere's a space mode support, so if you want your spaces to work literally turn it on!\n\nQuotes no longer require a closing quote. So you could search for `§6\"§riron ingot` and it would work! You still do need a quote if you want your quotes to end though.\n\nRegex syntax got simplified (though the old one is still supported). Now instead of `§br/§rsome regex§b/§r` you could search for `§b/§rsome regex` and it would work too! You still do need a slash if you want your regex to end. Regex doesn't require escaping, the same way quotes don't, with the only exception being the `/`. So to find a slash with a regex you would search with `§b/§r\\/`.\n\nYou can use quotes or regex after prefix to search with them instead of a plain text. For example, use `§5@§6\"§5chest minecarts§r` to search for items from the §9Iron Chest Minecarts§r mod. Or `§5@§b/§5chest minecarts§r` to do the same with a regex.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§2§lNEI Next Level Search",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    14560777611133840185
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2387,
+  "prerequisites": [
+    2336,
+    2338
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Mutating Sprig brings a degree of order to the chaotic nature of Mutandis, allowing more limited, but also more predictable effects. It is a key tool in the creation of plant-based devices such as the Leech Chest.\n\nThe Mutating Sprig is crafted in the Witch's Cauldron using an Ent Twig, Nether Wart and Mutandis Extremis.\n\nGrass - Mutates to Mycelium\nMycellium - Mutates to Grass\nDirt (under water) - Mutates to Clay\n\nWheat in a proper configuration should mutate to wormwood, but because of other mods it doesn't work. You can buy wormwood from the Coins tab instead.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Mutating Sprig",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2336,
+    2338
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2707,
+  "prerequisites": [
+    2641
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Every rocket needs a nose cone. Tier 7 rocket needs a heavy nose cone tier 4.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Heavy Duty Nose Cone Tier 4",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2641
+  ],
+  "rewards": [],
+  "tasks": []
+}

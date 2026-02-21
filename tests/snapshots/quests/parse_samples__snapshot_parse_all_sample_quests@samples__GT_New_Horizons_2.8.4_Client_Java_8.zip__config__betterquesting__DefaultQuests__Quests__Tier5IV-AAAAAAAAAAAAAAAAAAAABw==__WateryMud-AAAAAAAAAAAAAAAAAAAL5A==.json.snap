@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3044,
+  "prerequisites": [
+    3043
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "That mud on its own is far too concentrated, so you'll need to dilute it with water in the Dissolution Tank.\n\nFun fact, the saltpeter in the recipe was only added due to a problem with recipe search!\n\nYou also get some Zirconium and Hafnium from this. You'll probably need both later on, so definitely don't void any.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lWatery Mud",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3043
+  ],
+  "rewards": [],
+  "tasks": []
+}

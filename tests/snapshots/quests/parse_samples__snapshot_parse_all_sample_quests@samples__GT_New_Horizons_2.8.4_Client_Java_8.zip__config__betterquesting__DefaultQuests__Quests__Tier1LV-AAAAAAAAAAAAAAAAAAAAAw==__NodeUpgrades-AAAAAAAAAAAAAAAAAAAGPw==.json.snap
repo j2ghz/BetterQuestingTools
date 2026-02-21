@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1599,
+  "prerequisites": [
+    114
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Nodes can take many upgrades. For now, try building a World Interaction Upgrade. With it, you can set up simple autocrafting.\n\nPut a WIU in a transfer node attached to a crafting table. On the other side of the table, the 3x3 area is now treated as a crafting grid. Place items in inventories on the other side and if they make a valid recipe, the WIU will craft it. To speed it up, you will need to wait until HV for stainless steel.\n\nAlso, if you place a node on a block of cobble that has lava and water next to it, and a WIU in it, it will produce cobble for you automatically. Use upgrades to get more at a time and faster.\n\n[warn]The WIU can NOT be used for infinite water in GTNH.[/warn]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lNode Upgrades",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    114
+  ],
+  "rewards": [],
+  "tasks": []
+}

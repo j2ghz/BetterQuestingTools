@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1401,
+  "prerequisites": [
+    1382
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Try to add Potency to your Shock Focus. At Level 3 you can add Chain Lightning or Shock Wave.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Infuse Your Focus",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1382
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 14144759692402104312,
+  "prerequisites": [
+    164,
+    407
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The forefather of the 1.12.2 Incense Altar.\n\nThe bonuses it gives are mostly similar, but the way it works is completely different.\nEach incense is meant to be tiered one after another. Currently you can only use §eWood Ash§r and §4Byrrus (Red)§r.\n\nWhite smoke will come out when there is an incense in the crucible, and the crucible will light up when it finds a player to increase the incense value of.\nOnce the player has an incense value greater than 0, their sacrificial knife will get super-charged, allowing the player to completely sacrifice all of their hearts but one.\n\nPutting §eWood Ash§r in the crucible will increase the incense value from §90§r to §9400§r.\n§4Byrrus§r increases it from §9400§r to §9800§r. It cannot get you from §90§r to §9800§r alone.\n\nThe LP you get from self-sacrifice will get a boost depending on your §9Incense Value§r.\n\n§dLP§r = §d200LP§r * §cHeartSacrificed§r * §bIncenseModifier§r\n\n§bIncenseModifier§r = §9IncenseValue§r * 0.001",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Incense Crucible",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    164,
+    407
+  ],
+  "rewards": [],
+  "tasks": []
+}

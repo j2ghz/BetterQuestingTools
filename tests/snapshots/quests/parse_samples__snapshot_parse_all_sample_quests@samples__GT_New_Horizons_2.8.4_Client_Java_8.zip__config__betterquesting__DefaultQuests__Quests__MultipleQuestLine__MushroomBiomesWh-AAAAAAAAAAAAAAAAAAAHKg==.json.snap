@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1834,
+  "prerequisites": [
+    0
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The GTNH pack is made for the Realistic World Generator (RWG).\n\nIf your setup uses the vanilla biomes worldgen, you will get huge Mushroom biomes over the map. If you have this problem, please generate a new world with the RWG.\n\nIf you met this problem on a server, put \"level-type=rwg\" into the server.properties file and generate a new world.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lMushroom Biomes? Why Are There So Many?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "UNLOCKED"
+  },
+  "required_prerequisites": [
+    0
+  ],
+  "rewards": [],
+  "tasks": []
+}

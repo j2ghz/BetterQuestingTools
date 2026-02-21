@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3246891370769289343,
+  "prerequisites": [
+    3450958405003626736
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "To actually produce some light for photolithography, you'll need to accelerate your electrons in a Synchrotron. Like with the LINAC, providing it with coolant is necessary to keep it running.\n\nYou can increase the energy of the produced photons by increasing EU/t, or increasing the tier of all four Antenna Casings inside.\n\nTo improve focus, you can use a better coolant, and the output amount increases with both EU/t and antennae tier.\n\nYes, you need all four energy hatches.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Synchrotron (No Relation to the Catalyst)",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3450958405003626736
+  ],
+  "rewards": [],
+  "tasks": []
+}

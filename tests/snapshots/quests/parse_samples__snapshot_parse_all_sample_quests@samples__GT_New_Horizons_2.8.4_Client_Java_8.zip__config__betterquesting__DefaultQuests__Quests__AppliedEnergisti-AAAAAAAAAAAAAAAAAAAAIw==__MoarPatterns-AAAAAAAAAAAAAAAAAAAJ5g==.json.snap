@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2534,
+  "prerequisites": [
+    1302
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You may have noticed that the ME Interface's GUI is different than before. That is because with this card you can have more patterns, adding 9 more per card up to a total of 36. HOWEVER, it also uses 4 times the energy for every item when crafting, and this is multiplicative for each new card. If doing large crafts, make sure you have some dense energy cells ready.\n\nSo basically: (sum of amounts of items in the pattern) * config multiplier (which is 10 for GTNH). With cards, it's also multiplied by 4^(number of upgrades)\n\nE.g: (wood log -> planks) in the interface w/o upgrades would draw: 1*10 AE units, which is 5 EU (remember 1 EU = 2 AE)\n(9 charcoal -> charcoal block) compressor recipe in the interface with 3 upgrades will draw 9*10*4^3*0.5 = 2070 EU, but only 45EU without any cards\n\nThey're kind of expensive, so consider holding off if you can't afford the material or EU costs. If you remove it, all the extra patterns will pop out, so be careful of that when moving your stuff.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Moar Patterns!",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1302
+  ],
+  "rewards": [],
+  "tasks": []
+}

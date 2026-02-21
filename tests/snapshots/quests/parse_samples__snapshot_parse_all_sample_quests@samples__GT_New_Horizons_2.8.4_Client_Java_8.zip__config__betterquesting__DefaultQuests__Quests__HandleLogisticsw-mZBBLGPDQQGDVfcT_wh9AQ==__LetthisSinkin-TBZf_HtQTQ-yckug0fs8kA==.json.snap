@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 8885686795144739984,
+  "prerequisites": [
+    11876062681918760726
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "A well organized storage system is crucial for a logistics system.\n\nWith the ability to use modules through a chassis, we can now prepare for storage modules.\n\nLogistics Pipes uses ItemSink modules to assign storage spaces.\n\nThis ItemSink modules can be used in 2 ways:\n\n1. Assign the storage of a connected inventory with at most 9 different kinds of items by setting 9 items as filter on the module.\n\n2. Assign a connected inventory as a default route. The default route is a destination for items that have no other valid storage spaces.\n\n§cNote: remember to always check if the default route has additional spaces because items that are stuck in the pipes without a destination will eventually YEET themselves out of the pipes.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Let this Sink in",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    11876062681918760726
+  ],
+  "rewards": [],
+  "tasks": []
+}

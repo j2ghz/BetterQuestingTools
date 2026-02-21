@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 275,
+  "prerequisites": [
+    276
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Many advanced machines require vis in order to do what they're supposed to. But using a wand as some sort of battery to transfer vis from a node to your machine didn't work as expected. What if you could rip open a portal to another dimension and siphon power out of it using a node? Nothing could §opossibly§r go wrong with that, right?",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Centi-vis",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    276
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3149,
+  "prerequisites": [
+    1412,
+    3145
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "This branch refers to nuclear fusion. This content is strictly LuV onwards, so you will need the Assembly Line before even starting to think about fusion. It is the most \"endgame\" content on this quest page, so it's the one left for last.\n\nThe quest you need to complete is in the \"Multiblock Goals\" tab. There are also fusion-related quests in the LuV, ZPM and UV tabs, amongst others, so check them out when you're there.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Build the Assembly Line First",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1412,
+    3145
+  ],
+  "rewards": [],
+  "tasks": []
+}

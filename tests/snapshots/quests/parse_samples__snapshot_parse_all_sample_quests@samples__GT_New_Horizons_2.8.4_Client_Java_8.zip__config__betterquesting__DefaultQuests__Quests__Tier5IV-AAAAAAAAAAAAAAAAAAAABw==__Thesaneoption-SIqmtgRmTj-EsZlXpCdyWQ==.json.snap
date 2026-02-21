@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 317026859020153433,
+  "prerequisites": [
+    5146561096043994302
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "So you choose the sane two step processing option?\n\nGreat choice.\n\nTo get started you will need to create a Titanium tier Chemical Plant with §nat least HV tier machine casings.§r It can be HV tier casings as two HV tier energy hatches will overclock the multiblock to EV.\n\nOnce completed, place in your Borax Dust. Then in the second step feed in your Thorium Dust with some Distilled Water.\n\nThen you have your Thorium 232 Dust, nice and easy.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lThe sane option",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    5146561096043994302
+  ],
+  "rewards": [],
+  "tasks": []
+}

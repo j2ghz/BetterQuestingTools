@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1413,
+  "prerequisites": [
+    213
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Pumps, pistons, conveyor modules and robot arms are the most needed machine parts in IV. Go and craft one of each.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lYou're Gonna Hate This 1-4 in IV",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    213
+  ],
+  "rewards": [],
+  "tasks": []
+}

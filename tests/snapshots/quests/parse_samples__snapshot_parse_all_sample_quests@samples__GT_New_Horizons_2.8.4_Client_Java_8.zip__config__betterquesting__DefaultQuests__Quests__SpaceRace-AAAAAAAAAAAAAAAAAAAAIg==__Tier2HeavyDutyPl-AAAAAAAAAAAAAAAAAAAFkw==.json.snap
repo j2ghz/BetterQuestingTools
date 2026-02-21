@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1427,
+  "prerequisites": [
+    1426,
+    1433
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Rockets require heavy duty plates for the main hull. Let's craft 11 tier 2 heavy duty plates out of tier 1 plates and meteoric iron plates.\n\nYou'll need to make a couple of tungstensteel ingots to make these plates. You can process end stone or end stone dust, or macerate moon blocks to get some.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Tier 2 Heavy Duty Plates",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1426,
+    1433
+  ],
+  "rewards": [],
+  "tasks": []
+}

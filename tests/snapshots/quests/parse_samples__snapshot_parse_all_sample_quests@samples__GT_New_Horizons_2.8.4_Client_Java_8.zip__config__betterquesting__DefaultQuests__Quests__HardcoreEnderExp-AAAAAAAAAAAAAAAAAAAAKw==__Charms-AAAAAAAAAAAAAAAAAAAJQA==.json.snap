@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2368,
+  "prerequisites": [
+    2367
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Charms are player enchantments, used and crafted in the Charm Pouch.\nIf you are lucky you may find a pouch in the Dungeons.\n\nThis magical pouch allows creating, holding and activating Charms.\n\nSneaking and using the pouch activates or deactives the Charms.\n\nOnly one pouch can be active at a time.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Charms",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2367
+  ],
+  "rewards": [],
+  "tasks": []
+}

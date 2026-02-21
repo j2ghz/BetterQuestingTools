@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 788,
+  "prerequisites": [
+    186
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Large Tungstensteel Boiler is the biggest and baddest of the four. Like the Titanium one, it is a specialized boiler that only accepts specific fuels, mainly the Solid Super Fuels, but it will produce Superheated Steam at a rate equivalent to 16000 EU/t, at 100% fuel efficiency. If you have good Steam Turbines, especially Oriharukon ones, you will get much more power than that, around 24000 EU/t or more.\n\nDepending on how many of these you build, you might need a huge amount of turbines. To solve that problem, consider going a bit above the optimal flow on each turbine, or even switching to Loose mode, although this is only a good choice if you can match the optimal flow in that mode.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lEven More Steam? Are You Sure?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    186
+  ],
+  "rewards": [],
+  "tasks": []
+}

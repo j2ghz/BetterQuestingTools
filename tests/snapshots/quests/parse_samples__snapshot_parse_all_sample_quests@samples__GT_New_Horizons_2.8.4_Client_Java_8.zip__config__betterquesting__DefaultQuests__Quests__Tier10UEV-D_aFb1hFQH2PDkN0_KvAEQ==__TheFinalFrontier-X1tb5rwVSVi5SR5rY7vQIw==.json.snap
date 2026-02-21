@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 13552819297620578339,
+  "prerequisites": [
+    13520174359713356034
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "With the §1§lMothership§r (see the Space Race tab for how to build one) you can visit the truly last system: the Amun-Ra system. It has six planets and moons you can visit, each with at least one unique ore vein.\n\n§l§nAnubis§r\nInfinity Catalyst vein (Neutronium, Adamantium, Infinity Catalyst, Bedrockium)\n\n§l§nHorus§r\nCosmic Neutronium vein (Neutronium, Cosmic Neutronium, Black Plutonium, Bedrockium)\n\n§l§nMaahes§r\nNaquadria vein (Naquadah, Enriched Naquadah, Naquadria, Trinium)\n\n§l§nMehen Belt§r\nAwakened Draconium vein (Draconium, Draconium, Awakened Draconium, Nether Star)\n\n§l§nNeper§r\nDilithium (Dilithium, Dilithium, Mysterious Crystal, Vinteum)\n\n§l§nSeth§r\nRaw Tengam (Raw Tengam, Raw Tengam, Electrotine, Samarium)\n\nRaw Tengam is the vein you will want the most, as you can process Raw Tengam into Attuned Tengam, which is the UEV+ replacement for Magnetic Samarium. On Horus and Neper generate Certus Quartz veins (Certus Quartz, Certus Quartz, Charged Certus Quartz, Quartz Sand) as well §mI can't imagine why you would still need that though§r.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "The Final Frontier!",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    13520174359713356034
+  ],
+  "rewards": [],
+  "tasks": []
+}

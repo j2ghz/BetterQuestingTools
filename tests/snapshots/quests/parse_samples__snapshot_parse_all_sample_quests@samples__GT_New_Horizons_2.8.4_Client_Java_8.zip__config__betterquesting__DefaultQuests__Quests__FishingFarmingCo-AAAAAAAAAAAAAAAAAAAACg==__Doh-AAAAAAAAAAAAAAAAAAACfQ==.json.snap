@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 637,
+  "prerequisites": [
+    7,
+    635
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Water and flour makes a dough or two... Dough can be used in many different food recipes from Pam's HarvestCraft.\n\nDon't use the terrible NEI recipe, instead drop a stack of flour into a cauldron full of water. Celiacs beware!",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Do'h!",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    7,
+    635
+  ],
+  "rewards": [],
+  "tasks": []
+}

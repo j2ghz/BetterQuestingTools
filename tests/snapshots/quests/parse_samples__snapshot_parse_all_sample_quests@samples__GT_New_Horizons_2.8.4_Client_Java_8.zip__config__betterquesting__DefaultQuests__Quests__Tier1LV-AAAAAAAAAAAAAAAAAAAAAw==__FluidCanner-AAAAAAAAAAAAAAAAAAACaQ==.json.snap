@@ -1,0 +1,33 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 617,
+  "optional_prerequisites": [
+    609
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The fluid canner used to be the main way to fill cells, single-use batteries, and coolant cells. It was needed because direct interaction with cells was limited.\n\nNow everything is much easier and cells almost always work as expected, so you likely won't need this, even for molten redstone.\n\nHowever, if you want an electric hoe or treetap, you'll need to make IC2 batteries in a fluid canner.\n\nAnother interesting thing about this is it also works as a fluid uncanner. And maybe later you could fill a Lighter with it.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lFluid Canner",
+    "party_single_reward": false,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

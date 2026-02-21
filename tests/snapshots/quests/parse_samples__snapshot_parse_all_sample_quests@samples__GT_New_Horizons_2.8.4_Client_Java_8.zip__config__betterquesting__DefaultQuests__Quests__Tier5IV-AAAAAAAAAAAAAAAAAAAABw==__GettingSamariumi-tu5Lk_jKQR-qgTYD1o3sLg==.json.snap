@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 17927212871701097518,
+  "prerequisites": [
+    14757536238818899165,
+    2599
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Once you get ZPM tier power (2 LuV energy hatches), this method is much better.\n\nMelt the Samarium Chloride and reduce it with Lanthanum in a Distillation Tower. Then recover Lanthanum Chloride by electrolysis.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lGetting Samarium in LuV",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    14757536238818899165,
+    2599
+  ],
+  "rewards": [],
+  "tasks": []
+}

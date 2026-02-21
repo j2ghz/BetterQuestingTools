@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2999,
+  "prerequisites": [
+    2998
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Finally, the oil of the gods. At least, early gods.\n\nDiesel, as a power source, has widely been known as the optimal choice all the way up to EV, when you unlock the ability to make nukes. It can be further upgraded into Cetane-Boosted Diesel in HV, by adding another chemical chain to it, but a fuel value of 480k EU on a fuel that needs so few machines to be made is quite exceptional. It should be automated as soon as possible, to ensure that you won't run out of power when you need it the most.\n\nAt this stage, you can use either LV or MV Diesel Generators. Using the LV ones will mean you need to make more of them, and more pollution, but they have 95% fuel efficiency compared to MV's 90%. It's a difference, but an automated Diesel setup is unlikely to be affected by a 5% change in efficiency.\n\nAs you progress, fuel will become more and more power-dense, but also need more steps automated. The next tier is much harder than this one, so get ready!",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Diesel",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2998
+  ],
+  "rewards": [],
+  "tasks": []
+}

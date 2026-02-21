@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3781125166901867750,
+  "prerequisites": [
+    12532472301081610281,
+    8750016111539151842
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "For your UIV components to work their interdimensional magic, you're going to need some dimensional border easing lubricant to not cause a universal collapse.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Ultimate Voltages Require Ultimate Lubricant™!",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    12532472301081610281,
+    8750016111539151842
+  ],
+  "rewards": [],
+  "tasks": []
+}

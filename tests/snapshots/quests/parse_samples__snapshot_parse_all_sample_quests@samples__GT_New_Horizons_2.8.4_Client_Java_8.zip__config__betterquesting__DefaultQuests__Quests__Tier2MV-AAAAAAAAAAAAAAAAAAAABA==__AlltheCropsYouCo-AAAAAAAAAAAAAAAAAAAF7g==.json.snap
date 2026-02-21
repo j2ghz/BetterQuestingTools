@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1518,
+  "prerequisites": [
+    138
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Tired of applying bone meal or fertilizer by hand? A sprinkler can take water and boost your crop growth rate. Bone meal will make it work even faster.\n\n[note]Note that the sprinkler does not work with IC2 crops.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lAll the Crops You Could Want",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    138
+  ],
+  "rewards": [],
+  "tasks": []
+}

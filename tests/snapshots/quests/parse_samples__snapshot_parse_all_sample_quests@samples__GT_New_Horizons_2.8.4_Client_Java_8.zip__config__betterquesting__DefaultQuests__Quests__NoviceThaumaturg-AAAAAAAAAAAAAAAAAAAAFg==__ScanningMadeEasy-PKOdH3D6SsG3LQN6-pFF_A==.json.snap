@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 8140901473418561020,
+  "prerequisites": [
+    226
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "We get it; The early-game of thaumcraft sucks and you don't want to throw every one of your 1000 items on the ground and scan them. That's why we added 2 cool QoL features which makes this tedious task very quick and easy.\n\n1. You don't actually have to throw the item on the ground. You can scan it directly from your inventory! Simply hover it over the item you want to scan, and after a short duration it will be scanned.\n\n2. You've probably accumulated dozens of double chests full of junk that you don't want to sift through and scan, so there's a second feature now: Scanning entire chests! Simply shift right-click while hovering over a chest with your thaumometer and it'll scan EVERY item inside of the chest. Though be beware, this strong feature requires a bit of research. \n[note]To unlock the research, go to your Thaumonomicon, open \"Basic Information\" (the first tab), and complete this research path: Research -> Research Expertise -> Deconstruction Table -> Container Scanning[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Scanning Made Easy",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    226
+  ],
+  "rewards": [],
+  "tasks": []
+}

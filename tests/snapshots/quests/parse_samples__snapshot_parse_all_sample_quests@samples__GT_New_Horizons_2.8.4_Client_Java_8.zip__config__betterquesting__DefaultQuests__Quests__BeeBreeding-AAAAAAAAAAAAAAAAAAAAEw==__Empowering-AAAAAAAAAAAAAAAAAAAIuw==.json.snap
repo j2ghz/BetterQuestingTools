@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2235,
+  "prerequisites": [
+    2233,
+    2234
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Empowering bee will randomly add aspects to nearby nodes, allowing enormous power to build up. The best chance to breed them is during a full moon. Breed them from Rejuvenating and Vis.\n\n[note]The maximum node size was capped for a few versions, but that cap is now removed! Maybe go on the GTNH discord and praise Runakai for that. :)[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Empowering",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2233,
+    2234
+  ],
+  "rewards": [],
+  "tasks": []
+}

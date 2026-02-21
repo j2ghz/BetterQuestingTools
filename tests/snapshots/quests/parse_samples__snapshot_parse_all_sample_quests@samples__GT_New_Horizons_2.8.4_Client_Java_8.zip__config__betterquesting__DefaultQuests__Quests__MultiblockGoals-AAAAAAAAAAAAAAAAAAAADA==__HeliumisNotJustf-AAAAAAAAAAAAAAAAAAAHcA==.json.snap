@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1904,
+  "prerequisites": [
+    81
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Higher tier superconducting wires and energy hatches will require helium. Compressing air and liquefying it requires 1802 compressed air cells to get 1 He cell. It's probably better to get it from end stone dust or monazite from the Moon. Another option is to have a look at your oil processing and see how you can get Helium from there.\n\n[note]PS: If you've progressed far enough in the TF, you can also chip off parts of the snow queen's lair. She won't mind, right?[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lHelium is Not Just for Balloons",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    81
+  ],
+  "rewards": [],
+  "tasks": []
+}

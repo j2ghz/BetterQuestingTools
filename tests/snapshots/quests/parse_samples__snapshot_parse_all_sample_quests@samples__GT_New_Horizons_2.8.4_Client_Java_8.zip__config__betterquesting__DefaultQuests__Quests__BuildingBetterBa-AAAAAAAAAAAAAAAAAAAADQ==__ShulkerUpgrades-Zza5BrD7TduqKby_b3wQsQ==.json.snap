@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 12752872374693269681,
+  "prerequisites": [
+    13073740252492184943,
+    1148
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Shulker boxes in need of an upgrade? Now that you're in MV and have access to §dCrystalline Pink Slime§r dust they can be! No need to gather all new shells, there are 9 upgrade items available. They will preserve the inventory of your shulker so there is no need to empty it beforehand.\n\n§lAvailable Upgrades:§r\nVanilla -> Copper\nVanilla -> Iron\nCopper -> Iron\nCopper -> Silver\nIron -> Gold\nSilver -> Gold\nGold -> Diamond\nDiamond -> Crystal\nDiamond -> Obsidian",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§3§lShulker Upgrades",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    13073740252492184943,
+    1148
+  ],
+  "rewards": [],
+  "tasks": []
+}

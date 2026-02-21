@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1310,
+  "prerequisites": [
+    1311
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "An empty storage container, you can insert the vanilla AE2 storage cell parts into it to create a usable storage cell.\n\nYou can also craft it with the storage components when making them to skip combining them.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Something to Put Your Components in",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1311
+  ],
+  "rewards": [],
+  "tasks": []
+}

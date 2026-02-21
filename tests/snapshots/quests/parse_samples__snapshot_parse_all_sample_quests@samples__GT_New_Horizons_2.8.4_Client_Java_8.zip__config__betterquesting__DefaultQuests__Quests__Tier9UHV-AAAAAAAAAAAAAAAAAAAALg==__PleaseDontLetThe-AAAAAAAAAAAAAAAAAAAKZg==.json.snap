@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2662,
+  "prerequisites": [
+    2661
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Bioware Processor is the first Bio Circuit you can make. It is a ZPM-Tier circuit.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Please... Don't Let These Circuits Take Over",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2661
+  ],
+  "rewards": [],
+  "tasks": []
+}

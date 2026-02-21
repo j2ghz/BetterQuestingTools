@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2953,
+  "prerequisites": [
+    2951
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The chemical properties of naquadria are a bit weird.\n\nThere's nothing known that can precipitate it. The only way to get naquadria from the solution is to use high energy particle to bombard it.\n\nHowever, only a part of the output naquadria can be used for further processing and you have to re-purify the rest.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Disproportionation",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2951
+  ],
+  "rewards": [],
+  "tasks": []
+}

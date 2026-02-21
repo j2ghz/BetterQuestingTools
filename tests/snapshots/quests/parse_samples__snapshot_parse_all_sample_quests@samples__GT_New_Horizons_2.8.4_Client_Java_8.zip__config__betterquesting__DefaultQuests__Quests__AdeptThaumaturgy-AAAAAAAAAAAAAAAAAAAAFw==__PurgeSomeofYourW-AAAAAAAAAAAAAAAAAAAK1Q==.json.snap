@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2773,
+  "prerequisites": [
+    285,
+    1055
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "They're a pain to make, and only work if you have 50+ warp, but if you're wondering if you have dementia from all the chest scrambling, they may be for you. Check the warp theory tab in the thaumonomicon for this and the related items.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Purge...Some of Your Warp?",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    285,
+    1055
+  ],
+  "rewards": [],
+  "tasks": []
+}

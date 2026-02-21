@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1149,
+  "prerequisites": [
+    673,
+    1540,
+    103
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Wondering why you need magnalium now? It's not for GT machines but for a material update for your crossbow.\n\nYou already made some Aluminium dust before. Getting Aluminium will become easier once you get an EBF or MV electrolyzer.\nIf you can't find any aluminium, search for chests in the Twilight Forest or kill a few monsters. \n\nCombine Aluminium and Magnesium in your alloy smelter to get Magnalium.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lA New Alloy - Magnalium",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    673,
+    1540,
+    103
+  ],
+  "rewards": [],
+  "tasks": []
+}

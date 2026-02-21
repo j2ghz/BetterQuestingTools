@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 6466970483704145601,
+  "prerequisites": [
+    1094,
+    138
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "After embracing the dark side you get access to the new even bigger dark steel chest... perhaps another upgrade will be available in the future?\n\n[note]Just as with the previous chests you can also upgrade with a fitting upgrade item.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lDark Steel Chest",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1094,
+    138
+  ],
+  "rewards": [],
+  "tasks": []
+}

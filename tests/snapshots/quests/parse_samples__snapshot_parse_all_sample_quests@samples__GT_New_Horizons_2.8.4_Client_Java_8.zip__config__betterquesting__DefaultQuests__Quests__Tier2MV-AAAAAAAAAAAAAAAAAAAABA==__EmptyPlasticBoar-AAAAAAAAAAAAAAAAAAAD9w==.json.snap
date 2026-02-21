@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1015,
+  "optional_prerequisites": [
+    1020,
+    1021
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Plastic circuit boards require a plastic plate with Sulfuric Acid to make an Empty Board. By adding copper foil and Iron(III) Chloride or Sodium Persulfate you can craft a plastic circuit board. Later on you can make them more efficiently.\n\n[note]PCBs are used in the circuits in HV tier.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lEmpty Plastic Board",
+    "party_single_reward": false,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

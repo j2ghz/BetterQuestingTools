@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2455,
+  "prerequisites": [
+    2595,
+    700
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "This orb can hold (almost) unlimited LP. It also constantly refills itself §ofor free§r while it is in your inventory, or in an altar which has some blood in it.\n\nBut you still need blood for crafting, OK? (Look into the ritual §oCry of the Eternal Soul§r for a way around this.)",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Unlimited LP",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2595,
+    700
+  ],
+  "rewards": [],
+  "tasks": []
+}

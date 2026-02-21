@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3895977512798736845,
+  "prerequisites": [
+    65
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "While being significantly more expensive than a gold chest, the steel chest has less capacity but it can be used in some specialized crafting recipes.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§3§lSteel Chest?",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    65
+  ],
+  "rewards": [],
+  "tasks": []
+}

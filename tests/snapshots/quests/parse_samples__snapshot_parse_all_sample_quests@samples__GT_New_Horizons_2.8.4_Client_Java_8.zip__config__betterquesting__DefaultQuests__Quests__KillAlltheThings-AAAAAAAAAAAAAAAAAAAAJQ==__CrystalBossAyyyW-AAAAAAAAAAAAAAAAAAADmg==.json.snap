@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 922,
+  "prerequisites": [
+    921
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Seriously, a crystal boss? Anyway, it's your key to Tier 6 planets, and he lurks around on Enceladus.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Crystal Boss: Ayyy... Wait, What?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": 1728000,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    921
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1295,
+  "prerequisites": [
+    1294
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The crystal growth chamber is used for fast crystal growth, and it is possible to increase its speed by installing acceleration cards in an upgrade slot. It works more like a normal device, with the crystals growing in its internal inventory. Unlike the more primitive versions, it doesn't use power when not in use. It also doesn't use a channel.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Perfecting Crystal Growth",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1294
+  ],
+  "rewards": [],
+  "tasks": []
+}

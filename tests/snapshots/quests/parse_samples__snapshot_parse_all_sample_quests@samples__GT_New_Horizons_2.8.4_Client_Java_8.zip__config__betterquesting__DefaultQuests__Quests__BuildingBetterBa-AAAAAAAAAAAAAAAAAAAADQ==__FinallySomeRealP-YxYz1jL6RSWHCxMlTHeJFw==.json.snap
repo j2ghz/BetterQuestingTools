@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3673324472573069591,
+  "prerequisites": [
+    15599985800221413233,
+    2616
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Energy Tunnel Manipulator Upgrade is incredibly useful for the heavy potential Matter Manipulator usage in §4§lUHV+§r. \n\nYou can now link directly with either the §5§lQuantum Link§r or a §5§lLaser Target Hatch§r for much quicker recharging. No need to rely on those slow wireless chargers any longer!",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Finally, Some Real Power!",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    15599985800221413233,
+    2616
+  ],
+  "rewards": [],
+  "tasks": []
+}

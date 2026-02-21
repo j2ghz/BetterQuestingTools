@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 4416705102887472369,
+  "prerequisites": [
+    14629748331673235224
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "2 Modules are still not enough? Need more recipe slots for machines?\n\nHere is the Mk3. It can hold 3 modules.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Even Better Chassis",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    14629748331673235224
+  ],
+  "rewards": [],
+  "tasks": []
+}

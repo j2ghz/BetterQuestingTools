@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2268,
+  "prerequisites": [
+    266
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Luggage is better than a dumb old traveling trunk. It automatically picks up dropped items, saving you time while mining. It's near-invulnerable, including in lava. It will follow you like an eager puppy, to the ends of the earth - but you probably should pick her up before changing dimensions. A lightning strike can provide more room. Shift-right-clicking will turn it back into an item without losing its contents. Look for her in the GTNH tab of the Thaumonomicon.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Who Needs Friends?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    266
+  ],
+  "rewards": [],
+  "tasks": []
+}

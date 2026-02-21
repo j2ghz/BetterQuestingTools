@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1820,
+  "optional_prerequisites": [
+    1480,
+    1241
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The L.E.S.U. is one of the oldest machines still available in GregTech. Its origins are in Minecraft 1.3.X but has been redone to fit into this modpack. You can add a nearly infinite number of LESU casings to it and you'll have a huge Energy Storage. You might also live inside your Battery.\n\n[note]PS: It sucks, don't make it. Maybe somebody will rework or buff it some day.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Lapotronic Energy Storage Unit",
+    "party_single_reward": false,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1215,
+  "prerequisites": [
+    577
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Producing RF power with lava is possible with the help of the biogas engine. You need water, fruit juice, liquid honey, milk, seed oil, or forestry biomass in the other slot. After a brief warmup time, the engine outputs up to 50 RF/t depending on the fluid used.\n\nThe possible fluids give the following power:\n\nWater: 10 RF/t for 1k ticks\nFruit juice: 10 RF/t for 2.5k ticks\nLiquid honey: 20 RF/t for 2.5k ticks\nMilk: 10 RF/t for 10k ticks\nSeed oil: 30 RF/t for 2.5k ticks\nBiomass: 50 RF/t for 2.5k ticks",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Bio Gas Engine",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    577
+  ],
+  "rewards": [],
+  "tasks": []
+}

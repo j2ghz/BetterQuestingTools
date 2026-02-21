@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3046,
+  "prerequisites": [
+    3044
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Yes, you're seeing right. A fluid sifting recipe! A lot of the materials here won't be good sources in any way, but they're literally better than nothing.\n\nMonazite Sulfate isn't an actual compound btw, just a term for a collection of rare earth sulfates and other things.\n\nI'll only ask for the primary output as who wants to worry about chances?",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lSifting the Goodness Out",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3044
+  ],
+  "rewards": [],
+  "tasks": []
+}

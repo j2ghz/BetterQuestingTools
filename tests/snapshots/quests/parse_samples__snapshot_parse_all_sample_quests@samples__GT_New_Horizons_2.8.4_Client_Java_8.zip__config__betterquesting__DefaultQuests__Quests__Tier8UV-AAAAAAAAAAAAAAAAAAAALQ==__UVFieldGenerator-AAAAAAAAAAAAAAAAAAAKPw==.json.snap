@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2623,
+  "prerequisites": [
+    2656,
+    2615
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Does anyone else think of Ultra Violet when they see UV? Are these things emitting UV rays at us? There §ois§r an emitter in there after all.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "UV Field Generator",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2656,
+    2615
+  ],
+  "rewards": [],
+  "tasks": []
+}

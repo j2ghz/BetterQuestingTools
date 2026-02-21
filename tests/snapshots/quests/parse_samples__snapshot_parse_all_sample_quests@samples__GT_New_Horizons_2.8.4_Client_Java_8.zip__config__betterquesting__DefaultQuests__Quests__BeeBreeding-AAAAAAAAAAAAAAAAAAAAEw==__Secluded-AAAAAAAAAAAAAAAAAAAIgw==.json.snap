@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2179,
+  "prerequisites": [
+    2180,
+    2185
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Secluded bees are real loners. There must not be any entities within their territory for them to produce their combs. The Mellow combs can produce Nether quartz. Breed them from Monastic and Austere.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Secluded",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2180,
+    2185
+  ],
+  "rewards": [],
+  "tasks": []
+}

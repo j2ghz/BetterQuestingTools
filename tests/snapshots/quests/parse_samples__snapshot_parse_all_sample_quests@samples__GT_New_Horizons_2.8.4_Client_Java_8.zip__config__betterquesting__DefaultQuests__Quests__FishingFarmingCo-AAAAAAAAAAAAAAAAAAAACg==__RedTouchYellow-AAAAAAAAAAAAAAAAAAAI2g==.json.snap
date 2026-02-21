@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2266,
+  "prerequisites": [
+    2265
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Garnets are actually more valuable than Sapphires. They're an early source of Chrome and Manganese, which you'll need for HV machines. You can also centrifuge Pyrope, Almandine, and Spessartine Dust with Nitric Acid to obtain a variety of additional passive resources. To reach maturity, you will need a block of Garnet (either type) beneath this crop. You can get Garnets from the HV macerator and Spessartine Ore, or you can use an Implosion Compressor to turn Garnet Sands into crystals to make blocks.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Red Touch Yellow",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2265
+  ],
+  "rewards": [],
+  "tasks": []
+}

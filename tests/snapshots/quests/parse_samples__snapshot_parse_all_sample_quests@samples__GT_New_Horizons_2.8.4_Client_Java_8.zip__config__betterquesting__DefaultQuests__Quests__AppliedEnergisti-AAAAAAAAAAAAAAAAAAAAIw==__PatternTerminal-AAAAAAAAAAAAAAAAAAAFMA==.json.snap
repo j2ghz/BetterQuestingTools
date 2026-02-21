@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1328,
+  "prerequisites": [
+    2519
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "A specialized version of the ME crafting terminal designed to encode blank patterns into encoded patterns.\n\nLets you browse the contents of your network like other terminals, but also contains an area for designing patterns. There are two modes for pattern encoding. Crafting patterns, and processing patterns. Processing patterns are designed for use with machines that do not use standard crafting recipes - such as furnaces, or other machines. To select between modes, click the button to the right of the interface: when it shows a standard crafting table, it will create crafting patterns, and when it shows a furnace, it will create processing patterns.\n\nFor crafting patterns (\"Crafts...\"), you specify the input crafting materials on a standard 3x3 crafting grid, and the output materials are determined automatically.\n\nFor processing patterns (\"Creates...\"), you specify the input materials and output materials, including quantity, by placing stacks of items in the interface. If a processing operation is not guaranteed to succeed (such as secondary products from some machines), it will not work correctly as a processing pattern.\n\nWhen designing crafting patterns you can click the output to extract a crafted item as long as you have the materials required to craft the item.\n\n[warn]Be cautious about accidentally enabling oredict substitution, it's rarely used and you will keep it disabled 99% of the time.[/warn]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Pattern Terminal",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2519
+  ],
+  "rewards": [],
+  "tasks": []
+}

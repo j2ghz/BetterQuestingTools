@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1970395360502219625,
+  "prerequisites": [
+    230
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "During your travels, you've heard about a forest filled to the brim with magic. In that forest, there is a rumor about an interesting little fellow who can trade magical artifacts, including infused shards! Supposedly, they scour the world for gems and gold, but are cold to wanderers who have no valuables to their name.\n\nYou wonder if you can find this merchant and obtain their wares. If only there was a tool that could help find this... §5§o\"Magical Forest\"§r.\n\n[note]Note: This quest accepts meeting any type of Pech, not just Pech Foragers.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "A Pechuliar Merchant",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    230
+  ],
+  "rewards": [],
+  "tasks": []
+}

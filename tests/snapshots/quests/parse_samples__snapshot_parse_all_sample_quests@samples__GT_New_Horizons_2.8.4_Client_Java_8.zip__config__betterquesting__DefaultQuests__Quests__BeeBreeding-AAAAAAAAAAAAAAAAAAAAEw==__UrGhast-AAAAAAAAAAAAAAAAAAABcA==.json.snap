@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 368,
+  "prerequisites": [
+    2238,
+    367
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Need a lot of magical wood? Well, this bee produces carminite.\n\n[note]This bee requires a Thaumcraft Thaumium block below the apiary to be bred. To get the correct one, chisel a GT Thaumium block[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Ur-Ghast",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2238,
+    367
+  ],
+  "rewards": [],
+  "tasks": []
+}

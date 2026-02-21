@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 165,
+  "prerequisites": [
+    146,
+    168
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Wouldn't it be great to actually make use of the intelligence or abilities a certain creature has? For example: enderman teleportation or brain capacity of a zombie for simple logic? (He doesn't use it anyway...) With this machine, you're able to bind a captured soul to an item, which can then be used in machines to improve their functionality, or create them to begin with.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lSoul Eater",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    146,
+    168
+  ],
+  "rewards": [],
+  "tasks": []
+}

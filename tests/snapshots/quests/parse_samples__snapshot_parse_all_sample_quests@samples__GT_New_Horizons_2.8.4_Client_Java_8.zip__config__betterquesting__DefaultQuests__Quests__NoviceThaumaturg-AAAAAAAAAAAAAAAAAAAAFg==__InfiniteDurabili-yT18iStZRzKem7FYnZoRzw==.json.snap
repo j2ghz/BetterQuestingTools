@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3123606099276206543,
+  "prerequisites": [
+    1995,
+    238
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Pipe some liquid Instrumentum into this bad boy and you can repair anything with Vanilla durability!\n\n§3[note]Doesn't work on Blood Magic potions, TiC tools, GT tools and tools with charge. Every point of Instrumentum equals eight points of durability.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Infinite Durability",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1995,
+    238
+  ],
+  "rewards": [],
+  "tasks": []
+}

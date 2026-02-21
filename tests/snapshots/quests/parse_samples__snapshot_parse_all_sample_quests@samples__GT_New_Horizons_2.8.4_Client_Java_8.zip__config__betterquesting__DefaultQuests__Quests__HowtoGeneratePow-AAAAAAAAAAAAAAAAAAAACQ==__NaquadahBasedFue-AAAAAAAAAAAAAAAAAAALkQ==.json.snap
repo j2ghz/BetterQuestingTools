@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2961,
+  "prerequisites": [
+    2948
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "975 000 EU/t lasting 3 seconds per liter of fuel. Possibly a viable alternative for Plasma Power?\n\nPrepare a robust naquadah line if you seek the power of the Naquadah Fuels.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Naquadah Based Fuel MkI",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2948
+  ],
+  "rewards": [],
+  "tasks": []
+}

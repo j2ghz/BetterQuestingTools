@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 10950016542148961317,
+  "prerequisites": [
+    4331981564756107717,
+    3450955464363983906,
+    5413132602151909445
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Your attempts to improve your dimensional catalyst have been futile so far, but with the Raw Stellar Plasma from your Eye of Harmony, you can finally create a stable and more powerful catalyst.\n\nYou will need some higher-tier plasmas to help maintain its stability as well.\n\n[warn]Handle with care. We are not responsible for your base turning into supermassive black holes. /s[/warn]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Stellar Catalyst",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    4331981564756107717,
+    3450955464363983906,
+    5413132602151909445
+  ],
+  "rewards": [],
+  "tasks": []
+}

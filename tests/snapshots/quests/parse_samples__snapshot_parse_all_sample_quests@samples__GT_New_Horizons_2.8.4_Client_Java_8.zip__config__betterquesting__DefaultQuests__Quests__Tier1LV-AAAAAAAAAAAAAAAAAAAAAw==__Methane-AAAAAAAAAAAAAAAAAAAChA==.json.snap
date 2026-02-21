@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 644,
+  "prerequisites": [
+    643
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Distilling some \"refinery gases\" gives you some methane gas. There are many more (and probably better) ways to get methane.\n\nYou will need this in later tiers, for PTFE as an example.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lMethane",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    643
+  ],
+  "rewards": [],
+  "tasks": []
+}

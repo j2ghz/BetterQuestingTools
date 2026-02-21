@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 484,
+  "prerequisites": [
+    6
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Tired of waiting since your carrots grow sooooo slowly?\n\nBone meal will help you to grow food in seconds.\n\nChop down some trees to get a bit of bone meal as a reward.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lCan You Hear the Carrots Grow?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    6
+  ],
+  "rewards": [],
+  "tasks": []
+}

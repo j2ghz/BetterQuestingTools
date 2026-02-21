@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2265,
+  "prerequisites": [
+    2264
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Sapphirum are pretty easy to get from Copper Oreberries. You'll need a block of Sapphire beneath them to get them to maturity. They are a good source of aluminium and oxygen in LV.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Deep Blue Sea of Sapphires",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2264
+  ],
+  "rewards": [],
+  "tasks": []
+}

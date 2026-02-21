@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2770,
+  "prerequisites": [
+    2729
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Breed stickreed until it's around 20/31/10, then create other crops with it, they inherit the stats. Crossbreeding with the ones you got on the way to raise their stats is also good.\n\nSet up camp in a swamp/jungle type biome around Y130, or use the biome changing methods to make one. This is way faster when breeding crops, not just growing them for drops.\n\nUse multifarms, always. You can use them together with the harvesters if you have super fast crops. Or just use more farms. Or add more gearboxes.\n\nDark glass is nice for oreberry crops.\n\nTo avoid weeding, checkerboard up and down on your multifarm. It may look stupid, but no weeds, Gr 23->31, and +2 AQ!\n\nUse fertilia to create more fertilizer.\n\nYou can replace mob farms with crops if you don't care about the other drops. Infernals drop special stuff though.\n\nUse WAs in TE mode to accelerate crops if you need it. Mostly useful for breeding, statting up, and for the primordial berry crop.\n\nAs you tier up, you can create 31/31/0 crops with the machines and UUM. It's up to you whether it's worth it though.\n\nGo do bees if you want something higher than EV tier materials.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Min-Maxing Crops",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2729
+  ],
+  "rewards": [],
+  "tasks": []
+}

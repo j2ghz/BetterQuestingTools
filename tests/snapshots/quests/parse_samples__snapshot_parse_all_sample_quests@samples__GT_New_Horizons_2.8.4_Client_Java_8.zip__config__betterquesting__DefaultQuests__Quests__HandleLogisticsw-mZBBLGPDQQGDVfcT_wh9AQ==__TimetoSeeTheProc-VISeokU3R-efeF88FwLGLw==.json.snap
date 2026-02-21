@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 4987534170185188911,
+  "prerequisites": [
+    9280310146674628723
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Want to see how the system is handling the request and fix it when you find things get stuck? Here is the upgrade for you.\n\nThe Crafting Monitoring Upgrade can let you view the current progress of the request. So if you find your crafting request is taking an abnormally long time and nothing is crafted by your machines, you may want to take a look here.\n\nIt can be applied to your Logistics Request Table.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Time to See The Process",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    9280310146674628723
+  ],
+  "rewards": [],
+  "tasks": []
+}

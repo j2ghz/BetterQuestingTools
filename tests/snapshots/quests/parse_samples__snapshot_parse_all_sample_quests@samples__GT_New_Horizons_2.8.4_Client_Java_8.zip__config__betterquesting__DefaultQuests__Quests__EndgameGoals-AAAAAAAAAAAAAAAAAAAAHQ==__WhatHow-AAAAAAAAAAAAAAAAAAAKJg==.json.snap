@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2598,
+  "prerequisites": [
+    2573,
+    2574
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Congratulations, with this final quest, you'll have beaten the hardest challenge in GregTech: New Horizons yet! \n\nThe whole GT:NH Team thanks you for your time spent on this modpack. You are now part of the top 0.5% of our community!\n\nNow that you made one gate, take this second gate and link them together! (Unless you want to craft the second yourself of course).\n\nDon't hesitate to share your base in #screenshot-brag channel of our Discord server, claim your stargate role, and if you have any feedback on the endgame progression, we will gladly appreciate it!\n\nI guess now it's time for you to go outside, touch grass, or... continue onwards?",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "What, How?",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "tierthemes:stargate",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2573,
+    2574
+  ],
+  "rewards": [],
+  "tasks": []
+}

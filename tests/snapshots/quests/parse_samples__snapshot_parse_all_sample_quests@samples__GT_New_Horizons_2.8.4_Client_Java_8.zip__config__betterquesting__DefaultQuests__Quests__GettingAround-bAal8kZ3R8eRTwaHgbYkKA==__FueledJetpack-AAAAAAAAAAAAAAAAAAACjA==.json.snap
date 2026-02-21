@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 652,
+  "prerequisites": [
+    80,
+    160,
+    1870
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "This jetpack uses IC2 biogas and can fly up to Y-245. You can switch between hover and normal mode using the IC2 mode-switch key.\n\nYour jetpack can be (re-)fueled in the IC2 fluid canner with 30 buckets/cells worth of biogas.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Fueled Jetpack",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    80,
+    160,
+    1870
+  ],
+  "rewards": [],
+  "tasks": []
+}

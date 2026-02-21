@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 7879122165043674150,
+  "prerequisites": [
+    2649
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "After unlocking Carbon Nanites, we can now use it to extract the needed lanthanide resources in large quantities.\n\nOf course you better be ready. It's expensive until you got the Nano Forge.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Use Nano Tech to produce Lanthanides",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2649
+  ],
+  "rewards": [],
+  "tasks": []
+}

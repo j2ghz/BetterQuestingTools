@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 16205431853573948468,
+  "prerequisites": [
+    2613,
+    2652,
+    2877
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Works like stocking input bus but for fluids.\n\n[note]You need only one to complete the quest.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Stocking Fluids",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2613,
+    2652,
+    2877
+  ],
+  "rewards": [],
+  "tasks": []
+}

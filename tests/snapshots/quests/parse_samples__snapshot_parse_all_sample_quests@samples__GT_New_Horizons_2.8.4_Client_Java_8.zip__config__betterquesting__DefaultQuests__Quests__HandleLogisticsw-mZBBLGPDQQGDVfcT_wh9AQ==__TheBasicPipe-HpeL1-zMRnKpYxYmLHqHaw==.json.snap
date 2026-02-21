@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 17063090544386410347,
+  "prerequisites": [
+    2269329767481324332
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Unrouted Transport Pipes by themselves aren't useful.\n\nTime to use some of them to craft some Basic Logistics Pipes.\n\nThe Basic Logistics Pipes can connect to adjacent inventories and blocks. They also have item routing capabilities, so you can use them to form junctions.\n\nBut they also cost some diamonds...",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "The Basic Pipe",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2269329767481324332
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 807,
+  "prerequisites": [
+    806,
+    1407
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "For your quantum armor you need some quantum crystals. Place a lapotron crystal in your precision laser to get a quantum crystal. You'll still need to be in IV to make it though.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Quantum Crystal",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    806,
+    1407
+  ],
+  "rewards": [],
+  "tasks": []
+}

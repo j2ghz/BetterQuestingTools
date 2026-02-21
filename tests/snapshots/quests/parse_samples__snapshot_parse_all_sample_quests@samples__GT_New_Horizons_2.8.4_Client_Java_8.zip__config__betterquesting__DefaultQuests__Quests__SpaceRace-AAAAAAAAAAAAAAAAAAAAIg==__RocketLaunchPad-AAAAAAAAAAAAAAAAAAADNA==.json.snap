@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 820,
+  "prerequisites": [
+    810
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Every rocket needs a launch pad. Build a 3x3 launch pad and place your rocket on top of it.\n\nStorms and other events that affect entities can knock your rocket off (but not lightning warp anymore), so make sure to not leave it alone.\n\n[warn]Before liftoff, make sure you clear the airspace above you![/warn]\n\nBe sure to check out [url]https://wiki.gtnewhorizons.com/wiki/Moon_Travel_Checklist[/url] for a Departure Checklist!\n\n[note]Also note that they emit pollution, lots of it. So either put it far from your base, or use a scrubber while launching. You probably won't have to worry until T4 or so though.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Rocket Launch Pad",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    810
+  ],
+  "rewards": [],
+  "tasks": []
+}

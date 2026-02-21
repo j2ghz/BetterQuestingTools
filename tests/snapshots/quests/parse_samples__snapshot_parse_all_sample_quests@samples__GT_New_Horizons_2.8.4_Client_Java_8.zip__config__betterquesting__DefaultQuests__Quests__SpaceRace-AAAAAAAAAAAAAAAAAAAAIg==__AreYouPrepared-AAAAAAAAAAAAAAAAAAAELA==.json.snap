@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1068,
+  "prerequisites": [
+    810
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Are you prepared for the Moon?\n\nIf you die on the moon you will be returned to earth without your stuff. A Soulbind enchantment will keep an item with you when you die.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Are You Prepared?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    810
+  ],
+  "rewards": [],
+  "tasks": []
+}

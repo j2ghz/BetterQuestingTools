@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3242,
+  "prerequisites": [
+    3236,
+    2983713540786413750
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Pico circuits, a direct upgrade from Optical Mainframes, these UMV circuits will be required for a lot of future crafts.\n\n[note]You will need an UMV powered Assembly Line to get started.[/note]\n\n[warn]Rumor has it these circuits may not be around for much longer...[/warn]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "UMV Circuits",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3236,
+    2983713540786413750
+  ],
+  "rewards": [],
+  "tasks": []
+}

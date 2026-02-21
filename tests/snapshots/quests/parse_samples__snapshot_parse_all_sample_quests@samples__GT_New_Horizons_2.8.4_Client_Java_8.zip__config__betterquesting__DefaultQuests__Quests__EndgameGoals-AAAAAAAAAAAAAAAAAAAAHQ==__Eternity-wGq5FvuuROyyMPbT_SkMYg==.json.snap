@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 18135508534117862498,
+  "prerequisites": [
+    10271101829445155085,
+    10950016542148961317
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Definitely consider this for the improved Magnetohydrodynamically Constrained Star Matter recipe. You'll also need it to make MHDCSM parts.\n\nKickstarting the loop is expensive and RNG-based. You need 20,736 L of Universium for the first 5 attempts and a catalyst.\n\nThe QFT recipe has a 25% chance of yielding Eternity per attempt. You should probably boost the QFT with plasmas and focus on producing Eternity.\n\n[note]Did you know the QFT has a fluid mode? It could be useful for extracting molten Shirabon. Just right-click the controller with a §ascrewdriver§r.[/note]\n\n[note]Building a full beacon out of Eternity Blocks might be a bit extravagant, don't you think?[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Eternity",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    10271101829445155085,
+    10950016542148961317
+  ],
+  "rewards": [],
+  "tasks": []
+}

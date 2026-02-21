@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3018,
+  "prerequisites": [
+    3014
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Raw Gasoline is raw, obviously. To make it a proper fuel, it needs something explosive mixed in with it... what could you have that is considered explosive? Maybe the TNT, or what it's made of?\n\nYou have Toluene automated already, right? Get on it.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Gasoline",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3014
+  ],
+  "rewards": [],
+  "tasks": []
+}

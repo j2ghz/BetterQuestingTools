@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 7628049818443939319,
+  "prerequisites": [
+    1413,
+    3230
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Fountain of Conjuration, as I'm sincerely hoping you can guess at this point, functions exactly like the Mana Fountain and the Fountain of Alchemy, except it handles §nexclusively§r recipes that are typically done with a Conjuration Catalyst underneath a Mana Pool.\n\nIf you need any further details about it's functionality, check out the Mana Fountain quest or the Lexica Botania.\n\n[note]Reminder that this can also wall-share with any type of Mana Fountain you may currently have.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Fountain Of Conjuration",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1413,
+    3230
+  ],
+  "rewards": [],
+  "tasks": []
+}

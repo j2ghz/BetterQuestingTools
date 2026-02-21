@@ -1,0 +1,51 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2750,
+  "prerequisites": [
+    2640
+  ],
+  "properties": {
+    "autoConsume": 0,
+    "auto_claim": false,
+    "consume": 0,
+    "desc": "Go get the schematics for tier 7 rockets.\n\nThis will open the planet Pluto and the Kuiper Belt.",
+    "global_share": true,
+    "groupDetect": 0,
+    "icon": null,
+    "ignoreNBT": 0,
+    "index": 0,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Proteus Dungeon",
+    "partialMatch": 1,
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "requiredItems": [
+      {
+        "Count": 16,
+        "Damage": 3,
+        "OreDict": "",
+        "id": "GalaxySpace:proteusblocks",
+        "registryName": "GalaxySpace:proteusblocks"
+      }
+    ],
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "taskID": "bq_standard:retrieval",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2640
+  ],
+  "rewards": [],
+  "tasks": []
+}

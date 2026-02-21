@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 9209665106417599938,
+  "prerequisites": [
+    1697,
+    1414
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "This Special bus is rather pricey however it will allow all items that are in the bus to be accessible in all other linked buses in the same dimension.\n\nThis would allow multiple machines to work from the same input of items.\n\nWhile holding a data stick the configuration settings can be copied with a left-click and pasted with a right-click on the bus.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lIntradimensional Input buses",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1697,
+    1414
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 200,
+  "prerequisites": [
+    199
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Like the chandelier, the magnum torch prevents monsters from spawning. However, its range is quite big, so a single one might be enough for your entire base. The range is 64 blocks horizontally in each direction, and 32 up and down.\n\n[warn]Don't forget, monsters can still follow you home![/warn]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§a§lAdvanced Mob Protection",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    199
+  ],
+  "rewards": [],
+  "tasks": []
+}

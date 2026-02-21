@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3024,
+  "prerequisites": [
+    3023
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "How many oils have you cracked at this point? No matter the number, you can do it cheaper. Once you reach HSS-G coils, you will have achieved the maximum EU/t discount of 50% on your Oil Crackers, and enjoy the full array of benefits that they can provide you. Don't forget to overclock them if they're running slow, the energy cost is minimal at this point.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Maxed Oil Cracker",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3023
+  ],
+  "rewards": [],
+  "tasks": []
+}

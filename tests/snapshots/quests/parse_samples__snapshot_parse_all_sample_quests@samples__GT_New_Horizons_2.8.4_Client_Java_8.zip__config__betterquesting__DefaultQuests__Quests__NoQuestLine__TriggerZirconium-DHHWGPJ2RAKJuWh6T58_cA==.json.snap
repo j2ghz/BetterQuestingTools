@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 17471226581146877808,
+  "prerequisites": [
+    3041,
+    213
+  ],
+  "properties": {
+    "auto_claim": true,
+    "desc": "No Description",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": true,
+    "locked_progress": 0,
+    "name": "Trigger: Zirconium Skip",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3041,
+    213
+  ],
+  "rewards": [],
+  "tasks": []
+}

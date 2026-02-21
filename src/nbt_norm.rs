@@ -27,7 +27,24 @@ fn normalize_map(m: Map<String, Value>) -> Map<String, Value> {
             Some(pos) => k[..pos].to_string(),
             None => k,
         };
-        stripped.insert(key, normalize_value(v));
+        let val = normalize_value(v);
+        // If the stripped key already exists, merge into an array to avoid
+        // silently overwriting values that came from different NBT-typed keys
+        // (e.g. "betterquesting:8" and "betterquesting:10"). We preserve
+        // insertion order by placing the previous value first.
+        if let Some(existing) = stripped.remove(&key) {
+            match existing {
+                Value::Array(mut arr) => {
+                    arr.push(val);
+                    stripped.insert(key, Value::Array(arr));
+                }
+                other => {
+                    stripped.insert(key.clone(), Value::Array(vec![other, val]));
+                }
+            }
+        } else {
+            stripped.insert(key, val);
+        }
     }
 
     stripped

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1577,
+  "prerequisites": [
+    1576
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "In the daytime you can find a few wispy cotton, which are needed for further progression. There are no mobs in the Dream version, so hang out if you like.\n\nIt can be collected and replanted, but will only spread if planted in the Spirit World, on Dirt or Grass that is next to a pool of Flowing Spirit.\n\nPlanting Wispy Cotton nearby when using a Brew of Sleeping near to a Dream Weaver of Nightmares will further reduce the chance of a nightmare by 10 percent for each cotton plant (up to 2).\n\nWispy Cotton will remain in a players inventory when they return from the Spirit World.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Wake Me Up Later",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1576
+  ],
+  "rewards": [],
+  "tasks": []
+}

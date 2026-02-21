@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2135,
+  "prerequisites": [
+    2133
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Blue Mahoe has the most sappiness of any tree. It will vastly increase the efficiency of your biomass production with Fermenters. Breed it by mating Balsa with Desert Acacia.\n\n§6High Sappiness Get!",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Blue Mahoe",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2133
+  ],
+  "rewards": [],
+  "tasks": []
+}

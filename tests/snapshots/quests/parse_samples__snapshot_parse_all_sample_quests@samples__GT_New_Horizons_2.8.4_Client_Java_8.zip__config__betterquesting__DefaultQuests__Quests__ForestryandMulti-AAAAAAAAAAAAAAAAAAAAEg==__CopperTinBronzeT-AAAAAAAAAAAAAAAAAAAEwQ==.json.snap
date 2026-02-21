@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1217,
+  "prerequisites": [
+    581
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Electron tubes are used to set farms to a special kind of crop and can be used in engines, alvearies and some crafting recipes.\n\nUse a soldering iron to attach an electron tube to a circuit board.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Copper, Tin, Bronze Tubes",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    581
+  ],
+  "rewards": [],
+  "tasks": []
+}

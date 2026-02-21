@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3179,
+  "optional_prerequisites": [
+    3161,
+    3197
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "There are two gas inputs that the Sparge Tower accepts: Helium and Fluorine. Each one works on different depleted salts (U Salt, T Salt, TB Salt) in a specific way. Helium works with U Salt to make the most valuable byproducts, while Fluorine works with the other two salts to make other byproducts and TF4, which is required to make the LFTR Fuel 3. Here, we'll focus on Helium and U Salt, and the other recipes will be covered on the powergen side of the branch.\n\nAll the U Salt you get from the LFTR, from any fuel, can be run through the Sparge Tower. It's an additional step that is slow, yet rewarding. The recipe is HV-tier, but it's recommended that you overclock it, and maybe even build multiple towers to accelerate it. All the U Salt you have should pass through these, because sparging it outputs almost every noble gas! Xenon, Neon, Argon, Krypton and Radon will be outputted over time, precious gases to speed up EBF recipes and save up lots of energy, and also for the Void Miner. Radon, on the other hand, is required to make Quantum Eyes, Quantum Stars and many other important items.\n\nEven though you get many gases, the speed at which you'll get them isn't great, since it depends on the speed at which LFTR fuel is being consumed. This should not be your only source of these gases, but it is a completely EU-free way to get them, considering the amount of energy the LFTR produces.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Second Half of LFTR Breeding",
+    "party_single_reward": null,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

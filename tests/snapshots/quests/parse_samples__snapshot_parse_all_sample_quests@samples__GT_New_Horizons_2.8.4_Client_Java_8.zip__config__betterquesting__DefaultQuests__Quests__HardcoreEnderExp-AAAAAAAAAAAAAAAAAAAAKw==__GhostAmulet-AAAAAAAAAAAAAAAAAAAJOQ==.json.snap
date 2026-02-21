@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2361,
+  "prerequisites": [
+    2355
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Ghost Amulet (Impure) is an item that can only be obtained by throwing one Emerald, one String and one End Powder into Ender Goo.\n\nOnce you have that, you need to do a TC infusion, or maybe the Ender Compendium has a more traditional way to infuse it.\n\nAs long as it stays anywhere in the inventory, it protects players from Forest Ghosts, and thus provides a way of acquiring Ectoplasm.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Ghost Amulet",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2355
+  ],
+  "rewards": [],
+  "tasks": []
+}

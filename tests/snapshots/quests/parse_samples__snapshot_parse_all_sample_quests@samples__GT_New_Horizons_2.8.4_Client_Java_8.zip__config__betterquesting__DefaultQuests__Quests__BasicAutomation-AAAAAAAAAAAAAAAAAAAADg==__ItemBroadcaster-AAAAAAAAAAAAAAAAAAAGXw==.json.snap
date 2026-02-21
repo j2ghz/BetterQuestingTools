@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1631,
+  "prerequisites": [
+    1630
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The item broadcaster is a chip that tells everything in the pipe system what items it has in the connecting inventory and if another chip needs anything it will send it to them. Right-click it to set the items it will transmit. If you leave it empty and set to blacklist it will transmit everything.\n\nDefinitely use one in combination with an item overflow chip on your default storage chest. That way overflow will end up in the chest, but will be usable by the rest of your system.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Item Broadcaster",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1630
+  ],
+  "rewards": [],
+  "tasks": []
+}

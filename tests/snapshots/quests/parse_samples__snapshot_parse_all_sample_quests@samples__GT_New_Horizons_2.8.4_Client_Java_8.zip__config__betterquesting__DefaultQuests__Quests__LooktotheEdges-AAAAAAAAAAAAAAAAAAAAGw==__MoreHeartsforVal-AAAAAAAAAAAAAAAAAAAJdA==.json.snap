@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2420,
+  "prerequisites": [
+    2419
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "If you want to get more hearts, you can try trading with the Demon, but they're more likely to shoot fireballs at you than trade. Unless you have this item that is! First, make the Polynesia Charm that allows you to trade with animals (probably not worth it in this pack), then use the demon heart to make the Devil's Tongue Charm. With this, not only are they a lot less likely to attack, they will even sell their brethren's hearts for a little less.\n\nJust remember that it can only be used a limited number of times, OK? It might also be worthwhile to use the Rite of Protection at the same time as summoning a demon. To do so just put down both circles, and meet the item (and Altar Power) requirements of both. If you're not planning on killing the demon, you should probably send it back when you're done with the Rite of Banishing on page 47/48 of the Circle Magic book.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "More Hearts for Valentines",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2419
+  ],
+  "rewards": [],
+  "tasks": []
+}

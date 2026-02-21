@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3200,
+  "optional_prerequisites": [
+    3168,
+    3156
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Your sourcing of Uranium is gonna be very small in EV, unless you use crops. Similarly, your ability to put together the multiblocks needed for the fluid nuke will be better in IV, since you can mine Small Titanium Ore directly, and use GT++ multis.\n\nAll in all, the Tier 2 Rocket makes things a lot easier by letting you mine ores on Mars and Phobos to get Uranium and Tungstate/Scheelite. However, building it requires considerable progression in EV, due to TPV Coils, which need Titanium and Platinum, and the Mainframes that the rocket needs. In IV, fluid nukes are one of the best choices for efficient power without a lot of setup, although it's very viable to use Thorium and not just Uranium, so you can ignore Uranium Fuel Rods and use fluid nukes in EV if you so wish.\n\nEither way, it's recommended to have a multiblock Miner in either the Nether or Phobos, to source your Thorium or Uranium.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "EV vs. IV",
+    "party_single_reward": null,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

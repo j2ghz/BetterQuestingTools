@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3131,
+  "prerequisites": [
+    3127
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Sourcing these two should be easy at this point. Overall, the easiest option for Sulfuric Acid is oil processing, but you can also make it from Sulfur Dust, which is so very common from ore processing.\n\nNitric Acid is a bit more convoluted, but you might have already automated it, since it's needed for Cetane-Boosted Diesel. Ammonia and Oxygen can make it, or Nitrogen Dioxide instead of Ammonia. You won't be able to do it in a single step, but a small line of Chemical Reactor, or their multiblock equivalent, will do it for you.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Nitric And Sulfuric Acid",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3127
+  ],
+  "rewards": [],
+  "tasks": []
+}

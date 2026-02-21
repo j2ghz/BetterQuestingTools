@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2655,
+  "prerequisites": [
+    2654
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Wetware Supercomputer is a UV Circuit.\n\nYou'll need a TecTech Research Station and Quantum Computer to make the Wetware Mainframe circuit, so make those before continuing.\n\n[note]If you can't see the quests, go back to ZPM and do the TT ones there you skipped.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Supercomputers and Water",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2654
+  ],
+  "rewards": [],
+  "tasks": []
+}

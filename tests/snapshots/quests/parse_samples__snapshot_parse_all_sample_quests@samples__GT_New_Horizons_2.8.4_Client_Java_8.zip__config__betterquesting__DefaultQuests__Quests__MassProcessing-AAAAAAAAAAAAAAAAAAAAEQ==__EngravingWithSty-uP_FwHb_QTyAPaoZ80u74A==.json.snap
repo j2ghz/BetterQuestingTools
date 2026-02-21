@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 8574643945572383712,
+  "prerequisites": [
+    1416
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Sick of having to swap out lenses or make tens of laser engravers for your cleanroom? The Hyper-Intensity Laser Engraver is here for you. This multiblock can handle all of your engraving needs.\n\nBy using more powerful §lLaser Source Hatches§r in the structure, you can gain more parallels and run higher tier recipes.\n\n[note]Laser source hatches are usually used for power transmission, but not here! No matter what laser hatch you use, it will NOT change the power input of HILE - it is determined by the standard energy hatch as usual.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Engraving With Style",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1416
+  ],
+  "rewards": [],
+  "tasks": []
+}

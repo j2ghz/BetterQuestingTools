@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1906,
+  "prerequisites": [
+    1014
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "If you have too much wood, saplings, netherrack or other garbage, you can recycle it and get scrap [note](this does not have a 100% chance)[/note]. Scrap can be used to make UU-Amplifier to make UU-Matter in 1/4 the time, saving you a significant amount of energy.\n\nCertain items such as cobblestone, stone, and tiny/small dusts are too easy to make and don't give any scrap. But otherwise any items can be recycled to get scrap.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lRecycle for the Environment",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1014
+  ],
+  "rewards": [],
+  "tasks": []
+}

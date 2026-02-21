@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1720,
+  "prerequisites": [
+    934,
+    1722
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The next solar panel you can make is the IV one. It generates 8192 EU/t. This is probably the last tier it's worth it to make solars, unless you just really like them.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§c§lPower of the Sun at IV Level",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    934,
+    1722
+  ],
+  "rewards": [],
+  "tasks": []
+}

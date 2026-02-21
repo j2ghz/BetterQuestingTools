@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1561,
+  "prerequisites": [
+    1559
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Purified Milk is an antidote in a similar way to normal milk, although it only has a chance of working and will only remove a single status effect. It is advantageous because it can stack to 64 items.\n\nPurified Milk is an ingredient in the Brew of Sleeping.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Purified Milk",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1559
+  ],
+  "rewards": [],
+  "tasks": []
+}

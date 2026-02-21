@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2251,
+  "prerequisites": [
+    1116
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You might be thinking to yourself, huh this sure is an easy bee to give redstone....well, it also gives destructive lightning strikes. You might want to place them far from you. Or set them up in a Creeper spawner to make charged creepers for...experiments. Breed them from Valiant and Cultivated.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Excited",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1116
+  ],
+  "rewards": [],
+  "tasks": []
+}

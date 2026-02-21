@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2522,
+  "prerequisites": [
+    2519
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The ME Storage Monitor allows you to visualize how much of an item you have. For example you can tell if you're running low on circuits and should make more, or how a long crafting process is proceeding. There are a couple of ways to use them.\n\nRight-click with item: Will display the current level of that item if not locked.\nRight-click with empty hand: Will reset the display if not locked.\nRight-click with AE2 wrench or network tool: Will toggle the lock.\n\nThe ME Conversion Monitor is the upgraded version of the ME Storage Monitor. It adds the ability to directly withdraw from or store items into the ME Network. It has the normal interactions, plus more.\n\nShift-right-clicking with item: Attempts to insert the item stack into the network. This works even if it's not the displayed item!\nShift-double-right-clicking: Attempts to insert all item stacks of the type displayed into the network.\nRight-clicking (while locked): Attempts to pull out a stack of the item displayed.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Visualizing How Much Your Stuff",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2519
+  ],
+  "rewards": [],
+  "tasks": []
+}

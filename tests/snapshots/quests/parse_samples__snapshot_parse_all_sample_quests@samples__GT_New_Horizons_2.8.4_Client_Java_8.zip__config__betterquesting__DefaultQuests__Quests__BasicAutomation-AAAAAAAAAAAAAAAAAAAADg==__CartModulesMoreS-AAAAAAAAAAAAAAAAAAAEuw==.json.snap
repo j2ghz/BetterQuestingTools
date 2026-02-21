@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1211,
+  "prerequisites": [
+    110
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "After you craft side chests you can add more different chests to the cart. Some sides are reserved for tools so no chest can be placed there.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Cart Modules: More Storage",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    110
+  ],
+  "rewards": [],
+  "tasks": []
+}

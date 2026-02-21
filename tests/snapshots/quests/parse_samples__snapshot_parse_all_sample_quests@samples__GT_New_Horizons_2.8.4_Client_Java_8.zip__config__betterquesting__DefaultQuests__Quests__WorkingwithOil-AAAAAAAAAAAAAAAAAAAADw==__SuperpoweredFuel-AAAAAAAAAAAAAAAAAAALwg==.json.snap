@@ -1,0 +1,33 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3010,
+  "optional_prerequisites": [
+    2990
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "As did all tiers until now, the EV tier introduces a new type of bigger, better liquid fuel to burn on engines, High-Octane Gasoline. However, this one doesn't use the previous fuel, and instead takes a different oil-based route, which means that the CBD you have is of no use in this processing chain.\n\nAlso as before, the amount of processing you will need is greatly increased, and you can expect to need a lot more DTs, Oil Crackers, LCRs and other machines. You will also have to automate the input of materials from other sources, since Oil cannot provide you with everything anymore. You can overclock the multis you have, or build more of them, your choice. In the end, you'll have a fuel that is 2.5x more powerful than CBD, at an impressive fuel value of 2.5 million EU, and more byproducts than you could ever imagine.\n\nYou might have to crack one of the four oil fractions into the other ones, and you will surely need to pump Oil faster and faster to keep up with the power needs that will come when jumping to IV. I do recommend you use AE2 to automate the setup, relying on fluid P2Ps to transport fluids around, because it will make your life easier, even if it's harder to start and learn the setup. Either way you go, don't forget, you have to automate it.\n\n[warn]Work on making these important EV multis to continue.[/warn]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Superpowered Fuel",
+    "party_single_reward": null,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

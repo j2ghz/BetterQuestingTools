@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3123,
+  "optional_prerequisites": [
+    3121,
+    3116
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The output you'll get the most of, in the Fermented Biomass DT, is Methane. 6/10 of the input amount will become Methane, and this makes for the best choice for powering your powergen, even if other outputs can also serve as fuel options. It's important to remember that Methane is used in several important chemical lines, such as PTFE and Silicone Rubber, but you'll get much more of it than you need for those purposes.\n\nThe Methane you get from one DT can power it 4 times. Using 1/4 of your power there, you can fuel the singleblock machines you're using, and the wood automation source as well if you feel like it. Regardless, this setup should fuel itself just fine.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Methane Stinks",
+    "party_single_reward": null,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

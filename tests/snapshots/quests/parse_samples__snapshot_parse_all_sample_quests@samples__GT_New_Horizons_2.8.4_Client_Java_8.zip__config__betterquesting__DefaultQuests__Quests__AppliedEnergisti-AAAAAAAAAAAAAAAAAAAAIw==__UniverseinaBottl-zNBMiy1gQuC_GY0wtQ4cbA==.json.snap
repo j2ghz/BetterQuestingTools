@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3269686862348688492,
+  "prerequisites": [
+    468,
+    3244
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Those Digital Singularities, while offering a vast amount of space, felt constraining with their ability to store only one type of item... So you came up with something different this time. Having reached the peak of technology, you managed to create and contain an Artificial Universe within a Storage Cell. This allows you to store up to 63 different types of items without the universe collapsing in on itself.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Universe in a Bottle",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    468,
+    3244
+  ],
+  "rewards": [],
+  "tasks": []
+}

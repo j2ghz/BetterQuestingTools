@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 17916802937595670679,
+  "prerequisites": [
+    3280,
+    2644,
+    2618
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Mothership Navigation Console is used to select the Mothership's destination.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Don't Tell Me I Need To Read A Paper Map!",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3280,
+    2644,
+    2618
+  ],
+  "rewards": [],
+  "tasks": []
+}

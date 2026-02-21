@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1646,
+  "prerequisites": [
+    335
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Spinning hay into gold sounds like a fairy tale, but with your new magical spinning wheel you too can try tricking a queen into giving you their firstborn child.\n\nYou will need three for your witchwear, and can turn extra into gold nuggets in a furnace.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Rumplestiltskin!",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    335
+  ],
+  "rewards": [],
+  "tasks": []
+}

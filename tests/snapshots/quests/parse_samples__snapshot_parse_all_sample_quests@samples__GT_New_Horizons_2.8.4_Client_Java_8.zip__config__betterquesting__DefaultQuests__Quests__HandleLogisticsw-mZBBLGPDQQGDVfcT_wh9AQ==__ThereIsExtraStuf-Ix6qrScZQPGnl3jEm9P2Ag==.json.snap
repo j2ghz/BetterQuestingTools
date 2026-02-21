@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2817354448342611458,
+  "prerequisites": [
+    17971695594000210796
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Sometimes, a recipe has some extra outputs but the crafting module only has 1 output slot.\n\nThat is where the Crafting Byproduct Extraction Upgrade comes in. You can assign a byproduct of the recipe and this upgrade will make the module extract the byproduct as well. Now they won't clog the output buffer.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "There Is Extra Stuff...",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    17971695594000210796
+  ],
+  "rewards": [],
+  "tasks": []
+}

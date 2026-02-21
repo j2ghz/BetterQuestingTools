@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1011,
+  "prerequisites": [
+    162
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Bauxite vein contains two ores that get you Titanium, Bauxite and Ilmenite. Bauxite also contains Aluminium, as does (obviously) the Aluminium ore. You want tons of Titanium, so collect a bunch.\n\nWhen you're mining you'll surely pick up some Meteoric Iron from small ores, enough to make your rocket. But if it's not enough, or you want more, you can also mine the meteors that fall out of the sky.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lFind Bauxite",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    162
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2681,
+  "prerequisites": [
+    2657
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "So you probably noticed that the amount of seaweed you'll need to make Bio circuits is kind of...intense. Collecting them yourself is a huge pain, and who wants to program robots? Plus servers. Fortunately, there's now a way to make seaweed.\n\nThe first thing you need is...Seaweed! Use that with Unknown Water you pumped from the same planet to make the culture. Expect this to take a while, as the chances are super low. You'll also need the max tier Bio Lab.\n\nOnce you have the culture you can make Seaweed Broth, by combining it with Unknown Nutrient Agar and some other stuff. This can then be made into seaweed.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Industrial Scale Seaweed Production",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2657
+  ],
+  "rewards": [],
+  "tasks": []
+}

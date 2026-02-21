@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2649,
+  "prerequisites": [
+    2651
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Turn your Raw Growth Medium into Sterilized Growth Medium in an IV Fluid Heater, and then you can use it in the Wetware Lifesupport Circuit Boards or the Neuro Processing Unit. But you'll also need to use it to make stemcells, so let's do that first.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "STERILIZE!, STERILIZE!",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2651
+  ],
+  "rewards": [],
+  "tasks": []
+}

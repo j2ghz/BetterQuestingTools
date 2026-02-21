@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3081,
+  "prerequisites": [
+    3080
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "...But it's enough to separate with the magnetic separator.\n\nNow you can get both Europium III Oxide and some of the rarer rare earths.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lNot Quite Ferromagnetic...",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3080
+  ],
+  "rewards": [],
+  "tasks": []
+}

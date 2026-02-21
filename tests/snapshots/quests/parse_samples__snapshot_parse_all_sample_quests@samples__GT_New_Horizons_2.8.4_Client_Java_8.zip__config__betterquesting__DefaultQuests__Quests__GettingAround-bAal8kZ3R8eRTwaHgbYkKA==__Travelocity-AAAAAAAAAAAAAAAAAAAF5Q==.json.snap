@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1509,
+  "prerequisites": [
+    133,
+    141
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "A staff of traveling can get you really moving around your base. Hold shift and right-click to teleport in that direction. If you've got travel anchors, just right-clicking will send you to them. The range is 16 blocks for normal TP, 128 to an anchor.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Travelocity!",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    133,
+    141
+  ],
+  "rewards": [],
+  "tasks": []
+}

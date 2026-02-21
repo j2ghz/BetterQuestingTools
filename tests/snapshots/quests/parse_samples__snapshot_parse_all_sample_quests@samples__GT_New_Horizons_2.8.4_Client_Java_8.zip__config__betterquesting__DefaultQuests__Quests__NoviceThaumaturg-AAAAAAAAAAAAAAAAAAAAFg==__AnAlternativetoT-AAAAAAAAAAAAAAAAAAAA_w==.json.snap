@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 255,
+  "prerequisites": [
+    241
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "And lava! It's an excellent magical light source. You can use it under your crucible, too! But not your witchery stuff. :(",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "An Alternative to Torches",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    241
+  ],
+  "rewards": [],
+  "tasks": []
+}

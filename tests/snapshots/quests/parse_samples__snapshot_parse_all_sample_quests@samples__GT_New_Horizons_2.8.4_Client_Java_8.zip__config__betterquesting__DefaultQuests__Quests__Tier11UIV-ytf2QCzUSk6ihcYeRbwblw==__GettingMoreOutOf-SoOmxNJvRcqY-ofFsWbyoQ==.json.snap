@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 15163415207241773729,
+  "prerequisites": [
+    16446667263370667860
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Once you get your first Hypogen from Fusion, you can easily duplicate it in your DTPF.\n\nIt is a loop, though, so be cautious.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Getting More Out of Your Hypogen",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    16446667263370667860
+  ],
+  "rewards": [],
+  "tasks": []
+}

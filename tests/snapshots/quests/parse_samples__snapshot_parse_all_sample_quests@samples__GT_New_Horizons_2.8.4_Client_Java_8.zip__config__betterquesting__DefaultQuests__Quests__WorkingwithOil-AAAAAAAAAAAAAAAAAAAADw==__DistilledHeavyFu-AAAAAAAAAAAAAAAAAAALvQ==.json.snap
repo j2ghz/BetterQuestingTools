@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3005,
+  "prerequisites": [
+    3001
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You don't always have to crack the base fuels to get useful chemicals out of them. The best example of this is Heavy Fuel, whose recipe only has 3 outputs, but they're all excellent. This is the perfect format for a Distillation Tower automation, so get on it as soon as you can, you won't regret it!\n\nAs a sidenote, all of these are power-dense, and can be used for power if you stockpile a lot of them. Benzene is the first one you should use for this purpose, if you wish to do it, because the other two are core chemicals for required progression in HV and EV. However, Benzene can also turn into several useful chemicals, so don't burn it all for power.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Distilled Heavy Fuel",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3001
+  ],
+  "rewards": [],
+  "tasks": []
+}

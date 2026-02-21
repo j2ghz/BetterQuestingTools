@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1286,
+  "prerequisites": [
+    241
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Primal shrooms allow you to refill wands easier before you can move nodes to your base.\n\nGo and find some Vishrooms in a magical forest biome. Try using a Nature's Compass. Or buy some using coins if no biome is close to your location.\n\n1 pumpkin and 4 tiny piles of stone dust are the perfect combo to make these.\n\nWhenever they're fully grown, you can break them to get some vis orbs to drop, just like enemies do. You do need to be holding the wand to collect it though. For these to grow, they will need a certain light level.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Primal Shrooms",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    241
+  ],
+  "rewards": [],
+  "tasks": []
+}

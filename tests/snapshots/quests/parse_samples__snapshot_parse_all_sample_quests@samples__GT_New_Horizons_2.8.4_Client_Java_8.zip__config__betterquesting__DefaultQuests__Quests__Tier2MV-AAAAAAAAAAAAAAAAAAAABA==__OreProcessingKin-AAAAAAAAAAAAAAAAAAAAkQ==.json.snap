@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 145,
+  "prerequisites": [
+    129
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The endless war between macerators and SAG mills rages on eternally, so why does it matter which one you choose?\n\nHV Macerators are still required for the final byproducts on many ore chains, but a SAG mill still shines through with upgraded grinding heads! SAG mills are perfect machine for getting the most from your ores without using bees and crops. You can get bonus outputs with tungsten grinding heads, but that doesn't mean you can dupe materials (like ingots) with it. Plus for many of them you'll get the final output directly without any need for further processing. Handy for processing Redstone to get Chrome!\n\nIt's great for lead, copper, tin, silver, nickel, redstone, ruby, lapis, certus quartz, and malachite ores. Other ores will give you better outputs as well if you use a good enough head.\n\nEven coal, charcoal, bones, wheat, ender pearls, and charcoal non-ores will give bonus outputs.\n\nThat said, the GT ones are still way faster later on.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lOre Processing, Kind Of...",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    129
+  ],
+  "rewards": [],
+  "tasks": []
+}

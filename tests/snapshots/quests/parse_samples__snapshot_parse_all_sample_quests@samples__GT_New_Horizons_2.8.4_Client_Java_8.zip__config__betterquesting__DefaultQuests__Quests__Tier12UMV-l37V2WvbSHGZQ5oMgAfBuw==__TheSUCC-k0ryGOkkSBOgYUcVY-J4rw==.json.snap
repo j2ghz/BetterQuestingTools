@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 16799631758116157615,
+  "prerequisites": [
+    18135508534117862498,
+    15664724741015223223
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Like its predecessor it can run 4 different recipes at once, but this time each recipe has 16 parallels.\n\nA good solution for your Hydrogen and Helium problems.\n\n[note]This also requires Eternity to craft.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "The SUCC",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    18135508534117862498,
+    15664724741015223223
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1962,
+  "prerequisites": [
+    1961
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Now that you have tiles, you can make simple tile patterns. A 2x2 of red/yellow and yellow/red makes a simple checkerboard. Using the checkerboard again in a 2x2 makes a checkerboard with smaller tiles. Use Binnie's Botany wiki page to find more patterns you can make with just tiles.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Tile Patterns",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1961
+  ],
+  "rewards": [],
+  "tasks": []
+}

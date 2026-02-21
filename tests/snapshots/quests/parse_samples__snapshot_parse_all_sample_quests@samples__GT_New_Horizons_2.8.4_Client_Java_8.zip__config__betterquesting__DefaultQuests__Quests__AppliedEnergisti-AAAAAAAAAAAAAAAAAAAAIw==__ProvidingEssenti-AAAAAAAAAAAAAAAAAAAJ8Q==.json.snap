@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2545,
+  "prerequisites": [
+    2512
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Essentia and Infusion Providers both do basically the same thing, send essentia to a device that requests it for crafting.\n\nThe Essentia Provider needs to be next to the device, it's mostly for the Thaumatorium. Since it's effectively a magic ME Interface, you can also use it instead of an Essentia Import Bus next to your Alembics or the Advanced Alchemical Furnace.\n\nThe Infusion Provider is for devices that draw essentia through the air, like the Runic Matrix (infusion) or Overchanting Table. It doesn't need to be next to the device.\n\nThey both obviously need the essentia they request to be accessible by the network to work.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Providing Essentia on Demand",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2512
+  ],
+  "rewards": [],
+  "tasks": []
+}

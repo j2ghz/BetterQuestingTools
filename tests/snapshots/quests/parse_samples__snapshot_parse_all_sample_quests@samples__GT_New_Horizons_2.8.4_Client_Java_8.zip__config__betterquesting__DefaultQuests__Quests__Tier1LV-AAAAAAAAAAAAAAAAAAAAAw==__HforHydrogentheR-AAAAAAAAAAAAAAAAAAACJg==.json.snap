@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 550,
+  "prerequisites": [
+    539
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Centrifuge some brown or yellow limonite dust, or use an Electrolyzer with water to get some hydrogen.\n\nThere are many other ways of obtaining hydrogen which you might want to look into. Some are only available much later.\n\nExamples are: chemical processing or electrolysis of methane obtained from organic sources, electrolysis of water or salt water, mixing sodium with water, or eventually siphoning hydrogen directly from a gas giant.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lH for Hydrogen... the Rest of the Alphabet is Too Complicated...",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    539
+  ],
+  "rewards": [],
+  "tasks": []
+}

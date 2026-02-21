@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2014,
+  "prerequisites": [
+    1180
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Sometimes you don't want a 3x3 area chunkloaded, but a long straight line instead. This can be handy for rail lines or power lines going across long distances. An anchor sentinel can perform this function. Right-click on a chunk loader with a crowbar, and it will activate. Go in any straight line from the chunkloader and place the anchor and hit it with the crowbar. Those chunks, up to 25x1, will now remain loaded.\n\nThis will draw an amount of chunkloader time relative to the 9 chunk area normally loaded. If for some reason you wanted only a 1 chunk area loaded, this will extend the time. Stock up on those pearls or server coins!",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lAll Those Chunks, All in a Row",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1180
+  ],
+  "rewards": [],
+  "tasks": []
+}

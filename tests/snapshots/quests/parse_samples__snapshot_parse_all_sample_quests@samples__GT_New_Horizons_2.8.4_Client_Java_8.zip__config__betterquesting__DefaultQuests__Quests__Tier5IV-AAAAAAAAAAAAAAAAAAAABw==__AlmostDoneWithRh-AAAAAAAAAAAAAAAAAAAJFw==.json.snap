@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2327,
+  "prerequisites": [
+    2307
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Place your solution in your Chemical Reactor to heat it while it spins. That way you get a dust out of your Solution, 100% lump free!",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lAlmost Done With Rhodium",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "CHAIN"
+  },
+  "required_prerequisites": [
+    2307
+  ],
+  "rewards": [],
+  "tasks": []
+}

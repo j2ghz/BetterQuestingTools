@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 6362814810620068889,
+  "prerequisites": [
+    1496
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "At the top of your map screen (J by default) there are multiple tabs, some of them will be very useful and will save you a ton of searching!\n\nGT Oreveins - this tab will keep track of the veins for you, to save a vein to map right-click a naturally generated ore (some tools can't right-click)\nGT Underground fluids - this will help you later (MV)\nTC Nodes - this tab will keep track of thaumcraft nodes for you (you need to scan them first)\n\n[note]Small Ores are not part of veins and thus do not uncover a vein on the map. However veins generate extra small ores related to the vein in their chunks, so they can still be useful in your search (though not all small ores are related to a nearby vein so don't be fooled).[/note]\n\n[note]Another great interaction is that you can use the NEI search bar in highlight mode (double-click it) and then go to the map screen to get the matching uncovered ore veins highlighted![/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lThe power of prospecting!",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1496
+  ],
+  "rewards": [],
+  "tasks": []
+}

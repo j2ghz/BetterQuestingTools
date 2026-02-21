@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 531,
+  "prerequisites": [
+    529,
+    530,
+    717
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Automate your bee, sapling, or crop scanning. For crops, this is the only real way to find the crop's stats until you can craft the Portable Scanner, which needs HV circuits that you can make in the next tier.\n\nLater on, this machine gets very useful for scanning high tier machine parts for the assembly line research data or to fill data orbs with data for UU-Matter production. Data sticks with raw prospecting data need a scanner too.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lScanning Bees, Crops and Moooooore!",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    529,
+    530,
+    717
+  ],
+  "rewards": [],
+  "tasks": []
+}

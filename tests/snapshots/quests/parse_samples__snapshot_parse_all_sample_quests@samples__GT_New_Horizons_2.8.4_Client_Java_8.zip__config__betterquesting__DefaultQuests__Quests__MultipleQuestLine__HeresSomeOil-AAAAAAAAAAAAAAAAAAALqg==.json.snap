@@ -1,0 +1,34 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2986,
+  "optional_prerequisites": [
+    546,
+    547
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "[note]Here the oil questlines diverge into two tabs - part about getting every possible output is in the LV tab, part about the usefulness of oil is in the Working with Oil tab, this quest is part of the latter.[/note]\n\nWelcome! This is the questline that shows the path through oil processing towards all the useful items and fluids that can be obtained from it. Working with this black liquid involves a lot of steps that range from LV (Low Voltage), all the way to IV (Insane Voltage), and outputs that are useful at those tiers and beyond.\n\nOil is useful both for generating power, and to automate a lot of chemicals that are important for progression. As you progress, you will be able to get more of it, and get it faster, as well as process it in new ways that improve on the setup that you were using before. It is not a required path for progression in the pack, but it is a very useful one, should you choose to follow it.\n\nThe best way to start working with oil is to extract it from the surface. Oil spouts are visible without having to dig down, and they can be interacted with by using a Pump placed above them, alongside a generator that feeds it some power. You can use some of the Oil to generate this power for now.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Here's Some Oil",
+    "party_single_reward": null,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

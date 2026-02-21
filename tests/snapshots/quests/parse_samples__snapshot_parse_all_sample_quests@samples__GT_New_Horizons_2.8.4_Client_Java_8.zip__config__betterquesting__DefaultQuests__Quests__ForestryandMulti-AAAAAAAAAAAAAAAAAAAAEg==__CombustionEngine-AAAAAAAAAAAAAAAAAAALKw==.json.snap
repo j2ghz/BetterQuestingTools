@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2859,
+  "prerequisites": [
+    577
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The combustion engine combusts things for power like a car engine does. You need water in it if it's over 100 degrees, or it will explode. Don't run out of water! You turn it on with a redstone signal.\n\nYour options for fuel are:\nOil @30RF/t for a total of 150K\nEthanol @40RF/t for a total of 360K\nDiesel @60RF/t for a total of 1,500K\n\n[note]Make sure to use Oil, not raw, light, medium, or heavy oil.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Combustion Engine",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    577
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2830,
+  "prerequisites": [
+    1409,
+    2321,
+    1890
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You'll need this to increase the power to your multis and progress.\n\nYou need some Vanadium-Gallium to make HPIC Wafers for it, and an IV Cutting Machine if you haven't made the multi.\n\n[note]I hope you had fun with the platline, lol.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lIV Energy Hatch",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1409,
+    2321,
+    1890
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 185,
+  "prerequisites": [
+    2519
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The ME Terminal is an interface which gives you access to an ME network's networked storage. It has the ability to sort and search, as well as filter by using a view cell.\n\nThe ME Crafting Terminal is the upgraded version of the ME terminal which has an integrated crafting grid with access to an ME network's networked storage.\n\nThe ME Interface Terminal gives remote access to all interface pattern slots on your network separated by which type of machine they are on. It will show the type of machine in the terminal, however you can name the ME interface in the inscriber or an anvil to alter the name displayed in the ME interface terminal. If you use Ender Chests to send stuff elsewhere to be processed a lot, this may help with reducing confusion. You can also search for a specific device.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Basic Terminals",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2519
+  ],
+  "rewards": [],
+  "tasks": []
+}

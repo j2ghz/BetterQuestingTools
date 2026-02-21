@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3147,
+  "prerequisites": [
+    3150,
+    3151
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The branch to the left and to the right are both about nuclear fission, or the midgame content about fusion. If you're looking for fusion, you went the wrong way! Go straight down for that content, although it only begins in LuV.\n\nOn the left side, the top side is the beginning of it all, with your usual IC2 nukes that were developed more than 10 years ago. On the bottom, the neat and powerful upgrades to those nukes, either fluid or vacuum.\n\nOn the right side, the top side is dedicated to power, whereas the bottom side is dedicated to breeding (byproducts). This covers the more GTNH-exclusive fission content, all of which comes after IC2 nukes, and generally builds on their concept to work faster and pump out more complex, and often more useful things.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Fission Guidelines",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3150,
+    3151
+  ],
+  "rewards": [],
+  "tasks": []
+}

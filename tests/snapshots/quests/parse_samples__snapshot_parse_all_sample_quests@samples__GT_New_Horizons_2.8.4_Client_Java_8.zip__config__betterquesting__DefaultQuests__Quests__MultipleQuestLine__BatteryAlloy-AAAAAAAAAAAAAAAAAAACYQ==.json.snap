@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 609,
+  "prerequisites": [
+    608,
+    598
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Mixing antimony and lead in the alloy smelter will give you battery alloy. Combine it with tin cable and voila, there's your small battery hull.\n\nSmall = LV, Medium = MV, Large = HV. It gets weirder after that.\n\nNote that if you make the battery alloy in the mixer you need to use dusts, but if you use the alloy smelter you can use either.\n\nCheck out the quest tab Storing and Transforming EU for all details about EU power storage.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lBattery Alloy",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    608,
+    598
+  ],
+  "rewards": [],
+  "tasks": []
+}

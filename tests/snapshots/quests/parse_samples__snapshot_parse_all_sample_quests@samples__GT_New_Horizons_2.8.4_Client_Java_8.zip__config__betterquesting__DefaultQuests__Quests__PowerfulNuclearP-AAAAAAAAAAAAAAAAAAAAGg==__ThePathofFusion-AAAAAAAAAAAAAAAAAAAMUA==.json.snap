@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3152,
+  "prerequisites": [
+    3149
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The most advanced nuclear technology there is to use in the pack is nuclear fusion. This is an event where two atoms collide with each other and fuse into a different atom while simultaneously generating energy from the plasma, when it is processed. It's impossible to perform in a reactor in real life, because the temperature requirements are too high to maintain any kind of reactor solid with decent efficiency. In GTNH, though, we have better materials.\n\nThe first Fusion Reactor can be built in late LuV, and each tier unlocks some material that is important to progress into the later tiers. Fusion crafting becomes important at that stage, for materials such as Europium, Americium, Neutronium and Oganesson, so you will want to dedicate reactors to specific things later on. More importantly, these materials come out as plasma, which needs to be cooled down to be turned into ingots and plates. On top of that, though, this cooling process is where you can get lots of power!\n\nThe usual process of power generation here is to pump EU into the Fusion Reactor. It needs enough energy to start the reaction, which will then proceed quickly and output good amounts of plasma. This plasma goes into Plasma Turbines, which output power and the cooled down material, ready to be used in further crafting. A beginner's setup can output 640,000 EU/t from one reactor before overclocking, and this grows quickly over time, although the options you have to consume the plasma quickly are limited until you get XL turbines. Your existing powergen might very well outpace this.\n\nTo summarize, fusion is required for progression because of the materials it produces. At the same time, it can produce power for you, depending on the plasma used.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "The Path of Fusion",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3149
+  ],
+  "rewards": [],
+  "tasks": []
+}

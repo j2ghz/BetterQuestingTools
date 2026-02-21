@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2730109632232991938,
+  "prerequisites": [
+    77
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "...but a very useful meter.\n\nGT EU Meter will give you basic information about electricity in your cables and machines.\n\n[note]A more advanced version is available in MV and will allow you to gather much more data, so come back to this tab later to find it.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§6§lA Not So Useful Scanner...",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    77
+  ],
+  "rewards": [],
+  "tasks": []
+}

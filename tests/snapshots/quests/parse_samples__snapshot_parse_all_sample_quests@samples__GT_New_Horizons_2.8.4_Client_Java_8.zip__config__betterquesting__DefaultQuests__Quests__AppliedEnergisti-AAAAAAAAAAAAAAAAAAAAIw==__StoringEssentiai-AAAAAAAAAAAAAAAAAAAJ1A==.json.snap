@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2516,
+  "prerequisites": [
+    1304
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "So apparently you can attach this to a void/oblivion jar and have it void overflow if you set the priority low. Neat, huh?\n\nWhat? Store essentia in jars? Seriously? I guess you could, if you really wanted to, or if there were new, larger jars...",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Storing Essentia in Jars? Why, again?",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1304
+  ],
+  "rewards": [],
+  "tasks": []
+}

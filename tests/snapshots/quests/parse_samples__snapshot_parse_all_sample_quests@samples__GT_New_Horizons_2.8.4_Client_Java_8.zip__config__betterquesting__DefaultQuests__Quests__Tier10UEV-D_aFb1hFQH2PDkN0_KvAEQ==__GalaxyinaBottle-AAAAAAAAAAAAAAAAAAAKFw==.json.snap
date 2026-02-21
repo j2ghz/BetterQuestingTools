@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2583,
+  "prerequisites": [
+    13520174359713356034
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Good luck with this one, it is many times harder than the previous tiers. It is required to make extremely endgame materials such as hypogen.\n\nThe MK IV reactor grants 4/4 perfect overclocks for every machine tier above the minimum recipe tier instead of the 2/2 perfect overclocks from the previous tiers. That means the speed and power consumption are both quadrupled instead of doubled each time.\n\nRegardless, you may notice the MK IV recipes are §oquite§o §rslow, perhaps consider making a Compact Fusion Reactor instead?\n\n[note]You only have to complete one task to finish this quest.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Galaxy in a Bottle...?",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    13520174359713356034
+  ],
+  "rewards": [],
+  "tasks": []
+}

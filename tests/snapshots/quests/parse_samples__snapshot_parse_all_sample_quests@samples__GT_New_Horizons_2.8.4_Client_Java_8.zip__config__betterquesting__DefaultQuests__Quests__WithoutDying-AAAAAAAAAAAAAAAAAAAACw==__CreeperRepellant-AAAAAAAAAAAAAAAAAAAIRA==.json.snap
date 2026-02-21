@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2116,
+  "prerequisites": [
+    2112
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "An ocelot backpack will get those creepers running away from you. Nice protection against those drowning creepers! Don't get too close to them or else their repulsion will be overridden and they'll blow up!",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Creeper Repellant",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2112
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,36 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 840,
+  "optional_prerequisites": [
+    641,
+    643,
+    549,
+    552
+  ],
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You can crack and distill a lot of different fluids out of your already distilled products, such as Butane, Butene, Butadiene, Benzene, Ethane, Ethylene, Helium, Hydrogen, Methane, Octane, Propane, Propene, Toluene, and even more Light Fuel, Heavy Fuel, or Naphtha. You can then crack them down even further too sometimes. Many of these are only used for power. Go check out the spreadsheet for more details than this quest can encompass.\n\nFor now, get some Butane and Propane.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lButane and Propane",
+    "party_single_reward": false,
+    "quest_logic": "OR",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "rewards": [],
+  "tasks": []
+}

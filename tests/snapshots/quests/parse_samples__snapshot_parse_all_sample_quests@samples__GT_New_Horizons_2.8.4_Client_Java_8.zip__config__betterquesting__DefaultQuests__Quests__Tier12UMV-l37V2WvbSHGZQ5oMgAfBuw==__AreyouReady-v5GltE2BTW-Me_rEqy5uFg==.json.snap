@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 5584830154924781078,
+  "prerequisites": [
+    3244,
+    17014953405431341274,
+    3927784732497972212
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "From now on, you'll be dealing with extremely slow recipes.\n\nConsider finishing up your QFTs and upgrading or replacing your old infrastructure to save on TPS.\n\nYou should definitely upgrade your power generation and infrastructure to handle millions of recipes.\n\nThe Eye of Harmony will be consuming most of your power before it starts generating more than it uses.\n\nMay Colen have mercy on your soul.\n\n[note]Welcome to the waiting lounge.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Are you Ready?",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3244,
+    17014953405431341274,
+    3927784732497972212
+  ],
+  "rewards": [],
+  "tasks": []
+}

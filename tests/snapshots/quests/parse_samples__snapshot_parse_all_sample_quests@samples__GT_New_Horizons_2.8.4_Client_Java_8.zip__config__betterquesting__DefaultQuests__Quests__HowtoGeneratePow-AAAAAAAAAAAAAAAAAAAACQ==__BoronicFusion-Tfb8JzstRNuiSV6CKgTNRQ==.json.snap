@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 4264140130283212101,
+  "prerequisites": [
+    11808517774577837050
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "This plasma needs Helium Plasma to be crafted. That's right, this entire powergen chain builds on top of Helium Plasma!\n\nThe Boron Plasma step is much slower than the Helium one, so if you match the number of reactors and their tier, you will end up with a large excess of Helium Plasma. As you know, it's very useful for power in Large Plasma Turbines, so you could use this excess to power all the other reactors. As you scale up, however, this alone will probably not be enough.\n\nYou will need 3.75 reactors with this recipe to feed 1 reactor with the next step.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Boronic Fusion",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    11808517774577837050
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1136,
+  "prerequisites": [
+    97,
+    77
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "How about lossless 32 EU cables? Redstone alloy is a superconductor and will transfer your energy without any loss.\n\nRedstone Alloy is a new alloy which requires an EBF. Mix redstone, silicon and coal by hand, or in the mixer for a better result.\n\n[note]Remember not to mix it up with Red Alloy, that's the ULV one.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lLossless LV Cables",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    97,
+    77
+  ],
+  "rewards": [],
+  "tasks": []
+}

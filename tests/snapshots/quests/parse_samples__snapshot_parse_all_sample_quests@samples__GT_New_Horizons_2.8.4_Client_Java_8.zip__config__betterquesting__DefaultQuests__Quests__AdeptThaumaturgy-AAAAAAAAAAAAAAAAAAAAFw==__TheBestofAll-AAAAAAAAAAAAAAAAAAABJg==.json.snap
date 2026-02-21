@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 294,
+  "prerequisites": [
+    293
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Highly durable, can carry a lot of items and is considered the \"top tier\" golem. But you are sure there is more...\n\nYou'll need to chisel a thaumium block to get the right kind you need for the golem.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "The Best of All?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    293
+  ],
+  "rewards": [],
+  "tasks": []
+}

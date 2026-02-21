@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3083,
+  "prerequisites": [
+    3087
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Only thing left to do is to centrifuge your concentrated dust to get samarium. You get a little thorianite too so, win.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lSamarium, The Other Way",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3087
+  ],
+  "rewards": [],
+  "tasks": []
+}

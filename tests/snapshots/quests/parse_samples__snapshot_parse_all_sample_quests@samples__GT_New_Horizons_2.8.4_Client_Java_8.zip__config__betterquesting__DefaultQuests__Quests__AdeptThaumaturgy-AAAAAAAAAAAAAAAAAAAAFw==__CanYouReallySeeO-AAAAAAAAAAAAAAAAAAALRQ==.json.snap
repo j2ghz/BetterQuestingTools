@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2885,
+  "prerequisites": [
+    260
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "If you take a little dip into the dark side, you can make these goggles. They give the best discount until you can make infinity armor. And who even does that?\n\nYou'll need infusion and some warping research first.\n\nIf you're a §oscaredy-cat§r you can make the Electric goggles on the armor tab instead.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Can You Really See Out of Those?",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    260
+  ],
+  "rewards": [],
+  "tasks": []
+}

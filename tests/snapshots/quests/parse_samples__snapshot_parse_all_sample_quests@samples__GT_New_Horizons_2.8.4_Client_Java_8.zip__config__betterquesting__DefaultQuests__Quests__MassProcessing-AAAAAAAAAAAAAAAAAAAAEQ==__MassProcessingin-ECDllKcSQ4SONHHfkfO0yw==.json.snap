@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 12038758990578169035,
+  "prerequisites": [
+    1493,
+    1416
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "As you enter LuV and beyond, fewer mass processing multiblocks are available as you replace old setups with new systems and scale up the multiblocks you've already built - there are still some important upgrades in these higher tiers, though.\n\nDefinitely don't miss out on the Circuit Assembly Line or you'll be kicking yourself later.\n\nBe a true GT engineer and finish out your collection!",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Mass Processing in LuV and Beyond",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1493,
+    1416
+  ],
+  "rewards": [],
+  "tasks": []
+}

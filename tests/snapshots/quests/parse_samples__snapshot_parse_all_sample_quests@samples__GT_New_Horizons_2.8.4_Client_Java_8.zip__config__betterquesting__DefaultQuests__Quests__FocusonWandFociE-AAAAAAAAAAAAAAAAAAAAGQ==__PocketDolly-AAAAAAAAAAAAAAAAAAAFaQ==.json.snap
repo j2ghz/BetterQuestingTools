@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1385,
+  "prerequisites": [
+    238,
+    1375
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Wand Focus: Dislocation is a very useful focus that allows its user to take and place nearly any block, even Tile Entities and one that usually can't be moved, like Mob Spawners, planted IC2 Crops, and more.\n\n[warn]Please use responsibly, and don't move things you shouldn't, like door halves, or some multiblock parts, unless you like the idea of world corruption destroying your world. That said, if you're in SP and make a backup, do whatever you want, just know the risks.[/warn]\n\nIt uses:\n5 Ordo + 5 Perditio + 1 Terra to take any mundane block.\n25 Ordo + 25 Perditio + 5 Terra to take any block with a tile entity (such as a Chest).\n100 Ordo + 100 Perditio + 20 Terra to take a Mob Spawner.\n\n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]\n§5Frugal§r: Lowers vis cost to cast by 10% per level",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Pocket Dolly",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    238,
+    1375
+  ],
+  "rewards": [],
+  "tasks": []
+}

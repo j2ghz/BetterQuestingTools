@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 14558808148670909885,
+  "prerequisites": [
+    92
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "A feat of human engineering at your disposal!\n\nThis machine allows you to filter 9 items, and will only output set batches. This allows you to automate processes such as electrolyzing that require different amounts of inputs that may clog the system otherwise.\n\n[note]This will be particularly useful in MV once you unlock more electrolysis recipes![/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lHandle Resources Like a Bo$$ #2",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    92
+  ],
+  "rewards": [],
+  "tasks": []
+}

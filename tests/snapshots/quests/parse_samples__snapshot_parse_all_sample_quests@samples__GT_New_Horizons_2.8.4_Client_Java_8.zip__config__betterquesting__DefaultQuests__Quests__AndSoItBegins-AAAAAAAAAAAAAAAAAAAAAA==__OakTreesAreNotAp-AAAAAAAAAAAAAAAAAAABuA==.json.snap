@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 440,
+  "prerequisites": [
+    4
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Oak trees that give apples? Who the hell added this to minecraft?\nYou found a way of combining an oak sapling and an apple to get an apple tree sapling. Try to plant one to get a permanent source of food.\n\nOnce you complete this quest, check out the rest of the Quest Tabs. A new one, \"Coins, Coins, Coins\", has unlocked. You'll want to look through all the quest tabs to make sure something new hasn't unlocked somewhere else occasionally. There are lots of tabs, so be sure to scroll down!",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§9§lOak Trees Are Not Apple Trees",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    4
+  ],
+  "rewards": [],
+  "tasks": []
+}

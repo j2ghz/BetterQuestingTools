@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3144,
+  "prerequisites": [
+    2760
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Milling process is an alternative way to produce Indium, designed for LuV and above. It does not void Aluminium and Galena for no reason, and you can extract Indium from Sphalerite efficiently. In exchange for machine cost and infrastructure needed to process.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Too much Indium?",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2760
+  ],
+  "rewards": [],
+  "tasks": []
+}

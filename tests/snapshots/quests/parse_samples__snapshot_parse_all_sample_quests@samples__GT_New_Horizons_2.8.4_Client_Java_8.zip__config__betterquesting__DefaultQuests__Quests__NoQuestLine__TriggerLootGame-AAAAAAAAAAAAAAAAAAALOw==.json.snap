@@ -1,0 +1,30 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2875,
+  "prerequisites": [],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Find a loot game room",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Trigger: Loot Game",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "OR",
+    "visibility": "HIDDEN"
+  },
+  "rewards": [],
+  "tasks": []
+}

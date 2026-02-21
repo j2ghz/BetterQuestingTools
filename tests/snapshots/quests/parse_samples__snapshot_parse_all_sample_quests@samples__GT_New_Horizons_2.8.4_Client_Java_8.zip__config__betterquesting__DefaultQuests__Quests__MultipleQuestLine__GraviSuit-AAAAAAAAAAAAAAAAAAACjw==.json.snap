@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 655,
+  "prerequisites": [
+    2658,
+    3143
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The GraviChestPlate is the ultimate quantum armor combined with a high powered jetpack. Some notable features include:\n\n- 30M EU Capacity\n- Spacesuit Capability\n- Hazmat Protection\n- Gravitation Engines (Creative Flight)\n- Levitation Mode\n- Quantum Shield (Invincibility, requires full Quantum Armor)\n\n[note]KEYBINDS\nHUD: Gravi HUD Key\nGravitation Engines: Gravi Fly Key\nLevitation Mode: Spacebar + IC2 Mode Switch Key\nQuantum Shield: Sneak + IC2 Mode Switch Key[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Gravi Suit",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2658,
+    3143
+  ],
+  "rewards": [],
+  "tasks": []
+}

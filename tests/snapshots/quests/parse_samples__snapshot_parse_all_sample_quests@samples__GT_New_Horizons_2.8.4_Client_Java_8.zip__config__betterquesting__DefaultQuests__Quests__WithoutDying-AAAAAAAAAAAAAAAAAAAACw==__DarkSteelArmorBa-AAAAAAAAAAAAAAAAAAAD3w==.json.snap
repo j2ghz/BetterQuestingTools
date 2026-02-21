@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 991,
+  "prerequisites": [
+    139,
+    141
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "In order to upgrade one armor item with basic upgrades, you need a vibrant crystal and 10 XP levels. Some upgrades can be applied directly, but more advanced ones will require empowering the armor first.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Dark Steel Armor Basic Upgrades",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    139,
+    141
+  ],
+  "rewards": [],
+  "tasks": []
+}

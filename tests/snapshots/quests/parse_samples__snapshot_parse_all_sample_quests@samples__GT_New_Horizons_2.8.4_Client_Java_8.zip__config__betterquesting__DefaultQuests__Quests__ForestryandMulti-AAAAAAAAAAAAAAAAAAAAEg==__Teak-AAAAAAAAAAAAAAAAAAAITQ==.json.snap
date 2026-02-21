@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2125,
+  "prerequisites": [
+    2123
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Teak is the first step to Giant Sequoia, a true giant. Breed it by mating Dark Oak and Jungle.\n\nNote: For all tree breeding quests, the required tree must be a pure species, not a hybrid, and must be scanned.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Teak",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2123
+  ],
+  "rewards": [],
+  "tasks": []
+}

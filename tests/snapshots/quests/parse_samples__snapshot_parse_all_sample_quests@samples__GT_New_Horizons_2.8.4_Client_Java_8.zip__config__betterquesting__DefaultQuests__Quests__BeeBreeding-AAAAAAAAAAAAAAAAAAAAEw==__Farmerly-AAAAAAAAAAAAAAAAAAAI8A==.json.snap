@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2288,
+  "prerequisites": [
+    2170,
+    2157
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Like most farmers, these bees seem to spend all their time complaining about the neighbors or the weather instead of actually doing much. They'll need a Plains-like biome. Breed them from Unweary and Rural.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Farmerly",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2170,
+    2157
+  ],
+  "rewards": [],
+  "tasks": []
+}

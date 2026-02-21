@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2732,
+  "prerequisites": [
+    806,
+    1261
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Lapotronic Supercapacitor is your best option for massive power storage.\n\nIt can have maintenance issues which increase its power loss by 20% more each, so try not to let that slide. Though at most it's still only 2.2%\n\nFor the first, smallest one, you'll need the following, plus an Energy Hatch and a Dynamo. Remember that you can get your Lapos back if you run the capacitor through an unpackager. Finally a reason to make one!\n\nYou can use Laser Hatches, that can output very high amperage. You need at least UV Glass to use them.\n\nYour LSC can hold between 300 MEU and 25.38 GEU using only the EV capacitors. Remember that you need more than half the blocks to be non-empty capacitors for it to be valid.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Take charge!",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    806,
+    1261
+  ],
+  "rewards": [],
+  "tasks": []
+}

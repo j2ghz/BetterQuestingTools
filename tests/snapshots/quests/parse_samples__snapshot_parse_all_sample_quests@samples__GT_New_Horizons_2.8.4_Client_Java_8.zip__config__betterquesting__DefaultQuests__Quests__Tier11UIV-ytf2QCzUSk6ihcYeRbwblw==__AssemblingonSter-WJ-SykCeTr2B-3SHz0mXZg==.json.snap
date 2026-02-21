@@ -1,0 +1,41 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 4656245641881163622,
+  "prerequisites": [
+    3237,
+    2584,
+    2215294808299252647,
+    15490774631735871952
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "It has 16 parallels and can utilize advanced superconductors for improved yields in optical part recipes.\n\n[note]You can't create the Ultimate Battery in one step yet-that's much further down the line.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Assembling on Steroids",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3237,
+    2584,
+    2215294808299252647,
+    15490774631735871952
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2099,
+  "prerequisites": [
+    2097
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Discovered genes are logged into the Gene Database. This handheld device lists all genes by the type of organism they apply to. To add a gene to an Empty Serum Vial to allow inoculation, the desired gene can be clicked on while holding the vial. An Empty Serum Array can be used to hold more than one gene at once.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Gene Database",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2097
+  ],
+  "rewards": [],
+  "tasks": []
+}

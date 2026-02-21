@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 9131963458295246607,
+  "prerequisites": [
+    6952790731091741650,
+    318711548704554246
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "To get §4Netherrack Froth§r, you can combine your milling products with your Nefarious Oil in a §5§lFlotation Cell§r. \n\n[note]It would be wise to make a robust setup for this.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§c§lNetherrack Froth",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    6952790731091741650,
+    318711548704554246
+  ],
+  "rewards": [],
+  "tasks": []
+}

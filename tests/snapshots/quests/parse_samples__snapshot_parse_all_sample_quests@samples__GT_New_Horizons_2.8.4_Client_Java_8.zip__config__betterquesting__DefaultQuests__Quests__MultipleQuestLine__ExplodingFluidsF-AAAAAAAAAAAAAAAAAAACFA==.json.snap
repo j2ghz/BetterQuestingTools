@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 532,
+  "prerequisites": [
+    95
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The Combustion Generator produces EU from several fluids and spends fuel only when necessary. Some fluids are more popular than others, but the Oil processing line has a different combustion fluid in every tier from LV to EV, and all of them are burned in these generators.\n\nTo start, LV is the tier of Light Fuel. It is worth much more than the Oil itself for generating power, so you should distill and desulfurize the Oil to get clean Light Fuel and use it for power. It's a great way to run your base, and can be upgraded further in the next tiers. Check the \"Working with Oil\" tab for more information, once you've made a Pump and found some Oil.\n\nIf you're dealing with Oil processing, this is the type of generator you'll use the most.§r",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§5§lExploding Fluids For Power",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    95
+  ],
+  "rewards": [],
+  "tasks": []
+}

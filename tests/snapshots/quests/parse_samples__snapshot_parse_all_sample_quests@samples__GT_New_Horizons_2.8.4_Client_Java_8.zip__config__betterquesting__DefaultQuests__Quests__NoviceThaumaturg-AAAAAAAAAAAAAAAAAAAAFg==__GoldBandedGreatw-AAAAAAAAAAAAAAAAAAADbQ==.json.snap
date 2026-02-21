@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 877,
+  "prerequisites": [
+    879
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "A scepter is crafted from a wand core, a primal charm, three wand caps, a twilight forest monster mob drop, and some screws. Any sort of core or cap may be used, but the caps must match each other. A scepter cannot hold a focus, but holds 150 percent as much vis as a wand with the same core, and gives an additional 10 percent discount for costs, beyond any discounts from its caps or the user's worn equipment.\n\nThis is ideal for all your crafting needs and to progress further!\n\n[note]There are multiple ways to get enough vis capacity to craft the scepter. If you are not yet able to make it, maybe first work on Fusion and make yourself some boots with better discounts.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Gold-Banded Greatwood Scepter",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    879
+  ],
+  "rewards": [],
+  "tasks": []
+}

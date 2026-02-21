@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 227,
+  "prerequisites": [
+    1096
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Now you need something on which to craft magical items. It probably needs to be a little magical itself. Let's see what the book says.\n\n§3I should probably take this time to read all the stuff in the Thaumonomicon I don't know about while I'm at it, instead of posting on Discord and looking stupid.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 1,
+    "name": "A Table to Work On",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1096
+  ],
+  "rewards": [],
+  "tasks": []
+}

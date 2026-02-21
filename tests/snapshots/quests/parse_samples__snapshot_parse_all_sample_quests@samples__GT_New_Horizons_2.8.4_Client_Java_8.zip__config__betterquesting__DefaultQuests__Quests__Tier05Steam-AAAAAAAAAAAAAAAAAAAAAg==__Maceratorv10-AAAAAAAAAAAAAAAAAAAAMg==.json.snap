@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 50,
+  "prerequisites": [
+    49
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Finally you are able to make a device that will replace your mortar. However, the \"no-durability\" feature of this device comes with a cost: You need 2 diamonds for the grinding heads.\n\nThe macerator will double your ore output. Put ores through it instead of smelting directly.\n\n§3NOTE: Remember, don't block the output port and don't stand behind it.§r",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 1,
+    "name": "§3§lMacerator v1.0!",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    49
+  ],
+  "rewards": [],
+  "tasks": []
+}

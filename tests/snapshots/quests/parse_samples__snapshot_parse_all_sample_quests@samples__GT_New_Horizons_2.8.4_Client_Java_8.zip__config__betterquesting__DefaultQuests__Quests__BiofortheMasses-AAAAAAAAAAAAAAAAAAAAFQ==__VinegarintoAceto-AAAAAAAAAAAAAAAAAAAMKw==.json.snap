@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3115,
+  "prerequisites": [
+    3114
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "From Wood Vinegar, one of the useful outputs you can walk away with is Acetone. It's not very easy to craft, needing Calcium Dust and Acetic Acid, which needs Methanol or Hydrogen... instead of all that, you can get it right here, alongside some of the other chemicals in this family tree.\n\nWhat is it for, though? Simple: Epoxy Resin, Cetane-Boosted Diesel, Raw Gasoline and maybe some up-and-coming glue. Want it? Get it, it'll surely prove useful.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Vinegar into Acetone",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3114
+  ],
+  "rewards": [],
+  "tasks": []
+}

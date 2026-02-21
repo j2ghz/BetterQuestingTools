@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 1626,
+  "prerequisites": [
+    1625
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Now you need to make some chips to use in those interface pipes. These are useless on their own but essential for crafting the others.\n\nNow would be a good time to look into IC2 crops to get all the dyes you will need for your advanced chips.\n\n[note]If NEI's bookmarks are blocking you on the left, you can turn it off (O) until that gets fixed.[/note]",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Chips",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    1625
+  ],
+  "rewards": [],
+  "tasks": []
+}

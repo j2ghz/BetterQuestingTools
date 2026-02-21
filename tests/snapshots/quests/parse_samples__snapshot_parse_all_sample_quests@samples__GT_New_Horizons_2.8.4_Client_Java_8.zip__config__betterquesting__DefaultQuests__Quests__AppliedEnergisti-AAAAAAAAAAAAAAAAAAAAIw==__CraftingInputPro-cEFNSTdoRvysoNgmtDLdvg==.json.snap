@@ -1,0 +1,39 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3992519120832880062,
+  "prerequisites": [
+    4656245641881163622,
+    9357425542017745291,
+    3781125166901867750
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "You have mastered both interdimensional transportation and wallsharing, why not combine them?\n\nYou can link both crafting input bus/buffer to proxies with data sticks and use it to process patterns with multiple machines, as if you are wallsharing them, but without actually wallsharing them.\n\n[note]Maybe this can reduce lag?[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Crafting Input Proxy",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    4656245641881163622,
+    9357425542017745291,
+    3781125166901867750
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2640,
+  "prerequisites": [
+    2751
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "After building this, you can visit more planets.\n\nYou need to use CN3H7O3 (Purple) Rocket Fuel or better to fuel it.\n\n§cIf you want to make this rocket in ZPM, you'll need to use the GT++ Assembler multi.§r\n\n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Rocket Tier 6",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2751
+  ],
+  "rewards": [],
+  "tasks": []
+}

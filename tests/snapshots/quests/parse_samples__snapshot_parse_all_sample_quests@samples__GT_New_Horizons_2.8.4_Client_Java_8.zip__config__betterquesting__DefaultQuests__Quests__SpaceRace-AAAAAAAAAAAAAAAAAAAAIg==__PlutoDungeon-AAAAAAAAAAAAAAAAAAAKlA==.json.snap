@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2708,
+  "prerequisites": [
+    2642
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Go get the final schematic, for the tier 8 rocket. You can also find the draconic core schematic here!\n\nThis will open a lot of planets outside of our solar system such as Barnarda.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Pluto Dungeon",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2642
+  ],
+  "rewards": [],
+  "tasks": []
+}

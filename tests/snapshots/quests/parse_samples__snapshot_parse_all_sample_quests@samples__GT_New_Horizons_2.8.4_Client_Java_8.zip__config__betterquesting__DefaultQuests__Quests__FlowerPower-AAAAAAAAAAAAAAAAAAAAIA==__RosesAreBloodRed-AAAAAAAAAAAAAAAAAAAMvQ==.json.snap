@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 3261,
+  "prerequisites": [
+    3258
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "The bellethorne is a delightful little flower with an [warn]insatiable thirst for blood[/warn], though fortunately your blood doesn't count. When provided with a supply of mana, it will inflict damage on any living entities near it, with the exception of players. It's a good extra layer of defense to place at the entrances to your early-game bamboo fortress.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Roses Are Blood-Red",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3258
+  ],
+  "rewards": [],
+  "tasks": []
+}

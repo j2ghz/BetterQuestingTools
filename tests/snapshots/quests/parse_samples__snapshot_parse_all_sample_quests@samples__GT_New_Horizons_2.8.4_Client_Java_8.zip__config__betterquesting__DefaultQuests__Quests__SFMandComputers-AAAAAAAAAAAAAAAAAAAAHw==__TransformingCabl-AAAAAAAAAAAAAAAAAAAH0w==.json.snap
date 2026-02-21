@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2003,
+  "prerequisites": [
+    2002
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Transforming Cable Camouflage allows you to change the collision box of the cable, so you can turn it into a door or whatever.",
+    "global_share": true,
+    "icon": null,
+    "is_global": false,
+    "is_main": false,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Transforming Cable Camouflage",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    2002
+  ],
+  "rewards": [],
+  "tasks": []
+}

@@ -1,0 +1,35 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 2304,
+  "prerequisites": [
+    1696
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "If you've been processing Platinum, you should have a lot of Platinum Residue Dust lying around.\n\nNow you can finally process it and gain all the rest of the delicious rare metals from it. But to do so, we'll need some to make Potassium Disulfate, and then fluid extract it to get the molten version beforehand.",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "§b§lPlatinum Group Processing - All the Other Metals",
+    "party_single_reward": false,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "UNLOCKED"
+  },
+  "required_prerequisites": [
+    1696
+  ],
+  "rewards": [],
+  "tasks": []
+}

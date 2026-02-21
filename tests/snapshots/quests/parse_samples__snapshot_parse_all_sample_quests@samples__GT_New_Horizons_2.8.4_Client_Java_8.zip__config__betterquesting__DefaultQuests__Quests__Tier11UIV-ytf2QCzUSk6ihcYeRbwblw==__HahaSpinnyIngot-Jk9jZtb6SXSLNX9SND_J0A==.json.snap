@@ -1,0 +1,37 @@
+---
+source: tests/parse_samples.rs
+expression: quest
+---
+{
+  "id": 15490774631735871952,
+  "prerequisites": [
+    3239,
+    16446667263370667860
+  ],
+  "properties": {
+    "auto_claim": false,
+    "desc": "Transcendent Metal is the primary metal used in UIV components.\n\nThis metal is a bit different from the ones you have been processing so far. You need to macerate your tesseracts to get the dust and then blast it at such high temperatures that you'll need a coolant to help manage the heat.\n\nDue to the impossible nature of the tesseract particles, you'll need a medium to enable them to form 3D shapes. Tungsten, for some reason, works very well for this purpose.\n\nThe ingot itself is also not very stable; therefore, a coating of titansteel must be applied during the cooling process.\n\n[note]Consider passively generating it. This process is slow.[/note]",
+    "global_share": false,
+    "icon": null,
+    "is_global": null,
+    "is_main": true,
+    "is_silent": false,
+    "locked_progress": 0,
+    "name": "Haha, Spinny Ingot",
+    "party_single_reward": null,
+    "quest_logic": "AND",
+    "repeat_relative": true,
+    "repeat_time": -1,
+    "simultaneous": false,
+    "snd_complete": "random.levelup",
+    "snd_update": "random.levelup",
+    "task_logic": "AND",
+    "visibility": "NORMAL"
+  },
+  "required_prerequisites": [
+    3239,
+    16446667263370667860
+  ],
+  "rewards": [],
+  "tasks": []
+}
