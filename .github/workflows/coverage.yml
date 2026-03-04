@@ -19,10 +19,10 @@ jobs:
         working-directory: samples
 
       - name: Set up Rust toolchain
-        uses: actions-rust-lang/setup-rust-toolchain@1780873c7b576612439a134613cc4cc74ce5538c
+        uses: actions-rust-lang/setup-rust-toolchain@a0b538fa0b742a6aa35d6e2c169b4bd06d225a98
 
       - name: Install cargo-llvm-cov
-        uses: taiki-e/install-action@70e00552f3196d9a4c7dde7c57ef4c4830d422dd
+        uses: taiki-e/install-action@205eb1d74c6feda89abb1f3a09360601953286c0
         with:
           tool: cargo-llvm-cov
 
